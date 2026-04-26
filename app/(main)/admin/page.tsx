@@ -20,12 +20,12 @@ const EMPTY = {
 const CATS = ['VOCAB', 'GRAMMAR', 'PREPOSITION', 'LINKER', 'PHRASAL']
 
 export default function AdminPage() {
-  const [form, setForm] = useState(EMPTY)
-  const [status, setStatus] = useState<'idle' | 'saving' | 'ok' | 'error'>('idle')
+  const [form, setForm]       = useState(EMPTY)
+  const [status, setStatus]   = useState<'idle' | 'saving' | 'ok' | 'error'>('idle')
   const [genLoading, setGenLoading] = useState(false)
-  const [genMsg, setGenMsg] = useState('')
+  const [genMsg, setGenMsg]   = useState('')
 
-  const set = (key: string, val: any) => setForm(f => ({ ...f, [key]: val }))
+  const set    = (key: string, val: any) => setForm(f => ({ ...f, [key]: val }))
   const setOpt = (k: string, v: string) => setForm(f => ({ ...f, options: { ...f.options, [k]: v } }))
 
   async function save() {
@@ -61,7 +61,7 @@ export default function AdminPage() {
     }
 
     try {
-      const res = await fetch('/api/generate', {
+      const res  = await fetch('/api/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ weakPatterns }),
@@ -79,52 +79,72 @@ export default function AdminPage() {
   }
 
   return (
-    <div className="space-y-6 pb-4">
-      <h1 className="text-2xl font-bold text-gray-900">Soru Ekle</h1>
+    <div className="space-y-5 pb-4">
+      <h1 className="text-2xl font-black text-[#3C3C3C] pt-1">Soru Ekle</h1>
 
       {/* AI Generate */}
-      <div className="card p-4 space-y-3 border-l-4 border-indigo-400">
-        <h2 className="font-semibold text-gray-700">🤖 AI ile Otomatik Üret</h2>
-        <p className="text-xs text-gray-500">Hatalı yaptığın kalıpları analiz edip yeni sorular üretir ve GitHub'a kaydeder.</p>
+      <div className="card p-4 space-y-3 border-l-4 border-[#58CC02]">
+        <div className="flex items-center gap-2">
+          <span className="text-xl">🤖</span>
+          <h2 className="font-black text-[#3C3C3C]">AI ile Otomatik Üret</h2>
+        </div>
+        <p className="text-xs font-semibold text-[#AFAFAF]">
+          Hatalı yaptığın kalıpları analiz edip yeni sorular üretir ve GitHub&apos;a kaydeder.
+        </p>
         <button
           onClick={generateAI}
           disabled={genLoading}
-          className="w-full py-3 bg-indigo-600 text-white font-semibold rounded-xl disabled:opacity-50"
+          className="btn-duo"
         >
-          {genLoading ? '⏳ Üretiliyor...' : '✨ Hatalı Kalıplardan Soru Üret'}
+          {genLoading ? '⏳ Üretiliyor...' : '✨ HATALIDAN SORU ÜRET'}
         </button>
-        {genMsg && <p className="text-sm font-medium text-gray-700">{genMsg}</p>}
+        {genMsg && (
+          <p className={`text-sm font-bold ${genMsg.startsWith('✅') ? 'text-[#58CC02]' : 'text-[#FF4B4B]'}`}>
+            {genMsg}
+          </p>
+        )}
       </div>
 
       {/* Manual Form */}
       <div className="card p-4 space-y-4">
-        <h2 className="font-semibold text-gray-700">✏️ Manuel Ekle</h2>
+        <div className="flex items-center gap-2">
+          <span className="text-xl">✏️</span>
+          <h2 className="font-black text-[#3C3C3C]">Manuel Ekle</h2>
+        </div>
 
         <div className="space-y-1">
-          <label className="text-xs font-semibold text-gray-500">Soru Metni (boşluk için ---- kullan)</label>
+          <label className="text-xs font-black text-[#AFAFAF] uppercase tracking-wide">
+            Soru Metni (boşluk için ---- kullan)
+          </label>
           <textarea
             rows={3}
             value={form.question_text}
             onChange={e => set('question_text', e.target.value)}
-            className="w-full border border-gray-200 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
+            className="w-full border-2 border-[#E5E5E5] rounded-2xl px-3 py-2.5 text-sm font-semibold focus:outline-none focus:border-[#58CC02] transition-colors"
             placeholder="The researchers ---- significant progress in the field of..."
           />
         </div>
 
-        <div className="grid grid-cols-1 gap-2">
+        <div className="space-y-2">
           {(['A','B','C','D','E'] as const).map(k => (
             <div key={k} className="flex items-center gap-2">
-              <span className={`font-bold text-sm w-5 ${form.correct_answer === k ? 'text-green-600' : 'text-gray-400'}`}>{k}</span>
+              <span className={`font-black text-sm w-5 ${form.correct_answer === k ? 'text-[#58CC02]' : 'text-[#AFAFAF]'}`}>
+                {k}
+              </span>
               <input
                 type="text"
                 value={form.options[k]}
                 onChange={e => setOpt(k, e.target.value)}
                 placeholder={`Seçenek ${k}`}
-                className="flex-1 border border-gray-200 rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
+                className="flex-1 border-2 border-[#E5E5E5] rounded-xl px-3 py-2 text-sm font-semibold focus:outline-none focus:border-[#58CC02] transition-colors"
               />
               <button
                 onClick={() => set('correct_answer', k)}
-                className={`text-xs px-2 py-1 rounded-lg border ${form.correct_answer === k ? 'bg-green-500 text-white border-green-500' : 'border-gray-200 text-gray-400'}`}
+                className={`text-xs px-2.5 py-1.5 rounded-xl border-2 font-black transition-all ${
+                  form.correct_answer === k
+                    ? 'bg-[#58CC02] text-white border-[#58CC02]'
+                    : 'border-[#E5E5E5] text-[#AFAFAF]'
+                }`}
               >
                 ✓
               </button>
@@ -134,21 +154,21 @@ export default function AdminPage() {
 
         <div className="grid grid-cols-2 gap-3">
           <div>
-            <label className="text-xs font-semibold text-gray-500">Kategori</label>
+            <label className="text-xs font-black text-[#AFAFAF] uppercase tracking-wide">Kategori</label>
             <select
               value={form.category}
               onChange={e => set('category', e.target.value)}
-              className="w-full mt-1 border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none"
+              className="w-full mt-1 border-2 border-[#E5E5E5] rounded-xl px-3 py-2 text-sm font-semibold focus:outline-none focus:border-[#58CC02]"
             >
               {CATS.map(c => <option key={c}>{c}</option>)}
             </select>
           </div>
           <div>
-            <label className="text-xs font-semibold text-gray-500">Zorluk (1-3)</label>
+            <label className="text-xs font-black text-[#AFAFAF] uppercase tracking-wide">Zorluk</label>
             <select
               value={form.difficulty}
               onChange={e => set('difficulty', Number(e.target.value))}
-              className="w-full mt-1 border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none"
+              className="w-full mt-1 border-2 border-[#E5E5E5] rounded-xl px-3 py-2 text-sm font-semibold focus:outline-none focus:border-[#58CC02]"
             >
               <option value={1}>1 — Kolay</option>
               <option value={2}>2 — Orta</option>
@@ -166,13 +186,13 @@ export default function AdminPage() {
           ['Kısa Açıklama', 'short_explanation', '...'],
         ].map(([label, key, placeholder]) => (
           <div key={key as string} className="space-y-1">
-            <label className="text-xs font-semibold text-gray-500">{label}</label>
+            <label className="text-xs font-black text-[#AFAFAF] uppercase tracking-wide">{label}</label>
             <input
               type="text"
               value={(form as any)[key as string]}
               onChange={e => set(key as string, e.target.value)}
               placeholder={placeholder as string}
-              className="w-full border border-gray-200 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
+              className="w-full border-2 border-[#E5E5E5] rounded-xl px-3 py-2.5 text-sm font-semibold focus:outline-none focus:border-[#58CC02] transition-colors"
             />
           </div>
         ))}
@@ -180,11 +200,13 @@ export default function AdminPage() {
         <button
           onClick={save}
           disabled={status === 'saving' || !form.question_text}
-          className="w-full py-3 bg-indigo-600 text-white font-bold rounded-xl disabled:opacity-50 active:scale-95 transition-transform"
+          className={`btn-duo ${status === 'ok' ? 'btn-duo-yellow' : ''}`}
         >
-          {status === 'saving' ? '⏳ Kaydediliyor...' : status === 'ok' ? '✅ Kaydedildi!' : '💾 GitHub\'a Kaydet'}
+          {status === 'saving' ? '⏳ KAYDEDİLİYOR...' : status === 'ok' ? '✅ KAYDEDİLDİ!' : '💾 GITHUB\'A KAYDET'}
         </button>
-        {status === 'error' && <p className="text-red-500 text-sm text-center">Hata oluştu. GitHub token kontrol et.</p>}
+        {status === 'error' && (
+          <p className="text-[#FF4B4B] text-sm font-bold text-center">Hata oluştu. GitHub token kontrol et.</p>
+        )}
       </div>
     </div>
   )

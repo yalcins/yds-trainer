@@ -5,12 +5,12 @@ import { getProgress } from '@/lib/store'
 import { loadData } from '@/lib/data'
 import type { UserProgress, YDSData } from '@/lib/types'
 
-const CAT_COLOR: Record<string, string> = {
-  VOCAB: 'bg-violet-100 text-violet-700',
-  GRAMMAR: 'bg-blue-100 text-blue-700',
-  PREPOSITION: 'bg-amber-100 text-amber-700',
-  LINKER: 'bg-green-100 text-green-700',
-  PHRASAL: 'bg-rose-100 text-rose-700',
+const CAT_COLOR: Record<string, { bar: string; badge: string }> = {
+  VOCAB:       { bar: 'bg-violet-400', badge: 'bg-violet-100 text-violet-700' },
+  GRAMMAR:     { bar: 'bg-[#1CB0F6]',  badge: 'bg-blue-100 text-blue-700' },
+  PREPOSITION: { bar: 'bg-amber-400',  badge: 'bg-amber-100 text-amber-700' },
+  LINKER:      { bar: 'bg-[#58CC02]',  badge: 'bg-[#D7FFB8] text-[#46A302]' },
+  PHRASAL:     { bar: 'bg-rose-400',   badge: 'bg-rose-100 text-rose-600' },
 }
 
 export default function Home() {
@@ -28,81 +28,92 @@ export default function Home() {
     data.questions.forEach(q => {
       const s = progress.questionStats[q.id]
       if (!map[q.category]) map[q.category] = { correct: 0, total: 0 }
-      if (s) {
-        map[q.category].correct += s.correct
-        map[q.category].total += s.seen
-      }
+      if (s) { map[q.category].correct += s.correct; map[q.category].total += s.seen }
     })
     return Object.entries(map).map(([cat, v]) => ({
       cat,
-      pct: v.total > 0 ? Math.round((v.correct / v.total) * 100) : null,
+      pct: v.total > 0 ? Math.round((v.correct / v.total) * 100) : 0,
+      started: v.total > 0,
     }))
   }
 
-  const totalSeen = progress
-    ? Object.values(progress.questionStats).reduce((a, s) => a + s.seen, 0)
-    : 0
-  const totalCorrect = progress
-    ? Object.values(progress.questionStats).reduce((a, s) => a + s.correct, 0)
-    : 0
+  const totalSeen    = progress ? Object.values(progress.questionStats).reduce((a, s) => a + s.seen, 0) : 0
+  const totalCorrect = progress ? Object.values(progress.questionStats).reduce((a, s) => a + s.correct, 0) : 0
+  const accuracy     = totalSeen > 0 ? Math.round((totalCorrect / totalSeen) * 100) : 0
+
+  const xp     = progress?.xp ?? 0
+  const streak = progress?.streak ?? 0
+  const rounds = progress?.completedRounds ?? 0
+
+  const DAILY_GOAL = 50
+  const goalPct = Math.min(100, Math.round((xp % DAILY_GOAL) / DAILY_GOAL * 100))
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-5 pb-2">
       {/* Header */}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between pt-1">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">YDS Trainer</h1>
-          <p className="text-sm text-gray-500">Günlük pratik yap, kalıpları öğren</p>
+          <h1 className="text-2xl font-black text-[#3C3C3C] leading-tight">YDS Trainer</h1>
+          <p className="text-sm text-[#AFAFAF] font-semibold">Günlük pratik yap, kalıpları öğren</p>
         </div>
-        <div className="flex flex-col items-center bg-amber-50 rounded-2xl px-3 py-2">
-          <span className="text-2xl">🔥</span>
-          <span className="text-sm font-bold text-amber-600">{progress?.streak ?? 0} gün</span>
+        {/* Streak */}
+        <div className="flex flex-col items-center bg-orange-50 rounded-2xl px-3 py-2 border-b-2 border-orange-200">
+          <span className="text-2xl leading-none">🔥</span>
+          <span className="text-sm font-black text-orange-500">{streak}</span>
+          <span className="text-[10px] text-orange-400 font-bold">GÜN</span>
         </div>
       </div>
 
-      {/* XP + rounds */}
+      {/* Daily goal bar */}
+      <div className="card p-4">
+        <div className="flex justify-between items-center mb-2">
+          <span className="text-xs font-black text-[#AFAFAF] uppercase tracking-wide">Günlük Hedef</span>
+          <span className="text-xs font-black text-[#58CC02]">{xp % DAILY_GOAL} / {DAILY_GOAL} XP</span>
+        </div>
+        <div className="h-4 bg-[#F0F0F0] rounded-full overflow-hidden">
+          <div
+            className="h-full bg-[#58CC02] rounded-full transition-all duration-700"
+            style={{ width: `${goalPct}%` }}
+          />
+        </div>
+      </div>
+
+      {/* Stats row */}
       <div className="grid grid-cols-3 gap-3">
         {[
-          { label: 'XP', value: progress?.xp ?? 0, icon: '⭐' },
-          { label: 'Tur', value: progress?.completedRounds ?? 0, icon: '🎯' },
-          {
-            label: 'Doğruluk',
-            value: totalSeen > 0 ? `${Math.round((totalCorrect / totalSeen) * 100)}%` : '—',
-            icon: '✅',
-          },
+          { icon: '⭐', val: xp, label: 'XP', color: 'text-[#FFD900]' },
+          { icon: '🎯', val: rounds, label: 'Tur', color: 'text-[#1CB0F6]' },
+          { icon: '✓', val: totalSeen > 0 ? `${accuracy}%` : '—', label: 'Doğruluk', color: 'text-[#58CC02]' },
         ].map(s => (
-          <div key={s.label} className="card p-3 text-center">
-            <div className="text-xl">{s.icon}</div>
-            <div className="text-lg font-bold text-gray-900">{s.value}</div>
-            <div className="text-xs text-gray-500">{s.label}</div>
+          <div key={s.label} className="card p-3 text-center border-b-4 border-[#E5E5E5]">
+            <div className={`text-xl font-black ${s.color}`}>{s.icon}</div>
+            <div className="text-lg font-black text-[#3C3C3C]">{s.val}</div>
+            <div className="text-[11px] font-bold text-[#AFAFAF] uppercase">{s.label}</div>
           </div>
         ))}
       </div>
 
-      {/* Start Quiz CTA */}
-      <Link
-        href="/quiz"
-        className="block w-full text-center bg-indigo-600 hover:bg-indigo-700 active:scale-95 transition-all text-white font-semibold text-lg py-4 rounded-2xl shadow-lg shadow-indigo-200"
-      >
-        ⚡ Quiz Başlat
+      {/* Big CTA */}
+      <Link href="/quiz" className="btn-duo text-center no-underline text-lg tracking-widest">
+        ⚡ QUIZ BAŞLAT
       </Link>
 
       {/* Category breakdown */}
       {data && (
         <div className="card p-4 space-y-3">
-          <h2 className="font-semibold text-gray-700">Kategori Durumu</h2>
-          {catStats().map(({ cat, pct }) => (
-            <div key={cat} className="space-y-1">
+          <h2 className="font-black text-sm text-[#AFAFAF] uppercase tracking-wide">Kategori Durumu</h2>
+          {catStats().map(({ cat, pct, started }) => (
+            <div key={cat} className="space-y-1.5">
               <div className="flex justify-between items-center">
-                <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${CAT_COLOR[cat] ?? 'bg-gray-100 text-gray-600'}`}>
+                <span className={`text-xs font-black px-2 py-0.5 rounded-full ${CAT_COLOR[cat]?.badge ?? 'bg-gray-100 text-gray-600'}`}>
                   {cat}
                 </span>
-                <span className="text-xs text-gray-500">{pct !== null ? `${pct}%` : 'Başlanmadı'}</span>
+                <span className="text-xs font-bold text-[#AFAFAF]">{started ? `${pct}%` : 'Başlanmadı'}</span>
               </div>
-              <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+              <div className="h-3 bg-[#F0F0F0] rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-indigo-500 rounded-full transition-all"
-                  style={{ width: `${pct ?? 0}%` }}
+                  className={`h-full rounded-full transition-all duration-700 ${CAT_COLOR[cat]?.bar ?? 'bg-gray-400'}`}
+                  style={{ width: `${pct}%` }}
                 />
               </div>
             </div>
@@ -111,19 +122,19 @@ export default function Home() {
       )}
 
       {/* Quick links */}
-      <div className="grid grid-cols-2 gap-3 pb-2">
-        <Link href="/patterns" className="card p-4 flex items-center gap-3 active:scale-95 transition-transform">
+      <div className="grid grid-cols-2 gap-3">
+        <Link href="/patterns" className="card p-4 flex items-center gap-3 active:scale-95 transition-transform border-b-4 border-[#E5E5E5]">
           <span className="text-2xl">📚</span>
           <div>
-            <div className="font-semibold text-sm">Kalıplar</div>
-            <div className="text-xs text-gray-500">{data?.patterns.length ?? 0} kalıp</div>
+            <div className="font-black text-sm text-[#3C3C3C]">Kalıplar</div>
+            <div className="text-xs text-[#AFAFAF] font-semibold">{data?.patterns.length ?? 0} kalıp</div>
           </div>
         </Link>
-        <Link href="/stats" className="card p-4 flex items-center gap-3 active:scale-95 transition-transform">
+        <Link href="/stats" className="card p-4 flex items-center gap-3 active:scale-95 transition-transform border-b-4 border-[#E5E5E5]">
           <span className="text-2xl">📊</span>
           <div>
-            <div className="font-semibold text-sm">İstatistik</div>
-            <div className="text-xs text-gray-500">{totalSeen} cevap</div>
+            <div className="font-black text-sm text-[#3C3C3C]">İstatistik</div>
+            <div className="text-xs text-[#AFAFAF] font-semibold">{totalSeen} cevap</div>
           </div>
         </Link>
       </div>

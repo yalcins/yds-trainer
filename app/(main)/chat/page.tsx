@@ -13,8 +13,8 @@ const SUGGESTIONS = [
 
 export default function ChatPage() {
   const [messages, setMessages] = useState<Msg[]>([])
-  const [input, setInput] = useState('')
-  const [loading, setLoading] = useState(false)
+  const [input, setInput]       = useState('')
+  const [loading, setLoading]   = useState(false)
   const bottomRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -39,7 +39,7 @@ export default function ChatPage() {
 
       if (!res.body) throw new Error('No stream')
 
-      const reader = res.body.getReader()
+      const reader  = res.body.getReader()
       const decoder = new TextDecoder()
       let assistantText = ''
 
@@ -48,15 +48,13 @@ export default function ChatPage() {
       while (true) {
         const { done, value } = await reader.read()
         if (done) break
-
         const chunk = decoder.decode(value, { stream: true })
         const lines = chunk.split('\n').filter(l => l.startsWith('data: '))
-
         for (const line of lines) {
           const data = line.slice(6).trim()
           if (data === '[DONE]') continue
           try {
-            const json = JSON.parse(data)
+            const json  = JSON.parse(data)
             const delta = json.choices?.[0]?.delta?.content ?? ''
             assistantText += delta
             setMessages(m => {
@@ -67,7 +65,7 @@ export default function ChatPage() {
           } catch {}
         }
       }
-    } catch (e) {
+    } catch {
       setMessages(m => [...m, { role: 'assistant', content: '❌ Bağlantı hatası. Lütfen tekrar dene.' }])
     }
 
@@ -76,18 +74,27 @@ export default function ChatPage() {
 
   return (
     <div className="flex flex-col h-[calc(100vh-80px)]">
-      <h1 className="text-2xl font-bold text-gray-900 mb-3 shrink-0">YDS AI Asistan</h1>
+      {/* Header */}
+      <div className="flex items-center gap-3 shrink-0 pb-3">
+        <div className="w-10 h-10 rounded-2xl bg-[#58CC02] flex items-center justify-center text-xl border-b-4 border-[#46A302]">
+          🤖
+        </div>
+        <div>
+          <h1 className="text-lg font-black text-[#3C3C3C] leading-tight">YDS AI Asistan</h1>
+          <p className="text-xs font-bold text-[#AFAFAF]">YDS soruları için AI yardımcın</p>
+        </div>
+      </div>
 
       {/* Messages */}
       <div className="flex-1 overflow-y-auto space-y-3 pb-2">
         {messages.length === 0 && (
-          <div className="space-y-3">
-            <p className="text-sm text-gray-500">Hızlı sorular:</p>
+          <div className="space-y-2">
+            <p className="text-xs font-black text-[#AFAFAF] uppercase tracking-wide">Hızlı sorular</p>
             {SUGGESTIONS.map((s, i) => (
               <button
                 key={i}
                 onClick={() => send(s)}
-                className="w-full text-left card p-3 text-sm text-gray-700 hover:bg-indigo-50 border border-gray-100 active:scale-98 transition-all"
+                className="w-full text-left card p-3.5 text-sm font-semibold text-[#3C3C3C] border-b-4 border-[#E5E5E5] active:translate-y-[2px] active:border-b-[1px] transition-all"
               >
                 💬 {s}
               </button>
@@ -98,17 +105,17 @@ export default function ChatPage() {
         {messages.map((m, i) => (
           <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
             <div
-              className={`max-w-[85%] rounded-2xl px-4 py-3 text-sm leading-relaxed whitespace-pre-wrap ${
+              className={`max-w-[85%] rounded-2xl px-4 py-3 text-sm font-semibold leading-relaxed whitespace-pre-wrap ${
                 m.role === 'user'
-                  ? 'bg-indigo-600 text-white rounded-br-sm'
-                  : 'bg-white text-gray-800 rounded-bl-sm shadow-sm border border-gray-100'
+                  ? 'bg-[#58CC02] text-white rounded-br-sm border-b-4 border-[#46A302]'
+                  : 'bg-white text-[#3C3C3C] rounded-bl-sm border-b-4 border-[#E5E5E5]'
               }`}
             >
               {m.content || (loading && i === messages.length - 1 ? (
-                <span className="flex gap-1">
-                  <span className="animate-bounce">●</span>
-                  <span className="animate-bounce" style={{ animationDelay: '0.1s' }}>●</span>
-                  <span className="animate-bounce" style={{ animationDelay: '0.2s' }}>●</span>
+                <span className="flex gap-1 items-center">
+                  <span className="w-2 h-2 bg-[#AFAFAF] rounded-full animate-bounce" />
+                  <span className="w-2 h-2 bg-[#AFAFAF] rounded-full animate-bounce" style={{ animationDelay: '0.15s' }} />
+                  <span className="w-2 h-2 bg-[#AFAFAF] rounded-full animate-bounce" style={{ animationDelay: '0.3s' }} />
                 </span>
               ) : '')}
             </div>
@@ -117,11 +124,11 @@ export default function ChatPage() {
 
         {loading && messages[messages.length - 1]?.role !== 'assistant' && (
           <div className="flex justify-start">
-            <div className="bg-white rounded-2xl px-4 py-3 shadow-sm border border-gray-100">
-              <span className="flex gap-1">
-                <span className="animate-bounce text-gray-400">●</span>
-                <span className="animate-bounce text-gray-400" style={{ animationDelay: '0.1s' }}>●</span>
-                <span className="animate-bounce text-gray-400" style={{ animationDelay: '0.2s' }}>●</span>
+            <div className="bg-white rounded-2xl px-4 py-3 border-b-4 border-[#E5E5E5]">
+              <span className="flex gap-1 items-center">
+                <span className="w-2 h-2 bg-[#AFAFAF] rounded-full animate-bounce" />
+                <span className="w-2 h-2 bg-[#AFAFAF] rounded-full animate-bounce" style={{ animationDelay: '0.15s' }} />
+                <span className="w-2 h-2 bg-[#AFAFAF] rounded-full animate-bounce" style={{ animationDelay: '0.3s' }} />
               </span>
             </div>
           </div>
@@ -137,12 +144,12 @@ export default function ChatPage() {
           onChange={e => setInput(e.target.value)}
           onKeyDown={e => e.key === 'Enter' && send()}
           placeholder="YDS sorusu sor..."
-          className="flex-1 border border-gray-200 rounded-2xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300 bg-white"
+          className="flex-1 border-2 border-[#E5E5E5] rounded-2xl px-4 py-3 text-sm font-semibold focus:outline-none focus:border-[#58CC02] bg-white transition-colors"
         />
         <button
           onClick={() => send()}
           disabled={!input.trim() || loading}
-          className="bg-indigo-600 text-white px-4 rounded-2xl font-semibold disabled:opacity-40 active:scale-95 transition-transform"
+          className="bg-[#58CC02] text-white px-5 rounded-2xl font-black border-b-4 border-[#46A302] disabled:opacity-40 active:translate-y-[2px] active:border-b-[1px] transition-all text-lg"
         >
           ➤
         </button>
