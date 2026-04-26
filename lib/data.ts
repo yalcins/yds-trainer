@@ -4,9 +4,20 @@ let _cache: YDSData | null = null
 
 export async function loadData(): Promise<YDSData> {
   if (_cache) return _cache
-  const res = await fetch('/yds_training_data.json')
-  _cache = await res.json()
-  return _cache!
+
+  const [base, userRaw] = await Promise.allSettled([
+    fetch('/yds_training_data.json').then(r => r.json()),
+    fetch('https://raw.githubusercontent.com/yalcins/yds-trainer/main/data/user_questions.json').then(r => r.json()),
+  ])
+
+  const data: YDSData = base.status === 'fulfilled' ? base.value : { questions: [], patterns: [], generated_questions: [], meta: {} as any }
+
+  if (userRaw.status === 'fulfilled' && Array.isArray(userRaw.value)) {
+    data.questions = [...data.questions, ...userRaw.value]
+  }
+
+  _cache = data
+  return _cache
 }
 
 export function pickQuizQuestions(
@@ -31,7 +42,6 @@ export function pickQuizQuestions(
     closest_distractors: g.closest_distractors,
   }))]
 
-  // weight: unseen > low accuracy > seen
   const scored = all.map(q => {
     const s = stats[q.id]
     if (!s) return { q, score: Math.random() + 10 }
