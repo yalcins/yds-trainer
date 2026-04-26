@@ -1,0 +1,2516 @@
+{
+  "meta": {
+    "source": "YDS 2026 / YDS 25x2 / YDS 2025 Set1 / 20204 YDS2",
+    "total_questions": 64,
+    "total_patterns": 39,
+    "total_generated": 36,
+    "categories": [
+      "VOCAB",
+      "PHRASAL",
+      "GRAMMAR",
+      "PREPOSITION",
+      "LINKER"
+    ],
+    "difficulty_scale": "1=easy, 2=medium, 3=hard"
+  },
+  "questions": [
+    {
+      "id": "YDS2026_1_Q1",
+      "exam": "YDS2026_Set1",
+      "question_text": "Many economists say that the social responsibility of a company manager is to conduct the business in accordance with the owners' desires, while ensuring ---- to the basic rules of the society, both those embodied in law and those in ethical custom.",
+      "options": {
+        "A": "interruption",
+        "B": "resilience",
+        "C": "alteration",
+        "D": "conformity",
+        "E": "exception"
+      },
+      "correct_answer": "D",
+      "category": "VOCAB",
+      "pattern": "conformity to",
+      "meaning_tr": "kurallara uyum / bağlılık",
+      "example_en": "The organization demands strict conformity to its code of conduct.",
+      "example_tr": "Kuruluş, davranış kurallarına sıkı uyum talep ediyor.",
+      "trap": "'Resilience' (esneklik) ve 'adherence' gibi görünen kelimeler dikkat dağıtır; 'interruption/alteration/exception' mantıksal olarak zıttır.",
+      "short_explanation": "'Conformity to' = kurallara/normlara uyum. 'Ensure conformity to' standart bir akademik kollokasyondur.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q2",
+      "exam": "YDS2026_Set1",
+      "question_text": "The greatest ---- for waste prevention and management has come from the public because more and more people have realised that the use of durable rather than disposable items has important environmental benefits.",
+      "options": {
+        "A": "pretence",
+        "B": "hazard",
+        "C": "constraint",
+        "D": "impetus",
+        "E": "perplexity"
+      },
+      "correct_answer": "D",
+      "category": "VOCAB",
+      "pattern": "impetus for",
+      "meaning_tr": "itici güç / ivme",
+      "example_en": "Public awareness provided the greatest impetus for environmental reform.",
+      "example_tr": "Kamuoyu farkındalığı, çevre reformu için en büyük itici gücü sağladı.",
+      "trap": "'Constraint' (kısıtlama) ve 'hazard' (tehlike) mantıksal olarak ters; 'impetus' = driving force anlamını bilmek gerekir.",
+      "short_explanation": "'Impetus for' = bir şeyi harekete geçiren güç. 'Greatest impetus for change/reform' standart kollokayon.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q3",
+      "exam": "YDS2026_Set1",
+      "question_text": "As the technology of digital ecosystems matures, businesses are exploring its transformative potential to solve problems that were previously ----, facilitating real-time monitoring and data collection.",
+      "options": {
+        "A": "indispensable",
+        "B": "insurmountable",
+        "C": "unprofitable",
+        "D": "impermissible",
+        "E": "uncompetitive"
+      },
+      "correct_answer": "B",
+      "category": "VOCAB",
+      "pattern": "insurmountable problems/challenges",
+      "meaning_tr": "aşılamaz / üstesinden gelinemez",
+      "example_en": "Advances in AI are helping researchers tackle challenges once deemed insurmountable.",
+      "example_tr": "YZ'deki gelişmeler, araştırmacıların bir zamanlar aşılamaz sayılan zorluklarla başa çıkmasına yardımcı oluyor.",
+      "trap": "'Indispensable' (vazgeçilmez) anlam olarak zıt; 'impermissible' (yasak) mantıksal bağlamı kaçırır.",
+      "short_explanation": "'Insurmountable' = impossible to overcome. Teknoloji sayesinde artık çözülebilir hale gelen eski sorunları tanımlar.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q4",
+      "exam": "YDS2026_Set1",
+      "question_text": "Non-desired wild plants, also known as weeds, ---- compete with cultivated plants and thereby hinder their growth, depriving them of space and nutrients.",
+      "options": {
+        "A": "accurately",
+        "B": "promptly",
+        "C": "excessively",
+        "D": "prolifically",
+        "E": "appropriately"
+      },
+      "correct_answer": "D",
+      "category": "VOCAB",
+      "pattern": "prolifically (grow/spread/compete)",
+      "meaning_tr": "bol miktarda / üretken biçimde",
+      "example_en": "Invasive species prolifically colonise disturbed ecosystems, outcompeting native flora.",
+      "example_tr": "İstilacı türler, tahrip edilmiş ekosistemleri bol miktarda kolonileştirerek yerli bitki örtüsünün önüne geçer.",
+      "trap": "'Excessively' anlam olarak yakın görünür fakat 'prolifically' biyolojik büyüme/yayılma bağlamında tercih edilir.",
+      "short_explanation": "'Prolifically' = in large quantities, abundantly; bitki/organizma büyümesiyle güçlü kollokayon kurar.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q5",
+      "exam": "YDS2026_Set1",
+      "question_text": "In 2016, Romania passed a ban on hunting bears, but in the years since, the country has not ---- effective strategies to promote the preservation of their habitats.",
+      "options": {
+        "A": "hampered",
+        "B": "depleted",
+        "C": "retrieved",
+        "D": "initiated",
+        "E": "mitigated"
+      },
+      "correct_answer": "D",
+      "category": "VOCAB",
+      "pattern": "initiate strategies/programs",
+      "meaning_tr": "strateji/program başlatmak",
+      "example_en": "The ministry has not yet initiated comprehensive measures to address deforestation.",
+      "example_tr": "Bakanlık, ormansızlaşmayı gidermek için henüz kapsamlı önlemler başlatmamıştır.",
+      "trap": "'Hampered' (engelleme) ve 'mitigated' (hafifletme) negatif anlam taşır; cümle zaten olumsuz yapıda.",
+      "short_explanation": "'Initiate effective strategies' = harekete geçirmek. 'Has not initiated' = has not put in place.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q6",
+      "exam": "YDS2026_Set1",
+      "question_text": "Although negative news about technology is frequent in the media, it is more productive to think about what we can do to ---- its potential threats rather than worrying about the problems it may cause.",
+      "options": {
+        "A": "adhere to",
+        "B": "engage in",
+        "C": "root out",
+        "D": "draw upon",
+        "E": "merge with"
+      },
+      "correct_answer": "C",
+      "category": "PHRASAL",
+      "pattern": "root out (threats/problems)",
+      "meaning_tr": "kökten ortadan kaldırmak / yok etmek",
+      "example_en": "Policymakers must work collaboratively to root out systemic corruption.",
+      "example_tr": "Politika yapıcılar, sistemik yolsuzluğu kökten ortadan kaldırmak için iş birliği yapmalıdır.",
+      "trap": "'Draw upon' (yararlanmak) dikkat dağıtır; 'adhere to threats' ve 'engage in threats' anlamsız.",
+      "short_explanation": "'Root out' = eliminate something harmful at its source. 'Root out threats/problems' standart phrasal verb.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "D"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q7",
+      "exam": "YDS2026_Set1",
+      "question_text": "Once controlled movement through water ----, long journeys ---- feasible up and down rivers, enabling humans to carry larger loads longer distances with far less muscular effort.",
+      "options": {
+        "A": "could be mastered / have become",
+        "B": "has been mastered / would become",
+        "C": "was being mastered / had become",
+        "D": "had been mastered / became",
+        "E": "would be mastered / could become"
+      },
+      "correct_answer": "D",
+      "category": "GRAMMAR",
+      "pattern": "once + past perfect passive → simple past (narrative sequence)",
+      "meaning_tr": "'Once' ile tamamlanan eylem → ardından gelen sonuç (narrative past sequence)",
+      "example_en": "Once the vaccine had been developed, distribution became the primary challenge.",
+      "example_tr": "Aşı geliştirildikten sonra dağıtım birincil sorun haline geldi.",
+      "trap": "'Has been mastered / would become' yanlış zaman dizisi; 'was being mastered' sürekliliği vurgular ama sonuç için yanlış.",
+      "short_explanation": "'Once + past perfect' = bir önceki tamamlanmış eylem; ardından 'simple past' sonucu anlatır. Tarihsel narrative standart yapısı.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q8",
+      "exam": "YDS2026_Set1",
+      "question_text": "Archaeologists who have revealed 400,000-year-old ivory objects in Ukraine suggest that these artefacts ---- as cutting tools due to the softness of ivory, but ---- as teaching aids for children at that time.",
+      "options": {
+        "A": "may not be used / would have been used",
+        "B": "should not have been used / could be used",
+        "C": "would not have been used / can be used",
+        "D": "might not be used / had to be used",
+        "E": "could not have been used / may have been used"
+      },
+      "correct_answer": "E",
+      "category": "GRAMMAR",
+      "pattern": "could not have been (past impossibility) / may have been (past possibility)",
+      "meaning_tr": "geçmişte imkânsızlık / geçmişte olasılık",
+      "example_en": "The structure could not have been built without iron tools; it may have been constructed using timber scaffolding.",
+      "example_tr": "Yapı, demir aletler olmadan inşa edilemezdi; ahşap iskele kullanılarak yapılmış olabilir.",
+      "trap": "'Should not have been used' (normatif) vs. 'could not have been used' (imkânsızlık); geçmiş kanıt bağlamı 'could not have' gerektirir.",
+      "short_explanation": "'Could not have been V3' = geçmişte fiziksel/mantıksal imkânsızlık. 'May have been V3' = geçmiş spekülatif olasılık.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q9",
+      "exam": "YDS2026_Set1",
+      "question_text": "Older people often prefer listening to songs ---- during their adolescence or early adulthood ---- their distant and cherished memories.",
+      "options": {
+        "A": "to be released / revived",
+        "B": "being released / reviving",
+        "C": "having been released / to have revived",
+        "D": "released / to revive",
+        "E": "releasing / having revived"
+      },
+      "correct_answer": "D",
+      "category": "GRAMMAR",
+      "pattern": "past participle (reduced relative) + to-infinitive (purpose)",
+      "meaning_tr": "sıfat görevli geçmiş ortaç + amaç infinitifi",
+      "example_en": "She collected photographs taken during her childhood to preserve the memories of her hometown.",
+      "example_tr": "Çocukluğu boyunca çekilmiş fotoğrafları, memleketi anılarını korumak için biriktirdi.",
+      "trap": "'Being released' devam eden eylem anlamı taşır; 'to have revived' mükemmel infinitif gereksiz.",
+      "short_explanation": "'Songs released' = songs [that were] released (passive reduced relative). 'To revive memories' = purpose infinitive after 'prefer listening'.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q10",
+      "exam": "YDS2026_Set1",
+      "question_text": "While some artists have adopted a negative stance ---- the modernisation of period dramas, others think that the introduction of historical themes to contemporary audiences can be promoted ---- modern language and music.",
+      "options": {
+        "A": "for / at",
+        "B": "towards / through",
+        "C": "into / from",
+        "D": "about / over",
+        "E": "with / beyond"
+      },
+      "correct_answer": "B",
+      "category": "PREPOSITION",
+      "pattern": "stance towards + promoted through",
+      "meaning_tr": "bir şeye karşı tutum / bir araç aracılığıyla",
+      "example_en": "The government adopted a cautious stance towards the reform, promoting it through public consultations.",
+      "example_tr": "Hükümet, reforma karşı temkinli bir tutum benimsedi ve onu halka danışma toplantıları aracılığıyla tanıttı.",
+      "trap": "'Stance about' informal; 'stance towards' = attitude toward something (formal). 'Promoted through' = via a means/medium.",
+      "short_explanation": "'Adopt a stance towards sth' = bir şeye karşı tutum sergilemek. 'Promote through' = bir araç vasıtasıyla tanıtmak.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "D"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q11",
+      "exam": "YDS2026_Set1",
+      "question_text": "The field of film studies does not only define film as a commodity to be consumed ---- the guidance of critics but also as a cultural object that carries profound implications ---- sociocultural change.",
+      "options": {
+        "A": "in / at",
+        "B": "with / for",
+        "C": "from / across",
+        "D": "on / against",
+        "E": "by / over"
+      },
+      "correct_answer": "B",
+      "category": "PREPOSITION",
+      "pattern": "with the guidance of + implications for",
+      "meaning_tr": "rehberliğiyle / sonuçları/yansımaları bakımından",
+      "example_en": "The curriculum was redesigned with the guidance of educators, bearing profound implications for pedagogical practice.",
+      "example_tr": "Müfredat, eğitimcilerin rehberliğiyle yeniden tasarlandı ve pedagojik uygulama açısından derin çıkarımlar taşıdı.",
+      "trap": "'Consumed by' (bir varlık tarafından tüketilmek) karıştırılabilir; 'implications for' (sonuçlar bakımından) sabit kollokayon.",
+      "short_explanation": "'With the guidance of' = rehberliğinde. 'Carry implications for' = ... açısından sonuçlar/yansımalar taşımak.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q12",
+      "exam": "YDS2026_Set1",
+      "question_text": "The egocentrism of adolescents lies in their belief that others are as preoccupied with their appearance as they are; ----, they try to predict other people's responses about themselves, and constantly react to an imaginary audience.",
+      "options": {
+        "A": "as a result",
+        "B": "on the contrary",
+        "C": "instead",
+        "D": "still",
+        "E": "by comparison"
+      },
+      "correct_answer": "A",
+      "category": "LINKER",
+      "pattern": "as a result (cause → effect)",
+      "meaning_tr": "sonuç olarak / bu nedenle",
+      "example_en": "Adolescents tend to overestimate peer scrutiny; as a result, they modify their behaviour to meet perceived expectations.",
+      "example_tr": "Ergenler, akran denetimini abartma eğilimindedir; sonuç olarak, algılanan beklentileri karşılamak için davranışlarını değiştirirler.",
+      "trap": "'On the contrary' karşıtlık gerektirir; 'instead' ikame önerir. İkinci cümle birinci cümlenin mantıksal sonucudur.",
+      "short_explanation": "'As a result' = önceki nedenden doğan mantıksal sonuç. Semicolon (;) + 'as a result' klasik YDS linker yapısı.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "D"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q13",
+      "exam": "YDS2026_Set1",
+      "question_text": "One of the challenges in studying human disease is that the same condition can manifest differently across patients; ----, patient variation can also be a positive thing, revealing information about the composition of diseased tissues.",
+      "options": {
+        "A": "likewise",
+        "B": "nevertheless",
+        "C": "hence",
+        "D": "for example",
+        "E": "that is"
+      },
+      "correct_answer": "B",
+      "category": "LINKER",
+      "pattern": "nevertheless (concessive contrast)",
+      "meaning_tr": "bununla birlikte / yine de",
+      "example_en": "The data showed considerable inconsistencies; nevertheless, the overall trend remained statistically significant.",
+      "example_tr": "Veriler önemli tutarsızlıklar gösterdi; bununla birlikte, genel eğilim istatistiksel olarak anlamlı kalmaya devam etti.",
+      "trap": "'Likewise' ek bilgi gerektirir; 'hence' sonuç gerektirir; 'nevertheless' = her iki cümle birbiriyle zıt fakat ikinci cümle pozitif yeniden çerçeveleme.",
+      "short_explanation": "'Nevertheless' = zorluktan söz edildikten sonra beklenmedik/olumlu bir noktayı vurgular. Contrast-within-same-topic.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q14",
+      "exam": "YDS2026_Set1",
+      "question_text": "---- maps of the 16th century indicate European awareness of the location of Australia, the first recorded explorations of the continent by Europeans took place early in the 17th century.",
+      "options": {
+        "A": "Until",
+        "B": "Even though",
+        "C": "Only when",
+        "D": "Given that",
+        "E": "Just as"
+      },
+      "correct_answer": "B",
+      "category": "LINKER",
+      "pattern": "even though (concession at sentence start)",
+      "meaning_tr": "her ne kadar ... olsa da",
+      "example_en": "Even though preliminary data suggested promising outcomes, the clinical trial was extended for further validation.",
+      "example_tr": "Ön veriler umut verici sonuçlar gösterse de, klinik deneme daha ileri doğrulama için uzatıldı.",
+      "trap": "'Given that' nedensellik kurar; 'even though' iki cümle arasındaki çelişkiyi/zıtlığı bağlar.",
+      "short_explanation": "'Even though + [fact A], [contrasting fact B].' Haritalar varlığı doğrular ama keşif geç oldu = beklenmedik zıtlık.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "D"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q15",
+      "exam": "YDS2026_Set1",
+      "question_text": "For many forms of mental illness, individuals may inherit a predisposition, but the environment may serve ---- as a buffer against the illness ---- as a facilitator of those risk factors that cause the disease.",
+      "options": {
+        "A": "other / than",
+        "B": "the more / the more",
+        "C": "whether / or",
+        "D": "such / that",
+        "E": "either / or"
+      },
+      "correct_answer": "E",
+      "category": "GRAMMAR",
+      "pattern": "either ... or (alternative correlation)",
+      "meaning_tr": "ya ... ya da",
+      "example_en": "Dietary choices may serve either as a protective factor against chronic illness or as a catalyst for metabolic disorders.",
+      "example_tr": "Beslenme seçimleri ya kronik hastalığa karşı koruyucu bir faktör ya da metabolik bozukluklar için bir katalizör olarak işlev görebilir.",
+      "trap": "'Whether...or' (dolaylı soru/koşul); 'either...or' iki pozitif/negatif alternatif arasında seçim sunar.",
+      "short_explanation": "'Serve either as X or as Y' = iki farklı rol arasında alternatif. 'Either...or' ikili alternatiflerde standart yapı.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ]
+    },
+    {
+      "id": "YDS2026_1_Q16",
+      "exam": "YDS2026_Set1",
+      "question_text": "Industrialisation triggered remarkable social change ---- technological innovation and economic growth in many parts of the world.",
+      "options": {
+        "A": "unlike",
+        "B": "rather than",
+        "C": "as well as",
+        "D": "in comparison to",
+        "E": "in spite of"
+      },
+      "correct_answer": "C",
+      "category": "LINKER",
+      "pattern": "as well as (additive conjunction)",
+      "meaning_tr": "... ile birlikte / ... yanı sıra",
+      "example_en": "The policy stimulated employment as well as infrastructural development across the region.",
+      "example_tr": "Politika, bölge genelinde hem istihdamı hem de altyapı kalkınmasını teşvik etti.",
+      "trap": "'Rather than' ikame/kontrast; 'unlike' fark; 'as well as' ek bilgi sunar (in addition to).",
+      "short_explanation": "'X as well as Y' = hem X hem Y, her iki element eş değerde eklenir. Virgülsüz kullanım daha formal.",
+      "difficulty": 1,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q1",
+      "exam": "YDS25x2",
+      "question_text": "While horses were at times a major meat source on the Eurasian steppe, in most of Europe their ---- appears to have been based primarily on their role in transport as well as their wealth and status value.",
+      "options": {
+        "A": "depletion",
+        "B": "resemblance",
+        "C": "adoption",
+        "D": "complexity",
+        "E": "restriction"
+      },
+      "correct_answer": "C",
+      "category": "VOCAB",
+      "pattern": "adoption (of animals/technologies/practices)",
+      "meaning_tr": "benimseme / kabul etme",
+      "example_en": "The widespread adoption of the horse as a working animal transformed agricultural productivity.",
+      "example_tr": "Atın çalışma hayvanı olarak yaygın biçimde benimsenmesi, tarımsal verimliliği dönüştürdü.",
+      "trap": "'Depletion' (tükenim) ve 'restriction' (kısıtlama) bağlamla çelişir; 'complexity' anlamsız; 'adoption' = use/keeping of something.",
+      "short_explanation": "'Adoption' = bir hayvan/teknoloji/pratiğin kullanıma alınması. 'The adoption of horses for transport' standart kollokayon.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q2",
+      "exam": "YDS25x2",
+      "question_text": "Although the Greeks listed notable points on coastal voyages, the ---- of equivalent documents for land travel was primarily a Roman development stemming from construction of roads along which milestones were placed.",
+      "options": {
+        "A": "disposal",
+        "B": "deduction",
+        "C": "abolition",
+        "D": "compilation",
+        "E": "absence"
+      },
+      "correct_answer": "D",
+      "category": "VOCAB",
+      "pattern": "compilation of documents/records",
+      "meaning_tr": "derleme / bir araya getirme",
+      "example_en": "The compilation of geographic records for inland routes was a significant Roman administrative achievement.",
+      "example_tr": "İç yollar için coğrafi kayıtların derlenmesi önemli bir Roma idari başarısıydı.",
+      "trap": "'Abolition' (kaldırma/iptal) anlam olarak zıt; 'absence' (yokluk) - grammatik olarak uyuyor ama konu Romaların yaptıkları; 'compilation' = the act of putting together documents.",
+      "short_explanation": "'Compilation of documents' = belgelerin bir araya getirilmesi/derlenmesi. Romans compiled itineraries for road travel.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q3",
+      "exam": "YDS25x2",
+      "question_text": "Supplements of biotin may strengthen hair, stimulate new hair growth, slow hair loss, and prevent greying, particularly in those who are ---- in this nutrient.",
+      "options": {
+        "A": "deficient",
+        "B": "redundant",
+        "C": "accomplished",
+        "D": "cautious",
+        "E": "relieved"
+      },
+      "correct_answer": "A",
+      "category": "VOCAB",
+      "pattern": "deficient in (a nutrient/vitamin)",
+      "meaning_tr": "besin/vitamin eksikliği olan",
+      "example_en": "Individuals deficient in vitamin D are at a higher risk of developing osteoporosis.",
+      "example_tr": "D vitamini eksikliği olan bireyler osteoporoz geliştirme açısından daha yüksek risk taşır.",
+      "trap": "'Redundant in' (fazlalığı olan) yanlış bağlam; 'cautious' (temkinli) hiç uymaz; 'deficient in' tıp/beslenme sabit öbeği.",
+      "short_explanation": "'Deficient in + nutrient/vitamin' = eksik olan. Medikal bağlamlarda standart preposition kollokayon.",
+      "difficulty": 1,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q4",
+      "exam": "YDS25x2",
+      "question_text": "Because of the diverse interests of college students, the range of extracurricular activities varies ---- depending upon the size and type of college.",
+      "options": {
+        "A": "extensively",
+        "B": "accurately",
+        "C": "strictly",
+        "D": "instantaneously",
+        "E": "notoriously"
+      },
+      "correct_answer": "A",
+      "category": "VOCAB",
+      "pattern": "varies extensively/widely",
+      "meaning_tr": "geniş ölçüde değişmek / farklılık göstermek",
+      "example_en": "The curriculum offered by liberal arts colleges varies extensively from that of technical institutes.",
+      "example_tr": "Liberal sanatlar kolejlerinin sunduğu müfredat, teknik enstitülerinkinden geniş ölçüde farklılaşmaktadır.",
+      "trap": "'Notoriously' (kötü şöhretle) negatif çağrışım taşır; 'strictly' (kesinlikle) bağlamla uyuşmaz; 'varies extensively' = büyük ölçüde farklılaşır.",
+      "short_explanation": "'Vary extensively/widely' = büyük ölçüde farklılık göstermek. 'Extensively' nicelik/kapsam bildiren standart zarf.",
+      "difficulty": 1,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q5",
+      "exam": "YDS25x2",
+      "question_text": "Some changes to our nails can be harmless, but some can signal health issues, which is why it is important to know what might ---- medical attention.",
+      "options": {
+        "A": "exclude",
+        "B": "hinder",
+        "C": "conspire",
+        "D": "strive",
+        "E": "warrant"
+      },
+      "correct_answer": "E",
+      "category": "VOCAB",
+      "pattern": "warrant (medical attention/investigation)",
+      "meaning_tr": "gerektirmek / hak etmek",
+      "example_en": "Persistent fatigue and unexplained weight loss warrant immediate medical investigation.",
+      "example_tr": "Süregelen yorgunluk ve açıklanamayan kilo kaybı derhal tıbbi araştırma gerektirir.",
+      "trap": "'Hinder' (engellemek) anlam olarak zıt; 'strive for' (çabalamak) bağlamla uyuşmaz; 'warrant attention' = deserve/justify attention.",
+      "short_explanation": "'Warrant + noun' = hak etmek, gerektirmek. 'Warrant medical attention/concern' sağlık metinlerinde sık kullanılır.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q6",
+      "exam": "YDS25x2",
+      "question_text": "Cellulose and other complex food constituents that are not susceptible to digestion by the animal's own digestive enzymes are ---- digestible end-products by bacterial fermentation.",
+      "options": {
+        "A": "found out",
+        "B": "converted into",
+        "C": "identified with",
+        "D": "thrust on",
+        "E": "ranged against"
+      },
+      "correct_answer": "B",
+      "category": "PHRASAL",
+      "pattern": "converted into (end-products/energy)",
+      "meaning_tr": "dönüştürülmek",
+      "example_en": "Solar energy is converted into electrical power through photovoltaic cells.",
+      "example_tr": "Güneş enerjisi, fotovoltaik hücreler aracılığıyla elektrik enerjisine dönüştürülür.",
+      "trap": "'Identified with' (özdeşleştirilmek) yanlış; 'found out' (ortaya çıkarmak) bağlamda anlamsız; 'be converted into' = dönüştürülmek.",
+      "short_explanation": "'Be converted into + product' = bir şeye dönüştürülmek. Kimya/biyoloji metinlerinde sabit yapı.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q7",
+      "exam": "YDS25x2",
+      "question_text": "Advances in medical technology make it possible to treat cardiovascular disease that ---- fatal even nearly 30 years ago, given that devices ---- the functions of the heart to overcome or compensate for disease and damage.",
+      "options": {
+        "A": "might have been / had regulated",
+        "B": "must have been / have regulated",
+        "C": "had to be / regulated",
+        "D": "would have been / regulate",
+        "E": "should have been / will regulate"
+      },
+      "correct_answer": "D",
+      "category": "GRAMMAR",
+      "pattern": "would have been (hypothetical past) + simple present (current reality)",
+      "meaning_tr": "geçmişte olurdu (hayali) + şimdiki gerçeklik",
+      "example_en": "Conditions that would have been fatal a century ago are now routinely managed, since modern pharmaceuticals regulate biochemical pathways effectively.",
+      "example_tr": "Bir yüzyıl önce ölümcül olurdu denen durumlar artık rutin olarak yönetilmektedir; zira modern ilaçlar biyokimyasal yolakları etkili biçimde düzenlemektedir.",
+      "trap": "'Must have been' = kesin geçmiş çıkarım; 'would have been' = geçmişte olurdu (counterfactual). İkinci boşluk 'given that' ile başlar → present fact.",
+      "short_explanation": "'Would have been fatal' = o dönemde ölümcül olurdu. 'Given that devices regulate' = günümüz gerçeği, simple present.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q8",
+      "exam": "YDS25x2",
+      "question_text": "For the projects of e-government in developing African countries to succeed fully, the dream of Internet access for all ---- a reality, so they must improve their telecommunications infrastructure ---- the goal of digital government.",
+      "options": {
+        "A": "will become / being realised",
+        "B": "may become / realising",
+        "C": "could become / to be realised",
+        "D": "might become / to have realised",
+        "E": "has to become / to realise"
+      },
+      "correct_answer": "E",
+      "category": "GRAMMAR",
+      "pattern": "has to become (necessity) + to-infinitive (purpose)",
+      "meaning_tr": "zorunluluk kipi + amaç infinitifi",
+      "example_en": "Data privacy legislation has to become more robust, so governments must collaborate internationally to realise comprehensive regulatory frameworks.",
+      "example_tr": "Veri gizliliği mevzuatının daha sağlam hale gelmesi gerekmektedir; bu nedenle hükümetlerin kapsamlı düzenleyici çerçeveleri hayata geçirmek için uluslararası düzeyde iş birliği yapması şarttır.",
+      "trap": "'May become' (olabilirlik) zorunluluk değil; 'to realise' = in order to realise (purpose); 'to have realised' mükemmel infinitif gereksiz.",
+      "short_explanation": "'Has to become' = zorunluluk. 'To realise the goal' = purpose infinitive after 'must improve'.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "C"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q9",
+      "exam": "YDS25x2",
+      "question_text": "---- a diet based on blood type would theoretically never require change; however, because there are many medical conditions that change as a person ages, such a diet may be harmful if variations in the diet necessary for health maintenance ----.",
+      "options": {
+        "A": "To follow / are not to be allowed",
+        "B": "To have followed / are not allowing",
+        "C": "To be following / have not been allowed",
+        "D": "Having followed / have not allowed",
+        "E": "Following / are not allowed"
+      },
+      "correct_answer": "E",
+      "category": "GRAMMAR",
+      "pattern": "following + noun phrase (sentence-initial participial) + passive if-clause",
+      "meaning_tr": "cümle başında -ing ortaç + edilgen koşul cümlesi",
+      "example_en": "Following a strict elimination diet indefinitely poses risks if nutritional adjustments are not allowed.",
+      "example_tr": "Süresiz olarak katı bir eliminasyon diyetini sürdürmek, beslenme düzenlemelerine izin verilmezse risk oluşturur.",
+      "trap": "'To follow' infinitif özne işlevi görür ama 'Following' konu + zaman anlamı daha doğaldır; 'are not allowed' = simple passive present (koşul).",
+      "short_explanation": "'Following a diet' = cümle başında konuyu çerçeveleyen gerundiyel öbek. 'If variations are not allowed' = passive conditional.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q10",
+      "exam": "YDS25x2",
+      "question_text": "Leonardo da Vinci was the impetus ---- the High Renaissance concern for the idealisation of nature, moving ---- a realistic portrayal of the human figure to an idealised form.",
+      "options": {
+        "A": "over / into",
+        "B": "behind / from",
+        "C": "through / between",
+        "D": "on / across",
+        "E": "with / about"
+      },
+      "correct_answer": "B",
+      "category": "PREPOSITION",
+      "pattern": "impetus behind + move from X to Y",
+      "meaning_tr": "arkasındaki itici güç + X'ten Y'ye geçiş",
+      "example_en": "Newton was the driving force behind classical mechanics, moving from empirical observation to mathematical formulation.",
+      "example_tr": "Newton, klasik mekaniğin arkasındaki itici güçtü ve ampirik gözlemden matematiksel formülasyona geçişi sağladı.",
+      "trap": "'Impetus for' (Q2'deydi) ve 'impetus behind' arasındaki fark; 'move from... to' sabit yapı.",
+      "short_explanation": "'Impetus behind sth' = bir şeyin arkasındaki neden/güç. 'Move from X to Y' = bir uçtan ötekine geçiş.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q11",
+      "exam": "YDS25x2",
+      "question_text": "The form and scale of technology-mediated distance language teaching has expanded markedly over the past two decades ---- ongoing innovation providing access to increasingly rich language learning opportunities ---- dispersed populations of learners.",
+      "options": {
+        "A": "towards / between",
+        "B": "into / beyond",
+        "C": "with / for",
+        "D": "from / through",
+        "E": "across / by"
+      },
+      "correct_answer": "C",
+      "category": "PREPOSITION",
+      "pattern": "with (instrumental/accompanying) + for (beneficiary)",
+      "meaning_tr": "araç/eşlik edici 'with' + faydalanan 'for'",
+      "example_en": "The platform expanded rapidly with technological updates providing access to new features for global users.",
+      "example_tr": "Platform, yeni özelliklere küresel kullanıcılar için erişim sağlayan teknolojik güncellemelerle hızla büyüdü.",
+      "trap": "'Towards/between' yön belirtir; 'with + gerund phrase' = eşlik eden durum/araç; 'for dispersed populations' = faydalananlar.",
+      "short_explanation": "'With ongoing innovation' = beraberindeki/eşlik eden yenilikle. 'Access for learners' = öğrenenler için erişim.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q12",
+      "exam": "YDS25x2",
+      "question_text": "Insects do not navigate by scanning their environment and reducing the image to trillions of pixels that they process with supercomputers; ----, their brains are composed of 'neural networks,' learning machines that slowly learn how to navigate in a hostile world by bumping into it.",
+      "options": {
+        "A": "instead",
+        "B": "likewise",
+        "C": "for example",
+        "D": "otherwise",
+        "E": "in short"
+      },
+      "correct_answer": "A",
+      "category": "LINKER",
+      "pattern": "instead (substitution/contrast)",
+      "meaning_tr": "bunun yerine / aksine",
+      "example_en": "The brain does not store information like a hard drive; instead, memories are reconstructed dynamically each time they are recalled.",
+      "example_tr": "Beyin, bilgiyi bir sabit disk gibi depolamaz; bunun yerine, anılar her hatırlanışta dinamik olarak yeniden inşa edilir.",
+      "trap": "'Likewise' ek bilgi; 'otherwise' koşullu sonuç; 'instead' = ikame (A değil, B) — iki mekanizma karşılaştırılıyor.",
+      "short_explanation": "'Instead' = önceki ifadeyi reddedip alternatif sunmak. Karşılaştırmalı kontrastta en güçlü bağlaç.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q13",
+      "exam": "YDS25x2",
+      "question_text": "Mirror reading is a disability that causes the individual to perceive some letters and parts of words as the reverse of what they are ---- they are reading the mirror image of the printed letter or word.",
+      "options": {
+        "A": "even though",
+        "B": "as if",
+        "C": "in case",
+        "D": "unless",
+        "E": "seeing that"
+      },
+      "correct_answer": "B",
+      "category": "LINKER",
+      "pattern": "as if (hypothetical/simile manner clause)",
+      "meaning_tr": "sanki / -mış gibi",
+      "example_en": "Patients with certain neurological conditions process spatial information as if the left and right hemispheres were reversed.",
+      "example_tr": "Belirli nörolojik durumları olan hastalar, uzamsal bilgiyi sol ve sağ yarımküreler tersine çevrilmiş gibi işler.",
+      "trap": "'Even though' gerçek zıtlık gerektirir; 'as if' = hayali/benzetme tarzı. Ayna okuma gerçek değil, sanki öyle algılanıyor.",
+      "short_explanation": "'As if + past/present clause' = hayali bir durumu tarif eder. Perceptual simulation = 'as if' yapısı.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q14",
+      "exam": "YDS25x2",
+      "question_text": "Almost every parent spends time with their pre-school children, reading and counting to foster an understanding of language and numbers; ----, by the time children begin school formally, they are often competent speakers, understand letters, and can count.",
+      "options": {
+        "A": "even so",
+        "B": "as a result",
+        "C": "however",
+        "D": "rather",
+        "E": "conversely"
+      },
+      "correct_answer": "B",
+      "category": "LINKER",
+      "pattern": "as a result (logical consequence)",
+      "meaning_tr": "sonuç olarak",
+      "example_en": "Early exposure to bilingual environments fosters neural plasticity; as a result, bilingual children demonstrate superior executive function skills.",
+      "example_tr": "İki dilli ortamlara erken maruz kalmak nöroplastisiteyi destekler; sonuç olarak, iki dilli çocuklar üstün yönetici işlev becerileri sergiler.",
+      "trap": "'Even so' (buna rağmen) zıtlık; 'as a result' neden-sonuç zinciri: ebeveyn eğitimi → çocuk becerisi.",
+      "short_explanation": "Ebeveynin okul öncesi eğitimi (neden) → okulda yetkin çocuk (sonuç). 'As a result' bu mantıksal ilişkiyi kurar.",
+      "difficulty": 1,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q15",
+      "exam": "YDS25x2",
+      "question_text": "Although blue light most devices emit is thought to have an impact on our sleep/wake cycle, all light, ---- it comes from a lamp ---- a tablet, suppresses melatonin, the hormone that makes you feel sleepy.",
+      "options": {
+        "A": "the more / the more",
+        "B": "as / as",
+        "C": "not only / but also",
+        "D": "whether / or",
+        "E": "so / that"
+      },
+      "correct_answer": "D",
+      "category": "GRAMMAR",
+      "pattern": "whether ... or (inclusive alternative)",
+      "meaning_tr": "ister ... ister / ... olsun ... olsun",
+      "example_en": "All artificial lighting, whether it originates from fluorescent tubes or LED screens, interferes with circadian rhythm regulation.",
+      "example_tr": "Floresan tüplerden ya da LED ekranlardan gelse de tüm yapay aydınlatma, sirkadiyen ritim düzenlemesine müdahale eder.",
+      "trap": "'Not only/but also' iki elementin toplandığını söyler; 'whether...or' tüm alternatifleri kapsayan bir genelleme kurar.",
+      "short_explanation": "'Whether X or Y' = her iki durumda da geçerli. Kaynak fark etmeksizin tüm ışık melatonini baskılar.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ]
+    },
+    {
+      "id": "YDS25x2_Q16",
+      "exam": "YDS25x2",
+      "question_text": "Although effective print advertisements follow generally accepted conventions such as the use of large headlines and endings with a strong call to action, they can differ considerably ---- design features, including layout and colour scheme.",
+      "options": {
+        "A": "in terms of",
+        "B": "rather than",
+        "C": "with the aim of",
+        "D": "despite",
+        "E": "regardless of"
+      },
+      "correct_answer": "A",
+      "category": "PREPOSITION",
+      "pattern": "differ in terms of",
+      "meaning_tr": "... bakımından / açısından farklılık göstermek",
+      "example_en": "While the two educational systems share similar goals, they differ considerably in terms of pedagogical approach and assessment methods.",
+      "example_tr": "Her iki eğitim sistemi benzer hedefleri paylaşsa da pedagojik yaklaşım ve değerlendirme yöntemleri bakımından önemli ölçüde farklılaşmaktadır.",
+      "trap": "'Regardless of' (ne olursa olsun) yapısal olarak yanlış; 'differ in terms of' = kategorik boyutlarda farklılaşmak.",
+      "short_explanation": "'Differ in terms of X' = X açısından farklılaşmak. Akademik karşılaştırmalarda standart prepositional phrase.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q1",
+      "exam": "YDS2025_Set1",
+      "question_text": "The increasingly global relationships of technology and societies over the course of the 20th century had numerous ----: many aspects of life became technology-driven and technological innovations sparked cultural developments and social change.",
+      "options": {
+        "A": "compulsions",
+        "B": "exceptions",
+        "C": "fluctuations",
+        "D": "fallacies",
+        "E": "ramifications"
+      },
+      "correct_answer": "E",
+      "category": "VOCAB",
+      "pattern": "ramifications (of a development/policy)",
+      "meaning_tr": "yansımalar / sonuçlar / etkileri",
+      "example_en": "The ramifications of globalisation extend beyond economics, reshaping cultural identities and social structures.",
+      "example_tr": "Küreselleşmenin yansımaları ekonominin ötesine geçer; kültürel kimlikleri ve sosyal yapıları yeniden biçimlendirir.",
+      "trap": "'Compulsions' (zorunluluklar) veya 'fallacies' (yanılgılar) anlam olarak alakasız; 'ramifications' = far-reaching consequences/effects.",
+      "short_explanation": "'Numerous ramifications' = çok sayıda ve geniş kapsamlı sonuç/etki. İkinci virgüllü cümle bu etkileri örnekler.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q2",
+      "exam": "YDS2025_Set1",
+      "question_text": "In the late 20th century, many governments in Southeast Asia were reluctant to welcome the arrival of Japanese corporations investing in their economies as they were wary of giving away economic ---- to these corporations unwilling to integrate local people into the management structure.",
+      "options": {
+        "A": "accuracy",
+        "B": "delicacy",
+        "C": "adversity",
+        "D": "deviancy",
+        "E": "sovereignty"
+      },
+      "correct_answer": "E",
+      "category": "VOCAB",
+      "pattern": "economic sovereignty",
+      "meaning_tr": "ekonomik egemenlik / bağımsızlık",
+      "example_en": "Nations are increasingly cautious about foreign investment deals that may compromise their economic sovereignty.",
+      "example_tr": "Uluslar, ekonomik egemenliklerini tehlikeye atabilecek yabancı yatırım anlaşmaları konusunda giderek daha temkinli davranmaktadır.",
+      "trap": "'Delicacy' (incelik/hassasiyet) bağlamla uyuşmaz; 'sovereignty' = egemenlik/özerklik; 'give away economic sovereignty' sabit akademik öbek.",
+      "short_explanation": "'Economic sovereignty' = bir devletin kendi ekonomisi üzerindeki denetim hakkı. 'Give away sovereignty' = bu hakkı devretmek.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q3",
+      "exam": "YDS2025_Set1",
+      "question_text": "When archaeologists discovered that Ötzi, the 5,300-year-old mummy found on an Alpine glacier, had not died in a natural way, his death became a ---- issue as new theories and evidence emerged as to who might have murdered him.",
+      "options": {
+        "A": "restrictive",
+        "B": "contentious",
+        "C": "prompt",
+        "D": "dispensable",
+        "E": "conventional"
+      },
+      "correct_answer": "B",
+      "category": "VOCAB",
+      "pattern": "contentious issue/debate",
+      "meaning_tr": "tartışmalı mesele",
+      "example_en": "The attribution of ancient artefacts to specific cultures remains a contentious issue among archaeologists.",
+      "example_tr": "Antik eserlerin belirli kültürlere atfedilmesi, arkeologlar arasında tartışmalı bir mesele olmaya devam etmektedir.",
+      "trap": "'Conventional' (alışılagelen) anlam olarak zıt; 'contentious' = causing disagreement and debate.",
+      "short_explanation": "'Contentious issue' = üzerinde görüş ayrılığı olan, tartışma yaratan mesele. 'Contentious debate/question' akademik sık kullanımı.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q4",
+      "exam": "YDS2025_Set1",
+      "question_text": "Thanks to the data from the Jupiter Icy Moons Explorer, a European Space Agency mission studying Jupiter's environment and some of its moons, we are ---- expanding our catalogue of potentially habitable worlds in the solar system.",
+      "options": {
+        "A": "stringently",
+        "B": "exponentially",
+        "C": "detrimentally",
+        "D": "illicitly",
+        "E": "notoriously"
+      },
+      "correct_answer": "B",
+      "category": "VOCAB",
+      "pattern": "exponentially (grow/expand/increase)",
+      "meaning_tr": "katlanarak / üstel olarak",
+      "example_en": "The number of exoplanets confirmed by space telescopes has grown exponentially over the past decade.",
+      "example_tr": "Uzay teleskoplarının onayladığı ötegezegen sayısı son on yılda katlanarak artmıştır.",
+      "trap": "'Stringently' (titizlikle) ve 'notoriously' (kötü şöhretle) bağlamla uyuşmaz; 'exponentially' = büyüme hızının artarak devam ettiği.",
+      "short_explanation": "'Expand/grow exponentially' = giderek hızlanan ve büyüyen bir artış. Bilim/teknoloji metinlerinde standart zarf.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q5",
+      "exam": "YDS2025_Set1",
+      "question_text": "Every year, thousands of high school graduates from all over the world compete to enter Harvard University, having ---- hundreds of hours of their time to achieve their dream.",
+      "options": {
+        "A": "sacrificed",
+        "B": "alleviated",
+        "C": "prolonged",
+        "D": "earned",
+        "E": "yielded"
+      },
+      "correct_answer": "A",
+      "category": "VOCAB",
+      "pattern": "sacrifice (time/resources) to achieve",
+      "meaning_tr": "uğruna feda etmek",
+      "example_en": "Dedicated researchers sacrifice personal time to advance knowledge in their fields.",
+      "example_tr": "Kendini işine adamış araştırmacılar, kendi alanlarındaki bilgiyi ilerletmek için kişisel zamanlarını feda eder.",
+      "trap": "'Having earned' (kazanmış olmak) anlam olarak zıt; 'sacrifice hours' = belirli bir hedef için zaman harcamak/feda etmek.",
+      "short_explanation": "'Sacrifice time/resources to + V' = bir şeyi elde etmek için fedakarlık yapmak. 'Having sacrificed' = perfect participial (tamamlanmış eylem).",
+      "difficulty": 1,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q6",
+      "exam": "YDS2025_Set1",
+      "question_text": "Compulsive hoarding consists of three components: acquiring a large number of possessions, storing of items, and keeping them in such a way that it ---- daily living, with possible severe neglect of living space.",
+      "options": {
+        "A": "wards off",
+        "B": "conforms to",
+        "C": "interferes with",
+        "D": "brings in",
+        "E": "seeks out"
+      },
+      "correct_answer": "C",
+      "category": "PHRASAL",
+      "pattern": "interfere with (daily life/functioning)",
+      "meaning_tr": "... ile müdahale etmek / ... ı sekteye uğratmak",
+      "example_en": "Excessive smartphone use can interfere with sleep quality and daytime cognitive performance.",
+      "example_tr": "Aşırı akıllı telefon kullanımı uyku kalitesi ve gündüz bilişsel performansını sekteye uğratabilir.",
+      "trap": "'Conforms to' (uyum sağlar) anlam olarak zıt; 'ward off' (savuşturmak) yanlış; 'interfere with' = disrupt/negatively affect.",
+      "short_explanation": "'Interfere with sth' = bir şeye zarar verecek şekilde müdahale etmek. 'Interfere with daily living/functioning' psikoloji metinlerinde sabit.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q7",
+      "exam": "YDS2025_Set1",
+      "question_text": "There is no cure for acne as the bacteria active in acne are normal residents of the skin, but it ---- with biochemical or lifestyle changes that eliminate the conditions ---- bacterial overgrowth.",
+      "options": {
+        "A": "has to be lessened / being promoted",
+        "B": "may be lessened / to be promoted",
+        "C": "can be lessened / promoting",
+        "D": "should be lessened / promoted",
+        "E": "would be lessened / having promoted"
+      },
+      "correct_answer": "C",
+      "category": "GRAMMAR",
+      "pattern": "can be + V3 (passive ability) + present participle (active modifier)",
+      "meaning_tr": "edilgen olabilirlik + aktif sıfat ortaç",
+      "example_en": "Symptoms can be lessened through dietary modification, eliminating the triggers of inflammatory response.",
+      "example_tr": "Semptomlar, diyet değişikliğiyle hafifletilebilir; bu değişiklik, inflamatuvar yanıt tetikleyicilerini ortadan kaldırır.",
+      "trap": "'Promoting' = active participle modifying 'conditions' (that promote growth). 'Should/would be lessened' normatif/hipotetik.",
+      "short_explanation": "'Can be lessened' = azaltılabilir (gerçekçi olasılık). 'Conditions promoting bacterial overgrowth' = bakteri aşırı büyümesini destekleyen koşullar.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q8",
+      "exam": "YDS2025_Set1",
+      "question_text": "---- the optimum growth from a seed, it ---- at a specific depth in soil which contains a fine structure of particles.",
+      "options": {
+        "A": "Having achieved / should be planted",
+        "B": "To achieve / must be planted",
+        "C": "Achieving / could be planted",
+        "D": "Having been achieved / would be planted",
+        "E": "To be achieved / might be planted"
+      },
+      "correct_answer": "B",
+      "category": "GRAMMAR",
+      "pattern": "to-infinitive (purpose) + must be V3 (obligation passive)",
+      "meaning_tr": "amaç infinitifi + zorunluluk edilgeni",
+      "example_en": "To maximise crop yield, seeds must be sown at optimal intervals in well-aerated soil.",
+      "example_tr": "Mahsul verimini en üst düzeye çıkarmak için tohumların iyi havalandırılmış toprakta optimal aralıklarla ekilmesi gerekmektedir.",
+      "trap": "'Having achieved' = tamamlanmış eylem (already done); 'to achieve the goal, it must be planted' = amaç + zorunluluk mantığı.",
+      "short_explanation": "'To achieve X, Y must be done' = amaca ulaşmak için zorunlu koşul. Purpose infinitive + obligation modal.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q9",
+      "exam": "YDS2025_Set1",
+      "question_text": "Although nuclear power is the most efficient form of energy ---- by humankind, it ---- extensively so far because of the high economic costs and safety risks.",
+      "options": {
+        "A": "harnessed / would not have been exploited",
+        "B": "to have been harnessed / had not been exploited",
+        "C": "being harnessed / will not be exploited",
+        "D": "having been harnessed / may not have been exploited",
+        "E": "to be harnessed / has not been exploited"
+      },
+      "correct_answer": "E",
+      "category": "GRAMMAR",
+      "pattern": "to be V3 (postmodifier infinitive) + has not been V3 (present perfect negative passive)",
+      "meaning_tr": "infinitif sıfat tümleciği + present perfect pasif olumsuz",
+      "example_en": "Fusion energy is regarded as the cleanest power to be harnessed; however, it has not been exploited commercially as yet.",
+      "example_tr": "Füzyon enerjisi, kullanılacak en temiz güç kaynağı olarak değerlendirilmektedir; bununla birlikte henüz ticari olarak işletilmemiştir.",
+      "trap": "'Harnessed' (past participle modifier) vs 'to be harnessed' (potential/future modifier); 'so far' → present perfect required.",
+      "short_explanation": "'To be harnessed by humankind' = insanlık tarafından kullanılmaya aday. 'Has not been exploited so far' = present perfect ile 'so far' kullanımı.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q10",
+      "exam": "YDS2025_Set1",
+      "question_text": "Primary goals of cultural conservation projects are to sustain cultural and ecological diversity ---- modernising communities and to mobilise government support ---- the preservation of regional heritage.",
+      "options": {
+        "A": "across / at",
+        "B": "among / from",
+        "C": "on / about",
+        "D": "within / for",
+        "E": "towards / by"
+      },
+      "correct_answer": "D",
+      "category": "PREPOSITION",
+      "pattern": "within (communities) + support for (a cause)",
+      "meaning_tr": "topluluklar içinde / bir amaç için destek",
+      "example_en": "Biodiversity programmes aim to sustain ecological balance within endangered regions and to secure funding for long-term conservation.",
+      "example_tr": "Biyoçeşitlilik programları, tehlike altındaki bölgelerdeki ekolojik dengeyi sürdürmeyi ve uzun vadeli koruma için finansman sağlamayı amaçlamaktadır.",
+      "trap": "'Among communities' (topluluklar arasında) vs 'within communities' (toplulukların içinde); 'support for' = destek vermek için sabit öbek.",
+      "short_explanation": "'Sustain diversity within communities' = toplulukların iç yapısında çeşitliliği sürdürmek. 'Mobilise support for' = bir amaç için destek harekete geçirmek.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q11",
+      "exam": "YDS2025_Set1",
+      "question_text": "Ready meals labelled ---- phrases like 'finest' and 'best' are marketed as premium shortcuts ---- a balanced meal, but cooking equivalent dishes from scratch is still a nutritionally better option.",
+      "options": {
+        "A": "about / over",
+        "B": "in / from",
+        "C": "for / on",
+        "D": "through / at",
+        "E": "with / to"
+      },
+      "correct_answer": "E",
+      "category": "PREPOSITION",
+      "pattern": "labelled with + shortcut to",
+      "meaning_tr": "etiketli/nitelenmiş + kısa yol olarak",
+      "example_en": "Products labelled with health claims are often marketed as shortcuts to a nutritious lifestyle.",
+      "example_tr": "Sağlık iddialarıyla etiketlenen ürünler çoğu zaman besleyici bir yaşam tarzına giden kısa yol olarak pazarlanır.",
+      "trap": "'Labelled about phrases' dilbilgisel değil; 'shortcut to' = bir hedefe hızlı yol sabit öbek.",
+      "short_explanation": "'Labelled with X' = X ile etiketlenmiş. 'Shortcut to a balanced meal' = sağlıklı yemeğe kısa yol.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q12",
+      "exam": "YDS2025_Set1",
+      "question_text": "The risk of breaking a hip is shown to be higher for vegetarian women than those who are regular meat eaters, ---- meat-free diets are possibly deficient in vitamins and minerals that help strengthen bones.",
+      "options": {
+        "A": "whereas",
+        "B": "so",
+        "C": "because",
+        "D": "although",
+        "E": "whether"
+      },
+      "correct_answer": "C",
+      "category": "LINKER",
+      "pattern": "because (causal subordinator)",
+      "meaning_tr": "çünkü (neden-sonuç)",
+      "example_en": "Older adults face elevated fracture risks because plant-based diets may inadequately supply calcium and vitamin K.",
+      "example_tr": "Yaşlı yetişkinler, bitki bazlı diyetler kalsiyum ve K vitamini temini açısından yetersiz kalabileceğinden kırık riskiyle daha fazla karşılaşır.",
+      "trap": "'Whereas' karşıtlık; 'although' taviz; 'because' = açıklama/neden sunar. Risk yüksekliğinin nedeni: vitamin eksikliği.",
+      "short_explanation": "'Higher risk ... because diets are deficient' = neden-sonuç ilişkisi. 'Because' açık nedensellik bağlacı.",
+      "difficulty": 1,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q13",
+      "exam": "YDS2025_Set1",
+      "question_text": "The lie detector, or polygraph, is based on the idea that someone who is lying will give themselves away by, for example, increased sweating and raised heart rate; ----, in reality, few courts rely on polygraph results.",
+      "options": {
+        "A": "namely",
+        "B": "however",
+        "C": "likewise",
+        "D": "moreover",
+        "E": "consequently"
+      },
+      "correct_answer": "B",
+      "category": "LINKER",
+      "pattern": "however (adversative/concessive)",
+      "meaning_tr": "ancak / bununla birlikte",
+      "example_en": "The polygraph is widely regarded as a reliable indicator of deception; however, its scientific validity remains disputed.",
+      "example_tr": "Poligraf, aldatmanın güvenilir bir göstergesi olarak yaygın biçimde kabul görmektedir; ancak bilimsel geçerliliği tartışmalı olmaya devam etmektedir.",
+      "trap": "'Consequently' (dolayısıyla) sonuç; 'however' = expectation vs reality contrast. Teori güvenilir görünse de mahkemeler kullanmıyor.",
+      "short_explanation": "'However' = önceki bilginin beklentisine rağmen beklenmedik bir gerçeği sunar. Beklenti-zıtlık yapısı.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q14",
+      "exam": "YDS2025_Set1",
+      "question_text": "---- the vast deserts and steamy rainforests of Africa make this continent a tricky place to look for fossils, in recent years, many areas have been found to be rich in ancient life, and fascinating finds have become increasingly common.",
+      "options": {
+        "A": "Once",
+        "B": "Even though",
+        "C": "Provided that",
+        "D": "As long as",
+        "E": "As if"
+      },
+      "correct_answer": "B",
+      "category": "LINKER",
+      "pattern": "even though (sentence-initial concession)",
+      "meaning_tr": "her ne kadar ... olsa da",
+      "example_en": "Even though climate conditions render certain regions inhospitable to field research, new excavation techniques have enabled significant fossil discoveries.",
+      "example_tr": "İklim koşulları bazı bölgeleri saha araştırması için elverişsiz kılsa da yeni kazı teknikleri önemli fosil keşiflerine imkân tanımıştır.",
+      "trap": "'Provided that' / 'As long as' koşul gerektirir; 'even though' gerçekleşmiş iki çelişen olgu arasında zıtlık kurar.",
+      "short_explanation": "'Even though [obstacle], [positive outcome].' Afrika'nın zor coğrafyası (engel) ↔ zengin fosil bulguları (olumlu sonuç).",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q15",
+      "exam": "YDS2025_Set1",
+      "question_text": "The prehistoric Mycenaeans built ---- huge stone walls around their citadels — some of them were 14m wide — ---- later civilisations believed they were the work of giants.",
+      "options": {
+        "A": "not only / but also",
+        "B": "as / as",
+        "C": "such / that",
+        "D": "whether / or",
+        "E": "either / or"
+      },
+      "correct_answer": "C",
+      "category": "GRAMMAR",
+      "pattern": "such + noun + that (result clause)",
+      "meaning_tr": "o denli ... ki (derece-sonuç yapısı)",
+      "example_en": "The ancient Romans constructed such elaborate aqueducts that subsequent civilisations marvelled at their engineering precision.",
+      "example_tr": "Antik Romalılar o denli karmaşık su kemerleri inşa etti ki sonraki uygarlıklar mühendislik hassasiyetlerine hayran kaldı.",
+      "trap": "'Not only/but also' ek bilgi; 'such...that' = derece + sonuç. Duvarların büyüklüğü (such huge walls) → sonuç (that people believed).",
+      "short_explanation": "'Such + adj + noun + that + result' = sonuç tümcesiyle derece vurgusu. YDS'de sık sınanan dilbilgisi yapısı.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS2025_1_Q16",
+      "exam": "YDS2025_Set1",
+      "question_text": "University libraries in Japan reconstructed their library systems in the 1980s ---- the regulations proposed by the Science Council, which aims to eliminate disparities among library catalogues.",
+      "options": {
+        "A": "in accordance with",
+        "B": "irrespective of",
+        "C": "with the exception of",
+        "D": "as opposed to",
+        "E": "for the purpose of"
+      },
+      "correct_answer": "A",
+      "category": "PREPOSITION",
+      "pattern": "in accordance with (regulations/guidelines)",
+      "meaning_tr": "... uyarınca / ... doğrultusunda",
+      "example_en": "Medical practitioners are obliged to operate in accordance with the ethical guidelines set by national health authorities.",
+      "example_tr": "Sağlık profesyonelleri, ulusal sağlık otoriteleri tarafından belirlenen etik yönergeler doğrultusunda hareket etmek zorundadır.",
+      "trap": "'Irrespective of' (dikkate almaksızın) anlam olarak zıt; 'in accordance with regulations' = kurallara uygun olarak, uyarınca.",
+      "short_explanation": "'In accordance with + rules/guidelines/regulations' = kurallara/yönetmeliklere uygun olarak. Hukuki/akademik sabit öbek.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "D"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q1",
+      "exam": "20204_YDS2",
+      "question_text": "While commonality was once popular, more and more people are now seeking diversity in personal preferences, so consumerism is no longer about rigid ---- to the taste of the general public but about constantly updated individualism.",
+      "options": {
+        "A": "resolution",
+        "B": "exception",
+        "C": "alteration",
+        "D": "entitlement",
+        "E": "adherence"
+      },
+      "correct_answer": "E",
+      "category": "VOCAB",
+      "pattern": "adherence to (norms/standards/tastes)",
+      "meaning_tr": "bağlılık / uyma",
+      "example_en": "Strict adherence to traditional aesthetic norms has given way to a more fluid, individualised approach to design.",
+      "example_tr": "Geleneksel estetik normlara katı bağlılığın yerini tasarıma daha akışkan ve bireyselleştirilmiş bir yaklaşım almıştır.",
+      "trap": "'Alteration' (değişim) anlam olarak zıt; 'adherence to' = bağlılık/uyum; Q1 (YDS2026) 'conformity to' ile kardeş kollokayon.",
+      "short_explanation": "'Rigid adherence to' = katı bir şekilde uymak. 'Adherence to norms/standards/tastes' resmi metinlerde yaygın.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q2",
+      "exam": "20204_YDS2",
+      "question_text": "Many companies seek out employees who agree with their moral standards, and in order to keep such employees, they are paying more attention to the way they treat their workforce, including the ---- they provide for improving performance.",
+      "options": {
+        "A": "inclinations",
+        "B": "oddities",
+        "C": "incentives",
+        "D": "ramifications",
+        "E": "constraints"
+      },
+      "correct_answer": "C",
+      "category": "VOCAB",
+      "pattern": "incentives (for performance/behaviour)",
+      "meaning_tr": "teşvik / özendirici",
+      "example_en": "Companies that offer financial incentives for innovation tend to attract highly motivated employees.",
+      "example_tr": "Yenilikçilik için mali teşvikler sunan şirketler yüksek motivasyonlu çalışanları çekme eğilimindedir.",
+      "trap": "'Constraints' (kısıtlamalar) anlam olarak zıt; 'inclinations' (eğilimler) birey kaynaklı; 'incentives for improving performance' standart.",
+      "short_explanation": "'Incentives for performance' = performansı artırmaya yönelik teşvikler. İK ve iş metinlerinde sık kollokayon.",
+      "difficulty": 1,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q3",
+      "exam": "20204_YDS2",
+      "question_text": "Some sociologists suggest that cultural identity is such an ---- concept that it is hard to precisely define; rather, they prefer to list cultural elements unique to a particular society.",
+      "options": {
+        "A": "ambiguous",
+        "B": "overt",
+        "C": "intuitive",
+        "D": "abrupt",
+        "E": "incessant"
+      },
+      "correct_answer": "A",
+      "category": "VOCAB",
+      "pattern": "ambiguous concept/term",
+      "meaning_tr": "muğlak / belirsiz kavram",
+      "example_en": "The notion of cultural heritage is an inherently ambiguous concept, resisting uniform definition across disciplines.",
+      "example_tr": "Kültürel miras kavramı özünde muğlak bir kavramdır ve disiplinler genelinde tek tip bir tanıma direnmektedir.",
+      "trap": "'Overt' (açık/belirgin) anlam olarak zıt; 'ambiguous' = çok yoruma açık, net tanımı zor.",
+      "short_explanation": "'Ambiguous concept' = farklı yorumlara açık, tek bir tanımı olmayan kavram. 'Such an ambiguous concept that...' = derece+sonuç yapısı.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q4",
+      "exam": "20204_YDS2",
+      "question_text": "The social benefits of technologies are ---- distributed across the United States as there are still rural communities and individuals with disabilities facing out-of-reach costs or lacking access to products that meet their needs.",
+      "options": {
+        "A": "undeniably",
+        "B": "invariably",
+        "C": "unevenly",
+        "D": "irreversibly",
+        "E": "inseparably"
+      },
+      "correct_answer": "C",
+      "category": "VOCAB",
+      "pattern": "unevenly distributed",
+      "meaning_tr": "eşitsiz biçimde dağılmış",
+      "example_en": "The benefits of digitalisation are unevenly distributed, with marginalised communities often lacking adequate access to technology.",
+      "example_tr": "Dijitalleşmenin faydaları eşitsiz biçimde dağılmıştır; marjinalleştirilmiş topluluklar genellikle teknolojiye yeterli erişimden yoksundur.",
+      "trap": "'Undeniably' / 'invariably' olumlu anlam taşır; cümle eşitsizliği açıklar; 'unevenly' = dengeli olmayan dağılım.",
+      "short_explanation": "'Unevenly distributed' = bazı kesimlerin teknoloji avantajlarından yararlanamadığı eşitsiz dağılım.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q5",
+      "exam": "20204_YDS2",
+      "question_text": "Environmental monitoring, which is often carried out to promote the sustainability of marine or terrestrial wildlife, has ---- public understanding of the relation between people and the environment.",
+      "options": {
+        "A": "retained",
+        "B": "exceeded",
+        "C": "enhanced",
+        "D": "mitigated",
+        "E": "fulfilled"
+      },
+      "correct_answer": "C",
+      "category": "VOCAB",
+      "pattern": "enhance (understanding/awareness/performance)",
+      "meaning_tr": "artırmak / geliştirmek / iyileştirmek",
+      "example_en": "Long-term ecological monitoring programmes have significantly enhanced public awareness of biodiversity loss.",
+      "example_tr": "Uzun vadeli ekolojik izleme programları, biyoçeşitlilik kaybına ilişkin kamuoyu farkındalığını önemli ölçüde artırmıştır.",
+      "trap": "'Mitigated' (hafifletmek) olumsuz şeylere uyar; 'enhanced public understanding' = geliştirdi/artırdı.",
+      "short_explanation": "'Enhance understanding/awareness' = bilgi/farkındalık düzeyini yükseltmek. Akademik metinlerde en sık kullanılan kollokayon.",
+      "difficulty": 1,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q6",
+      "exam": "20204_YDS2",
+      "question_text": "As people feel more secure and knowledgeable when they become a member of a group, they often tend to adjust their behaviours in order to ---- the norms of the group.",
+      "options": {
+        "A": "bargain for",
+        "B": "interfere with",
+        "C": "call for",
+        "D": "descend from",
+        "E": "align with"
+      },
+      "correct_answer": "E",
+      "category": "PHRASAL",
+      "pattern": "align with (norms/values/expectations)",
+      "meaning_tr": "... ile örtüşmek / ... e uymak",
+      "example_en": "Corporate strategies must align with the ethical expectations of increasingly socially aware consumers.",
+      "example_tr": "Kurumsal stratejiler, giderek sosyal açıdan bilinçlenen tüketicilerin etik beklentileriyle örtüşmek zorundadır.",
+      "trap": "'Interfere with' (aksatmak) anlam olarak zıt; 'align with' = uyumlu hale gelmek, doğrultusunda davranmak.",
+      "short_explanation": "'Align with norms/expectations' = normlara uymak/uyumlanmak. 'Adjust behaviours to align with' sosyoloji/psikoloji metni.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q7",
+      "exam": "20204_YDS2",
+      "question_text": "Genetic evidence indicates that higher levels of caffeine in a person's blood ---- to lower weight, but people ---- that drinking more coffee will be a route to weight loss.",
+      "options": {
+        "A": "used to be linked / cannot assume",
+        "B": "would be linked / might not assume",
+        "C": "may be linked / should not assume",
+        "D": "could be linked / will not assume",
+        "E": "ought to be linked / must not assume"
+      },
+      "correct_answer": "C",
+      "category": "GRAMMAR",
+      "pattern": "may be linked (tentative present) + should not (advisory negative)",
+      "meaning_tr": "bağlantılı olabilir + olmamalı (tavsiye)",
+      "example_en": "Regular physical activity may be linked to improved cognitive function, but individuals should not assume that exercise alone prevents neurodegenerative disease.",
+      "example_tr": "Düzenli fiziksel aktivite bilişsel işlevlerin iyileşmesiyle bağlantılı olabilir; ancak bireyler egzersizin tek başına nörodejeneratif hastalığı önlediğini varsaymamalıdır.",
+      "trap": "'Must not assume' aşırı güçlü; 'should not assume' = tavsiye niteliğinde uyarı; 'may be linked' = bilimsel ihtiyatlı olasılık.",
+      "short_explanation": "'May be linked to' = bağlantısı olabilir (kesin değil). 'Should not assume' = yanlış bir çıkarımı engelleme tavsiyesi.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "D"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q8",
+      "exam": "20204_YDS2",
+      "question_text": "If Enlightenment refers to the power of the light of reason ---- the shadows of superstition and ignorance, this light ---- the society without the explosion in the production and dissemination of books and newspapers.",
+      "options": {
+        "A": "having dissipated / should not have illuminated",
+        "B": "dissipated / may not have illuminated",
+        "C": "being dissipated / might not have illuminated",
+        "D": "to dissipate / could not have illuminated",
+        "E": "to be dissipated / would not have illuminated"
+      },
+      "correct_answer": "D",
+      "category": "GRAMMAR",
+      "pattern": "to-infinitive (defining relative) + could not have V3 (past impossibility)",
+      "meaning_tr": "tanımlayıcı infinitif + geçmiş imkânsızlık",
+      "example_en": "The power of science to transform agricultural practice could not have materialised without the widespread dissemination of empirical knowledge.",
+      "example_tr": "Bilimin tarımsal pratiği dönüştürme gücü, ampirik bilginin yaygın biçimde yayılması olmaksızın gerçekleşemezdi.",
+      "trap": "'Would not have' = counterfactual; 'could not have' = impossibility given the condition; 'to dissipate' = purpose/defining infinitive.",
+      "short_explanation": "'Power to dissipate' = 'power that is capable of dissipating'. 'Could not have illuminated without X' = X olmadan aydınlatamazdı.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q9",
+      "exam": "20204_YDS2",
+      "question_text": "The Sun burst into being 4.6 billion years ago, which makes studying its early days difficult as physical material ---- from this period is scarce, but scientists have found crystals more than 4.5 billion years old ---- deep within meteorites that indicate the Sun had a tumultuous early life.",
+      "options": {
+        "A": "remained / to have been buried",
+        "B": "remaining / buried",
+        "C": "to be remaining / being buried",
+        "D": "to remain / having been buried",
+        "E": "having remained / to be buried"
+      },
+      "correct_answer": "B",
+      "category": "GRAMMAR",
+      "pattern": "present participle (active modifier) + past participle (passive modifier)",
+      "meaning_tr": "aktif sıfat ortacı + edilgen sıfat ortacı",
+      "example_en": "The fossilised organisms remaining in sedimentary rock and buried beneath ocean floors provide crucial data about prehistoric ecosystems.",
+      "example_tr": "Tortul kayaçlarda kalan ve okyanus tabanlarının altına gömülü fosil organizmalar, tarih öncesi ekosistemler hakkında kritik veriler sağlamaktadır.",
+      "trap": "'Remained' = finite verb (not a modifier); 'remaining' modifies 'physical material'; 'buried' = past participle modifying 'crystals'.",
+      "short_explanation": "'Material remaining from this period' = bu döneme ait kalan materyal. 'Crystals buried deep' = derinlere gömülü kristaller.",
+      "difficulty": 3,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q10",
+      "exam": "20204_YDS2",
+      "question_text": "Behaviourist psychologists claim that language is learned ---- the mechanism of reinforcing the contingent association between stimulus and response — the same general-purpose mechanism invoked to explain other learning processes ---- humans.",
+      "options": {
+        "A": "about / at",
+        "B": "with / on",
+        "C": "for / among",
+        "D": "through / in",
+        "E": "from / to"
+      },
+      "correct_answer": "D",
+      "category": "PREPOSITION",
+      "pattern": "learned through (mechanism) + processes in humans",
+      "meaning_tr": "bir mekanizma aracılığıyla öğrenilmek + insanlardaki süreçler",
+      "example_en": "Second language acquisition occurs through the reinforcement of grammatical patterns in everyday communicative contexts among learners.",
+      "example_tr": "İkinci dil edinimi, öğrenciler arasındaki gündelik iletişim bağlamlarında dilbilgisel kalıpların pekiştirilmesi yoluyla gerçekleşir.",
+      "trap": "'Learned with the mechanism' 'through' kadar doğal değil; 'learning processes in humans' = insanlardaki öğrenme süreçleri.",
+      "short_explanation": "'Learned through + mechanism' = bir mekanizma yoluyla öğrenilmek. 'Learning processes in humans' = insanlarda gözlemlenen süreçler.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q11",
+      "exam": "20204_YDS2",
+      "question_text": "Swiss physicist Jean-Daniel Colladon demonstrated that light could be trapped by total internal reflection inside a tube, allowing it to travel ---- a curved path, which is a core principle ---- modern-day optical fibres.",
+      "options": {
+        "A": "across / through",
+        "B": "in / by",
+        "C": "along / behind",
+        "D": "from / towards",
+        "E": "over / with"
+      },
+      "correct_answer": "C",
+      "category": "PREPOSITION",
+      "pattern": "travel along (a path) + principle behind (a technology)",
+      "meaning_tr": "bir yol boyunca ilerlemek + arkasındaki ilke",
+      "example_en": "Electric signals travel along copper wires through a principle behind modern telecommunications infrastructure.",
+      "example_tr": "Elektrik sinyalleri, modern telekomünikasyon altyapısının arkasındaki bir ilke doğrultusunda bakır teller boyunca ilerler.",
+      "trap": "'Travel across a path' = yolun üzerinden geçmek; 'travel along a path' = yol boyunca ilerlemek; 'principle behind' = temelindeki ilke.",
+      "short_explanation": "'Travel along a curved path' = eğri bir yol boyunca gitmek. 'Core principle behind X' = X'in temelindeki/arkasındaki temel ilke.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q12",
+      "exam": "20204_YDS2",
+      "question_text": "---- the name Igor Ivanovich Sikorsky is generally associated with the development of the helicopter as a practical flying machine, he is also notable as a great designer of flying boats.",
+      "options": {
+        "A": "As long as",
+        "B": "Provided that",
+        "C": "While",
+        "D": "Unless",
+        "E": "Once"
+      },
+      "correct_answer": "C",
+      "category": "LINKER",
+      "pattern": "while (concessive contrast)",
+      "meaning_tr": "her ne kadar ... olsa da / ... iken",
+      "example_en": "While Charles Darwin is chiefly associated with the theory of evolution, his contributions to geology and botany are equally significant.",
+      "example_tr": "Charles Darwin, ağırlıklı olarak evrim teorisiyle ilişkilendirilse de jeoloji ve botanik alanındaki katkıları da bir o kadar önemlidir.",
+      "trap": "'As long as' ve 'Provided that' koşul; 'while' = karşıtlık veya eşzamanlılık. Burada A ile tanınan ama B'de de önemli.",
+      "short_explanation": "'While X is known for A, he is also notable for B' = 'A ile bilinse de B'de de önemlidir' yapısı.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q13",
+      "exam": "20204_YDS2",
+      "question_text": "---- crop domestication and the increase and spread of people occurred in largely forested environments, ancient societies everywhere had a cumulatively severe impact on forests.",
+      "options": {
+        "A": "As if",
+        "B": "Because",
+        "C": "Although",
+        "D": "Whereas",
+        "E": "Whether"
+      },
+      "correct_answer": "B",
+      "category": "LINKER",
+      "pattern": "because (causal subordinator at sentence start)",
+      "meaning_tr": "çünkü (cümle başında)",
+      "example_en": "Because early agricultural settlements depended on slash-and-burn methods, vast tracts of ancient woodland were permanently eliminated.",
+      "example_tr": "Erken tarımsal yerleşimler kesmek-yakmak yöntemlerine dayandığından, geniş antik orman alanları kalıcı olarak yok edildi.",
+      "trap": "'Although' veya 'whereas' zıtlık gerektirir; ormanlaşma (neden) → ormana zarar (sonuç). 'Because' açık nedensellik.",
+      "short_explanation": "'Because X occurred in forests, societies had a severe impact on forests.' Nedenin doğrudan sonucu.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q14",
+      "exam": "20204_YDS2",
+      "question_text": "It is important for young readers to experience a range of different cultural understandings, ---- their perception of their own culture could remain narrow and impoverished.",
+      "options": {
+        "A": "instead",
+        "B": "otherwise",
+        "C": "thus",
+        "D": "just as",
+        "E": "if"
+      },
+      "correct_answer": "B",
+      "category": "LINKER",
+      "pattern": "otherwise (negative conditional consequence)",
+      "meaning_tr": "aksi takdirde",
+      "example_en": "Students must engage with primary sources in historical research; otherwise, their analysis risks being superficial.",
+      "example_tr": "Öğrenciler tarih araştırmalarında birincil kaynaklarla ilgilenmek zorundadır; aksi takdirde analizleri yüzeysel kalma riskiyle karşı karşıya gelir.",
+      "trap": "'Thus' (dolayısıyla) sonuç; 'otherwise' = bu olmadığı takdirde olumsuz sonuç. Geniş okuma yoksa → dar algı.",
+      "short_explanation": "'Otherwise' = eğer önceki koşul yerine getirilmezse ne olacağını anlatır. Uyarı/öneri cümlelerinde standart.",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q15",
+      "exam": "20204_YDS2",
+      "question_text": "Many people who would benefit from psychotherapy may be hesitant to get it because ---- they do not know how to access it ---- they feel that they will be stigmatised and embarrassed if they seek help.",
+      "options": {
+        "A": "neither / nor",
+        "B": "as / as",
+        "C": "either / or",
+        "D": "the more / the less",
+        "E": "so / that"
+      },
+      "correct_answer": "C",
+      "category": "GRAMMAR",
+      "pattern": "either ... or (two-reason alternative)",
+      "meaning_tr": "ya ... ya da (iki seçenekli alternatif)",
+      "example_en": "Patients may avoid seeking psychiatric care because either they are unaware of available services or they fear social stigma.",
+      "example_tr": "Hastalar, ya mevcut hizmetlerden haberdar olmadıkları ya da sosyal damgalanma korkusu duydukları için psikiyatri bakımı aramaktan kaçınabilir.",
+      "trap": "'Neither/nor' iki şeyi reddeder; 'either/or' iki olası nedenden birini seçer — bağlamda iki farklı neden var.",
+      "short_explanation": "'Either X or Y' = iki farklı neden/alternatif. Burada psikoterapiden çekinmenin iki olası açıklaması sunuluyor.",
+      "difficulty": 1,
+      "closest_distractors": [
+        "A"
+      ]
+    },
+    {
+      "id": "YDS20204_2_Q16",
+      "exam": "20204_YDS2",
+      "question_text": "During the early periods in northern China, wheat seems to have been treated as a crop of desperation ---- a culinary delight, and was grown in an attempt to tackle starvation.",
+      "options": {
+        "A": "on the basis of",
+        "B": "by means of",
+        "C": "with reference to",
+        "D": "as a result of",
+        "E": "rather than"
+      },
+      "correct_answer": "E",
+      "category": "LINKER",
+      "pattern": "rather than (preference/contrast between two things)",
+      "meaning_tr": "... yerine / ... değil",
+      "example_en": "Early cereal cultivation was driven by nutritional necessity rather than culinary preference.",
+      "example_tr": "Erken tahıl ekimi, mutfak tercihinden ziyade beslenme zorunluluğuyla yönlendirilmiştir.",
+      "trap": "'As a result of' = neden-sonuç; 'rather than' = iki şey arasında tercihi/zıtlığı gösterir (A, B değil).",
+      "short_explanation": "'Treated as A rather than B' = A olarak görüldü, B değil. İki kategori arasındaki zıt yorumu vurgular.",
+      "difficulty": 1,
+      "closest_distractors": [
+        "D"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "conformity/adherence to",
+      "category": "PREPOSITION",
+      "meaning_tr": "kurallara/normlara uyum",
+      "example_en": "Strict conformity to ethical standards is expected of all practitioners.",
+      "example_tr": "Tüm uygulayıcıların etik standartlara sıkı uyum göstermesi beklenmektedir."
+    },
+    {
+      "pattern": "impetus for/behind",
+      "category": "PREPOSITION",
+      "meaning_tr": "itici güç / arkasındaki neden",
+      "example_en": "Public demand was the primary impetus for regulatory reform.",
+      "example_tr": "Kamuoyu talebi, düzenleyici reformun temel itici gücüydü."
+    },
+    {
+      "pattern": "insurmountable challenges/problems",
+      "category": "VOCAB",
+      "meaning_tr": "aşılamaz zorluklar",
+      "example_en": "Digital tools have rendered many previously insurmountable research challenges manageable.",
+      "example_tr": "Dijital araçlar, daha önce aşılamaz sayılan pek çok araştırma zorluğunu yönetilebilir hale getirmiştir."
+    },
+    {
+      "pattern": "prolifically (grow/spread/compete)",
+      "category": "VOCAB",
+      "meaning_tr": "bol miktarda / üretken biçimde",
+      "example_en": "Certain bacterial strains prolifically colonise human gut environments.",
+      "example_tr": "Belirli bakteri suşları insan bağırsak ortamlarını bol miktarda kolonileştirir."
+    },
+    {
+      "pattern": "initiate strategies/programmes",
+      "category": "VOCAB",
+      "meaning_tr": "strateji/program başlatmak",
+      "example_en": "The committee has yet to initiate concrete measures to address the crisis.",
+      "example_tr": "Komite, krizi ele almak için henüz somut önlemler başlatmamıştır."
+    },
+    {
+      "pattern": "root out (threats/problems)",
+      "category": "PHRASAL",
+      "meaning_tr": "kökten ortadan kaldırmak",
+      "example_en": "Policymakers must root out corruption at every institutional level.",
+      "example_tr": "Politika yapıcılar, her kurumsal düzeyde yolsuzluğu kökten ortadan kaldırmalıdır."
+    },
+    {
+      "pattern": "once + past perfect → simple past (narrative sequence)",
+      "category": "GRAMMAR",
+      "meaning_tr": "once ile tamamlanan eylem → ardından gelen sonuç",
+      "example_en": "Once the agreement had been signed, negotiations became significantly less contentious.",
+      "example_tr": "Anlaşma imzalandıktan sonra müzakereler önemli ölçüde daha az tartışmalı hale geldi."
+    },
+    {
+      "pattern": "could not have been / may have been (past speculation)",
+      "category": "GRAMMAR",
+      "meaning_tr": "geçmişte imkânsızlık / geçmişte olasılık",
+      "example_en": "These tools could not have been used for combat; they may have been used for ceremonial purposes.",
+      "example_tr": "Bu aletler savaş için kullanılmış olamazdı; törensel amaçlarla kullanılmış olabilirler."
+    },
+    {
+      "pattern": "past participle (reduced relative) + to-infinitive (purpose)",
+      "category": "GRAMMAR",
+      "meaning_tr": "edilgen sıfat ortacı + amaç infinitifi",
+      "example_en": "Resources allocated to the programme were designed to maximise community engagement.",
+      "example_tr": "Programa tahsis edilen kaynaklar, toplumun katılımını en üst düzeye çıkarmak amacıyla tasarlandı."
+    },
+    {
+      "pattern": "stance towards + promoted through",
+      "category": "PREPOSITION",
+      "meaning_tr": "bir şeye karşı tutum / bir araç aracılığıyla",
+      "example_en": "Many academics have adopted a critical stance towards standardised testing, arguing that learning is better promoted through project-based approaches.",
+      "example_tr": "Pek çok akademisyen standart testlere eleştirel bir tutum benimsemiş ve öğrenmenin proje temelli yaklaşımlarla daha iyi desteklendiğini ileri sürmüştür."
+    },
+    {
+      "pattern": "with the guidance of + implications for",
+      "category": "PREPOSITION",
+      "meaning_tr": "rehberliğiyle + sonuçları bakımından",
+      "example_en": "The protocol was revised with the guidance of specialists, carrying significant implications for patient care.",
+      "example_tr": "Protokol, uzmanların rehberliğiyle gözden geçirildi ve hasta bakımı açısından önemli çıkarımlar taşıdı."
+    },
+    {
+      "pattern": "as a result (cause → effect linker)",
+      "category": "LINKER",
+      "meaning_tr": "sonuç olarak (neden→sonuç)",
+      "example_en": "Funding for basic research was cut; as a result, innovation in pharmaceutical development slowed considerably.",
+      "example_tr": "Temel araştırma finansmanı kesildi; sonuç olarak ilaç geliştirmedeki yenilik önemli ölçüde yavaşladı."
+    },
+    {
+      "pattern": "nevertheless (concessive contrast)",
+      "category": "LINKER",
+      "meaning_tr": "bununla birlikte / yine de",
+      "example_en": "The methodology had evident limitations; nevertheless, the findings contributed substantially to the field.",
+      "example_tr": "Metodolojinin bariz sınırlılıkları vardı; bununla birlikte bulgular alana önemli katkılar sağladı."
+    },
+    {
+      "pattern": "even though (sentence-initial concession)",
+      "category": "LINKER",
+      "meaning_tr": "her ne kadar ... olsa da",
+      "example_en": "Even though early clinical trials showed modest results, the treatment eventually proved highly effective.",
+      "example_tr": "Erken klinik denemeler mütevazı sonuçlar gösterse de tedavi sonunda oldukça etkili olduğunu kanıtladı."
+    },
+    {
+      "pattern": "either ... or (alternative correlation)",
+      "category": "GRAMMAR",
+      "meaning_tr": "ya ... ya da (iki seçenek)",
+      "example_en": "The collapse of the ecosystem can be attributed to either prolonged drought or the cumulative impact of agricultural runoff.",
+      "example_tr": "Ekosistemin çöküşü ya uzun süreli kuraklığa ya da tarımsal akış sularının birikimli etkisine atfedilebilir."
+    },
+    {
+      "pattern": "as well as (additive conjunction)",
+      "category": "LINKER",
+      "meaning_tr": "... ile birlikte / ... yanı sıra",
+      "example_en": "The reform aimed to improve educational equity as well as raise academic standards.",
+      "example_tr": "Reform, eğitimde hakkaniyeti iyileştirmenin yanı sıra akademik standartları yükseltmeyi de amaçlıyordu."
+    },
+    {
+      "pattern": "deficient in (nutrient/vitamin)",
+      "category": "PREPOSITION",
+      "meaning_tr": "besin/vitamin eksikliği olan",
+      "example_en": "Populations deficient in iron are more susceptible to anaemia and cognitive impairment.",
+      "example_tr": "Demir eksikliği olan popülasyonlar anemi ve bilişsel bozukluğa daha yatkındır."
+    },
+    {
+      "pattern": "warrant (attention/investigation)",
+      "category": "VOCAB",
+      "meaning_tr": "gerektirmek / hak etmek",
+      "example_en": "Any anomalous reading in a patient's bloodwork warrants immediate follow-up testing.",
+      "example_tr": "Hastanın kan tahlilindeki herhangi bir anormal değer derhal takip testi yapılmasını gerektirir."
+    },
+    {
+      "pattern": "converted into (end-products/energy)",
+      "category": "PHRASAL",
+      "meaning_tr": "dönüştürülmek",
+      "example_en": "Glucose is converted into adenosine triphosphate during cellular respiration.",
+      "example_tr": "Glikoz, hücresel solunum sırasında adenozin trifosfata dönüştürülür."
+    },
+    {
+      "pattern": "has to become + to-infinitive (obligation + purpose)",
+      "category": "GRAMMAR",
+      "meaning_tr": "zorunluluk kipi + amaç infinitifi",
+      "example_en": "Renewable energy has to become the dominant power source if governments wish to realise their net-zero targets.",
+      "example_tr": "Hükümetler net sıfır hedeflerini gerçekleştirmek istiyorsa yenilenebilir enerjinin baskın güç kaynağı haline gelmesi gerekmektedir."
+    },
+    {
+      "pattern": "instead (substitution/contrast linker)",
+      "category": "LINKER",
+      "meaning_tr": "bunun yerine / aksine",
+      "example_en": "The committee did not endorse the proposal; instead, it recommended a comprehensive review of existing legislation.",
+      "example_tr": "Komite öneriyi onaylamadı; bunun yerine, mevcut mevzuatın kapsamlı biçimde gözden geçirilmesini tavsiye etti."
+    },
+    {
+      "pattern": "as if (hypothetical manner clause)",
+      "category": "LINKER",
+      "meaning_tr": "sanki / -mış gibi",
+      "example_en": "Patients with phantom limb syndrome report sensations as if the amputated limb were still physically present.",
+      "example_tr": "Hayalet uzuv sendromu olan hastalar, ampute edilen uzuv hâlâ fiziksel olarak mevcutmuş gibi hissettiklerini bildirmektedir."
+    },
+    {
+      "pattern": "whether ... or (inclusive alternative)",
+      "category": "GRAMMAR",
+      "meaning_tr": "ister ... ister / ... olsun ... olsun",
+      "example_en": "Physical exercise, whether it is aerobic or anaerobic, promotes cardiovascular health.",
+      "example_tr": "Fiziksel egzersiz, ister aerobik ister anaerobik olsun kardiyovasküler sağlığı destekler."
+    },
+    {
+      "pattern": "differ in terms of",
+      "category": "PREPOSITION",
+      "meaning_tr": "... bakımından farklılaşmak",
+      "example_en": "The two research methodologies differ substantially in terms of data collection procedures and analytical frameworks.",
+      "example_tr": "İki araştırma metodolojisi, veri toplama prosedürleri ve analitik çerçeveler bakımından önemli ölçüde farklılaşmaktadır."
+    },
+    {
+      "pattern": "ramifications of (a development/policy)",
+      "category": "VOCAB",
+      "meaning_tr": "yansımalar / geniş kapsamlı sonuçlar",
+      "example_en": "The long-term ramifications of antibiotic overuse for global public health are only beginning to be understood.",
+      "example_tr": "Antibiyotiklerin aşırı kullanımının küresel halk sağlığı açısından uzun vadeli yansımaları ancak anlaşılmaya başlanmaktadır."
+    },
+    {
+      "pattern": "interfere with (functioning/daily life)",
+      "category": "PHRASAL",
+      "meaning_tr": "sekteye uğratmak / müdahale etmek",
+      "example_en": "Chronic sleep deprivation can interfere with hormonal regulation and immune system functioning.",
+      "example_tr": "Kronik uyku yoksunluğu, hormonal düzenlemeye ve bağışıklık sistemi işleyişine müdahale edebilir."
+    },
+    {
+      "pattern": "to-infinitive + must be V3 (purpose + obligation passive)",
+      "category": "GRAMMAR",
+      "meaning_tr": "amaç infinitifi + zorunluluk edilgeni",
+      "example_en": "To ensure experimental validity, all variables must be controlled under identical laboratory conditions.",
+      "example_tr": "Deneysel geçerliliği sağlamak için tüm değişkenlerin özdeş laboratuvar koşullarında kontrol edilmesi gerekmektedir."
+    },
+    {
+      "pattern": "however (adversative contrast)",
+      "category": "LINKER",
+      "meaning_tr": "ancak / bununla birlikte",
+      "example_en": "The study produced compelling results; however, its limited sample size prevents broad generalisation.",
+      "example_tr": "Çalışma ikna edici sonuçlar ortaya koydu; ancak sınırlı örneklem büyüklüğü geniş genellemeyi engeller."
+    },
+    {
+      "pattern": "such + noun + that (degree-result clause)",
+      "category": "GRAMMAR",
+      "meaning_tr": "o denli ... ki (derece-sonuç yapısı)",
+      "example_en": "The volcano produced such a vast ash cloud that global temperatures dropped measurably for two years.",
+      "example_tr": "Yanardağ o denli geniş bir kül bulutu üretti ki küresel sıcaklıklar iki yıl boyunca ölçülebilir biçimde düştü."
+    },
+    {
+      "pattern": "in accordance with (regulations/guidelines)",
+      "category": "PREPOSITION",
+      "meaning_tr": "... uyarınca / doğrultusunda",
+      "example_en": "Laboratory procedures must be carried out in accordance with internationally recognised safety protocols.",
+      "example_tr": "Laboratuvar prosedürleri, uluslararası düzeyde tanınan güvenlik protokolleri uyarınca yürütülmelidir."
+    },
+    {
+      "pattern": "align with (norms/values/expectations)",
+      "category": "PHRASAL",
+      "meaning_tr": "... ile örtüşmek / uyumlanmak",
+      "example_en": "Corporate environmental policies must align with the sustainability targets established by international agreements.",
+      "example_tr": "Kurumsal çevre politikaları, uluslararası anlaşmalar tarafından belirlenen sürdürülebilirlik hedefleriyle örtüşmek zorundadır."
+    },
+    {
+      "pattern": "otherwise (negative conditional consequence)",
+      "category": "LINKER",
+      "meaning_tr": "aksi takdirde",
+      "example_en": "Governments must invest in infrastructure; otherwise, economic development will remain geographically uneven.",
+      "example_tr": "Hükümetler altyapıya yatırım yapmalıdır; aksi takdirde ekonomik kalkınma coğrafi açıdan eşitsiz kalmaya devam edecektir."
+    },
+    {
+      "pattern": "while (concessive contrast at sentence start)",
+      "category": "LINKER",
+      "meaning_tr": "her ne kadar ... olsa da / iken",
+      "example_en": "While the researcher is best known for her work on neural plasticity, her contributions to psychiatric pharmacology are equally significant.",
+      "example_tr": "Araştırmacı en çok nöroplastisite üzerine yaptığı çalışmalarla tanınsa da psikiyatrik farmakolojiye katkıları da bir o kadar önemlidir."
+    },
+    {
+      "pattern": "rather than (contrast/preference)",
+      "category": "LINKER",
+      "meaning_tr": "... yerine / ... değil de",
+      "example_en": "Early humans appear to have valued the horse as a transport animal rather than a food source.",
+      "example_tr": "Erken insanların atı bir besin kaynağı olarak değil, bir ulaşım hayvanı olarak değerlendirdiği görülmektedir."
+    },
+    {
+      "pattern": "may be linked to + should not assume (epistemic modals)",
+      "category": "GRAMMAR",
+      "meaning_tr": "bağlantılı olabilir + varsaymamalı (ihtiyatlı bilimsel dil)",
+      "example_en": "Elevated stress hormones may be linked to accelerated cellular ageing, but researchers should not assume a simple causal relationship.",
+      "example_tr": "Yükselmiş stres hormonları hücresel yaşlanmanın hızlanmasıyla bağlantılı olabilir; ancak araştırmacılar basit bir nedensel ilişki varsaymamalıdır."
+    },
+    {
+      "pattern": "impetus behind + move from X to Y",
+      "category": "PREPOSITION",
+      "meaning_tr": "arkasındaki itici güç + X'ten Y'ye geçiş",
+      "example_en": "Industrial demand was the impetus behind the shift from manual weaving to mechanised textile production.",
+      "example_tr": "Sanayi talebi, elle dokumacılıktan mekanize tekstil üretimine geçişin arkasındaki itici güçtü."
+    },
+    {
+      "pattern": "because (causal subordinator)",
+      "category": "LINKER",
+      "meaning_tr": "çünkü (neden bildiren bağlaç)",
+      "example_en": "Urban heat islands develop because dense construction materials absorb and retain solar radiation.",
+      "example_tr": "Kentsel ısı adacıkları, yoğun yapı malzemelerinin güneş radyasyonunu emip tutması nedeniyle oluşur."
+    },
+    {
+      "pattern": "enhance (understanding/awareness/performance)",
+      "category": "VOCAB",
+      "meaning_tr": "artırmak / iyileştirmek / geliştirmek",
+      "example_en": "Immersive simulation technologies have greatly enhanced medical students' procedural competence.",
+      "example_tr": "Sürükleyici simülasyon teknolojileri, tıp öğrencilerinin işlemsel yetkinliğini büyük ölçüde artırmıştır."
+    },
+    {
+      "pattern": "present participle (active modifier) + past participle (passive modifier)",
+      "category": "GRAMMAR",
+      "meaning_tr": "aktif sıfat ortacı + edilgen sıfat ortacı",
+      "example_en": "The data remaining in the archive and classified under restricted access shed light on post-war economic policy.",
+      "example_tr": "Arşivde kalan ve kısıtlı erişim altında sınıflandırılan veriler, savaş sonrası ekonomi politikasına ışık tuttu."
+    }
+  ],
+  "generated_questions": [
+    {
+      "gen_id": "GEN_001a",
+      "source_pattern": "conformity/adherence to",
+      "question_text": "Regulatory bodies insist that pharmaceutical companies maintain strict ---- to internationally recognised manufacturing standards in order to ensure product safety.",
+      "options": {
+        "A": "divergence",
+        "B": "conformity",
+        "C": "ambivalence",
+        "D": "negligence",
+        "E": "propensity"
+      },
+      "correct_answer": "B",
+      "category": "VOCAB",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ],
+      "trap": "'Propensity' (eğilim) ve 'ambivalence' (kararsızlık) anlam olarak uzak; 'conformity to standards' tam kollokayon."
+    },
+    {
+      "gen_id": "GEN_001b",
+      "source_pattern": "conformity/adherence to",
+      "question_text": "Historians argue that the political stability of the medieval period was largely dependent on the population's ---- to the hierarchical norms enforced by both secular and religious authorities.",
+      "options": {
+        "A": "resilience",
+        "B": "reluctance",
+        "C": "adherence",
+        "D": "exception",
+        "E": "deviation"
+      },
+      "correct_answer": "C",
+      "category": "VOCAB",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Resilience' (dayanıklılık) ve 'reluctance' (isteksizlik) anlam olarak farklı yönleri işaret eder."
+    },
+    {
+      "gen_id": "GEN_002a",
+      "source_pattern": "impetus for/behind",
+      "question_text": "Rapid urbanisation has served as the primary ---- for developing more efficient mass transit systems capable of accommodating growing metropolitan populations.",
+      "options": {
+        "A": "constraint",
+        "B": "scepticism",
+        "C": "impetus",
+        "D": "ambiguity",
+        "E": "hazard"
+      },
+      "correct_answer": "C",
+      "category": "VOCAB",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Constraint' (kısıtlama) zıt anlam; 'impetus for' = driving force/motivation."
+    },
+    {
+      "gen_id": "GEN_002b",
+      "source_pattern": "impetus for/behind",
+      "question_text": "The demand for greater energy independence was widely considered to be the ---- behind the accelerated investment in domestic renewable energy infrastructure.",
+      "options": {
+        "A": "outcome",
+        "B": "deterrence",
+        "C": "impetus",
+        "D": "perplexity",
+        "E": "restraint"
+      },
+      "correct_answer": "C",
+      "category": "PREPOSITION",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Outcome' (sonuç) nedenselliği tersine çevirir; 'impetus behind' = harekete geçiren temel güç."
+    },
+    {
+      "gen_id": "GEN_003a",
+      "source_pattern": "insurmountable challenges/problems",
+      "question_text": "What was once regarded as an ---- obstacle to deep-sea exploration — namely, the extreme pressure at oceanic depths — has been largely overcome through advances in submersible technology.",
+      "options": {
+        "A": "indispensable",
+        "B": "insurmountable",
+        "C": "inconclusive",
+        "D": "irrevocable",
+        "E": "unprofitable"
+      },
+      "correct_answer": "B",
+      "category": "VOCAB",
+      "difficulty": 2,
+      "closest_distractors": [
+        "D"
+      ],
+      "trap": "'Irrevocable' (geri dönüşü olmaz) bağlamla uyuşmaz; 'insurmountable' = impossible to surmount/overcome."
+    },
+    {
+      "gen_id": "GEN_003b",
+      "source_pattern": "insurmountable challenges/problems",
+      "question_text": "Early meteorologists considered accurate long-range weather prediction to be ---- due to the chaotic complexity of atmospheric systems, but computational advances have transformed the field.",
+      "options": {
+        "A": "inadmissible",
+        "B": "insurmountable",
+        "C": "uncompetitive",
+        "D": "indispensable",
+        "E": "impermissible"
+      },
+      "correct_answer": "B",
+      "category": "VOCAB",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Inadmissible' hukuki terim; 'insurmountable' = aşılamaz. Bağlam teknoloji ile aşılan zorluğu anlatıyor."
+    },
+    {
+      "gen_id": "GEN_004a",
+      "source_pattern": "root out (threats/problems)",
+      "question_text": "International health organisations maintain that in order to ---- antibiotic-resistant strains of bacteria, coordinated global surveillance and antibiotic stewardship programmes are indispensable.",
+      "options": {
+        "A": "adhere to",
+        "B": "draw upon",
+        "C": "merge with",
+        "D": "root out",
+        "E": "engage in"
+      },
+      "correct_answer": "D",
+      "category": "PHRASAL",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ],
+      "trap": "'Engage in antibiotic-resistant strains' anlamsız; 'root out' = eradicate completely."
+    },
+    {
+      "gen_id": "GEN_004b",
+      "source_pattern": "root out (threats/problems)",
+      "question_text": "Despite decades of legislative effort, it has proven extremely difficult to ---- fraudulent practices in competitive procurement processes at all levels of government.",
+      "options": {
+        "A": "conform to",
+        "B": "initiate with",
+        "C": "root out",
+        "D": "align with",
+        "E": "draw upon"
+      },
+      "correct_answer": "C",
+      "category": "PHRASAL",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Conform to' ve 'align with' uyum anlatır; 'root out' = kökten temizlemek."
+    },
+    {
+      "gen_id": "GEN_005a",
+      "source_pattern": "once + past perfect → simple past (narrative sequence)",
+      "question_text": "Once the printing press ---- in the 15th century, the rapid proliferation of written texts ---- ordinary people greater access to knowledge than had ever previously been possible.",
+      "options": {
+        "A": "has been invented / gave",
+        "B": "was being invented / had given",
+        "C": "had been invented / gave",
+        "D": "could be invented / has given",
+        "E": "was invented / would give"
+      },
+      "correct_answer": "C",
+      "category": "GRAMMAR",
+      "difficulty": 3,
+      "closest_distractors": [
+        "E"
+      ],
+      "trap": "'Was invented / would give' counterfactual değil; 'had been invented / gave' geçmişte tamamlanan → ardından gelen sonuç."
+    },
+    {
+      "gen_id": "GEN_005b",
+      "source_pattern": "once + past perfect → simple past (narrative sequence)",
+      "question_text": "Once reliable maps of the ocean floor ---- using sonar technology, deep-sea biologists ---- systematic surveys of previously unexplored hydrothermal vent ecosystems.",
+      "options": {
+        "A": "have been produced / conducted",
+        "B": "were being produced / have conducted",
+        "C": "had been produced / conducted",
+        "D": "would be produced / could have conducted",
+        "E": "could have been produced / were conducting"
+      },
+      "correct_answer": "C",
+      "category": "GRAMMAR",
+      "difficulty": 3,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Have been produced' present perfect karmaşık kurar; 'had been produced / conducted' = narrative past sequence."
+    },
+    {
+      "gen_id": "GEN_006a",
+      "source_pattern": "could not have been / may have been (past speculation)",
+      "question_text": "Scholars propose that the monumental stone structures at the site ---- erected by a single community given their geographical distribution; instead, they ---- the result of coordinated inter-tribal collaboration.",
+      "options": {
+        "A": "may not have been / could have been",
+        "B": "should not be / will have been",
+        "C": "could not have been / may have been",
+        "D": "might not be / had to be",
+        "E": "cannot have been / would be"
+      },
+      "correct_answer": "C",
+      "category": "GRAMMAR",
+      "difficulty": 3,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'May not have been / could have been' tersine çevrilmiş; imkânsızlık + olasılık sıralaması doğru olmalı."
+    },
+    {
+      "gen_id": "GEN_006b",
+      "source_pattern": "could not have been / may have been (past speculation)",
+      "question_text": "The inscriptions found on the cave walls ---- produced by a single author, given their stylistic variations; they ---- created by multiple generations of inhabitants over centuries.",
+      "options": {
+        "A": "should not have been / might be",
+        "B": "could not have been / may have been",
+        "C": "would not have been / can be",
+        "D": "must not have been / could be",
+        "E": "need not have been / will have been"
+      },
+      "correct_answer": "B",
+      "category": "GRAMMAR",
+      "difficulty": 3,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "Üslup farklılıkları → tek yazar imkânsız ('could not have been'); çoklu nesil olasılığı = 'may have been'."
+    },
+    {
+      "gen_id": "GEN_007a",
+      "source_pattern": "even though (sentence-initial concession)",
+      "question_text": "---- genome editing technologies hold enormous promise for eliminating hereditary diseases, the long-term physiological consequences of modifying the human germline remain insufficiently studied.",
+      "options": {
+        "A": "Given that",
+        "B": "Even though",
+        "C": "As long as",
+        "D": "In order that",
+        "E": "Provided that"
+      },
+      "correct_answer": "B",
+      "category": "LINKER",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Given that' nedeni kabul eder; 'even though' = A doğru olsa bile B de doğru (çelişen olgular)."
+    },
+    {
+      "gen_id": "GEN_007b",
+      "source_pattern": "even though (sentence-initial concession)",
+      "question_text": "---- early sociological theories presented social stratification as an inevitable feature of complex civilisations, contemporary researchers have identified numerous egalitarian societies that challenge this assumption.",
+      "options": {
+        "A": "Once",
+        "B": "Whereas",
+        "C": "Even though",
+        "D": "Unless",
+        "E": "Just as"
+      },
+      "correct_answer": "C",
+      "category": "LINKER",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ],
+      "trap": "'Whereas' eşzamanlı karşıtlık; 'even though' beklenti+gerçek zıtlığı daha güçlü ifade eder."
+    },
+    {
+      "gen_id": "GEN_008a",
+      "source_pattern": "either ... or (alternative correlation)",
+      "question_text": "The decline of indigenous languages can be attributed to ---- the deliberate suppression of minority linguistic communities through state policy ---- the gradual assimilation of younger generations into dominant cultural frameworks.",
+      "options": {
+        "A": "neither / nor",
+        "B": "not only / but also",
+        "C": "whether / or",
+        "D": "either / or",
+        "E": "both / and"
+      },
+      "correct_answer": "D",
+      "category": "GRAMMAR",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ],
+      "trap": "'Whether/or' dolaylı soru yapısında kullanılır; 'either/or' iki alternatif açıklama sunar."
+    },
+    {
+      "gen_id": "GEN_008b",
+      "source_pattern": "either ... or (alternative correlation)",
+      "question_text": "Researchers studying migratory patterns of Arctic birds suggest that disruptions to their navigational behaviour may stem from ---- geomagnetic field fluctuations ---- the proliferation of artificial light sources in coastal regions.",
+      "options": {
+        "A": "such / that",
+        "B": "the more / the more",
+        "C": "not only / but also",
+        "D": "either / or",
+        "E": "as / as"
+      },
+      "correct_answer": "D",
+      "category": "GRAMMAR",
+      "difficulty": 2,
+      "closest_distractors": [
+        "C"
+      ],
+      "trap": "'Not only/but also' iki faktörü toplar (her ikisi de); 'either/or' alternatif açıklama (biri veya öteki)."
+    },
+    {
+      "gen_id": "GEN_009a",
+      "source_pattern": "such + noun + that (degree-result clause)",
+      "question_text": "The volcanic eruption of Krakatoa in 1883 generated ---- tremendous atmospheric pressure waves ---- their effects were detected by barographs across the entire globe.",
+      "options": {
+        "A": "so / that",
+        "B": "as / as",
+        "C": "such / that",
+        "D": "either / or",
+        "E": "not only / but also"
+      },
+      "correct_answer": "C",
+      "category": "GRAMMAR",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'So tremendous waves' değil; 'such + adj + noun + that' standart YDS yapısı. 'So' adjective sonrası gelir, noun öncesi gelmez."
+    },
+    {
+      "gen_id": "GEN_009b",
+      "source_pattern": "such + noun + that (degree-result clause)",
+      "question_text": "The medieval Islamic scholars made ---- profound contributions to mathematics and optics ---- subsequent European scientists relied on their translations for several centuries.",
+      "options": {
+        "A": "so / as",
+        "B": "such / that",
+        "C": "not only / but also",
+        "D": "as / as",
+        "E": "whether / or"
+      },
+      "correct_answer": "B",
+      "category": "GRAMMAR",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'So profound contributions' grammatically yanlış; 'such profound contributions that' = derece+sonuç standart yapısı."
+    },
+    {
+      "gen_id": "GEN_010a",
+      "source_pattern": "nevertheless (concessive contrast)",
+      "question_text": "The clinical trial was hampered by an unexpectedly high dropout rate among participants; ----, the results provided sufficient evidence to justify further large-scale investigation.",
+      "options": {
+        "A": "consequently",
+        "B": "for instance",
+        "C": "likewise",
+        "D": "nevertheless",
+        "E": "in addition"
+      },
+      "correct_answer": "D",
+      "category": "LINKER",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Consequently' sonuç; beklenti: yüksek terklerin çalışmayı geçersiz kılması. 'Nevertheless' = beklenmedik olumlu sonucu sunar."
+    },
+    {
+      "gen_id": "GEN_010b",
+      "source_pattern": "nevertheless (concessive contrast)",
+      "question_text": "The documentary evidence supporting the hypothesis was sparse and largely circumstantial; ----, the theory gained wide acceptance within the academic community.",
+      "options": {
+        "A": "hence",
+        "B": "in contrast",
+        "C": "nevertheless",
+        "D": "for example",
+        "E": "that is"
+      },
+      "correct_answer": "C",
+      "category": "LINKER",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ],
+      "trap": "'In contrast' iki özneyi karşılaştırır; 'nevertheless' tek bağlam içinde beklentiyle çelişen sonucu sunar."
+    },
+    {
+      "gen_id": "GEN_011a",
+      "source_pattern": "interfere with (functioning/daily life)",
+      "question_text": "Prolonged exposure to fine particulate air pollutants has been shown to ---- the proper functioning of the ciliary cells that line the respiratory tract.",
+      "options": {
+        "A": "ward off",
+        "B": "conform to",
+        "C": "seek out",
+        "D": "interfere with",
+        "E": "align with"
+      },
+      "correct_answer": "D",
+      "category": "PHRASAL",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Ward off' (savuşturmak) zıt anlam; 'interfere with functioning' = düzgün işleyişi bozmak."
+    },
+    {
+      "gen_id": "GEN_011b",
+      "source_pattern": "interfere with (functioning/daily life)",
+      "question_text": "Unresolved grief, if left unaddressed, can ---- an individual's capacity to maintain productive interpersonal relationships over extended periods.",
+      "options": {
+        "A": "initiate",
+        "B": "interfere with",
+        "C": "draw upon",
+        "D": "conform to",
+        "E": "root out"
+      },
+      "correct_answer": "B",
+      "category": "PHRASAL",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ],
+      "trap": "'Root out capacity' anlamsız; 'interfere with capacity/ability' = kapasiteyi olumsuz etkilemek."
+    },
+    {
+      "gen_id": "GEN_012a",
+      "source_pattern": "in accordance with (regulations/guidelines)",
+      "question_text": "All data collection and analysis procedures must be conducted ---- the ethical framework established by the national research council to ensure participant confidentiality.",
+      "options": {
+        "A": "irrespective of",
+        "B": "in accordance with",
+        "C": "with the exception of",
+        "D": "as opposed to",
+        "E": "rather than"
+      },
+      "correct_answer": "B",
+      "category": "PREPOSITION",
+      "difficulty": 1,
+      "closest_distractors": [
+        "D"
+      ],
+      "trap": "'Irrespective of' = dikkate almaksızın, zıt anlam; 'in accordance with' = uyarınca."
+    },
+    {
+      "gen_id": "GEN_012b",
+      "source_pattern": "in accordance with (regulations/guidelines)",
+      "question_text": "Construction of the new research facility was carried out ---- the environmental impact regulations stipulated by both the municipal authority and the national government.",
+      "options": {
+        "A": "regardless of",
+        "B": "in spite of",
+        "C": "in accordance with",
+        "D": "for the purpose of",
+        "E": "with the exception of"
+      },
+      "correct_answer": "C",
+      "category": "PREPOSITION",
+      "difficulty": 1,
+      "closest_distractors": [
+        "E"
+      ],
+      "trap": "'Regardless of' (ne olursa olsun) zıt; 'in accordance with' = specified rules/regulations doğrultusunda."
+    },
+    {
+      "gen_id": "GEN_013a",
+      "source_pattern": "warrant (attention/investigation)",
+      "question_text": "Any unexpected deviation from baseline measurements in a long-term ecological monitoring study ---- a thorough investigation into potential confounding environmental variables.",
+      "options": {
+        "A": "hinders",
+        "B": "excludes",
+        "C": "warrants",
+        "D": "conspires",
+        "E": "mitigates"
+      },
+      "correct_answer": "C",
+      "category": "VOCAB",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ],
+      "trap": "'Mitigates' (hafifletir) ve 'hinders' (engeller) anlam yönü farklı; 'warrants' = gerektirir/hak eder."
+    },
+    {
+      "gen_id": "GEN_013b",
+      "source_pattern": "warrant (attention/investigation)",
+      "question_text": "The severity and persistence of side effects reported in the initial phase of the drug trial ---- immediate suspension of the experimental protocol pending independent review.",
+      "options": {
+        "A": "strive for",
+        "B": "conspire against",
+        "C": "ward off",
+        "D": "warrant",
+        "E": "deplete"
+      },
+      "correct_answer": "D",
+      "category": "VOCAB",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Strive for' (çabalamak) birey kaynaklı; 'warrant suspension' = zorunlu kılar/haklı kılar."
+    },
+    {
+      "gen_id": "GEN_014a",
+      "source_pattern": "align with (norms/values/expectations)",
+      "question_text": "For a corporate sustainability strategy to be credible, its stated environmental objectives must ---- the measurable targets defined within international climate accords.",
+      "options": {
+        "A": "interfere with",
+        "B": "descend from",
+        "C": "align with",
+        "D": "call for",
+        "E": "root out"
+      },
+      "correct_answer": "C",
+      "category": "PHRASAL",
+      "difficulty": 2,
+      "closest_distractors": [
+        "D"
+      ],
+      "trap": "'Call for' (talep etmek) özne işlevi farklı; 'align with targets' = hedeflerle uyumlu olmak."
+    },
+    {
+      "gen_id": "GEN_014b",
+      "source_pattern": "align with (norms/values/expectations)",
+      "question_text": "Educational theorists argue that assessment models must ---- the cognitive developmental stages of learners rather than imposing uniform standards across all age groups.",
+      "options": {
+        "A": "bargain for",
+        "B": "align with",
+        "C": "ward off",
+        "D": "seek out",
+        "E": "convert into"
+      },
+      "correct_answer": "B",
+      "category": "PHRASAL",
+      "difficulty": 2,
+      "closest_distractors": [
+        "D"
+      ],
+      "trap": "'Seek out' (aramak) anlam olarak farklı; 'align with developmental stages' = yaş-uygun eğitim ilkesi."
+    },
+    {
+      "gen_id": "GEN_015a",
+      "source_pattern": "whether ... or (inclusive alternative)",
+      "question_text": "All forms of aerosol-generating medical procedures, ---- they are performed in intensive care units ---- outpatient clinics, require strict adherence to infection control protocols.",
+      "options": {
+        "A": "not only / but also",
+        "B": "either / or",
+        "C": "whether / or",
+        "D": "the more / the less",
+        "E": "such / that"
+      },
+      "correct_answer": "C",
+      "category": "GRAMMAR",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ],
+      "trap": "'Either/or' = birini seçer; 'whether...or' = hangi durum olursa olsun, tüm alternatifleri kapsar."
+    },
+    {
+      "gen_id": "GEN_015b",
+      "source_pattern": "whether ... or (inclusive alternative)",
+      "question_text": "Historical records indicate that nomadic communities, ---- they inhabited desert regions ---- Arctic tundra, developed remarkably adaptive social structures suited to their ecological conditions.",
+      "options": {
+        "A": "as / as",
+        "B": "whether / or",
+        "C": "not only / but also",
+        "D": "both / and",
+        "E": "either / or"
+      },
+      "correct_answer": "B",
+      "category": "GRAMMAR",
+      "difficulty": 2,
+      "closest_distractors": [
+        "E"
+      ],
+      "trap": "'Both/and' iki şeyi birleştirir; 'whether/or' hangi koşulda olursa olsun genellemeyi kurar."
+    },
+    {
+      "gen_id": "GEN_016a",
+      "source_pattern": "as a result (cause → effect linker)",
+      "question_text": "The introduction of mandatory labelling requirements for processed foods led to a significant increase in nutritional literacy among consumers; ----, purchasing patterns began to shift towards lower-sodium and lower-sugar products.",
+      "options": {
+        "A": "on the contrary",
+        "B": "in contrast",
+        "C": "as a result",
+        "D": "nevertheless",
+        "E": "by comparison"
+      },
+      "correct_answer": "C",
+      "category": "LINKER",
+      "difficulty": 1,
+      "closest_distractors": [
+        "D"
+      ],
+      "trap": "'Nevertheless' beklentiyle çelişen bir şeyi sunar; 'as a result' doğrudan neden→sonuç zinciri."
+    },
+    {
+      "gen_id": "GEN_016b",
+      "source_pattern": "as a result (cause → effect linker)",
+      "question_text": "Chronic underfunding of public transport systems in metropolitan areas has consistently led to increased private vehicle usage; ----, urban air quality has deteriorated substantially over the past two decades.",
+      "options": {
+        "A": "still",
+        "B": "instead",
+        "C": "by comparison",
+        "D": "as a result",
+        "E": "even so"
+      },
+      "correct_answer": "D",
+      "category": "LINKER",
+      "difficulty": 1,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Still' (hâlâ) süreklilik; 'as a result' = belirli nedenin doğrudan sonucu."
+    },
+    {
+      "gen_id": "GEN_017a",
+      "source_pattern": "however (adversative contrast)",
+      "question_text": "The new drug demonstrated a statistically significant reduction in tumour size during phase two trials; ----, its long-term efficacy and safety profile have yet to be confirmed through phase three studies.",
+      "options": {
+        "A": "consequently",
+        "B": "moreover",
+        "C": "however",
+        "D": "likewise",
+        "E": "namely"
+      },
+      "correct_answer": "C",
+      "category": "LINKER",
+      "difficulty": 2,
+      "closest_distractors": [
+        "B"
+      ],
+      "trap": "'Moreover' (dahası) ek bilgi ekler; 'however' bekleneni karşılamayan bilgiyi sunar: olumlu sonuç → ama henüz kanıtlanmamış."
+    },
+    {
+      "gen_id": "GEN_017b",
+      "source_pattern": "however (adversative contrast)",
+      "question_text": "Behavioural economists have developed sophisticated predictive models of consumer decision-making; ----, these models consistently fail to account for culturally specific spending norms that vary significantly across societies.",
+      "options": {
+        "A": "hence",
+        "B": "in addition",
+        "C": "for instance",
+        "D": "however",
+        "E": "thus"
+      },
+      "correct_answer": "D",
+      "category": "LINKER",
+      "difficulty": 2,
+      "closest_distractors": [
+        "A"
+      ],
+      "trap": "'Hence' ve 'thus' sonuç; 'however' = güçlü model → ama kültürel faktörleri açıklayamıyor (beklentiyle çelişme)."
+    },
+    {
+      "gen_id": "GEN_018a",
+      "source_pattern": "rather than (contrast/preference)",
+      "question_text": "Contemporary linguists argue that language change should be viewed as a natural evolutionary process ---- a sign of cultural deterioration.",
+      "options": {
+        "A": "as a result of",
+        "B": "in spite of",
+        "C": "rather than",
+        "D": "on the basis of",
+        "E": "by means of"
+      },
+      "correct_answer": "C",
+      "category": "LINKER",
+      "difficulty": 1,
+      "closest_distractors": [
+        "B"
+      ],
+      "trap": "'In spite of' = -e rağmen (preposition); 'rather than' iki kavramı karşılaştırır ve birini tercih eder."
+    },
+    {
+      "gen_id": "GEN_018b",
+      "source_pattern": "rather than (contrast/preference)",
+      "question_text": "Palaeontological evidence suggests that early humans began cultivating wild grains as a dietary supplement ---- abandoning their hunter-gatherer lifestyle entirely.",
+      "options": {
+        "A": "even though",
+        "B": "rather than",
+        "C": "in accordance with",
+        "D": "as well as",
+        "E": "given that"
+      },
+      "correct_answer": "B",
+      "category": "LINKER",
+      "difficulty": 2,
+      "closest_distractors": [
+        "D"
+      ],
+      "trap": "'As well as' toplar (her ikisi de); 'rather than' ikame eder (A evet, B hayır)."
+    }
+  ]
+}
