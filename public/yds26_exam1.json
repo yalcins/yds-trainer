@@ -1,0 +1,2566 @@
+{
+  "meta": {
+    "exam": "YDS 2026 Sınav 1",
+    "total_questions": 80,
+    "total_correct": 35,
+    "total_wrong": 45,
+    "yds_score": 43.75,
+    "target_score": 55,
+    "target_correct_needed": 44,
+    "additional_correct_needed": 9,
+    "study_priority_order": [
+      "1. Cümle Tamamlama (%20) → +3 doğru hedefle",
+      "2. Cloze Test (%30) → +2 doğru hedefle",
+      "3. Okuma Anlama 2 (%30) → +3 doğru hedefle",
+      "4. Kelime Bilgisi (%44) → +1 doğru hedefle"
+    ]
+  },
+  "section_analysis": {
+    "fill_blank_vocab": {
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct": 7,
+      "total": 16,
+      "accuracy_pct": 44,
+      "wrong_question_numbers": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        13,
+        14,
+        16
+      ],
+      "how_to_solve": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "study_advice": "Her gün 10 YDS kelimesi ezberle. Kelimeyi cümle içinde öğren, tek başına değil.",
+      "priority": "MEDIUM"
+    },
+    "cloze": {
+      "section_name": "Cloze Test (Q17-26)",
+      "correct": 3,
+      "total": 10,
+      "accuracy_pct": 30,
+      "wrong_question_numbers": [
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        26
+      ],
+      "how_to_solve": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "study_advice": "Guardian/BBC makalelerinden paragraflar oku. Boşluk bırakıp kendin doldur, sonra kontrol et.",
+      "priority": "HIGH"
+    },
+    "sentence_completion": {
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct": 2,
+      "total": 10,
+      "accuracy_pct": 20,
+      "wrong_question_numbers": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        34,
+        35,
+        36
+      ],
+      "how_to_solve": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "study_advice": "Bu bölüm %20 - en zayıf noktanız. Günde 5 cümle tamamlama sorusu çöz. Önce Türkçe mantığı kur.",
+      "priority": "HIGH"
+    },
+    "translation": {
+      "section_name": "Çeviri (Q37-40)",
+      "correct": 3,
+      "total": 4,
+      "accuracy_pct": 75,
+      "wrong_question_numbers": [
+        40
+      ],
+      "how_to_solve": [
+        "Q37-38 (TR→EN): Türkçe cümleyi parçalara ayır, her parçanın İngilizce karşılığını bul",
+        "Q39-40 (EN→TR): İngilizce yapıyı koru, Türkçe'ye sadık çevir",
+        "Passive voice: \"was/were + V3\" → \"edildi/oldu\"",
+        "Perfect tense: \"have/has been\" → \"-miştir, -dır\"",
+        "Edat çevirileri: \"with regard to\" → \"ile ilgili olarak\", \"in terms of\" → \"açısından\""
+      ],
+      "common_patterns": [
+        "passive-active voice conversion",
+        "Turkish-English clause order",
+        "complex sentence structure"
+      ],
+      "study_advice": "75% doğruluk - güçlü bölüm. Passive/perfect tense kalıplarını pekiştir.",
+      "priority": "LOW"
+    },
+    "reading": {
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct": 7,
+      "total": 20,
+      "accuracy_pct": 35,
+      "wrong_question_numbers": [
+        41,
+        43,
+        44,
+        46,
+        48,
+        49,
+        51,
+        52,
+        53,
+        55,
+        56,
+        59,
+        60
+      ],
+      "how_to_solve": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "study_advice": "Q41-50: %40, Q51-60: %30 - zaman yönetimi sorun olabilir. Her paragraf için max 4 dakika.",
+      "priority": "MEDIUM"
+    },
+    "paragraph_completion": {
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct": 6,
+      "total": 10,
+      "accuracy_pct": 60,
+      "wrong_question_numbers": [
+        63,
+        65,
+        67,
+        70
+      ],
+      "how_to_solve": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ],
+      "study_advice": "%60 doğruluk - orta seviye. Bağlaç kullanımını güçlendir.",
+      "priority": "LOW"
+    },
+    "paragraph_questions": {
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct": 7,
+      "total": 10,
+      "accuracy_pct": 70,
+      "wrong_question_numbers": [
+        72,
+        73,
+        76
+      ],
+      "how_to_solve": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ],
+      "study_advice": "%70 doğruluk - en güçlü bölüm. Bu tempoyu koru.",
+      "priority": "LOW"
+    }
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "A",
+      "user_answer": "D",
+      "is_correct": false,
+      "question_text": "PFAs are long-lasting, difficult-to-breakdown substances used in everything from fire retardants and non-stick pan coatings to pizza boxes and cosmetics, and often k n as ‘forever chemicals’, as they ---- in the environment for a long time.",
+      "options": {
+        "A": "endure",
+        "B": "assemble",
+        "D": "accelerate",
+        "E": "elaborate"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "endure",
+      "user_option_text": "accelerate"
+    },
+    {
+      "question_number": 2,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "A",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "Unlike mini meditation that anyone can start doing at set times or betwee tivities, formal meditation is where you intention take time out in your day to ---- a meditative practice.",
+      "options": {
+        "A": "embark on",
+        "B": "set back",
+        "C": "get by",
+        "D": "put down",
+        "E": "ease off"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "embark on",
+      "user_option_text": "get by"
+    },
+    {
+      "question_number": 3,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "question_text": "During the Second World War, many publications required government authorisation but the publishers were ----, reint?Oducing newspapers that had been shut down and smuggling in forbidden foreign literature.",
+      "options": {
+        "A": "compliant",
+        "B": "resilient",
+        "D": "sanctioned",
+        "E": "legible"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "resilient"
+    },
+    {
+      "question_number": 4,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "E",
+      "user_answer": "D",
+      "is_correct": false,
+      "question_text": "Environmentalism is a popular movement which aims to preserve and tS aaahe and to limit the ---- that human actions g to water, air, soils, and living things.",
+      "options": {
+        "C": "presumption",
+        "D": "proximity",
+        "E": "degradation"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "degradation",
+      "user_option_text": "proximity"
+    },
+    {
+      "question_number": 5,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "D",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "Although adolescents commonly go through profound physiological transformations during puberty, the psychol impacts of this transformative phase encompass a broad spectrum, and manifest ---- among individuals.",
+      "options": {
+        "A": "sceptically",
+        "B": "eloquently",
+        "C": "superficially",
+        "D": "variably",
+        "E": "faintly"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "variably",
+      "user_option_text": "sceptically"
+    },
+    {
+      "question_number": 6,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "question_text": "Central America’s national parliaments have ratified many international treaties concerning human rights, but there is considerable variation in the number of treaties signed by each country and in terms of the effectiveness of the ---- of the treaties.",
+      "options": {
+        "A": "conciliation",
+        "B": "enforcement",
+        "D": "controversy",
+        "E": "rejection"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "enforcement"
+    },
+    {
+      "question_number": 7,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "A",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "Climate scientists generally agree that the current rise in global temperatures.is,;being caused by human activities; ----, climate change has occurred in the past, even before humans existed.",
+      "options": {
+        "A": "however",
+        "B": "furthermore",
+        "C": "therefore",
+        "D": "for instance",
+        "E": "thatis"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "however",
+      "user_option_text": "therefore"
+    },
+    {
+      "question_number": 8,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "C",
+      "user_answer": "E",
+      "is_correct": false,
+      "question_text": "---- ground-breaking discoveries in scientific papers are curated to be succinct and organised, the journey to get there is fulfof Surprises, failures, and perseverance with which every scientist can connect.",
+      "options": {
+        "A": "As if",
+        "B": "As long as",
+        "C": "Even though",
+        "D": "In case",
+        "E": "Since"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "Even though",
+      "user_option_text": "Since"
+    },
+    {
+      "question_number": 9,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "E",
+      "user_answer": "E",
+      "is_correct": true,
+      "question_text": "---- the conflicts over day-to-day issues, parents and adolescents agree more than they disagree regarding core values ed to education, politics, and Spirituality.",
+      "options": {
+        "A": "On behalf of",
+        "B": "Instead of",
+        "D": "With the aim of",
+        "E": "Despite"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "Despite"
+    },
+    {
+      "question_number": 10,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "E",
+      "user_answer": "E",
+      "is_correct": true,
+      "question_text": "Facilitating participation in the community entails passing responsibility to;the,individual gradually ---- the individual can lop autonomy and take greater ownership of the issues that they face.",
+      "options": {
+        "A": "whether",
+        "B": "as much as",
+        "C": "in case",
+        "D": "just as",
+        "E": "so that"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "so that"
+    },
+    {
+      "question_number": 11,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "E",
+      "user_answer": "E",
+      "is_correct": true,
+      "question_text": "Since Piaget’s theory of cognitive development became widely known, other researchers ---- some of its principles, ---- that Ghildren’s progress through the four stages of development is more uneven and less consistent than he believed.",
+      "options": {
+        "A": "could be contesting / having been claimed",
+        "B": "had contested / to be claiming",
+        "C": "had been contesting / claimed",
+        "D": "would be contesting / having claimed",
+        "E": "have contested / claiming"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "have contested / claiming"
+    },
+    {
+      "question_number": 12,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "question_text": "By 500 BCE, well-established Greek city-states ---- colonies on the mainland of Asia Minor, which ---- quite prosperous in time.",
+      "options": {
+        "A": "used to place / might have become",
+        "B": "would have to place / have become",
+        "C": "have placed / would have become",
+        "D": "had placed / became",
+        "E": "were placing / had become"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "had placed / became"
+    },
+    {
+      "question_number": 13,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "C",
+      "user_answer": "D",
+      "is_correct": false,
+      "question_text": "As a philosopher, Francis Bacon sought to move ---- traditional learning and establish a new intellectual world based Of ari observational and experimental science of nature that would give human beings power ---- nature for human benefit.",
+      "options": {
+        "A": "towards / without",
+        "B": "through / for",
+        "C": "beyond / over",
+        "D": "about / off",
+        "E": "in / under"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "beyond / over",
+      "user_option_text": "about / off"
+    },
+    {
+      "question_number": 14,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "D",
+      "user_answer": "B",
+      "is_correct": false,
+      "question_text": "South Asian countries experience high Vitamin A deficiency ---- caused by the common rice-based diets that have limited nutritional diversity ---- related to the widespread rural poverty within these nations.",
+      "options": {
+        "A": "so / that",
+        "B": "neither / nor",
+        "D": "either / or",
+        "E": "the more / the more"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "either / or",
+      "user_option_text": "neither / nor"
+    },
+    {
+      "question_number": 15,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "question_text": "Whether certain substances in sports supplements ---- is a grey area since determining how a supplement ---- an athlet@ js Hot always straightforward given the variety of its effects between individuals.",
+      "options": {
+        "A": "could be prohibited / would have affected",
+        "B": "should be prohibited / might affect",
+        "C": "would have been prohibited / needs to affect",
+        "D": "have to be prohibited / could have affected",
+        "E": "may be prohibited / ought to affect"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "should be prohibited / might affect"
+    },
+    {
+      "question_number": 16,
+      "section_key": "fill_blank_vocab",
+      "section_name": "Kelime Bilgisi (Q1-16)",
+      "correct_answer": "D",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "Public life in the 21st century is being altered in complex ways ---- ubiquitous multimedia technologies, and the ly of ethics is essential ---- coming to grips with them.",
+      "options": {
+        "A": "onto / from",
+        "B": "about / into",
+        "C": "within / upon",
+        "D": "through / for",
+        "E": "along / at"
+      },
+      "how_to_solve_this_type": [
+        "Önce boşluğun bağlamını belirle: cümle olumlu mu, olumsuz mu, zıtlık mı var?",
+        "Boşluktan önce ve sonra gelen kelimelere bak (preposition + verb, adjective + noun combos)",
+        "\"----\" işaretinden sonra ne geliyor? \"in/of/with\" gibi edatlar seçeneği daraltır",
+        "Yanlış şıkları elee: mantıksal/anlamsal uyumsuzları at, kalan 2 arasından bağlama bak",
+        "YDS'de sık çıkan fiil kalıpları: endure, adhere, conform, inhibit, stimulate, attribute, depict"
+      ],
+      "common_patterns": [
+        "verb + preposition collocations",
+        "context-based synonym",
+        "connotation (positive/negative)"
+      ],
+      "correct_option_text": "through / for",
+      "user_option_text": "onto / from"
+    },
+    {
+      "question_number": 17,
+      "section_key": "cloze",
+      "section_name": "Cloze Test (Q17-26)",
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "question_text": "Pazirik carpet, named after the castle it was found in, is the oldest Turkish knotted carpet ever known. (17)---- during the excavations in the region in the 1960s, it is currently displayed at St. Petersburg Hermitage Museum. It managed to survive without being damaged (18)---- the castle was covered with glaciers, which significantly reduced deterioration. In addition to that carpet, various mats, ao d appliqués were also found. These are the (19)--— of how important such weaving activities were in the lives of the migrant Turkish tribes in Central Asia. As the carpet production began in the east and expanded (20)---- the west, it has also reached regions such as Persia and India. Other than the Pazirik carpet, the most important findings (21)---- the art of carpet weaving were found in Anatolia in the 13th century Seljuk period.",
+      "options": {
+        "A": "To discover",
+        "B": "To have been discovered",
+        "C": "Discovered",
+        "D": "Discovering",
+        "E": "Having discovered"
+      },
+      "how_to_solve_this_type": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "correct_option_text": "Discovered"
+    },
+    {
+      "question_number": 18,
+      "section_key": "cloze",
+      "section_name": "Cloze Test (Q17-26)",
+      "correct_answer": "E",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "Pazirik carpet, named after the castle it was found in, is the oldest Turkish knotted carpet ever known. (17)---- during the excavations in the region in the 1960s, it is currently displayed at St. Petersburg Hermitage Museum. It managed to survive without being damaged (18)---- the castle was covered with glaciers, which significantly reduced deterioration. In addition to that carpet, various mats, ao d appliqués were also found. These are the (19)--— of how important such weaving activities were in the lives of the migrant Turkish tribes in Central Asia. As the carpet production began in the east and expanded (20)---- the west, it has also reached regions such as Persia and India. Other than the Pazirik carpet, the most important findings (21)---- the art of carpet weaving were found in Anatolia in the 13th century Seljuk period.",
+      "options": {
+        "A": "as if",
+        "B": "although",
+        "C": "until",
+        "D": "in case",
+        "E": "since"
+      },
+      "how_to_solve_this_type": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "correct_option_text": "since",
+      "user_option_text": "until"
+    },
+    {
+      "question_number": 19,
+      "section_key": "cloze",
+      "section_name": "Cloze Test (Q17-26)",
+      "correct_answer": "A",
+      "user_answer": "D",
+      "is_correct": false,
+      "question_text": "Pazirik carpet, named after the castle it was found in, is the oldest Turkish knotted carpet ever known. (17)---- during the excavations in the region in the 1960s, it is currently displayed at St. Petersburg Hermitage Museum. It managed to survive without being damaged (18)---- the castle was covered with glaciers, which significantly reduced deterioration. In addition to that carpet, various mats, ao d appliqués were also found. These are the (19)--— of how important such weaving activities were in the lives of the migrant Turkish tribes in Central Asia. As the carpet production began in the east and expanded (20)---- the west, it has also reached regions such as Persia and India. Other than the Pazirik carpet, the most important findings (21)---- the art of carpet weaving were found in Anatolia in the 13th century Seljuk period.",
+      "options": {
+        "A": "indications",
+        "B": "installations",
+        "C": "associations",
+        "D": "variations",
+        "E": "proportions"
+      },
+      "how_to_solve_this_type": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "correct_option_text": "indications",
+      "user_option_text": "variations"
+    },
+    {
+      "question_number": 20,
+      "section_key": "cloze",
+      "section_name": "Cloze Test (Q17-26)",
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "question_text": "Pazirik carpet, named after the castle it was found in, is the oldest Turkish knotted carpet ever known. (17)---- during the excavations in the region in the 1960s, it is currently displayed at St. Petersburg Hermitage Museum. It managed to survive without being damaged (18)---- the castle was covered with glaciers, which significantly reduced deterioration. In addition to that carpet, various mats, ao d appliqués were also found. These are the (19)--— of how important such weaving activities were in the lives of the migrant Turkish tribes in Central Asia. As the carpet production began in the east and expanded (20)---- the west, it has also reached regions such as Persia and India. Other than the Pazirik carpet, the most important findings (21)---- the art of carpet weaving were found in Anatolia in the 13th century Seljuk period.",
+      "options": {
+        "A": "against",
+        "B": "about",
+        "C": "for",
+        "D": "towards",
+        "E": "from"
+      },
+      "how_to_solve_this_type": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "correct_option_text": "towards"
+    },
+    {
+      "question_number": 21,
+      "section_key": "cloze",
+      "section_name": "Cloze Test (Q17-26)",
+      "correct_answer": "C",
+      "user_answer": "D",
+      "is_correct": false,
+      "question_text": "Pazirik carpet, named after the castle it was found in, is the oldest Turkish knotted carpet ever known. (17)---- during the excavations in the region in the 1960s, it is currently displayed at St. Petersburg Hermitage Museum. It managed to survive without being damaged (18)---- the castle was covered with glaciers, which significantly reduced deterioration. In addition to that carpet, various mats, ao d appliqués were also found. These are the (19)--— of how important such weaving activities were in the lives of the migrant Turkish tribes in Central Asia. As the carpet production began in the east and expanded (20)---- the west, it has also reached regions such as Persia and India. Other than the Pazirik carpet, the most important findings (21)---- the art of carpet weaving were found in Anatolia in the 13th century Seljuk period.",
+      "options": {
+        "A": "irrespective of",
+        "B": "in pursuit of",
+        "C": "with regard to",
+        "D": "on behalf of",
+        "E": "in contrast with"
+      },
+      "how_to_solve_this_type": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "correct_option_text": "with regard to",
+      "user_option_text": "on behalf of"
+    },
+    {
+      "question_number": 22,
+      "section_key": "cloze",
+      "section_name": "Cloze Test (Q17-26)",
+      "correct_answer": "A",
+      "user_answer": "E",
+      "is_correct": false,
+      "question_text": "Spices were quite valuable to the people of the past due to their startling aromas, colours, and tastes. They conjured up a sense of the exotic, provided glimpses of paradise, and (22)---- dull food. Furthermore, they (23)---- as a cure for many ailments from stomach ache to the bite of rabid dogs for thousands of years. Because the sources of spices were mysterious and largely unknown, certainly (24)---- Europe, they filled a colourful space in the nua magination. (25)---- passing through the hands of many merchants, the spices were both rare and expensive. With each link in the transportation chain, the price went up, (26)---- the price could be increased 1,000 percent by the time pepper reached England. The fact that they were SO expensive was, to an extent, a guarantee of their mysterious potency and a status symbol signifier of the end user.",
+      "options": {
+        "A": "enriched",
+        "B": "retained",
+        "C": "indulged",
+        "D": "emulated",
+        "E": "encapsulated"
+      },
+      "how_to_solve_this_type": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "correct_option_text": "enriched",
+      "user_option_text": "encapsulated"
+    },
+    {
+      "question_number": 23,
+      "section_key": "cloze",
+      "section_name": "Cloze Test (Q17-26)",
+      "correct_answer": "B",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "Spices were quite valuable to the people of the past due to their startling aromas, colours, and tastes. They conjured up a sense of the exotic, provided glimpses of paradise, and (22)---- dull food. Furthermore, they (23)---- as a cure for many ailments from stomach ache to the bite of rabid dogs for thousands of years. Because the sources of spices were mysterious and largely unknown, certainly (24)---- Europe, they filled a colourful space in the nua magination. (25)---- passing through the hands of many merchants, the spices were both rare and expensive. With each link in the transportation chain, the price went up, (26)---- the price could be increased 1,000 percent by the time pepper reached England. The fact that they were SO expensive was, to an extent, a guarantee of their mysterious potency and a status symbol signifier of the end user.",
+      "options": {
+        "A": "would have been used",
+        "B": "have been used",
+        "C": "had been used",
+        "D": "were being used",
+        "E": "used to be used"
+      },
+      "how_to_solve_this_type": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "correct_option_text": "have been used",
+      "user_option_text": "had been used"
+    },
+    {
+      "question_number": 24,
+      "section_key": "cloze",
+      "section_name": "Cloze Test (Q17-26)",
+      "correct_answer": "C",
+      "user_answer": "B",
+      "is_correct": false,
+      "question_text": "Spices were quite valuable to the people of the past due to their startling aromas, colours, and tastes. They conjured up a sense of the exotic, provided glimpses of paradise, and (22)---- dull food. Furthermore, they (23)---- as a cure for many ailments from stomach ache to the bite of rabid dogs for thousands of years. Because the sources of spices were mysterious and largely unknown, certainly (24)---- Europe, they filled a colourful space in the nua magination. (25)---- passing through the hands of many merchants, the spices were both rare and expensive. With each link in the transportation chain, the price went up, (26)---- the price could be increased 1,000 percent by the time pepper reached England. The fact that they were SO expensive was, to an extent, a guarantee of their mysterious potency and a status symbol signifier of the end user.",
+      "options": {
+        "A": "about",
+        "B": "from",
+        "C": "within",
+        "D": "towards",
+        "E": "off"
+      },
+      "how_to_solve_this_type": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "correct_option_text": "within",
+      "user_option_text": "from"
+    },
+    {
+      "question_number": 25,
+      "section_key": "cloze",
+      "section_name": "Cloze Test (Q17-26)",
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "question_text": "Spices were quite valuable to the people of the past due to their startling aromas, colours, and tastes. They conjured up a sense of the exotic, provided glimpses of paradise, and (22)---- dull food. Furthermore, they (23)---- as a cure for many ailments from stomach ache to the bite of rabid dogs for thousands of years. Because the sources of spices were mysterious and largely unknown, certainly (24)---- Europe, they filled a colourful space in the nua magination. (25)---- passing through the hands of many merchants, the spices were both rare and expensive. With each link in the transportation chain, the price went up, (26)---- the price could be increased 1,000 percent by the time pepper reached England. The fact that they were SO expensive was, to an extent, a guarantee of their mysterious potency and a status symbol signifier of the end user.",
+      "options": {
+        "A": "Except for",
+        "B": "As a result of",
+        "C": "With the aim of",
+        "D": "Rather than",
+        "E": "In comparison with"
+      },
+      "how_to_solve_this_type": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "correct_option_text": "As a result of"
+    },
+    {
+      "question_number": 26,
+      "section_key": "cloze",
+      "section_name": "Cloze Test (Q17-26)",
+      "correct_answer": "C",
+      "user_answer": "B",
+      "is_correct": false,
+      "question_text": "Spices were quite valuable to the people of the past due to their startling aromas, colours, and tastes. They conjured up a sense of the exotic, provided glimpses of paradise, and (22)---- dull food. Furthermore, they (23)---- as a cure for many ailments from stomach ache to the bite of rabid dogs for thousands of years. Because the sources of spices were mysterious and largely unknown, certainly (24)---- Europe, they filled a colourful space in the nua magination. (25)---- passing through the hands of many merchants, the spices were both rare and expensive. With each link in the transportation chain, the price went up, (26)---- the price could be increased 1,000 percent by the time pepper reached England. The fact that they were SO expensive was, to an extent, a guarantee of their mysterious potency and a status symbol signifier of the end user.",
+      "options": {
+        "A": "in case",
+        "B": "once",
+        "C": "so that",
+        "D": "because",
+        "E": "unless"
+      },
+      "how_to_solve_this_type": [
+        "Önce tüm metni hızlıca oku - konuyu kavra",
+        "Her boşluğu ayrı ayrı çöz, önceki ve sonraki cümlelere bak",
+        "Dilbilgisi ipuçları: to + V (infinitive), V-ing (gerund after preposition), past/present tense consistency",
+        "Boşluk öncesi \"however/although/therefore\" gibi bağlaçlara dikkat - zıtlık mı süreklilik mi?",
+        "Seçenekler arasında sadece bir tanesi hem anlam hem dilbilgisi açısından uyar"
+      ],
+      "common_patterns": [
+        "discourse markers",
+        "verb tense consistency",
+        "lexical cohesion"
+      ],
+      "correct_option_text": "so that",
+      "user_option_text": "once"
+    },
+    {
+      "question_number": 27,
+      "section_key": "sentence_completion",
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "question_text": "----, it was traditionally used as an antiseptic to inhibit the growth of caer microorganisms and as a food preservative re the invention of refrigeration.",
+      "options": {
+        "A": "While most of the compounds in rosemary have been shown to produce anti-inflammatory effects",
+        "B": "After the essential oil and extract of rosemary are prepared for use in aromatherapy by steam distillation",
+        "C": "Because rosemary is a well-known substance in the making of perfumes and aromatherapy products",
+        "D": "Although rosemary is most familiar as a kitchen herb used to add a spicy or slightly medicinal flavour to some foods",
+        "E": "Since rosemary's side effects are minimal when it is harvested appropriately and used within recommended guidelines"
+      },
+      "how_to_solve_this_type": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "correct_option_text": "Although rosemary is most familiar as a kitchen herb used to add a spicy or slightly medicinal flavour to some foods"
+    },
+    {
+      "question_number": 28,
+      "section_key": "sentence_completion",
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct_answer": "B",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "The use of anabolic steroids,among competitive bodybuilders remains ncern; ----.",
+      "options": {
+        "A": "however, the international administrating bodies of most sports contend that drug use should cease",
+        "B": "as a result, widespread drug testing have become routine in many professional sports within the Olympics",
+        "C": "therefore, some bodybuilders use these drugs to increase their muscle mass",
+        "D": "furthermore, the main goal of using such drugs is to achieve a greater physical strength",
+        "E": "that is, the growth of drug-free bodybuilding organisations is a positive sign for the sport"
+      },
+      "how_to_solve_this_type": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "correct_option_text": "as a result, widespread drug testing have become routine in many professional sports within the Olympics",
+      "user_option_text": "therefore, some bodybuilders use these drugs to increase their muscle mass"
+    },
+    {
+      "question_number": 29,
+      "section_key": "sentence_completion",
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct_answer": "D",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "The notion that blood is pumped by the heart and circulates through the appeared in Western medicine first in the 17th century; ---.",
+      "options": {
+        "A": "on the other hand, heart and blood circulation system diseases, which affect many people in the 21st century, can be treated with beta-blockers",
+        "B": "so, a number of physicians and scholars began to dissect cadavers to better understand blood circulation by the 16th century",
+        "C": "thus, some of the leading work in the anatomy of the circulatory system, including Renaldo Colombo’s On Anatomy, were based on dissections",
+        "D": "however, the idea is first found in the ancient Chinese medical text Su wen (The Yellow Emperor's manual of corporeal medicine) around 200 BCE",
+        "E": "as a result, biologists demonstrated that the rate of blood circulation in the human body is much slower than water circulation in a plant"
+      },
+      "how_to_solve_this_type": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "correct_option_text": "however, the idea is first found in the ancient Chinese medical text Su wen (The Yellow Emperor's manual of corporeal medicine) around 200 BCE",
+      "user_option_text": "on the other hand, heart and blood circulation system diseases, which affect many people in the 21st century, can be treated with beta-blockers"
+    },
+    {
+      "question_number": 30,
+      "section_key": "sentence_completion",
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct_answer": "B",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "Herbs and spices add megligible number of calories to the foods t ich they are added; ----.",
+      "options": {
+        "A": "still, some of the earliest medical manuscripts highlight the theoretical healing properties of these flavourings",
+        "B": "as a result, they are an excellent replacement for both fat and salt when it comes to flavouring food",
+        "D": "therefore, using natural products containing them in place of traditional medicines may have harmful effects",
+        "E": "in other words, both still play a diminished role in shaping cuisine and adding interest to foods"
+      },
+      "how_to_solve_this_type": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "correct_option_text": "as a result, they are an excellent replacement for both fat and salt when it comes to flavouring food",
+      "user_option_text": "still, some of the earliest medical manuscripts highlight the theoretical healing properties of these flavourings"
+    },
+    {
+      "question_number": 31,
+      "section_key": "sentence_completion",
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct_answer": "B",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "----; otherwise, music would sound like a monotonous stream, similar to reading a text with no punctuation.",
+      "options": {
+        "A": "Music-based therapies developed in light of neuroscientific research could help people having difficulties comprehending language",
+        "B": "The brain's ability to understand when one section of a composition ends and another begins is important to enjoyment of music",
+        "C": "The brain activity observed while listening to music is similar to how the brain interprets the sentences in language",
+        "D": "People who are musicians and those who are not show different levels of brain activity when listening to a piece of music",
+        "E": "The brain network activated while listening to music primarily involves auditory areas in the back of the brain's outer region, the cortex"
+      },
+      "how_to_solve_this_type": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "correct_option_text": "The brain's ability to understand when one section of a composition ends and another begins is important to enjoyment of music",
+      "user_option_text": "The brain activity observed while listening to music is similar to how the brain interprets the sentences in language"
+    },
+    {
+      "question_number": 32,
+      "section_key": "sentence_completion",
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct_answer": "D",
+      "user_answer": "B",
+      "is_correct": false,
+      "question_text": "Even though some bilingual speakers may have attained a native-like p étion in each language,",
+      "options": {
+        "A": "it is crucial to determine whether nonconforming patterns are due to the influence of that specific person's other language",
+        "B": "language skills in bilingual persons have almost always been appraised in reference to monolingual standards",
+        "C": "more and more people are becoming bilingual successively, and the influence of one language on the other is more evident",
+        "D": "the great majority fail to show a balanced proficiency in both languages, with the result being interference from the dominant language",
+        "E": "the different patterns that a bilingual children reveal in speech may hardly be regarded as the result of interference"
+      },
+      "how_to_solve_this_type": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "correct_option_text": "the great majority fail to show a balanced proficiency in both languages, with the result being interference from the dominant language",
+      "user_option_text": "language skills in bilingual persons have almost always been appraised in reference to monolingual standards"
+    },
+    {
+      "question_number": 33,
+      "section_key": "sentence_completion",
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "question_text": "---- given that many successful businesses are known to have started without a formal business plan.",
+      "options": {
+        "A": "Business plans are implemented in university-level education all over the world in an attempt to revitalise businesses",
+        "B": "Itis almost impossible to speak of entrepreneurship without at some point touching on business plans",
+        "C": "Entrepreneurs often wonder whether business plans are really necessary to establish their own businesses",
+        "D": "Business plans should identify the risks facing the business and the actions that will be taken to mitigate those risks",
+        "E": "A business plan serves as a means fo clarify an entrepreneur's thoughts about their new business idea"
+      },
+      "how_to_solve_this_type": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "correct_option_text": "Entrepreneurs often wonder whether business plans are really necessary to establish their own businesses"
+    },
+    {
+      "question_number": 34,
+      "section_key": "sentence_completion",
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct_answer": "A",
+      "user_answer": "B",
+      "is_correct": false,
+      "question_text": "---- because there is a complex environment with cars, especially in a ci wi narrow streets and lots of humans around, al which are absent in aerial context.",
+      "options": {
+        "A": "In some respects, autonomous aircraft are an easier challenge than autonomous cars",
+        "B": "With autonomous vehicles, practicality will come to the fore to optimise the interior for the driver",
+        "C": "Many countries are working on autonomous technology for aircraft and automobiles",
+        "D": "There is a widespread belief that autonomous cars are safer than autonomous aircraft",
+        "E": "Autonomous aircraft tests are deemed as particularly important in the overall progress of autonomous vehicles"
+      },
+      "how_to_solve_this_type": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "correct_option_text": "In some respects, autonomous aircraft are an easier challenge than autonomous cars",
+      "user_option_text": "With autonomous vehicles, practicality will come to the fore to optimise the interior for the driver"
+    },
+    {
+      "question_number": 35,
+      "section_key": "sentence_completion",
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct_answer": "C",
+      "user_answer": "E",
+      "is_correct": false,
+      "question_text": "----; therefore, it can be assumed that developing countries, by default, the right to emit greenhouse gases toe re their economic progress.",
+      "options": {
+        "A": "Additional emissions attributed to moving individuals out of extreme poverty have substantially increased in recent years",
+        "B": "Whether poverty eradication efforts —additional economic growth- will add on to the greenhouse gas emissions is still unknown",
+        "C": "Economic growth, which has been instrumental in reducing poverty, is a highly greenhouse gas-intensive activity",
+        "D": "Lately, climate change activists in developed countries have been protesting against the increasing greenhouse gas emissions",
+        "E": "The undesirable economic implications of extreme weather events caused by greenhouse emissions are experienced globally"
+      },
+      "how_to_solve_this_type": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "correct_option_text": "Economic growth, which has been instrumental in reducing poverty, is a highly greenhouse gas-intensive activity",
+      "user_option_text": "The undesirable economic implications of extreme weather events caused by greenhouse emissions are experienced globally"
+    },
+    {
+      "question_number": 36,
+      "section_key": "sentence_completion",
+      "section_name": "Cümle Tamamlama (Q27-36)",
+      "correct_answer": "E",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "----; however, some cases of insomnia are thought to be caused by abnor ie$ in the part of the brain that controls sleeping and waking.",
+      "options": {
+        "A": "A variety of behavioural treatments are available for insomnia which can be as effective as medication without side effects",
+        "B": "In insomnia, sleep loss is so severe that it interferes with daytime functioning and well-being of a person",
+        "C": "Various disorders interfere with sleep, the most common of which is insomnia, the inability to fall asleep or stay asleep",
+        "D": "A number of medications can alleviate insomnia in the short run at the cost of interfering with normal sleep patterns",
+        "E": "Insomnia commonly has a wide variety of non-neurological origins, including stress, physical pain, and psychological disorders"
+      },
+      "how_to_solve_this_type": [
+        "Verilen cümle parçasını oku - mantıksal devamını düşün",
+        "\"----, ...\" formatında ise: sonuç/zıtlık/neden cümlesi mi geliyor?",
+        "\"..., ----\" formatında ise: önceki fikrin devamı/sonucu/açıklaması lazım",
+        "Seçenekleri tek tek Türkçeye çevir, bağlama uyan hangisi?",
+        "Konu tutarlılığı: cümlede bahsedilen özne/nesne devam etmeli",
+        "\"whereas/while\" → zıtlık, \"therefore/thus/hence\" → sonuç, \"moreover/furthermore\" → ek bilgi"
+      ],
+      "common_patterns": [
+        "cause-effect",
+        "contrast",
+        "exemplification",
+        "elaboration"
+      ],
+      "correct_option_text": "Insomnia commonly has a wide variety of non-neurological origins, including stress, physical pain, and psychological disorders",
+      "user_option_text": "Various disorders interfere with sleep, the most common of which is insomnia, the inability to fall asleep or stay asleep"
+    },
+    {
+      "question_number": 37,
+      "section_key": "translation",
+      "section_name": "Çeviri (Q37-40)",
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "question_text": "Particularly in cases such as claustrophobia, agoraphobia, and some animal phobias, if the motivation is high eno >it'is possible to desensitise oneself by gradual exposure to the object of fear.",
+      "options": {
+        "A": "Duyarsizlagsma; 6zellikle klostrofobi, agorafobi ve bazi hayvan fobileri gibi vakalarda, bireyin kendisini korku uyaranina kademeli olarak maruz birakma motivasyonu yeterince yUksek ise mUmkUndur.",
+        "B": "Motivasyonu yeteri kadar yiksek olan bir birey, 6zellikle klostrofobi, agorafobi ve bazi hayvan fobileri gibi vakalarda kendini korku uyaranina kademeli olarak maruz birakirsa duyarsiziasmas! mimkindir.",
+        "C": "Ozellikle klostrofobi, agorafobi ve bazi hayvan fobileri gibi vakalarda, eger motivasyon yeteri kadar yuksek ise bireyin korku uyaranina kademeli olarak maruz kalarak kendisini duyarsizlagtirmas! mumkundUur.",
+        "D": "Ozellikle motivasyonu yeteri kadar yUksek olan bireylerin klostrofobi, agorafobi ve bazi hayvan fobileri gibi vakalara duyarsizlasmasi, korku uyaranina kademeli olarak maruz kalmasiyla mUmkUndur.",
+        "E": "Ozellikle klostrofobi, agorafobi ve bazi hayvan fobileri gibi vakalarda, eger bireyin motivasyonu yeteri kadar yUksek ise ve kendini korku uyaranina kademeli olarak maruz birakirsa duyarsiziagmas! mUmkUndir."
+      },
+      "how_to_solve_this_type": [
+        "Q37-38 (TR→EN): Türkçe cümleyi parçalara ayır, her parçanın İngilizce karşılığını bul",
+        "Q39-40 (EN→TR): İngilizce yapıyı koru, Türkçe'ye sadık çevir",
+        "Passive voice: \"was/were + V3\" → \"edildi/oldu\"",
+        "Perfect tense: \"have/has been\" → \"-miştir, -dır\"",
+        "Edat çevirileri: \"with regard to\" → \"ile ilgili olarak\", \"in terms of\" → \"açısından\""
+      ],
+      "common_patterns": [
+        "passive-active voice conversion",
+        "Turkish-English clause order",
+        "complex sentence structure"
+      ],
+      "correct_option_text": "Ozellikle klostrofobi, agorafobi ve bazi hayvan fobileri gibi vakalarda, eger motivasyon yeteri kadar yuksek ise bireyin korku uyaranina kademeli olarak maruz kalarak kendisini duyarsizlagtirmas! mumkundUur."
+    },
+    {
+      "question_number": 38,
+      "section_key": "translation",
+      "section_name": "Çeviri (Q37-40)",
+      "correct_answer": "A",
+      "user_answer": "A",
+      "is_correct": true,
+      "question_text": "Stimuli from the environment evoke sensory experiences which affect brain development; for example, infants with Wing!loss experience delays in speech and language development since they receive limited auditory input.",
+      "options": {
+        "A": "Cevreden gelen uyaranlar beyin gelisimini etkileyen duyusal deneyimleri tetikler, 6rnegin isitme kaybi olan bebekler sinirli isitsel girdi aldiklari igin konusma ve dil gelisiminde gecikmeler yasarlar.",
+        "B": "Cevreden gelen uyaranlar duyusal deneyimleri tetikleyerek beyin gelisimini etkiler, 6rnegin isitme kaybi olan bebeklerin konusma ve dil gelisiminde gecikmeler yasamasinin nedeni sinirlt igitsel girdidir.",
+        "C": "Beyin gelisimini etkileyen duyusal deneyimler cevresel uyaranlar tarafindan tetiklenir, Grnegin isitme kaybi olan bebeklerin konusma ve dil gelisiminde sinirli igitsel girdi nedeniyle gecikmeler yasanir.",
+        "D": "Cevreden gelen uyaranlar, duyusal deneyimleri tetikledigi igin beyin gelisimini etkiler, 6rnegin isitme kaybi olan bebeklerin konusma ve dil gelisiminde sinirli isitsel girdi nedeniyle gecikmeler yasanir.",
+        "E": "Duyusal deneyimler cevredeki uyaranlar tarafindan tetiklenerek beyin gelisimini etkiler, Grnegin isitme kaybi olan bebekler sinirli isitsel girdi aldiklari icin konusma ve dil gelisiminde gecikmeler yasarlar."
+      },
+      "how_to_solve_this_type": [
+        "Q37-38 (TR→EN): Türkçe cümleyi parçalara ayır, her parçanın İngilizce karşılığını bul",
+        "Q39-40 (EN→TR): İngilizce yapıyı koru, Türkçe'ye sadık çevir",
+        "Passive voice: \"was/were + V3\" → \"edildi/oldu\"",
+        "Perfect tense: \"have/has been\" → \"-miştir, -dır\"",
+        "Edat çevirileri: \"with regard to\" → \"ile ilgili olarak\", \"in terms of\" → \"açısından\""
+      ],
+      "common_patterns": [
+        "passive-active voice conversion",
+        "Turkish-English clause order",
+        "complex sentence structure"
+      ],
+      "correct_option_text": "Cevreden gelen uyaranlar beyin gelisimini etkileyen duyusal deneyimleri tetikler, 6rnegin isitme kaybi olan bebekler sinirli isitsel girdi aldiklari igin konusma ve dil gelisiminde gecikmeler yasarlar."
+    },
+    {
+      "question_number": 39,
+      "section_key": "translation",
+      "section_name": "Çeviri (Q37-40)",
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "question_text": "Orta Cag’da degisen spor diisiincesiyle birlikte, at ustiindeki iki binicinin uzun mizraklarla birbirine dogru hiicum ettigi ve Hii atlarinin iizerinden diisiirmeye calistigi “mizrak déviisi” adi verilen yeni bir etkinlik ortaya ¢ikmistir.",
+      "options": {
+        "A": "In the Middle Ages, a new activity called ‘jousting’ appeared with the altered view of sport, in which there would be two riders on horseback trying to knock each other off their horses by racing towards each other with long lances.",
+        "B": "In the Middle Ages, with the altered view of sport, a new activity called ‘jousting’ appeared, in which two riders on horseback would race towards each other with long lances and try to knock each other off their horses.",
+        "C": "Following the altered view of sport in the Middle Ages, a new activity called 'jousting’ appeared in which two riders would try to knock each other off their horses with long lances while racing towards each other on horseback.",
+        "D": "The view of sport altered in the Middle Ages, and a new activity called ‘jousting' appeared, in which two riders on horseback would race towards each other with long lances, trying to knock each other off their horses.",
+        "E": "As the view of sport altered in the Middle Ages, a new activity called ‘jousting’ appeared, in which two riders on horseback would try to knock each other off their horses while racing towards each other with long lances."
+      },
+      "how_to_solve_this_type": [
+        "Q37-38 (TR→EN): Türkçe cümleyi parçalara ayır, her parçanın İngilizce karşılığını bul",
+        "Q39-40 (EN→TR): İngilizce yapıyı koru, Türkçe'ye sadık çevir",
+        "Passive voice: \"was/were + V3\" → \"edildi/oldu\"",
+        "Perfect tense: \"have/has been\" → \"-miştir, -dır\"",
+        "Edat çevirileri: \"with regard to\" → \"ile ilgili olarak\", \"in terms of\" → \"açısından\""
+      ],
+      "common_patterns": [
+        "passive-active voice conversion",
+        "Turkish-English clause order",
+        "complex sentence structure"
+      ],
+      "correct_option_text": "In the Middle Ages, with the altered view of sport, a new activity called ‘jousting’ appeared, in which two riders on horseback would race towards each other with long lances and try to knock each other off their horses."
+    },
+    {
+      "question_number": 40,
+      "section_key": "translation",
+      "section_name": "Çeviri (Q37-40)",
+      "correct_answer": "E",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "18. ve 19. yiizyil Osmanli askeri islahatlan Fransiz uzmanlardan etkilendigi igin bu uzmanlarin kitaplani, Fransizcanin ne dil olarak Sgretildigi yeni kurulan askeri okullarin miifredatinin bir parcas! olmustur.",
+      "options": {
+        "A": "The Ottoman military reforms of the 18th and 19th centuries were influenced by French experts; as a result, these experts’ books were taught at the newly established military schools, making French a part of the curriculum as a foreign language.",
+        "B": "After the influence of French experts on the Ottoman military reforms of the 18th and 19th centuries, these experts’ books became a part of the curriculum of the newly established military schools, where French was taught as a foreign language.",
+        "C": "Because the Ottoman military reforms of the 18th and 19th centuries were influenced by French experts, French was taught as a foreign language at the newly established military schools, where these experts’ books were a part of the curriculum.",
+        "D": "French experts influenced the Ottoman military reforms of the 18th and 19th centuries; as a result, these experts’ books became a part of the curriculum of the newly established military schools and French was taught as a foreign language.",
+        "E": "Since the Ottoman military reforms of the 18th and 19th centuries were influenced by French experts, these experts’ books became a part of the curriculum of the newly established military schools, where French was taught as a foreign language."
+      },
+      "how_to_solve_this_type": [
+        "Q37-38 (TR→EN): Türkçe cümleyi parçalara ayır, her parçanın İngilizce karşılığını bul",
+        "Q39-40 (EN→TR): İngilizce yapıyı koru, Türkçe'ye sadık çevir",
+        "Passive voice: \"was/were + V3\" → \"edildi/oldu\"",
+        "Perfect tense: \"have/has been\" → \"-miştir, -dır\"",
+        "Edat çevirileri: \"with regard to\" → \"ile ilgili olarak\", \"in terms of\" → \"açısından\""
+      ],
+      "common_patterns": [
+        "passive-active voice conversion",
+        "Turkish-English clause order",
+        "complex sentence structure"
+      ],
+      "correct_option_text": "Since the Ottoman military reforms of the 18th and 19th centuries were influenced by French experts, these experts’ books became a part of the curriculum of the newly established military schools, where French was taught as a foreign language.",
+      "user_option_text": "Because the Ottoman military reforms of the 18th and 19th centuries were influenced by French experts, French was taught as a foreign language at the newly established military schools, where these experts’ books were a part of the curriculum."
+    },
+    {
+      "question_number": 41,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "C",
+      "user_answer": "D",
+      "is_correct": false,
+      "question_text": "While the tensions the Cold War created seemingly stabilised the global political situation, both the United States and Europeavi Countries experienced internal turmoil, including protests, and movements for social change.",
+      "options": {
+        "A": "Karesel siyasi durum, soguk savasin yarattig! gerilimler sayesinde istikrara kavugsmus gibi gorlinse de hem Birlesik Devletler'deki hem de Avrupa Ulkelerindeki i¢ karisikliklar, protestolara ve toplumsal deGisime y6énelik eylemlere neden olmustur.",
+        "D": "Soguk savasin yarattigi gerilimler, hem Birlesik Devietler'in hem de Avrupa Ulkelerinin protestolar ve toplumsal degisime yénelik eylemler gibi i¢ karisikliklar yasamasina neden olsa da kiiresel siyasi durum goruniste istikrara kavusmustur.",
+        "E": "Kuresel siyasi durum soguk savas nedeniyle goruniste istikrara kavusmus olsa da yaratilan gerilimler nedeniyle hem Birlesik Devietler'de hem de Avrupa Ulkelerinde protestolar ve toplumsal degisime y6nelik eylemler gibi i¢ karisikliklar yasanmistir."
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "user_option_text": "Soguk savasin yarattigi gerilimler, hem Birlesik Devietler'in hem de Avrupa Ulkelerinin protestolar ve toplumsal degisime yénelik eylemler gibi i¢ karisikliklar yasamasina neden olsa da kiiresel siyasi durum goruniste istikrara kavusmustur."
+    },
+    {
+      "question_number": 42,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "A",
+      "user_answer": "A",
+      "is_correct": true,
+      "question_text": "Kan damarlarindan dokulara asiri miktarda sivi gectiginde veya dokulardan kan damarlarina yeterli miktarda sivi geri don inde meydana gelen 6dem, kendi basina bir hastalik olmaktan ziyade altta yatan bir sorunun belirtisidir.",
+      "options": {
+        "A": "Edema, which occurs when too much fluid moves from the blood vessels into the tissues or not enough fluid moves from the tissues back into the blood vessels, is a sign of an underlying problem, rather than a disease by itself.",
+        "B": "Edema occurs not only when too much fluid moves from the blood vessels into the tissues but also when not enough fluid moves from the tissues back into the blood vessels, and itis not a disease by itself but a sign of an underlying problem.",
+        "C": "Edema, which occurs due to too much fluid moving from the blood vessels into the tissues or not enough fluid moving from the tissues back into the blood vessels, is not a disease by itself as it signifies that there is an underlying problem.",
+        "D": "Edema occurs either due to too much fluid moving from the blood vessels into the tissues or not enough fluid moving from the tissues back into the blood vessels, and it signifies an underlying problem rather than being a disease by itself.",
+        "E": "Edema, which is a sign of an underlying problem rather than a disease by itself, occurs when too much fluid moves from the blood vessels into the tissues or not enough fluid moves from the tissues back into the blood vessels."
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "Edema, which occurs when too much fluid moves from the blood vessels into the tissues or not enough fluid moves from the tissues back into the blood vessels, is a sign of an underlying problem, rather than a disease by itself."
+    },
+    {
+      "question_number": 43,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "A",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "Pasteurisation is a centuries-old method of preparing food, giving it a longer life in larders and today on supermarket shelves. Since the 11th century, people have been using heat treatment to preserve their food. However, it was Louis Pasteur who developed this process as a scientific method as a result of his discoveries on fermentation-causing microorganisms in the late 19th century, and thus his name was attributed to the process. Pasteurisation is used to combat the harmful pathogens that reside within raw foods, often referred to as spoilage microorganisms. To destroy and remove them from certain foods, such as milk, it is heated to high temperatures below 100 degrees Celsius. The heat denatures and breaks down the proteins and enzymes within the pathogens, killing them and allowing humans to ume it without the risk to their health. After that, it is cooled down and stored in cold conditions to create an environment where microorganisms are unable to reproduce and grow. This process does not completely sterilise the food product, but does remove enough of the spoilage microorganisms that it is safe to eat and extends its life span. While a majority of foods, such as milk, cheese, and nuts are pasteurised and safe to consume, there are alternatives made from unpasteurised products that are safe to eat. Many soft cheeses are made with unpasteurised or raw milk, but instead of undergoing pasteurisation, this type of cheese is required to be aged at a constant temperature to stunt the growth of harmful bacteria. In Canada, for example, the law requires cheese to be aged for at least 60 days at two degrees Celsius before it can be sold. It is stated in the passage that pasteurisation ---.",
+      "options": {
+        "A": "is a food preservation method scientifically devised by Louis Pasteur, yet people had been using it for centuries",
+        "B": "was scientifically developed long before the process of fermentation thanks to the studies of Louis Pasteur",
+        "C": "used to be implemented for any kind of food mostly to ensure a longer life in larders rather than sterilising it",
+        "D": "has undergone significant changes throughout centuries due to the lack of a well-established scientific method",
+        "E": "can be counted among the most used food preservation practices since the 11th century, along with fermentation"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "is a food preservation method scientifically devised by Louis Pasteur, yet people had been using it for centuries",
+      "user_option_text": "used to be implemented for any kind of food mostly to ensure a longer life in larders rather than sterilising it"
+    },
+    {
+      "question_number": 44,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "D",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "Pasteurisation is a centuries-old method of preparing food, giving it a longer life in larders and today on supermarket shelves. Since the 11th century, people have been using heat treatment to preserve their food. However, it was Louis Pasteur who developed this process as a scientific method as a result of his discoveries on fermentation-causing microorganisms in the late 19th century, and thus his name was attributed to the process. Pasteurisation is used to combat the harmful pathogens that reside within raw foods, often referred to as spoilage microorganisms. To destroy and remove them from certain foods, such as milk, it is heated to high temperatures below 100 degrees Celsius. The heat denatures and breaks down the proteins and enzymes within the pathogens, killing them and allowing humans to ume it without the risk to their health. After that, it is cooled down and stored in cold conditions to create an environment where microorganisms are unable to reproduce and grow. This process does not completely sterilise the food product, but does remove enough of the spoilage microorganisms that it is safe to eat and extends its life span. While a majority of foods, such as milk, cheese, and nuts are pasteurised and safe to consume, there are alternatives made from unpasteurised products that are safe to eat. Many soft cheeses are made with unpasteurised or raw milk, but instead of undergoing pasteurisation, this type of cheese is required to be aged at a constant temperature to stunt the growth of harmful bacteria. In Canada, for example, the law requires cheese to be aged for at least 60 days at two degrees Celsius before it can be sold. According to the passagesinpiiage microorganisms",
+      "options": {
+        "A": "are known to lower foods' nutritional value if the pasteurisation process is halted",
+        "B": "should entirely be removed from foods, though some of the methods employed fail to work as efficiently as pasteurisation",
+        "C": "can reproduce and grow in milk whether it is stored in a cold environment or heated to high temperatures before being consumed",
+        "D": "are harmful inhabitants of raw foods, such as milk, and can be sufficiently eliminated from these foods through pasteurisation",
+        "E": "are harmful pathogens that scientists had not been aware of until the pasteurisation process was studied comprehensively"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "are harmful inhabitants of raw foods, such as milk, and can be sufficiently eliminated from these foods through pasteurisation",
+      "user_option_text": "can reproduce and grow in milk whether it is stored in a cold environment or heated to high temperatures before being consumed"
+    },
+    {
+      "question_number": 45,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "question_text": "",
+      "options": {},
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ]
+    },
+    {
+      "question_number": 46,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "B",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "Pasteurisation is a centuries-old method of preparing food, giving it a longer life in larders and today on supermarket shelves. Since the 11th century, people have been using heat treatment to preserve their food. However, it was Louis Pasteur who developed this process as a scientific method as a result of his discoveries on fermentation-causing microorganisms in the late 19th century, and thus his name was attributed to the process. Pasteurisation is used to combat the harmful pathogens that reside within raw foods, often referred to as spoilage microorganisms. To destroy and remove them from certain foods, such as milk, it is heated to high temperatures below 100 degrees Celsius. The heat denatures and breaks down the proteins and enzymes within the pathogens, killing them and allowing humans to ume it without the risk to their health. After that, it is cooled down and stored in cold conditions to create an environment where microorganisms are unable to reproduce and grow. This process does not completely sterilise the food product, but does remove enough of the spoilage microorganisms that it is safe to eat and extends its life span. While a majority of foods, such as milk, cheese, and nuts are pasteurised and safe to consume, there are alternatives made from unpasteurised products that are safe to eat. Many soft cheeses are made with unpasteurised or raw milk, but instead of undergoing pasteurisation, this type of cheese is required to be aged at a constant temperature to stunt the growth of harmful bacteria. In Canada, for example, the law requires cheese to be aged for at least 60 days at two degrees Celsius before it can be sold. The passage is mainly about -—.",
+      "options": {
+        "A": "the food preservation methods utilised throughout history and their sterilisation techniques",
+        "B": "the emergence and process of pasteurisation as a food preservation method, with a brief information on ageing method",
+        "E": "the potential dangers of foods that are made from unpasteurised products through the method of ageing"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "the emergence and process of pasteurisation as a food preservation method, with a brief information on ageing method",
+      "user_option_text": "the food preservation methods utilised throughout history and their sterilisation techniques"
+    },
+    {
+      "question_number": 47,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "A",
+      "user_answer": "A",
+      "is_correct": true,
+      "question_text": "Academic interest in the body was a response to significant changes in post-war society, namely, the rise of consumerism and the growth of leisure industries. In the late 20th century, there was increasing social and economic emphasis on leisure and consumption rather than production. The growth of a new hedonistic culture was identified by Daniel Bell in The Cultural Contradictions of Capitalism. Bell described new contradictions in a society that still required a disciplined labour force, but also encouraged and promoted hedonism. thseugh advertising, credit, and consumerism. Leis dustries, mass consumption, and extended credit have developed in tandem with the emphasis on youthfulness, activism, and the beautiful body. The body became a symbol of the youth cultures of post-war society. In addition, ageing, disease, and death no longer appear to be immutable facts about the human condition but contingent possibilities that are constantly transformed by medical science. For example, cosmetic surgery has become a growth industry in Western societies through which the body can be constructed.",
+      "options": {
+        "A": "following the transformations seen in society involving a transition from production to consumption",
+        "B": "in contrast to the demand for a disciplined labour force in the societal organisation",
+        "D": "when advances in the field of cosmetic surgery started to attract great public interest",
+        "E": "in a society where issues such as advertising, credit, and consumerism were yet to be considered as valid fields of study"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "following the transformations seen in society involving a transition from production to consumption"
+    },
+    {
+      "question_number": 48,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "C",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "Academic interest in the body was a response to significant changes in post-war society, namely, the rise of consumerism and the growth of leisure industries. In the late 20th century, there was increasing social and economic emphasis on leisure and consumption rather than production. The growth of a new hedonistic culture was identified by Daniel Bell in The Cultural Contradictions of Capitalism. Bell described new contradictions in a society that still required a disciplined labour force, but also encouraged and promoted hedonism. thseugh advertising, credit, and consumerism. Leis dustries, mass consumption, and extended credit have developed in tandem with the emphasis on youthfulness, activism, and the beautiful body. The body became a symbol of the youth cultures of post-war society. In addition, ageing, disease, and death no longer appear to be immutable facts about the human condition but contingent possibilities that are constantly transformed by medical science. For example, cosmetic surgery has become a growth industry in Western societies through which the body can be constructed. It is clearly stated in thapessace that Bell’s book",
+      "options": {
+        "D": "criticised the development of leisure industries that include the body",
+        "E": "functioned as a guide which people living in post-war society could use to take better care of their body"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ]
+    },
+    {
+      "question_number": 49,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "D",
+      "user_answer": "B",
+      "is_correct": false,
+      "question_text": "Academic interest in the body was a response to significant changes in post-war society, namely, the rise of consumerism and the growth of leisure industries. In the late 20th century, there was increasing social and economic emphasis on leisure and consumption rather than production. The growth of a new hedonistic culture was identified by Daniel Bell in The Cultural Contradictions of Capitalism. Bell described new contradictions in a society that still required a disciplined labour force, but also encouraged and promoted hedonism. thseugh advertising, credit, and consumerism. Leis dustries, mass consumption, and extended credit have developed in tandem with the emphasis on youthfulness, activism, and the beautiful body. The body became a symbol of the youth cultures of post-war society. In addition, ageing, disease, and death no longer appear to be immutable facts about the human condition but contingent possibilities that are constantly transformed by medical science. For example, cosmetic surgery has become a growth industry in Western societies through which the body can be constructed. It can be inferred from passage that pre-war society regarded ageing, disease, and death as -—--.",
+      "options": {
+        "D": "constant forces of life that could not be changed through intervention"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "constant forces of life that could not be changed through intervention"
+    },
+    {
+      "question_number": 50,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "question_text": "Academic interest in the body was a response to significant changes in post-war society, namely, the rise of consumerism and the growth of leisure industries. In the late 20th century, there was increasing social and economic emphasis on leisure and consumption rather than production. The growth of a new hedonistic culture was identified by Daniel Bell in The Cultural Contradictions of Capitalism. Bell described new contradictions in a society that still required a disciplined labour force, but also encouraged and promoted hedonism. thseugh advertising, credit, and consumerism. Leis dustries, mass consumption, and extended credit have developed in tandem with the emphasis on youthfulness, activism, and the beautiful body. The body became a symbol of the youth cultures of post-war society. In addition, ageing, disease, and death no longer appear to be immutable facts about the human condition but contingent possibilities that are constantly transformed by medical science. For example, cosmetic surgery has become a growth industry in Western societies through which the body can be constructed. The underlined word geome is closest in meaning to ----.",
+      "options": {
+        "A": "mediocre",
+        "B": "rigid"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "rigid"
+    },
+    {
+      "question_number": 51,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "B",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "Kidney transplants can be lifesaving, but some kidneys do not function well after the surgery because they are damaged from lack of oxygen during transport. Low oxygen stops kidney cells making enough of a compound called adenosine triphosphate (ATP), which normally powers a molecular pump on their surface that keeps sodium levels low and potassium levels high inside cells. The shutdown causes the cells to swell and damages many of their enzymes and other biochemicals. But the molecular pumps are sensitive to electrical fields. Ruisheng Liu at the University of South Florida in Tampa and his team have found that putting electrodes on the surfa <@/kidney and applying an electrical field can resta cells’ pumps. To test the approach, the team gave 10 mice a kidney transplant after storing the organs in cold saline before implantation. Seven mice were given kidneys that had received the electrical treatment, and these mice had a more than 50 percent better kidney function than the three mice that received untreated kidneys. The team also tested the approach in five pairs of human kidneys that had been donated but could not be used. One of each pair had four electrodes placed on it while they were all stored on ice for 24 hours. Afterwards, the cells of the treated kidneys had less damage than the untreated ones. According to the passage; transplanted kidneys ----.",
+      "options": {
+        "A": "can work effectively provided that they regularly receive electrical treatment after the implantation",
+        "B": "could fail to function effectively due to enzymes and other biochemicals impaired during transport",
+        "C": "may lead other body cells to show an inflammatory response if they are not treated with saline",
+        "D": "may struggle to keep up with bodily processes because of an excess of the compound ATP",
+        "E": "are often tested thoroughly to see whether they can produce enough ATP"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "could fail to function effectively due to enzymes and other biochemicals impaired during transport",
+      "user_option_text": "can work effectively provided that they regularly receive electrical treatment after the implantation"
+    },
+    {
+      "question_number": 52,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "A",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "Kidney transplants can be lifesaving, but some kidneys do not function well after the surgery because they are damaged from lack of oxygen during transport. Low oxygen stops kidney cells making enough of a compound called adenosine triphosphate (ATP), which normally powers a molecular pump on their surface that keeps sodium levels low and potassium levels high inside cells. The shutdown causes the cells to swell and damages many of their enzymes and other biochemicals. But the molecular pumps are sensitive to electrical fields. Ruisheng Liu at the University of South Florida in Tampa and his team have found that putting electrodes on the surfa <@/kidney and applying an electrical field can resta cells’ pumps. To test the approach, the team gave 10 mice a kidney transplant after storing the organs in cold saline before implantation. Seven mice were given kidneys that had received the electrical treatment, and these mice had a more than 50 percent better kidney function than the three mice that received untreated kidneys. The team also tested the approach in five pairs of human kidneys that had been donated but could not be used. One of each pair had four electrodes placed on it while they were all stored on ice for 24 hours. Afterwards, the cells of the treated kidneys had less damage than the untreated ones. It is stated in the passage that an electrical field ----.",
+      "options": {
+        "D": "could power a molecular pump on the surface of kidneys and eliminate the need for oxygen"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ]
+    },
+    {
+      "question_number": 53,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "A",
+      "user_answer": "E",
+      "is_correct": false,
+      "question_text": "Kidney transplants can be lifesaving, but some kidneys do not function well after the surgery because they are damaged from lack of oxygen during transport. Low oxygen stops kidney cells making enough of a compound called adenosine triphosphate (ATP), which normally powers a molecular pump on their surface that keeps sodium levels low and potassium levels high inside cells. The shutdown causes the cells to swell and damages many of their enzymes and other biochemicals. But the molecular pumps are sensitive to electrical fields. Ruisheng Liu at the University of South Florida in Tampa and his team have found that putting electrodes on the surfa <@/kidney and applying an electrical field can resta cells’ pumps. To test the approach, the team gave 10 mice a kidney transplant after storing the organs in cold saline before implantation. Seven mice were given kidneys that had received the electrical treatment, and these mice had a more than 50 percent better kidney function than the three mice that received untreated kidneys. The team also tested the approach in five pairs of human kidneys that had been donated but could not be used. One of each pair had four electrodes placed on it while they were all stored on ice for 24 hours. Afterwards, the cells of the treated kidneys had less damage than the untreated ones. According to the passage; Liu’s study ---.",
+      "options": {
+        "A": "revealed that the treated kidneys were far more successful in functioning when compared to untreated ones",
+        "B": "still needs more trials in order to be safely implemented into widespread transplantation practice",
+        "C": "suggested that the donated human kidneys were already functional but the treatment optimised their molecular pumps"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "revealed that the treated kidneys were far more successful in functioning when compared to untreated ones"
+    },
+    {
+      "question_number": 54,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "question_text": "Kidney transplants can be lifesaving, but some kidneys do not function well after the surgery because they are damaged from lack of oxygen during transport. Low oxygen stops kidney cells making enough of a compound called adenosine triphosphate (ATP), which normally powers a molecular pump on their surface that keeps sodium levels low and potassium levels high inside cells. The shutdown causes the cells to swell and damages many of their enzymes and other biochemicals. But the molecular pumps are sensitive to electrical fields. Ruisheng Liu at the University of South Florida in Tampa and his team have found that putting electrodes on the surfa <@/kidney and applying an electrical field can resta cells’ pumps. To test the approach, the team gave 10 mice a kidney transplant after storing the organs in cold saline before implantation. Seven mice were given kidneys that had received the electrical treatment, and these mice had a more than 50 percent better kidney function than the three mice that received untreated kidneys. The team also tested the approach in five pairs of human kidneys that had been donated but could not be used. One of each pair had four electrodes placed on it while they were all stored on ice for 24 hours. Afterwards, the cells of the treated kidneys had less damage than the untreated ones. Which could be the best title for this passage?",
+      "options": {
+        "A": "Successful Kidney Transplants",
+        "D": "The Consequences of Kidney Transplantation",
+        "E": "A New Struggle for Kidney Implantation"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ]
+    },
+    {
+      "question_number": 55,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "D",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "",
+      "options": {},
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ]
+    },
+    {
+      "question_number": 56,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "E",
+      "user_answer": "B",
+      "is_correct": false,
+      "question_text": "Which of the following czn;be concluded about the study carried out in 1992?",
+      "options": {
+        "A": "The researchers did not differentiate between the types of carotenoids the participants consumed, which is an important shortcoming of the study.",
+        "D": "It targeted a group of participants who were likely to follow a healthy diet, which is important to achieve reliable results.",
+        "E": "It revealed that consuming vitamin A and carotenoids is a more successful measure against developing cataracts than vitamin C or E."
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "It revealed that consuming vitamin A and carotenoids is a more successful measure against developing cataracts than vitamin C or E."
+    },
+    {
+      "question_number": 57,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "question_text": "",
+      "options": {},
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ]
+    },
+    {
+      "question_number": 58,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "question_text": "Found in certain fruits and vegetables as well as egg yolks, lutein, a member of the carotenoid family, a group of chemicals related to vitamin A, plays an important role in maintaining healthy vision though it is not considered an essential nutrient, studies suggest. The carotenoid may prevent eye diseases by protecting eye tissue from free radical damage and shielding the eyes from potentially destructive sunlight. An earlier study published in 1992 shed light on the possible link between lutein and cataracts. The objective of the study was to examine the relationship between cataracts and intake of carotenoids, vitamins C and E, and riboflavin. Researchers studied the dietary habits via questionnaires of ova BAe registered nurses aged 45 years and over period of eight years and found that those who reported consuming the most vitamin A and carotenoids were found to have a lower risk of developing cataracts, while the impact of other nutrients included were mild. Research also indicates that getting adequate amounts of lutein may decrease the risk of colon cancer and heart disease. Lutein may offer protection against these diseases by acting as an anti-oxidant. A study published in 2000 examined the risk of colon cancer and dietary intake of lutein and other carotenoids. The researchers examined the eating habits of over 4,000 people. The results showed that men and women who had consumed large amounts of lutein were less likely to develop the disease. Which could be the best fitle for this passage?",
+      "options": {
+        "A": "The Role Carotenoids Play in Cataract Treatment",
+        "B": "Lutein Intake as a Precautionary Measure",
+        "C": "How Lutein is Stored in the Body",
+        "D": "The Interaction between Lutein and Vitamin C and E",
+        "E": "The Side Effects of Excessive Lutein Consumption"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "Lutein Intake as a Precautionary Measure"
+    },
+    {
+      "question_number": 59,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "C",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "Mathematics is pervasive in modem society, and we use mathematics in our daily lives. At the same time, many people are not fully aware of the diverse interactions and connections between mathematics and society. Mathematics takes a Starring role in highly technological fields. Outside these fields, however, there are countless ideas, inventions, and advances that cannot be fully realised without the involvement of mathematics. Organisations like the National Council of Teachers of Mathematics recommend mathematics be explored in the context of contemporary society. To examine these connections, we must approach them from different angles. We can look at mathematics through the lens of larg iétal structures like nations, cultures, and educational systems, or we can turn this method around to explore the societal structures within mathematics, such as the culture of mathematicians and notions of proof, certainty, and success. Mathematics shapes the world in which we live. The world, in turn, shapes the discipline of mathematics by inspiring mathematicians to formulate new questions and solve new problems. Each successive generation of mathematicians brings fresh perspectives, expectations, and ways of thinking and working into the culture of mathematics. These mathematicians are influenced by the home, school, and play environments in which they were raised. Which of the following i yaccording to the passage?",
+      "options": {
+        "A": "Having an interdisciplinary background is certainly an advantage for a mathematician in the contemporary world.",
+        "B": "Representations in popular culture may portray mathematics and mathematicians in highly stereotypical ways.",
+        "C": "The variety of interrelation between mathematics and society is not generally realised by the majority of people.",
+        "D": "Many people are not familiar with advanced mathematical formulations due to the fact that they are not interested in mathematics.",
+        "E": "Society usually disregards the role that mathematics play due to its complex and sophisticated nature."
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "correct_option_text": "The variety of interrelation between mathematics and society is not generally realised by the majority of people.",
+      "user_option_text": "Having an interdisciplinary background is certainly an advantage for a mathematician in the contemporary world."
+    },
+    {
+      "question_number": 60,
+      "section_key": "reading",
+      "section_name": "Okuma Anlama (Q41-60)",
+      "correct_answer": "E",
+      "user_answer": "B",
+      "is_correct": false,
+      "question_text": "Mathematics is pervasive in modem society, and we use mathematics in our daily lives. At the same time, many people are not fully aware of the diverse interactions and connections between mathematics and society. Mathematics takes a starring role in highly technological fields. Outside these fields, however, there are countless ideas, inventions, and advances that cannot be fully realised without the involvement of mathematics. Organisations like the National Council of Teachers of Mathematics recommend mathematics be explored in the context of contemporary society. To examine these connections, we must approach them from different angles. We can look at mathematics through the lens of larg iétal structures like nations, cultures, and educational systems, or we can turn this method around to explore the societal structures within mathematics, such as the culture of mathematicians and notions of proof, certainty, and success. Mathematics shapes the world in which we live. The world, in turn, shapes the discipline of mathematics by inspiring mathematicians to formulate new questions and solve new problems. Each successive generation of mathematicians brings fresh perspectives, expectations, and ways of thinking and working into the culture of mathematics. These mathematicians are influenced by the home, school, and play environments in which they were raised.",
+      "options": {
+        "A": "is often overlooked due to the facilities already presented by the sophisticated technology",
+        "B": "may encourage individuals to develop interest in the field of mathematics, if further explored",
+        "D": "is yet to be discovered as there is cutting-edge research attempting to explore the connection"
+      },
+      "how_to_solve_this_type": [
+        "Önce soruları oku, SONRA metni - ne aradığını bil",
+        "\"According to the passage\" → metinde açıkça yazanı bul (inference YOK)",
+        "\"It can be inferred that\" → metinde ima edileni bul, abartma",
+        "\"The main idea/purpose\" → her zaman EN GENEL, kapsayıcı seçenek",
+        "\"The author implies\" → tone'a bak: eleştirel mi, savunucu mu, tarafsız mı?",
+        "Paragraf ilk ve son cümlesi en önemli - main idea burada",
+        "Boş zamanında paragrafı scan et: question keywords → text'te bul → cevap etrafında oku"
+      ],
+      "common_patterns": [
+        "main idea",
+        "detail question",
+        "inference",
+        "vocabulary in context",
+        "tone/purpose"
+      ],
+      "user_option_text": "may encourage individuals to develop interest in the field of mathematics, if further explored"
+    },
+    {
+      "question_number": 61,
+      "section_key": "paragraph_completion",
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "question_text": "Mathematics is pervasive in modem society, and we use mathematics in our daily lives. At the same time, many people are not fully aware of the diverse interactions and connections between mathematics and society. Mathematics takes a starring role in highly technological fields. Outside these fields, however, there are countless ideas, inventions, and advances that cannot be fully realised without the involvement of mathematics. Organisations like the National Council of Teachers of Mathematics recommend mathematics be explored in the context of contemporary society. To examine these connections, we must approach them from different angles. We can look at mathematics through the lens of larg iétal structures like nations, cultures, and educational systems, or we can turn this method around to explore the societal structures within mathematics, such as the culture of mathematicians and notions of proof, certainty, and success. Mathematics shapes the world in which we live. The world, in turn, shapes the discipline of mathematics by inspiring mathematicians to formulate new questions and solve new problems. Each successive generation of mathematicians brings fresh perspectives, expectations, and ways of thinking and working into the culture of mathematics. These mathematicians are influenced by the home, school, and play environments in which they were raised. It is clearly stated in thapessace that the world and mathematics ----.",
+      "options": {
+        "A": "are so intertwined that mathematical theories cannot be applied in everyday situations until the society is ready to accept scientific facts",
+        "E": "should be explored more deeply with the help of organisations such as the National Council of Teachers of Mathematics"
+      },
+      "how_to_solve_this_type": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ]
+    },
+    {
+      "question_number": 62,
+      "section_key": "paragraph_completion",
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "question_text": "Mathematics is pervasive in modem society, and we use mathematics in our daily lives. At the same time, many people are not fully aware of the diverse interactions and connections between mathematics and society. Mathematics takes a starring role in highly technological fields. Outside these fields, however, there are countless ideas, inventions, and advances that cannot be fully realised without the involvement of mathematics. Organisations like the National Council of Teachers of Mathematics recommend mathematics be explored in the context of contemporary society. To examine these connections, we must approach them from different angles. We can look at mathematics through the lens of larg iétal structures like nations, cultures, and educational systems, or we can turn this method around to explore the societal structures within mathematics, such as the culture of mathematicians and notions of proof, certainty, and success. Mathematics shapes the world in which we live. The world, in turn, shapes the discipline of mathematics by inspiring mathematicians to formulate new questions and solve new problems. Each successive generation of mathematicians brings fresh perspectives, expectations, and ways of thinking and working into the culture of mathematics. These mathematicians are influenced by the home, school, and play environments in which they were raised. What is the main purpose of the author?",
+      "options": {
+        "A": "To highlight the society's lack of enthusiasm for the field of mathematics",
+        "B": "To focus on the environmental stimulants in the development of a mathematician",
+        "E": "To discuss the roles played by new generations of mathematicians in the field"
+      },
+      "how_to_solve_this_type": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ]
+    },
+    {
+      "question_number": 63,
+      "section_key": "paragraph_completion",
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct_answer": "C",
+      "user_answer": "B",
+      "is_correct": false,
+      "question_text": "Professor: — Did you know that in 1982, Japan’s Ministry of Forestry coined the term ‘Shinrin yoku’? It means forest bathing and aims to encourage immersion in nature and promote physical and mental well-being. Student: - That’s interesting! But, does it really help? Professor: — Well, a wealth of res “Suggests improved cardiovascular function and increased activity in the brain’s parasympathetic nervous system, which allows the body to relax. Student: Professor: — Of course there’re such outcomes. One study has also shown that after test subjects had spent four days in a forest, they improved their creative problem-solving skills by 50%.",
+      "options": {
+        "A": "Then we should listen to our primitive instincts to connect with nature and see the magic happen in our body, don't you agree?",
+        "B": "| feel like we should be grateful for what the nature is providing for us. Don't you think such activities should be promoted?",
+        "C": "So, its most evident benefits are related to physical health. | thought it'd offer more useful results for mental well-being.",
+        "D": "| guess that explains why Japanese people are so healthy and live longer. But nowadays it’s not that simple to easily escape to nature.",
+        "E": "| think it's more related to staying away from the stress of urban life. Who wouldn't get relaxed after some happy hours spent alone?"
+      },
+      "how_to_solve_this_type": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ],
+      "correct_option_text": "So, its most evident benefits are related to physical health. | thought it'd offer more useful results for mental well-being.",
+      "user_option_text": "| feel like we should be grateful for what the nature is providing for us. Don't you think such activities should be promoted?"
+    },
+    {
+      "question_number": 64,
+      "section_key": "paragraph_completion",
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct_answer": "A",
+      "user_answer": "A",
+      "is_correct": true,
+      "question_text": "Anna: — lLused to a be quick sleeper back in the day but lately I'm having trouble falling asleep. It really takes so much time to fall asleep. I’ve tried almost anything at this point. Bill: — Well, have you tried staying awake? Anna: OSYM — What do you mean? How will staying awake make me go to sleep? To be honest, it doesn't make any sense. Bill: Anna: - Sounds quite interesting. I’ll give it a go tonight.",
+      "options": {
+        "A": "There is a technique called paradoxical intention. All you need to do is keep your eyes open as long as you can. Only then, you'll find yourself unable to keep them open for very long.",
+        "B": "The melatonin, which is also known as sleep hormone, is only secreted when the environment is relatively dark. So, I'd definitely get rid of bright lights around my bedroom.",
+        "C": "One of my colleagues had the same problem. The doctor advised he suppress the unwanted thoughts in his head which may be interfering with his sleep quality."
+      },
+      "how_to_solve_this_type": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ],
+      "correct_option_text": "There is a technique called paradoxical intention. All you need to do is keep your eyes open as long as you can. Only then, you'll find yourself unable to keep them open for very long."
+    },
+    {
+      "question_number": 65,
+      "section_key": "paragraph_completion",
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct_answer": "D",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "",
+      "options": {},
+      "how_to_solve_this_type": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ]
+    },
+    {
+      "question_number": 66,
+      "section_key": "paragraph_completion",
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct_answer": "E",
+      "user_answer": "E",
+      "is_correct": true,
+      "question_text": "",
+      "options": {},
+      "how_to_solve_this_type": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ]
+    },
+    {
+      "question_number": 67,
+      "section_key": "paragraph_completion",
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct_answer": "B",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "Journalist: — Do you really believe the old saying that laughter is the best medicine? Researcher: — It’s interesting you mention that, because one of my colleagues just told me about a small trial in which people who watched two comedy shows a week were observed to have an increase in their oxygen levels. “ ¢ YM Journalist: — Really? How would you interpret that? Researcher: Journalist: — Perhaps | should start watching more comedies, then. The pressure from work, school, and family responsibilities is a lot to handle sometimes.",
+      "options": {
+        "D": "Actually, it could be a significant finding, but it's important to bear in mind that correlation isn't always causation, and more research is required.",
+        "E": "Besides comedies, there are plenty of other situations in which people find themselves laughing and potentially see similar results."
+      },
+      "how_to_solve_this_type": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ]
+    },
+    {
+      "question_number": 68,
+      "section_key": "paragraph_completion",
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "question_text": "",
+      "options": {},
+      "how_to_solve_this_type": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ]
+    },
+    {
+      "question_number": 69,
+      "section_key": "paragraph_completion",
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct_answer": "E",
+      "user_answer": "E",
+      "is_correct": true,
+      "question_text": "The Maya, who took control of much of Mesoamerica after the demise of the Olmecs, were the most sophisticatéd and powerful of the civilisations in the Americas before the arrival of Europeans.",
+      "options": {
+        "A": "Achieving superiority in Mesoamerica after bringing an end to the Olmecs, the Maya had been the dominant power and most advanced civilisation in the region till the Europeans’ arrival in the Americas.",
+        "B": "What made the Maya civilisation the most advanced and influential civilisation in the Americas is that they ruled the lands of the Olmecs after their fall; however, their supremacy lasted only till Europeans arrived in Mesoamerica.",
+        "D": "Until Europeans arrived in the Americas, the Maya had been the most advanced and influential civilisation in the region, who ruled Mesoamerica to a great extent following the fall of the Olmecs."
+      },
+      "how_to_solve_this_type": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ]
+    },
+    {
+      "question_number": 70,
+      "section_key": "paragraph_completion",
+      "section_name": "Paragraf Tamamlama (Q61-70)",
+      "correct_answer": "D",
+      "user_answer": "E",
+      "is_correct": false,
+      "question_text": "The common crane is an extremely vocal species known for its distinctivetrumpet-like call and uses a range of sounds to not only communicate but also coordinate movement while in the air.",
+      "options": {
+        "A": "The common crane, a highly vocal species, are distinguished from others due to its characteristic and trumpet-like call that it uses when in the air to communicate and coordinate through a variety of sounds which they are famous for.",
+        "C": "The common crane is an extraordinary vocal species that is mostly renowned for its unique call which sounds just like a trumpet despite having a diversity of other sounds to communicate and coordinate movement in flight.",
+        "D": "The common crane is an exceptionally vocal species famous for its characteristic and trumpet-like call; moreover, it employs a variety of sounds for communicating and coordinating movement when in the air.",
+        "E": "The common crane, famous for being an exceptionally vocal species, communicates and coordinates movement in the air by means of employing a variety of sounds which are characteristic and trumpet-like calls."
+      },
+      "how_to_solve_this_type": [
+        "Paragrafın konusunu ve akışını anla",
+        "Boşluktan önce ve sonraki cümlenin topic'ine bak",
+        "Hangi seçenek hem öncesiyle hem sonrasıyla mantıksal bağ kuruyor?",
+        "Bağlaçlara dikkat: \"However\" → öncesiyle zıt olmalı, \"Moreover\" → öncekini desteklemeli",
+        "Özne tutarlılığı: paragrafta kim hakkında konuşuluyor, seçenek aynı özneden mi bahsediyor?"
+      ],
+      "common_patterns": [
+        "logical flow",
+        "cohesion devices",
+        "topic continuity"
+      ],
+      "correct_option_text": "The common crane is an exceptionally vocal species famous for its characteristic and trumpet-like call; moreover, it employs a variety of sounds for communicating and coordinating movement when in the air.",
+      "user_option_text": "The common crane, famous for being an exceptionally vocal species, communicates and coordinates movement in the air by means of employing a variety of sounds which are characteristic and trumpet-like calls."
+    },
+    {
+      "question_number": 71,
+      "section_key": "paragraph_questions",
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct_answer": "B",
+      "user_answer": "B",
+      "is_correct": true,
+      "question_text": "Although the tools that psychologists use may not lead to the same degree of precision as those in some other sciences, itis.notithe precision that determines the scienti tatus of a discipline, but rather the means by which ideas are generated and tested.",
+      "options": {
+        "D": "Psychologists’ instruments generate the same level of precision as some other scientific fields, yet it is not the accuracy of the tools that determines how scientific the field is, but it is how the generation and testing of ideas occur."
+      },
+      "how_to_solve_this_type": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ]
+    },
+    {
+      "question_number": 72,
+      "section_key": "paragraph_questions",
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct_answer": "E",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "After agriculture had appeared in any one region, it spread, primarily because the populations of farming communities grew much faster. Although agriculture may have seemed an unattractive option to many foragers, farming communities usually had more resources and more people than foraging communities. Wieh'Conflict occurred, more resources and more people usually meant that farming communities also had more power. ---- Where environmental conditions were different, the spread of agriculture had to await new techniques such as irrigation or new crops better adapted to the regions of new settlement.",
+      "options": {
+        "C": "Local population pressure and increasing exchanges of ideas encouraged many subtle improvements in agricultural techniques.",
+        "D": "The superiority of agriculture over foraging ensured that the populations have a more reliable source of food.",
+        "E": "Agriculture expanded most easily in regions that bordered established agricultural zones and that had similar soils, climates, and ecologies."
+      },
+      "how_to_solve_this_type": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ],
+      "correct_option_text": "Agriculture expanded most easily in regions that bordered established agricultural zones and that had similar soils, climates, and ecologies.",
+      "user_option_text": "Local population pressure and increasing exchanges of ideas encouraged many subtle improvements in agricultural techniques."
+    },
+    {
+      "question_number": 73,
+      "section_key": "paragraph_questions",
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct_answer": "C",
+      "user_answer": "A",
+      "is_correct": false,
+      "question_text": "",
+      "options": {},
+      "how_to_solve_this_type": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ]
+    },
+    {
+      "question_number": 74,
+      "section_key": "paragraph_questions",
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "question_text": "The ancient folk tale of Ali Baba and the forty thieves mentions the use of a password. In this story, Ali Baba finds that the phrase “Open Sesame” magically opens the entrance to a cave where the thieves have hidden thei treasure. Similarly, modern computer syst use passwords to authenticate users and allow them entrance to the system. ---- Thus, a password is vulnerable to compromise whenever it is used, stored, or even known.",
+      "options": {
+        "A": "Passwords must be initially assigned to users when they are enrolled on the system for the first time and changed periodically for the same user.",
+        "B": "There is an increasing need for developing some other forms of protection due to the advent of sophisticated cracking tools.",
+        "C": "A number of protection ideas have been proposed such as implementing policies and mechanism to ensure 'strong' passwords.",
+        "D": "However, the security provided by a password system depends on the passwords being kept secret at all times for maintaining password security.",
+        "E": "Now, with the explosion of the Internet, the use of passwords and the quantity of confidential data that those passwords protect have grown exponentially."
+      },
+      "how_to_solve_this_type": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ],
+      "correct_option_text": "However, the security provided by a password system depends on the passwords being kept secret at all times for maintaining password security."
+    },
+    {
+      "question_number": 75,
+      "section_key": "paragraph_questions",
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct_answer": "E",
+      "user_answer": "E",
+      "is_correct": true,
+      "question_text": "Substantial resources of materials, man-power, and technological skill have been required wherever town life has flourished on a large scale in order to ensure that the need of an urbanised population for a constant supply of water can be fulfilled. ---- For example, Pergamonvin Asia Minor and the Greek city-states cons ted elaborate systems of culverts and aqueducts to bring water to their citizens. And the Romans made a fine art of the technology of bringing water long distances in masonry aqueducts to serve the large cities of their Empire, and especially Rome itself.",
+      "options": {
+        "A": "In addition to irrigation’s importance, water control has held a permanent place in explanations of ancient sociopolitical change.",
+        "B": "A number of ancient societies focused on growing agricultural crops that did not require water abundance.",
+        "C": "Although some of the world’s first farmers experimented with water management, most relied on direct rainfall or naturally water-rich areas.",
+        "D": "Usually, civilisations established near abundant drinkable water sources were more powerful than those in arid regions.",
+        "E": "The ancient civilisations established intricate irrigation works, bringing water to their fields and cities."
+      },
+      "how_to_solve_this_type": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ],
+      "correct_option_text": "The ancient civilisations established intricate irrigation works, bringing water to their fields and cities."
+    },
+    {
+      "question_number": 76,
+      "section_key": "paragraph_questions",
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct_answer": "B",
+      "user_answer": "C",
+      "is_correct": false,
+      "question_text": "(I) The demise of Ancient Sumer was caused by conflict between city-state rulers, combined with climate factors that impacted their agriculture. (Il) Regardless of their origins, Sumerian kings had the power to lead organised workers for the irrigation projects on which Mesopotamian farming depended. (Ill) Periods of flooding meant cities co 'provide enough crops to sustain them. (IV) As a result, the Sumerians had already been weakened when another ancient civilisation invaded Sumer, initiating a brutal war and claiming Sumerian territory. (V) This included pillaging the Sumerian capital of Ur, which brought about the decline of the civilisation.",
+      "options": {
+        "A": "]"
+      },
+      "how_to_solve_this_type": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ]
+    },
+    {
+      "question_number": 77,
+      "section_key": "paragraph_questions",
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "question_text": "",
+      "options": {},
+      "how_to_solve_this_type": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ]
+    },
+    {
+      "question_number": 78,
+      "section_key": "paragraph_questions",
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "question_text": "(I) The northern lights, or aurora borealis, are generated by the solar wind — a stream of charged particles travelling from the outer layer of the sun. (Il) Bursts of solar wind, called solar flares, slam into Earth’s magnetic field, which acts like a shield around the planet that deflects most of the particles. (Ill) The particles take around a to/travel to Earth, so how strong the aurora is likel be can be predicted up to a day in advance. (IV) But at its weakest points around the poles, some particles penetrate into the upper atmosphere, where they collide with and excite, or energise, gas molecules. (V) As these molecules lose energy again, they release photons of light that make the auroras.",
+      "options": {
+        "A": "]",
+        "B": "I",
+        "C": "ll"
+      },
+      "how_to_solve_this_type": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ],
+      "correct_option_text": "ll"
+    },
+    {
+      "question_number": 79,
+      "section_key": "paragraph_questions",
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct_answer": "C",
+      "user_answer": "C",
+      "is_correct": true,
+      "question_text": "(1) Designers in the 21st century are beginning to adopt new technologies such as body-scanning for custom fit, along with seamless and whole garment knitting technologies, which can manufacture garments with the push of a button. (Il) Both are forerunners in a movement towards automation that will once again revolutionise the fashion industry. (Ill) The talent and vision of fashion design t'bnly play a major role in how people look, but they have also made important contributions to a society's culture. (IV) Just as the sewing machine changed the face of fashion in the past, technology will change it in the future. (V) Designers of the future, as they have in the past, will continue to serve their customer's needs but will do so utilising new resources and tools.",
+      "options": {
+        "A": "]",
+        "B": "I",
+        "C": "ll",
+        "D": "IV",
+        "E": "V"
+      },
+      "how_to_solve_this_type": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ],
+      "correct_option_text": "ll"
+    },
+    {
+      "question_number": 80,
+      "section_key": "paragraph_questions",
+      "section_name": "Paragraf Soruları (Q71-80)",
+      "correct_answer": "D",
+      "user_answer": "D",
+      "is_correct": true,
+      "question_text": "(1) Psychology is the study of the human mind and aims to find universal rules of human behaviour. (Il) As the science of psychology developed in Western Europe and America, many psychological theories have been limited by a kind of cultural myopia, a short sightedness. (Ill) Aspects of psychological development that were assumed to be universal turn out to be culturally specific. (IV) Cultures also Vai¥ widely with regard to the emphasis on dependence vs. independence, individuality vs. group orientation, and respect for authority vs. individual freedoms. (V) This does not mean that all of our classic psychological theories are without merit, but we have to be cautious when assuming that what is true in one culture is necessarily true in another.",
+      "options": {
+        "A": "]",
+        "B": "i",
+        "C": "ll",
+        "D": "IV",
+        "E": "V"
+      },
+      "how_to_solve_this_type": [
+        "Uzun paragrafı bölümlere ayır: giriş, gelişme, sonuç",
+        "\"Which of the following best describes...\" → yazarın amacını düşün",
+        "\"What is the main argument?\" → paragrafın thesis'ini bul",
+        "\"According to the passage, which is NOT true?\" → yanlış seçeneği bul, dikkatli ol",
+        "Anahtar kelimeler: \"despite, although, while\" → zıtlık; \"because, since\" → neden-sonuç"
+      ],
+      "common_patterns": [
+        "author purpose",
+        "paragraph organization",
+        "supporting details",
+        "negative questions"
+      ],
+      "correct_option_text": "IV"
+    }
+  ]
+}

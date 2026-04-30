@@ -60,3 +60,85 @@ export interface UserProgress {
   questionStats: Record<string, QuestionStat>
   completedRounds: number
 }
+
+// ── Training / Exam Analysis Types ───────────────────────────────────────────
+
+export type SectionKey =
+  | 'fill_blank_vocab'
+  | 'cloze'
+  | 'sentence_completion'
+  | 'translation'
+  | 'reading'
+  | 'paragraph_completion'
+  | 'paragraph_questions'
+
+export type Priority = 'HIGH' | 'MEDIUM' | 'LOW'
+
+export interface ExamQuestion {
+  question_number: number
+  section_key: SectionKey
+  section_name: string
+  correct_answer: string
+  user_answer: string
+  is_correct: boolean
+  question_text: string
+  options: Record<string, string>
+  correct_option_text?: string
+  user_option_text?: string
+  how_to_solve_this_type: string[]
+  common_patterns: string[]
+}
+
+export interface SectionAnalysis {
+  section_name: string
+  correct: number
+  total: number
+  accuracy_pct: number
+  wrong_question_numbers: number[]
+  how_to_solve: string[]
+  common_patterns: string[]
+  study_advice: string
+  priority: Priority
+}
+
+export interface ExamData {
+  meta: {
+    exam: string
+    total_questions: number
+    total_correct: number
+    total_wrong: number
+    yds_score: number
+    target_score: number
+    target_correct_needed: number
+    additional_correct_needed: number
+    study_priority_order: string[]
+  }
+  section_analysis: Record<SectionKey, SectionAnalysis>
+  questions: ExamQuestion[]
+}
+
+// ── Training Progress ─────────────────────────────────────────────────────────
+
+export interface TrainingSectionStat {
+  attempts: number
+  correct: number
+  lastPracticed: string
+}
+
+export interface DailyLog {
+  date: string
+  questionsAnswered: number
+  correct: number
+  wrong: number
+  xpEarned: number
+  sectionsStudied: string[]
+}
+
+export interface TrainingProgress {
+  sectionStats: Record<string, TrainingSectionStat>
+  dailyLogs: DailyLog[]
+  currentStreak: number
+  lastTrainedDate: string
+  totalTrainingXp: number
+  tipsViewed: Record<string, boolean>
+}
