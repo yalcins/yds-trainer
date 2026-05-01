@@ -1,7 +1,8 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { loadData } from '@/lib/data'
-import type { Pattern } from '@/lib/types'
+import { getProgress, isPatternDue } from '@/lib/store'
+import type { Pattern, PatternStat } from '@/lib/types'
 
 const CAT_COLORS: Record<string, { border: string; badge: string; bg: string }> = {
   VOCAB:       { border: 'border-violet-300', badge: 'bg-violet-100 text-violet-700', bg: 'bg-violet-50' },
@@ -18,9 +19,13 @@ export default function PatternsPage() {
   const [filter, setFilter]   = useState('Tümü')
   const [flipped, setFlipped] = useState<Set<number>>(new Set())
   const [search, setSearch]   = useState('')
+  const [patternStats, setPatternStats] = useState<Record<string, PatternStat>>({})
 
   useEffect(() => {
-    loadData().then(d => setPatterns(d.patterns))
+    loadData().then(d => {
+      setPatterns(d.patterns)
+      setPatternStats(getProgress().patternStats)
+    })
   }, [])
 
   const visible = patterns.filter(p => {
@@ -31,6 +36,14 @@ export default function PatternsPage() {
 
   const toggleFlip = (i: number) =>
     setFlipped(f => { const n = new Set(f); n.has(i) ? n.delete(i) : n.add(i); return n })
+
+  const getMasteryBadge = (pattern: string) => {
+    const ps = patternStats[pattern]
+    if (!ps || !ps.last_seen) return null
+    if (ps.next_review === 'mastered') return { label: '⭐ Öğrenildi', cls: 'bg-yellow-100 text-yellow-700' }
+    if (isPatternDue(ps)) return { label: '🔔 Tekrar Zamanı', cls: 'bg-red-100 text-red-600' }
+    return { label: '✓ Çalışıldı', cls: 'bg-green-100 text-green-700' }
+  }
 
   return (
     <div className="space-y-4">
@@ -77,6 +90,7 @@ export default function PatternsPage() {
         {visible.map((p, i) => {
           const isFlipped = flipped.has(i)
           const c = CAT_COLORS[p.category] ?? { border: 'border-gray-200', badge: 'bg-gray-100 text-gray-600', bg: 'bg-gray-50' }
+          const mastery = getMasteryBadge(p.pattern)
           return (
             <div key={i} className="flip-card" style={{ minHeight: isFlipped ? 'auto' : 100 }}>
               <button
@@ -84,9 +98,16 @@ export default function PatternsPage() {
                 className={`card w-full text-left p-4 border-l-4 ${c.border} transition-all active:scale-[0.98] space-y-2`}
               >
                 <div className="flex items-center justify-between">
-                  <span className={`text-xs font-black px-2 py-0.5 rounded-full ${c.badge}`}>
-                    {p.category}
-                  </span>
+                  <div className="flex items-center gap-2">
+                    <span className={`text-xs font-black px-2 py-0.5 rounded-full ${c.badge}`}>
+                      {p.category}
+                    </span>
+                    {mastery && (
+                      <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${mastery.cls}`}>
+                        {mastery.label}
+                      </span>
+                    )}
+                  </div>
                   <span className={`text-lg transition-transform duration-300 ${isFlipped ? 'rotate-180' : ''}`}>
                     ▼
                   </span>

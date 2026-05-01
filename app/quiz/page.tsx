@@ -67,7 +67,7 @@ export default function QuizPage() {
   const loadQuestions = () => {
     loadData().then(data => {
       const p = getProgress()
-      const qs = pickQuizQuestions(data, 5, p.questionStats) as Question[]
+      const qs = pickQuizQuestions(data, 5, p.questionStats, p.patternStats) as Question[]
       setQuestions(qs)
       setPhase('question')
     })
@@ -80,7 +80,7 @@ export default function QuizPage() {
     setSelected(opt)
     setPhase('feedback')
     const correct = opt === q.correct_answer
-    recordAnswer(q.id, correct)
+    recordAnswer(q.id, correct, q.pattern)
     if (correct) {
       setScore(s => s + 1)
       setXpEarned(x => x + 10)

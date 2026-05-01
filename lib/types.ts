@@ -53,10 +53,18 @@ export interface QuestionStat {
   lastSeen: string
 }
 
+export interface PatternStat {
+  correct_count: number
+  wrong_count: number
+  last_seen: string
+  next_review: string // ISO date YYYY-MM-DD; empty string means not yet seen; 'mastered' means mastered
+}
+
 export interface UserProgress {
   streak: number
   lastPlayedDate: string
   xp: number
   questionStats: Record<string, QuestionStat>
   completedRounds: number
+  patternStats: Record<string, PatternStat>
 }

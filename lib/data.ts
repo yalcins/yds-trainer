@@ -1,4 +1,5 @@
-import { YDSData } from './types'
+import { YDSData, PatternStat } from './types'
+import { isPatternDue } from './store'
 
 let _cache: YDSData | null = null
 
@@ -20,10 +21,16 @@ export async function loadData(): Promise<YDSData> {
   return _cache
 }
 
+const SCORE_MASTERED_MAX = 0.5
+const SCORE_UNSEEN_DUE = 15
+const SCORE_UNSEEN = 10
+const SCORE_DUE_BOOST = 8
+
 export function pickQuizQuestions(
   data: YDSData,
   count = 5,
-  stats: Record<string, { seen: number; correct: number }> = {}
+  stats: Record<string, { seen: number; correct: number }> = {},
+  patternStats: Record<string, PatternStat> = {}
 ) {
   const all = [...data.questions, ...data.generated_questions.map(g => ({
     id: g.gen_id,
@@ -44,9 +51,22 @@ export function pickQuizQuestions(
 
   const scored = all.map(q => {
     const s = stats[q.id]
-    if (!s) return { q, score: Math.random() + 10 }
-    const acc = s.correct / s.seen
-    return { q, score: (1 - acc) * 5 + Math.random() }
+    const ps = patternStats[q.pattern]
+    const due = isPatternDue(ps)
+    const mastered = ps?.next_review === 'mastered'
+
+    let score: number
+    if (mastered) {
+      score = Math.random() * SCORE_MASTERED_MAX
+    } else if (!s) {
+      score = due ? Math.random() + SCORE_UNSEEN_DUE : Math.random() + SCORE_UNSEEN
+    } else {
+      const acc = s.correct / s.seen
+      score = (1 - acc) * 5 + Math.random()
+      if (due) score += SCORE_DUE_BOOST
+    }
+
+    return { q, score }
   })
 
   scored.sort((a, b) => b.score - a.score)
