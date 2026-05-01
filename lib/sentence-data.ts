@@ -112,7 +112,7 @@ export const sentenceQuestions: SentenceQuestion[] = [
     id: 'sq_004',
     sentence: 'The new policy has several advantages; ____, it also presents some drawbacks.',
     sentence_type: 'contrast',
-    clue_words: ['however', 'also', 'drawbacks'],
+    clue_words: ['also', 'drawbacks'],
     before_meaning: 'Politikanın birçok avantajı var.',
     expected_continuation: 'Noktalı virgül + "however/nevertheless" yapısı bir zıtlık bildiriyor; dezavantajlar geliyor.',
     options: {
