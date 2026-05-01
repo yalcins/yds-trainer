@@ -3,7 +3,7 @@ import { useEffect, useState, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { loadData, pickQuizQuestions } from '@/lib/data'
 import { getProgress, recordAnswer, finishRound } from '@/lib/store'
-import type { Question } from '@/lib/types'
+import type { Question, Explanation } from '@/lib/types'
 
 type Phase = 'loading' | 'question' | 'feedback' | 'results'
 
@@ -61,6 +61,9 @@ export default function QuizPage() {
   const [xpEarned, setXpEarned] = useState(0)
   const [showXP, setShowXP] = useState(false)
   const [optAnim, setOptAnim] = useState<Record<string, string>>({})
+  const [explanation, setExplanation] = useState<Explanation | null>(null)
+  const [explLoading, setExplLoading] = useState(false)
+  const [explError, setExplError] = useState(false)
 
   const q = questions[index]
 
@@ -79,6 +82,9 @@ export default function QuizPage() {
     if (phase !== 'question') return
     setSelected(opt)
     setPhase('feedback')
+    setExplanation(null)
+    setExplError(false)
+    setExplLoading(true)
     const correct = opt === q.correct_answer
     recordAnswer(q.id, correct)
     if (correct) {
@@ -91,6 +97,18 @@ export default function QuizPage() {
       setHearts(h => Math.max(0, h - 1))
       setOptAnim({ [opt]: 'animate-shake' })
     }
+    fetch('/api/explain', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question: q, selectedAnswer: opt }),
+    })
+      .then(r => r.json())
+      .then(data => {
+        if (data.explanation) setExplanation(data.explanation)
+        else setExplError(true)
+      })
+      .catch(() => { setExplError(true) })
+      .finally(() => setExplLoading(false))
   }, [phase, q])
 
   const handleNext = () => {
@@ -100,6 +118,8 @@ export default function QuizPage() {
     } else {
       setSelected(null)
       setOptAnim({})
+      setExplanation(null)
+      setExplError(false)
       setIndex(i => i + 1)
       setPhase('question')
     }
@@ -233,6 +253,32 @@ export default function QuizPage() {
             )}
             {q.trap && (
               <p className="text-xs text-[#3C3C3C]/55 font-semibold">💡 {q.trap}</p>
+            )}
+
+            {/* AI structured explanation */}
+            {explLoading && (
+              <p className="text-xs text-[#3C3C3C]/50 font-semibold animate-pulse">🤖 Açıklama yükleniyor…</p>
+            )}
+            {explError && !explLoading && (
+              <p className="text-xs text-[#3C3C3C]/50 font-semibold">⚠ Açıklama yüklenemedi.</p>
+            )}
+            {explanation && (
+              <div className={`mt-2 rounded-xl p-3 space-y-2 text-xs font-semibold ${isCorrect ? 'bg-white/60' : 'bg-white/70'}`}>
+                <div>
+                  <span className="text-[#46A302] font-black">✓ Neden doğru?</span>
+                  <p className="text-[#3C3C3C]/80 mt-0.5">{explanation.correct_reason}</p>
+                </div>
+                {explanation.wrong_reason && (
+                  <div>
+                    <span className="text-[#FF4B4B] font-black">✗ Neden yanlış?</span>
+                    <p className="text-[#3C3C3C]/80 mt-0.5">{explanation.wrong_reason}</p>
+                  </div>
+                )}
+                <div>
+                  <span className="text-[#FF9600] font-black">⚠ Neden tuzak?</span>
+                  <p className="text-[#3C3C3C]/80 mt-0.5">{explanation.distractor_reason}</p>
+                </div>
+              </div>
             )}
             <button
               onClick={handleNext}

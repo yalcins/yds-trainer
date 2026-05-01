@@ -47,6 +47,12 @@ export interface YDSData {
   generated_questions: GeneratedQuestion[]
 }
 
+export interface Explanation {
+  correct_reason: string
+  wrong_reason: string | null
+  distractor_reason: string
+}
+
 export interface QuestionStat {
   seen: number
   correct: number
