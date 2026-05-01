@@ -1,0 +1,732 @@
+[
+  {
+    "id": "endure",
+    "pattern_text": "endure",
+    "category": "VOCAB",
+    "meaning_tr": "uzun süre dayanmak / kalıcı olmak / varlığını sürdürmek",
+    "memory_trick": "EN-DURE → en uzun süre dayanmak. 'Forever chemicals' gibi bitmiyor.",
+    "mini_story": "Bir kimyasal madde yüzyıllar boyunca çevrede kalıyor — 'forever chemical' olarak biliniyor. Çünkü endures in the environment.",
+    "collocations": [
+      "endure for a long time",
+      "endure in the environment",
+      "endure hardship"
+    ],
+    "trap_words": [
+      "accelerate",
+      "elaborate",
+      "assemble"
+    ],
+    "trap_explanation": "accelerate = hızlanmak (zıt anlam), elaborate = ayrıntılandırmak, assemble = bir araya getirmek",
+    "example_en": "These substances endure in the environment for centuries.",
+    "example_tr": "Bu maddeler yüzyıllar boyunca çevrede varlığını sürdürür.",
+    "difficulty": 2,
+    "question_numbers": [
+      1
+    ]
+  },
+  {
+    "id": "embark_on",
+    "pattern_text": "embark on",
+    "category": "PHRASAL",
+    "meaning_tr": "başlamak / girişmek (önemli bir iş/yolculuğa)",
+    "memory_trick": "em-BARK = köpek havlıyor ve yolculuğa çıkıyor. Gemiye (bark) biniyor, yolculuğa başlıyor.",
+    "mini_story": "Bir araştırmacı yeni bir projeye embark on ediyor — uzun ve önemli bir yolculuk başlıyor.",
+    "collocations": [
+      "embark on a journey",
+      "embark on a project",
+      "embark on a career"
+    ],
+    "trap_words": [
+      "set back",
+      "get by",
+      "put down",
+      "ease off"
+    ],
+    "trap_explanation": "set back = geciktirmek, get by = idare etmek, put down = bastırmak/yazmak, ease off = azaltmak",
+    "example_en": "Scientists embark on a new research project every year.",
+    "example_tr": "Bilim insanları her yıl yeni bir araştırma projesine girişiyor.",
+    "difficulty": 2,
+    "question_numbers": [
+      2
+    ]
+  },
+  {
+    "id": "resilient",
+    "pattern_text": "resilient",
+    "category": "VOCAB",
+    "meaning_tr": "dirençli / çabuk toparlanabilen / esnek",
+    "memory_trick": "RE-SILIENT → 'again + jump' → tekrar zıplayan. Düştükten sonra fırlıyor!",
+    "mini_story": "Sınavda kötü not alan öğrenci yılmıyor, yeniden çalışıyor. Resilient bir karakter.",
+    "collocations": [
+      "resilient to change",
+      "resilient economy",
+      "prove resilient"
+    ],
+    "trap_words": [
+      "compliant",
+      "sanctioned",
+      "legible"
+    ],
+    "trap_explanation": "compliant = uyumlu/itaatkar, sanctioned = onaylanmış/yaptırım uygulanan, legible = okunabilir",
+    "example_en": "Children are often more resilient than adults in difficult situations.",
+    "example_tr": "Çocuklar zor durumlarda genellikle yetişkinlerden daha dirençlidir.",
+    "difficulty": 2,
+    "question_numbers": [
+      3
+    ]
+  },
+  {
+    "id": "degradation",
+    "pattern_text": "degradation",
+    "category": "VOCAB",
+    "meaning_tr": "bozulma / kötüleşme / çöküş / çevresel tahribat",
+    "memory_trick": "DEGRADE = aşağı inmek. Grade'den düşmek = bozulmak. Çevre degradation = çevre bozulması.",
+    "mini_story": "Orman kesiliyor, toprak erozyona uğruyor — environmental degradation devam ediyor.",
+    "collocations": [
+      "environmental degradation",
+      "soil degradation",
+      "degradation of quality"
+    ],
+    "trap_words": [
+      "presumption",
+      "proximity"
+    ],
+    "trap_explanation": "presumption = varsayım/küstahlık, proximity = yakınlık/yakınında olma",
+    "example_en": "The degradation of natural habitats threatens biodiversity.",
+    "example_tr": "Doğal yaşam alanlarının bozulması biyoçeşitliliği tehdit ediyor.",
+    "difficulty": 2,
+    "question_numbers": [
+      4
+    ]
+  },
+  {
+    "id": "enforcement",
+    "pattern_text": "enforcement",
+    "category": "VOCAB",
+    "meaning_tr": "uygulama / icra / yaptırım",
+    "memory_trick": "EN-FORCE = güç uygulama. Kuralları 'force' ile uygulamak.",
+    "mini_story": "Trafik yasaları kağıtta var ama enforcement olmadan kimse uymuyor.",
+    "collocations": [
+      "law enforcement",
+      "strict enforcement",
+      "enforcement of rules"
+    ],
+    "trap_words": [
+      "conciliation",
+      "controversy",
+      "rejection"
+    ],
+    "trap_explanation": "conciliation = uzlaştırma, controversy = tartışma/anlaşmazlık, rejection = ret/reddedilme",
+    "example_en": "Effective law enforcement is essential for public safety.",
+    "example_tr": "Etkin yasa uygulama, kamu güvenliği için vazgeçilmezdir.",
+    "difficulty": 2,
+    "question_numbers": [
+      6
+    ]
+  },
+  {
+    "id": "however",
+    "pattern_text": "however",
+    "category": "LINKER",
+    "meaning_tr": "ancak / fakat / bununla birlikte (CONTRAST)",
+    "memory_trick": "HOW-EVER = 'ne kadar da' → 'Her ne kadar öyle olsa da...' = ZITLIK",
+    "mini_story": "Hava güzel görünüyor; however, dışarıda dondurucu soğuk var. Zıtlık var!",
+    "collocations": [
+      "however, the study shows",
+      "however, this is not always",
+      "however, recent research"
+    ],
+    "trap_words": [
+      "therefore",
+      "furthermore",
+      "for instance"
+    ],
+    "trap_explanation": "therefore = bu nedenle (SONUÇ), furthermore = dahası (EK BİLGİ), for instance = örneğin (ÖRNEK)",
+    "example_en": "The plan seemed perfect; however, several problems emerged.",
+    "example_tr": "Plan mükemmel görünüyordu; ancak, birkaç sorun ortaya çıktı.",
+    "difficulty": 1,
+    "question_numbers": [
+      7
+    ]
+  },
+  {
+    "id": "even_though",
+    "pattern_text": "Even though / Although",
+    "category": "LINKER",
+    "meaning_tr": "her ne kadar / -e rağmen (KARŞITLIK — aynı cümlede iki zıt fikir)",
+    "memory_trick": "even THOUGH = 'even' güçlendiriyor. Çok güçlü bir zıtlık: 'even böyle olsa da...'",
+    "mini_story": "Even though it was raining, she went for a run. Yağmura rağmen koştu.",
+    "collocations": [
+      "even though it is difficult",
+      "although research suggests",
+      "even though studies show"
+    ],
+    "trap_words": [
+      "As if",
+      "As long as",
+      "In case",
+      "Since"
+    ],
+    "trap_explanation": "As if = sanki (comparison), As long as = -dığı sürece (condition), In case = -diye/ihtimaline karşı, Since = -den beri/-dığı için",
+    "example_en": "Even though the treatment is expensive, it is highly effective.",
+    "example_tr": "Tedavi pahalı olmasına rağmen, son derece etkilidir.",
+    "difficulty": 1,
+    "question_numbers": [
+      8
+    ]
+  },
+  {
+    "id": "despite",
+    "pattern_text": "Despite / In spite of",
+    "category": "PREPOSITION",
+    "meaning_tr": "-e rağmen (isim/gerunddan önce gelir, clause değil!)",
+    "memory_trick": "Despite + NOUN/GERUND. 'Despite the rain' ✅ 'Despite it rained' ❌",
+    "mini_story": "Despite the difficulties, she succeeded. Zorluklar RAĞMEN başardı — sonra isim geliyor!",
+    "collocations": [
+      "despite the fact that",
+      "despite challenges",
+      "in spite of opposition"
+    ],
+    "trap_words": [
+      "on behalf of",
+      "instead of",
+      "with the aim of"
+    ],
+    "trap_explanation": "on behalf of = adına, instead of = yerine, with the aim of = amacıyla",
+    "example_en": "Despite extensive research, no cure has been found.",
+    "example_tr": "Kapsamlı araştırmalara rağmen, tedavi bulunamamıştır.",
+    "difficulty": 1,
+    "question_numbers": [
+      9
+    ]
+  },
+  {
+    "id": "so_that",
+    "pattern_text": "so that",
+    "category": "LINKER",
+    "meaning_str": "... böylece / ... için (AMAÇ / SONUÇ)",
+    "meaning_tr": "böylece / -mek için (amaç veya kasıtlı sonuç)",
+    "memory_trick": "SO THAT = amaç bağlacı. 'Bunu yaptım ki (so that) şu olsun'",
+    "mini_story": "She studies hard so that she can pass the exam. Geçmek IÇIN çalışıyor.",
+    "collocations": [
+      "so that + can/could",
+      "so that they would",
+      "so that the results"
+    ],
+    "trap_words": [
+      "whether",
+      "as much as",
+      "in case",
+      "just as"
+    ],
+    "trap_explanation": "whether = -ip -mediği, as much as = kadar, in case = -diye, just as = tam da ... gibi",
+    "example_en": "The information is coded so that others cannot read it.",
+    "example_tr": "Bilgi, başkalarının okuyamaması için kodlanmıştır.",
+    "difficulty": 2,
+    "question_numbers": [
+      10
+    ]
+  },
+  {
+    "id": "either_or",
+    "pattern_text": "either / or",
+    "category": "GRAMMAR",
+    "meaning_tr": "ya ... ya da (ikisinden biri — pozitif)",
+    "memory_trick": "EITHER/OR = seçim var, ikisinden biri. NEITHER/NOR = ikisi de değil.",
+    "mini_story": "Either you pass or you fail. Ya geçersin ya da kalırsın. Seçim var!",
+    "collocations": [
+      "either A or B",
+      "either way",
+      "either of them"
+    ],
+    "trap_words": [
+      "neither / nor",
+      "so / that",
+      "the more / the more"
+    ],
+    "trap_explanation": "neither/nor = ne ... ne de (negatif çift), so/that = o kadar...ki, the more/more = ne kadar...o kadar",
+    "example_en": "Students can either take the exam online or in person.",
+    "example_tr": "Öğrenciler sınavı ya çevrimiçi ya da yüz yüze alabilir.",
+    "difficulty": 1,
+    "question_numbers": [
+      14
+    ]
+  },
+  {
+    "id": "with_regard_to",
+    "pattern_text": "with regard to",
+    "category": "PREPOSITION",
+    "meaning_tr": "ile ilgili olarak / konusunda / bakımından",
+    "memory_trick": "REGARD = saygı/bakış → 'bu konuya bakış açısıyla' = ile ilgili olarak",
+    "mini_story": "With regard to climate change, scientists agree on the urgency. İklim değişikliği KONUSUNDA bilim insanları aciliyette hemfikir.",
+    "collocations": [
+      "with regard to this",
+      "with regard to the issue",
+      "with regard to policy"
+    ],
+    "trap_words": [
+      "irrespective of",
+      "in pursuit of",
+      "on behalf of"
+    ],
+    "trap_explanation": "irrespective of = bakılmaksızın, in pursuit of = peşinde, on behalf of = adına",
+    "example_en": "With regard to the new policy, there are several concerns.",
+    "example_tr": "Yeni politikayla ilgili olarak, birçok endişe bulunmaktadır.",
+    "difficulty": 2,
+    "question_numbers": [
+      21
+    ]
+  },
+  {
+    "id": "as_a_result_of",
+    "pattern_text": "As a result of",
+    "category": "PREPOSITION",
+    "meaning_tr": "... sonucunda / ... nedeniyle",
+    "memory_trick": "RESULT = sonuç. As a result OF = bir şeyin SONUCU olarak. Neden-sonuç ilişkisi!",
+    "mini_story": "As a result of the experiment, new findings emerged. Deney SONUCUNDA yeni bulgular çıktı.",
+    "collocations": [
+      "as a result of this",
+      "as a result of the research",
+      "as a result of climate change"
+    ],
+    "trap_words": [
+      "Except for",
+      "With the aim of",
+      "Rather than"
+    ],
+    "trap_explanation": "Except for = hariç, With the aim of = amacıyla, Rather than = yerine/tercih olarak",
+    "example_en": "As a result of deforestation, many species are endangered.",
+    "example_tr": "Ormansızlaşma sonucunda, birçok tür tehlike altındadır.",
+    "difficulty": 1,
+    "question_numbers": [
+      25
+    ]
+  },
+  {
+    "id": "interfere_with",
+    "pattern_text": "interfere with",
+    "category": "PHRASAL",
+    "meaning_tr": "engellemek / olumsuz etkilemek / karışmak",
+    "memory_trick": "INTER-FERE = araya girmek. 'inter' = arasında + 'fere' = gitmek. Ortaya girip işi bozmak!",
+    "mini_story": "Stres uyku düzeninizi interfere with eder — ortaya girip engeller.",
+    "collocations": [
+      "interfere with sleep",
+      "interfere with daily life",
+      "interfere with work"
+    ],
+    "trap_words": [
+      "conform to",
+      "adhere to",
+      "contribute to"
+    ],
+    "trap_explanation": "conform to = uymak, adhere to = bağlı kalmak, contribute to = katkıda bulunmak",
+    "example_en": "Noise pollution can interfere with concentration.",
+    "example_tr": "Gürültü kirliliği konsantrasyonu olumsuz etkileyebilir.",
+    "difficulty": 2,
+    "question_numbers": []
+  },
+  {
+    "id": "adhere_to",
+    "pattern_text": "adhere to",
+    "category": "PHRASAL",
+    "meaning_tr": "bağlı kalmak / uymak / yapışmak",
+    "memory_trick": "AD-HERE = 'burada kal'. Kurala yapışıp kalıyorsun!",
+    "mini_story": "Bilim insanları kurallara adhere to eder. Protokollere yapışıyorlar.",
+    "collocations": [
+      "adhere to rules",
+      "adhere to guidelines",
+      "adhere to principles"
+    ],
+    "trap_words": [
+      "interfere with",
+      "deviate from",
+      "break away from"
+    ],
+    "trap_explanation": "interfere with = engellemek, deviate from = sapmak, break away from = kopmak",
+    "example_en": "Scientists must adhere to strict ethical guidelines.",
+    "example_tr": "Bilim insanları katı etik kurallara uymak zorundadır.",
+    "difficulty": 2,
+    "question_numbers": []
+  },
+  {
+    "id": "warrant",
+    "pattern_text": "warrant",
+    "category": "VOCAB",
+    "meaning_tr": "gerektirmek / haklı kılmak / garantilemek",
+    "memory_trick": "WARRANT = arama emri gibi resmi bir gereklilik. 'Bu durum tıbbi dikkat GEREKTİRİYOR!'",
+    "mini_story": "Doktor hastaya bakıyor: 'Bu belirti further investigation warrants.' Daha fazla araştırma gerekiyor.",
+    "collocations": [
+      "warrant further investigation",
+      "warrant attention",
+      "warrant concern"
+    ],
+    "trap_words": [
+      "prohibit",
+      "prevent",
+      "restrict"
+    ],
+    "trap_explanation": "prohibit = yasaklamak, prevent = önlemek, restrict = kısıtlamak",
+    "example_en": "The new evidence warrants a thorough investigation.",
+    "example_tr": "Yeni kanıtlar kapsamlı bir soruşturma gerektiriyor.",
+    "difficulty": 3,
+    "question_numbers": []
+  },
+  {
+    "id": "conform_to",
+    "pattern_text": "conform to",
+    "category": "PHRASAL",
+    "meaning_tr": "uymak / uygun olmak (standart/kurala)",
+    "memory_trick": "CON-FORM = birlikte form'a girmek. Herkesle aynı kalıba girmek!",
+    "mini_story": "Ürünler güvenlik standartlarına conform to etmek zorunda.",
+    "collocations": [
+      "conform to standards",
+      "conform to rules",
+      "conform to expectations"
+    ],
+    "trap_words": [
+      "adhere to",
+      "comply with",
+      "interfere with"
+    ],
+    "trap_explanation": "adhere to = yapışmak/bağlı kalmak (daha kişisel), comply with = uymak (resmi), interfere with = engellemek",
+    "example_en": "All products must conform to safety regulations.",
+    "example_tr": "Tüm ürünler güvenlik yönetmeliklerine uymalıdır.",
+    "difficulty": 2,
+    "question_numbers": []
+  },
+  {
+    "id": "ramification",
+    "pattern_text": "ramification(s)",
+    "category": "VOCAB",
+    "meaning_tr": "sonuç / yansıma / dal budak salan etki",
+    "memory_trick": "RAMI-FICATION = 'dallanma'. Bir kararın sonuçları ağaç dalları gibi yayılıyor!",
+    "mini_story": "Ormansızlaşmanın ramifications çok geniş — iklim, su, biyoçeşitlilik hepsi etkileniyor.",
+    "collocations": [
+      "far-reaching ramifications",
+      "ramifications of a decision",
+      "serious ramifications"
+    ],
+    "trap_words": [
+      "implications",
+      "limitations",
+      "specifications"
+    ],
+    "trap_explanation": "implications = çıkarımlar/sonuçlar (daha nötr), limitations = sınırlılıklar, specifications = özellikler",
+    "example_en": "The decision had serious ramifications for the entire industry.",
+    "example_tr": "Karar, tüm sektör için ciddi sonuçlar doğurdu.",
+    "difficulty": 3,
+    "question_numbers": []
+  },
+  {
+    "id": "attribute_to",
+    "pattern_text": "attribute to / be attributed to",
+    "category": "PHRASAL",
+    "meaning_tr": "... nedeniyle olmak / ... ile açıklamak / atfetmek",
+    "memory_trick": "ATTRI-BUTE = 'bu ona ait'. Bir şeyi birine/bir nedene bağlamak.",
+    "mini_story": "The success was attributed to teamwork. Başarı takım çalışmasına atfedildi.",
+    "collocations": [
+      "attributed to climate change",
+      "attribute success to",
+      "be attributed to"
+    ],
+    "trap_words": [
+      "contribute to",
+      "adhere to",
+      "conform to"
+    ],
+    "trap_explanation": "contribute to = katkıda bulunmak, adhere to = bağlı kalmak",
+    "example_en": "The disease outbreak was attributed to contaminated water.",
+    "example_tr": "Salgın, kirlenmiş suya bağlandı.",
+    "difficulty": 2,
+    "question_numbers": []
+  },
+  {
+    "id": "inhibit",
+    "pattern_text": "inhibit",
+    "category": "VOCAB",
+    "meaning_tr": "engellemek / bastırmak / ketlemek",
+    "memory_trick": "IN-HIBIT = 'içine hapsetmek'. Gelişimi içine kapatıp engelliyorsun.",
+    "mini_story": "Antibiyotik bakteri büyümesini inhibit eder — içine hapsolur, gelişemez.",
+    "collocations": [
+      "inhibit growth",
+      "inhibit development",
+      "inhibit the spread"
+    ],
+    "trap_words": [
+      "stimulate",
+      "accelerate",
+      "promote"
+    ],
+    "trap_explanation": "stimulate = uyarmak/teşvik etmek (zıt), accelerate = hızlandırmak (zıt), promote = desteklemek (zıt)",
+    "example_en": "Stress can inhibit the immune system's effectiveness.",
+    "example_tr": "Stres, bağışıklık sisteminin etkinliğini engelleyebilir.",
+    "difficulty": 2,
+    "question_numbers": []
+  },
+  {
+    "id": "consequently",
+    "pattern_text": "consequently / as a consequence",
+    "category": "LINKER",
+    "meaning_tr": "sonuç olarak / bunun sonucunda (SONUÇ)",
+    "memory_trick": "CONSEQUENCE = sonuç. Consequently = sonuç olarak. Neden-SONUÇ zinciri!",
+    "mini_story": "It rained heavily; consequently, the match was postponed. Yağmur yağdı → SONUÇ OLARAK maç ertelendi.",
+    "collocations": [
+      "consequently, the study",
+      "as a consequence of",
+      "consequently, this led to"
+    ],
+    "trap_words": [
+      "however",
+      "nevertheless",
+      "although"
+    ],
+    "trap_explanation": "however = zıtlık bağlacı, nevertheless = bununla birlikte (zıtlık), although = rağmen (zıtlık)",
+    "example_en": "The experiment failed; consequently, the team had to start over.",
+    "example_tr": "Deney başarısız oldu; sonuç olarak, ekip yeniden başlamak zorunda kaldı.",
+    "difficulty": 1,
+    "question_numbers": []
+  },
+  {
+    "id": "nevertheless",
+    "pattern_text": "nevertheless / nonetheless",
+    "category": "LINKER",
+    "meaning_tr": "bununla birlikte / yine de / buna rağmen (beklenmedik DEVAM)",
+    "memory_trick": "NEVER-THE-LESS = hiçbir şeye rağmen azalmıyor. Zor bir şeye RAĞMEN devam ediyor!",
+    "mini_story": "Çalışmak zor; nevertheless, başarı geliyor. Yine de / buna rağmen...",
+    "collocations": [
+      "nevertheless, the results",
+      "nevertheless, it is clear",
+      "nonetheless, progress"
+    ],
+    "trap_words": [
+      "therefore",
+      "furthermore",
+      "moreover"
+    ],
+    "trap_explanation": "therefore = bu nedenle (sonuç), furthermore/moreover = dahası (ek bilgi, aynı yön)",
+    "example_en": "The task was challenging; nevertheless, the team completed it on time.",
+    "example_tr": "Görev zordu; bununla birlikte, ekip zamanında tamamladı.",
+    "difficulty": 2,
+    "question_numbers": []
+  },
+  {
+    "id": "moreover",
+    "pattern_text": "moreover / furthermore",
+    "category": "LINKER",
+    "meaning_tr": "dahası / üstelik / bunun yanı sıra (EK BİLGİ — aynı yön)",
+    "memory_trick": "MORE-OVER = daha da fazlası. Aynı yönde ek bilgi eklemek!",
+    "mini_story": "The drug is effective; moreover, it has no side effects. Etkili VE üstelik yan etkisi de yok!",
+    "collocations": [
+      "moreover, the study",
+      "furthermore, research",
+      "moreover, it was found"
+    ],
+    "trap_words": [
+      "however",
+      "nevertheless",
+      "although"
+    ],
+    "trap_explanation": "however/nevertheless = zıtlık, although = rağmen (zıtlık)",
+    "example_en": "The new method is faster; moreover, it is more accurate.",
+    "example_tr": "Yeni yöntem daha hızlı; dahası, daha doğrudur.",
+    "difficulty": 1,
+    "question_numbers": []
+  },
+  {
+    "id": "in_contrast",
+    "pattern_text": "in contrast / by contrast",
+    "category": "LINKER",
+    "meaning_tr": "buna karşın / tersine / tam tersine (güçlü KARŞITLIK)",
+    "memory_trick": "CONTRAST = zıtlık. In contrast = karşıt tarafta. Bir yanda A, diğer yanda B!",
+    "mini_story": "Developed countries consume more energy. In contrast, developing nations use far less. Zıt durum!",
+    "collocations": [
+      "in contrast to this",
+      "in contrast, the other",
+      "by contrast, earlier"
+    ],
+    "trap_words": [
+      "in addition",
+      "as a result",
+      "for example"
+    ],
+    "trap_explanation": "in addition = ek olarak, as a result = sonuç olarak, for example = örneğin",
+    "example_en": "Mammals are warm-blooded; in contrast, reptiles are cold-blooded.",
+    "example_tr": "Memeliler sıcakkanlıdır; buna karşın, sürüngenler soğukkanlıdır.",
+    "difficulty": 1,
+    "question_numbers": []
+  },
+  {
+    "id": "whereas_while",
+    "pattern_text": "whereas / while (zıtlık)",
+    "category": "LINKER",
+    "meaning_tr": "oysa / ... iken (aynı cümlede KARŞITLIK)",
+    "memory_trick": "WHERE-AS = 'nerede ki...' Bir şey öyle iken, diğeri böyle. İki şeyi AYNI cümlede karşılaştır.",
+    "mini_story": "Men tend to be taller, whereas women tend to be shorter. Oysa / ... iken zıtlık.",
+    "collocations": [
+      "whereas previous research",
+      "while others argue",
+      "whereas this study"
+    ],
+    "trap_words": [
+      "however",
+      "despite",
+      "although"
+    ],
+    "trap_explanation": "however/despite/although hepsi zıtlık ama kullanım yerleri farklı — whereas aynı cümlede iki şeyi karşılaştırır",
+    "example_en": "Whereas some species thrive in cold climates, others cannot survive.",
+    "example_tr": "Bazı türler soğuk iklimlerde gelişirken, diğerleri hayatta kalamaz.",
+    "difficulty": 2,
+    "question_numbers": []
+  },
+  {
+    "id": "depict",
+    "pattern_text": "depict",
+    "category": "VOCAB",
+    "meaning_tr": "tasvir etmek / betimlemek / göstermek",
+    "memory_trick": "DE-PICT = picture çizmek. Bir şeyi yazı veya resimle tasvir etmek.",
+    "mini_story": "The novel depicts life in 19th century Istanbul. Roman, İstanbul'u tasvir ediyor.",
+    "collocations": [
+      "depicted in the passage",
+      "depicts the relationship",
+      "vividly depicted"
+    ],
+    "trap_words": [
+      "predict",
+      "detect",
+      "select"
+    ],
+    "trap_explanation": "predict = tahmin etmek, detect = tespit etmek, select = seçmek — dikkat: ses benzerliği tuzak!",
+    "example_en": "The graph depicts the rise in global temperatures.",
+    "example_tr": "Grafik, küresel sıcaklıklardaki artışı göstermektedir.",
+    "difficulty": 2,
+    "question_numbers": []
+  },
+  {
+    "id": "exponentially",
+    "pattern_text": "exponentially",
+    "category": "VOCAB",
+    "meaning_tr": "katlanarak / üstel bir şekilde (çok hızlı artış)",
+    "memory_trick": "EXPO = fuar/sergi → devasa büyüklük. Eksponensiyel = roket gibi katlanarak artış!",
+    "mini_story": "1 bakteri → 2 → 4 → 8 → 16... Exponentially growing! Her adımda KATLANıyor.",
+    "collocations": [
+      "grow exponentially",
+      "increase exponentially",
+      "expand exponentially"
+    ],
+    "trap_words": [
+      "gradually",
+      "steadily",
+      "proportionally"
+    ],
+    "trap_explanation": "gradually = yavaş yavaş, steadily = istikrarlı, proportionally = orantılı",
+    "example_en": "The use of social media has grown exponentially.",
+    "example_tr": "Sosyal medya kullanımı katlanarak büyümüştür.",
+    "difficulty": 3,
+    "question_numbers": []
+  },
+  {
+    "id": "sustain",
+    "pattern_text": "sustain / sustainable",
+    "category": "VOCAB",
+    "meaning_tr": "sürdürmek / desteklemek / ayakta tutmak",
+    "memory_trick": "SUS-TAIN = 'devam ettirmek' için tutan. Sürdürülebilirlik = sustainability.",
+    "mini_story": "Sustainable farming = uzun vadede toprak kalitesini sustain eden tarım.",
+    "collocations": [
+      "sustain growth",
+      "sustain life",
+      "sustainable development"
+    ],
+    "trap_words": [
+      "obtain",
+      "maintain",
+      "retain"
+    ],
+    "trap_explanation": "obtain = elde etmek, maintain = korumak/sürdürmek (benzer!), retain = muhafaza etmek",
+    "example_en": "The body needs nutrients to sustain vital functions.",
+    "example_tr": "Vücut, hayati işlevleri sürdürmek için besinlere ihtiyaç duyar.",
+    "difficulty": 2,
+    "question_numbers": []
+  },
+  {
+    "id": "sc_cause_effect",
+    "pattern_text": "Cümle Tamamlama: Neden-Sonuç",
+    "category": "SENTENCE_COMPLETION",
+    "meaning_tr": "therefore / thus / hence / as a result / consequently → SONUÇ cümlesi",
+    "memory_trick": "OK = neden → SONUÇ. 'Therefore, thus, hence, as a result' = önceki fikrin SONUCU",
+    "mini_story": "Herbs add few calories; ----, they are good replacements. Kalori az → SONUÇ OLARAK iyi alternatif.",
+    "collocations": [
+      "therefore, it can be",
+      "thus, the results",
+      "as a result, widespread"
+    ],
+    "trap_words": [
+      "however",
+      "although",
+      "whereas"
+    ],
+    "trap_explanation": "however/although/whereas = ZITLIK bağlacı. Neden-sonuç bekliyorken zıtlık yanlış.",
+    "example_en": "The new policy was strict; therefore, compliance rates increased.",
+    "example_tr": "Yeni politika katıydı; bu nedenle, uyum oranları arttı.",
+    "difficulty": 2,
+    "question_numbers": [
+      27,
+      28,
+      30
+    ]
+  },
+  {
+    "id": "sc_contrast",
+    "pattern_text": "Cümle Tamamlama: Zıtlık",
+    "category": "SENTENCE_COMPLETION",
+    "meaning_tr": "however / nevertheless / although / while → ZITLIK cümlesi",
+    "memory_trick": "Önceki cümlede bir fikir var → ardından ZITLIK. 'however' = ama, 'although' = rağmen",
+    "mini_story": "Blood circulation appeared in Western medicine; however, the idea first came from ancient China. Zıt yön!",
+    "collocations": [
+      "however, the idea is",
+      "nevertheless, this shows",
+      "although it was believed"
+    ],
+    "trap_words": [
+      "therefore",
+      "furthermore",
+      "as a result"
+    ],
+    "trap_explanation": "therefore/as a result = sonuç (AYNI yön), furthermore = ek bilgi (AYNI yön)",
+    "example_en": "Modern cities are efficient; however, they create environmental problems.",
+    "example_tr": "Modern şehirler verimlidir; ancak, çevresel sorunlar yaratırlar.",
+    "difficulty": 2,
+    "question_numbers": [
+      29,
+      31
+    ]
+  },
+  {
+    "id": "sc_topic_continuity",
+    "pattern_text": "Cümle Tamamlama: Konu Sürekliliği",
+    "category": "SENTENCE_COMPLETION",
+    "meaning_tr": "Cümlenin KONUSU devam etmeli — yeni konu getiren seçenek YANLIŞ",
+    "memory_trick": "Önceki cümlenin KONUSU ne? Sonraki cümle AYNI konuyu sürdürmeli!",
+    "mini_story": "Rosemary is a kitchen herb (konu: rosemary); ---- → doğru şık rosemary'nin başka kullanımlarını anlatır.",
+    "collocations": [
+      "it was also used as",
+      "the same substance can",
+      "this compound additionally"
+    ],
+    "trap_words": [
+      "totally different topics",
+      "unrelated subjects"
+    ],
+    "trap_explanation": "Konu değişirse 'topic break' hatası yapılır — en yaygın hata türü!",
+    "example_en": "Rosemary is used as a herb; ----, it was traditionally used as an antiseptic.",
+    "example_tr": "Biberiye baharat olarak kullanılır; ----, geleneksel olarak antiseptik olarak kullanılırdı.",
+    "difficulty": 3,
+    "question_numbers": [
+      27,
+      32,
+      33,
+      34,
+      35,
+      36
+    ]
+  }
+]
