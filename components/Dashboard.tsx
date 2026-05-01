@@ -1,7 +1,7 @@
 'use client'
-import { useMemo } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { getProgress } from '@/lib/store'
-import type { YDSData } from '@/lib/types'
+import type { UserProgress, YDSData } from '@/lib/types'
 
 const CAT_BAR: Record<string, string> = {
   VOCAB:       'bg-violet-400',
@@ -24,7 +24,11 @@ interface DashboardProps {
 }
 
 export default function Dashboard({ data }: DashboardProps) {
-  const progress = useMemo(() => getProgress(), [])
+  const [progress, setProgress] = useState<UserProgress>(() => getProgress())
+
+  useEffect(() => {
+    setProgress(getProgress())
+  }, [])
 
   const { totalCorrect, totalWrong, score, catStats } = useMemo(() => {
     const stats = progress.questionStats
