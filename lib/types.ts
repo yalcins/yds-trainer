@@ -4,7 +4,7 @@ export interface Question {
   question_text: string
   options: Record<string, string>
   correct_answer: string
-  category: 'VOCAB' | 'PHRASAL' | 'GRAMMAR' | 'PREPOSITION' | 'LINKER'
+  category: 'VOCAB' | 'PHRASAL' | 'GRAMMAR' | 'PREPOSITION' | 'LINKER' | 'SENTENCE_COMPLETION' | 'CLOZE'
   pattern: string
   meaning_tr: string
   example_en: string
@@ -13,6 +13,8 @@ export interface Question {
   short_explanation: string
   difficulty: 1 | 2 | 3
   closest_distractors: string[]
+  /** Reading passage for CLOZE questions */
+  passage?: string
 }
 
 export interface Pattern {

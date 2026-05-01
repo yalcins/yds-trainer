@@ -5,11 +5,13 @@ import { loadData } from '@/lib/data'
 import type { UserProgress, YDSData } from '@/lib/types'
 
 const CAT_BAR: Record<string, string> = {
-  VOCAB:       'bg-violet-400',
-  GRAMMAR:     'bg-[#1CB0F6]',
-  PREPOSITION: 'bg-amber-400',
-  LINKER:      'bg-[#58CC02]',
-  PHRASAL:     'bg-rose-400',
+  VOCAB:               'bg-violet-400',
+  GRAMMAR:             'bg-[#1CB0F6]',
+  PREPOSITION:         'bg-amber-400',
+  LINKER:              'bg-[#58CC02]',
+  PHRASAL:             'bg-rose-400',
+  SENTENCE_COMPLETION: 'bg-sky-400',
+  CLOZE:               'bg-orange-400',
 }
 
 export default function StatsPage() {

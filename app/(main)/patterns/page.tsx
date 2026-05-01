@@ -4,14 +4,16 @@ import { loadData } from '@/lib/data'
 import type { Pattern } from '@/lib/types'
 
 const CAT_COLORS: Record<string, { border: string; badge: string; bg: string }> = {
-  VOCAB:       { border: 'border-violet-300', badge: 'bg-violet-100 text-violet-700', bg: 'bg-violet-50' },
-  GRAMMAR:     { border: 'border-blue-300',   badge: 'bg-blue-100 text-blue-700',     bg: 'bg-blue-50' },
-  PREPOSITION: { border: 'border-amber-300',  badge: 'bg-amber-100 text-amber-700',   bg: 'bg-amber-50' },
-  LINKER:      { border: 'border-[#58CC02]',  badge: 'bg-[#D7FFB8] text-[#46A302]',  bg: 'bg-[#F0FFF0]' },
-  PHRASAL:     { border: 'border-rose-300',   badge: 'bg-rose-100 text-rose-600',     bg: 'bg-rose-50' },
+  VOCAB:               { border: 'border-violet-300', badge: 'bg-violet-100 text-violet-700', bg: 'bg-violet-50' },
+  GRAMMAR:             { border: 'border-blue-300',   badge: 'bg-blue-100 text-blue-700',     bg: 'bg-blue-50' },
+  PREPOSITION:         { border: 'border-amber-300',  badge: 'bg-amber-100 text-amber-700',   bg: 'bg-amber-50' },
+  LINKER:              { border: 'border-[#58CC02]',  badge: 'bg-[#D7FFB8] text-[#46A302]',  bg: 'bg-[#F0FFF0]' },
+  PHRASAL:             { border: 'border-rose-300',   badge: 'bg-rose-100 text-rose-600',     bg: 'bg-rose-50' },
+  SENTENCE_COMPLETION: { border: 'border-sky-300',    badge: 'bg-sky-100 text-sky-700',       bg: 'bg-sky-50' },
+  CLOZE:               { border: 'border-orange-300', badge: 'bg-orange-100 text-orange-700', bg: 'bg-orange-50' },
 }
 
-const CATS = ['Tümü', 'VOCAB', 'GRAMMAR', 'PREPOSITION', 'LINKER', 'PHRASAL']
+const CATS = ['Tümü', 'VOCAB', 'GRAMMAR', 'PREPOSITION', 'LINKER', 'PHRASAL', 'SENTENCE_COMPLETION', 'CLOZE']
 
 export default function PatternsPage() {
   const [patterns, setPatterns] = useState<Pattern[]>([])

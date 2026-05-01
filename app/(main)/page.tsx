@@ -6,11 +6,13 @@ import { loadData } from '@/lib/data'
 import type { UserProgress, YDSData } from '@/lib/types'
 
 const CAT_COLOR: Record<string, { bar: string; badge: string }> = {
-  VOCAB:       { bar: 'bg-violet-400', badge: 'bg-violet-100 text-violet-700' },
-  GRAMMAR:     { bar: 'bg-[#1CB0F6]',  badge: 'bg-blue-100 text-blue-700' },
-  PREPOSITION: { bar: 'bg-amber-400',  badge: 'bg-amber-100 text-amber-700' },
-  LINKER:      { bar: 'bg-[#58CC02]',  badge: 'bg-[#D7FFB8] text-[#46A302]' },
-  PHRASAL:     { bar: 'bg-rose-400',   badge: 'bg-rose-100 text-rose-600' },
+  VOCAB:               { bar: 'bg-violet-400', badge: 'bg-violet-100 text-violet-700' },
+  GRAMMAR:             { bar: 'bg-[#1CB0F6]',  badge: 'bg-blue-100 text-blue-700' },
+  PREPOSITION:         { bar: 'bg-amber-400',  badge: 'bg-amber-100 text-amber-700' },
+  LINKER:              { bar: 'bg-[#58CC02]',  badge: 'bg-[#D7FFB8] text-[#46A302]' },
+  PHRASAL:             { bar: 'bg-rose-400',   badge: 'bg-rose-100 text-rose-600' },
+  SENTENCE_COMPLETION: { bar: 'bg-sky-400',    badge: 'bg-sky-100 text-sky-700' },
+  CLOZE:               { bar: 'bg-orange-400', badge: 'bg-orange-100 text-orange-700' },
 }
 
 export default function Home() {
@@ -135,6 +137,20 @@ export default function Home() {
           <div>
             <div className="font-black text-sm text-[#3C3C3C]">İstatistik</div>
             <div className="text-xs text-[#AFAFAF] font-semibold">{totalSeen} cevap</div>
+          </div>
+        </Link>
+        <Link href="/guided" className="card p-4 flex items-center gap-3 active:scale-95 transition-transform border-b-4 border-[#E5E5E5]">
+          <span className="text-2xl">🧭</span>
+          <div>
+            <div className="font-black text-sm text-[#3C3C3C]">Rehberli Çözüm</div>
+            <div className="text-xs text-[#AFAFAF] font-semibold">Adım adım çöz</div>
+          </div>
+        </Link>
+        <Link href="/mistakes" className="card p-4 flex items-center gap-3 active:scale-95 transition-transform border-b-4 border-[#E5E5E5]">
+          <span className="text-2xl">🔖</span>
+          <div>
+            <div className="font-black text-sm text-[#3C3C3C]">Hata Bankası</div>
+            <div className="text-xs text-[#AFAFAF] font-semibold">Hataları tekrar çöz</div>
           </div>
         </Link>
       </div>

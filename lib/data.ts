@@ -6,7 +6,7 @@ export async function loadData(): Promise<YDSData> {
   if (_cache) return _cache
 
   const [base, userRaw] = await Promise.allSettled([
-    fetch('/yds_training_data.json').then(r => r.json()),
+    fetch('/yds26_exam1_full.json').then(r => r.json()),
     fetch('https://raw.githubusercontent.com/yalcins/yds-trainer/main/data/user_questions.json').then(r => r.json()),
   ])
 

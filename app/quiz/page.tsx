@@ -8,11 +8,13 @@ import type { Question } from '@/lib/types'
 type Phase = 'loading' | 'question' | 'feedback' | 'results'
 
 const CAT_BADGE: Record<string, string> = {
-  VOCAB:       'bg-violet-100 text-violet-700',
-  GRAMMAR:     'bg-blue-100 text-blue-700',
-  PREPOSITION: 'bg-amber-100 text-amber-700',
-  LINKER:      'bg-[#D7FFB8] text-[#46A302]',
-  PHRASAL:     'bg-rose-100 text-rose-600',
+  VOCAB:                'bg-violet-100 text-violet-700',
+  GRAMMAR:              'bg-blue-100 text-blue-700',
+  PREPOSITION:          'bg-amber-100 text-amber-700',
+  LINKER:               'bg-[#D7FFB8] text-[#46A302]',
+  PHRASAL:              'bg-rose-100 text-rose-600',
+  SENTENCE_COMPLETION:  'bg-sky-100 text-sky-700',
+  CLOZE:                'bg-orange-100 text-orange-700',
 }
 
 function Hearts({ count }: { count: number }) {
@@ -189,6 +191,11 @@ export default function QuizPage() {
 
         {/* Question card */}
         <div className="card p-5 mb-5 border-b-4 border-[#E5E5E5]">
+          {q.passage && (
+            <div className="mb-3 p-3 bg-orange-50 rounded-xl border-l-4 border-orange-300 text-sm text-[#3C3C3C]/80 font-semibold leading-relaxed italic">
+              {q.passage}
+            </div>
+          )}
           <p className="text-base font-bold leading-relaxed text-[#3C3C3C]">
             {q.question_text}
           </p>
