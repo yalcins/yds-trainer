@@ -48,7 +48,7 @@ const CAT_META: Record<string, { emoji: string; title: string; desc: string; clu
   },
 }
 
-const CAT_BADGE: Record<string, string> = {
+export const CAT_BADGE: Record<string, string> = {
   VOCAB:       'bg-violet-100 text-violet-700',
   GRAMMAR:     'bg-blue-100 text-blue-700',
   PREPOSITION: 'bg-amber-100 text-amber-700',
@@ -255,9 +255,15 @@ function HighlightedText({ text, clueWords }: { text: string; clueWords: string[
   }
 
   // Build a regex to match blank OR any clue word (longest first to avoid partial matches)
-  const sorted = [...clueWords].sort((a, b) => b.length - a.length)
-  const blanks = '_+|\\.{3,}'
-  const pattern = new RegExp(`(${blanks}|${sorted.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi')
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const { pattern, sorted } = useMemo(() => {
+    const s = [...clueWords].sort((a, b) => b.length - a.length)
+    const blanks = '_+|\\.{3,}'
+    return {
+      sorted: s,
+      pattern: new RegExp(`(${blanks}|${s.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi'),
+    }
+  }, [clueWords])
 
   const parts = text.split(pattern)
   return (

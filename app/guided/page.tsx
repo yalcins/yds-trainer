@@ -2,16 +2,8 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { loadData } from '@/lib/data'
-import GuidedSolve from '@/components/GuidedSolve'
+import GuidedSolve, { CAT_BADGE } from '@/components/GuidedSolve'
 import type { Question } from '@/lib/types'
-
-const CAT_BADGE: Record<string, string> = {
-  VOCAB:       'bg-violet-100 text-violet-700',
-  GRAMMAR:     'bg-blue-100 text-blue-700',
-  PREPOSITION: 'bg-amber-100 text-amber-700',
-  LINKER:      'bg-[#D7FFB8] text-[#46A302]',
-  PHRASAL:     'bg-rose-100 text-rose-600',
-}
 
 function pickRandom<T>(arr: T[]): T {
   return arr[Math.floor(Math.random() * arr.length)]
