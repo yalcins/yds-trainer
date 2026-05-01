@@ -47,6 +47,30 @@ export interface YDSData {
   generated_questions: GeneratedQuestion[]
 }
 
+export interface ParsedQuestion {
+  question_id: string
+  question_text: string
+  options: Record<string, string>
+  correct_answer: string
+  user_answer: string | null
+  is_correct: boolean
+  section_key: string
+}
+
+export interface ExamResultQuestion {
+  id: string
+  question_text: string
+  options: Record<string, string>
+  correct_answer: string
+  exam?: string
+  user_answer?: string | null
+  is_correct?: boolean
+}
+
+export interface ExamResultInput {
+  questions: ExamResultQuestion[]
+}
+
 export interface QuestionStat {
   seen: number
   correct: number
