@@ -94,9 +94,14 @@ export default function Home() {
       </div>
 
       {/* Big CTA */}
-      <Link href="/quiz" className="btn-duo text-center no-underline text-lg tracking-widest">
-        ⚡ QUIZ BAŞLAT
-      </Link>
+      <div className="flex gap-3">
+        <Link href="/quiz" className="btn-duo text-center no-underline text-lg tracking-widest flex-1">
+          ⚡ QUIZ
+        </Link>
+        <Link href="/typing" className="btn-duo btn-duo-yellow text-center no-underline text-lg tracking-widest flex-1">
+          ✍️ YAZARAK
+        </Link>
+      </div>
 
       {/* Category breakdown */}
       {data && (

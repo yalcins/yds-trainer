@@ -5,9 +5,9 @@ import { usePathname } from 'next/navigation'
 const tabs = [
   { href: '/',         label: 'Ana Sayfa', icon: '🏠' },
   { href: '/quiz',     label: 'Quiz',      icon: '⚡' },
+  { href: '/typing',   label: 'Yazarak',   icon: '✍️' },
   { href: '/chat',     label: 'AI',        icon: '🤖' },
   { href: '/patterns', label: 'Kalıplar',  icon: '📚' },
-  { href: '/admin',    label: 'Ekle',      icon: '➕' },
 ]
 
 export default function BottomNav() {
