@@ -123,6 +123,13 @@ export default function Home() {
 
       {/* Quick links */}
       <div className="grid grid-cols-2 gap-3">
+        <Link href="/sentence" className="card p-4 flex items-center gap-3 active:scale-95 transition-transform border-b-4 border-[#1CB0F6]/40">
+          <span className="text-2xl">🧩</span>
+          <div>
+            <div className="font-black text-sm text-[#3C3C3C]">Cümle Trainer</div>
+            <div className="text-xs text-[#AFAFAF] font-semibold">Mantık öğren</div>
+          </div>
+        </Link>
         <Link href="/patterns" className="card p-4 flex items-center gap-3 active:scale-95 transition-transform border-b-4 border-[#E5E5E5]">
           <span className="text-2xl">📚</span>
           <div>
