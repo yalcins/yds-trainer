@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 const tabs = [
-  { href: '/',         label: 'Ana Sayfa', icon: '🏠' },
-  { href: '/quiz',     label: 'Quiz',      icon: '⚡' },
-  { href: '/train',    label: 'Eğitim',    icon: '🎯' },
-  { href: '/chat',     label: 'AI',        icon: '🤖' },
-  { href: '/patterns', label: 'Kalıplar',  icon: '📚' },
+  { href: '/',          label: 'Pano',    icon: '🏠' },
+  { href: '/practice',  label: 'Antren',  icon: '⚡' },
+  { href: '/mistakes',  label: 'Hatalar', icon: '❌' },
+  { href: '/progress',  label: 'İlerleme',icon: '📈' },
+  { href: '/patterns',  label: 'Kalıplar',icon: '📚' },
 ]
 
 export default function BottomNav() {
