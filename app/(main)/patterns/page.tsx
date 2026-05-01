@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 import { loadData } from '@/lib/data'
 import type { Pattern } from '@/lib/types'
 
@@ -98,6 +99,13 @@ export default function PatternsPage() {
                   <div className={`mt-1 pt-3 border-t border-[#F0F0F0] space-y-1.5 rounded-xl p-3 -mx-1 ${c.bg} animate-slide-up`}>
                     <p className="text-sm font-semibold italic text-[#3C3C3C]/80">{p.example_en}</p>
                     <p className="text-sm text-[#AFAFAF] font-semibold">{p.example_tr}</p>
+                    <Link
+                      href={`/memory-card?word=${encodeURIComponent(p.pattern)}&meaning=${encodeURIComponent(p.meaning_tr)}`}
+                      onClick={e => e.stopPropagation()}
+                      className="inline-block mt-2 text-xs font-black bg-violet-500 text-white px-3 py-1.5 rounded-full active:scale-95 transition-transform"
+                    >
+                      🧠 Hafıza Kartı
+                    </Link>
                   </div>
                 )}
               </button>

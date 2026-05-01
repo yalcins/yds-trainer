@@ -47,6 +47,15 @@ export interface YDSData {
   generated_questions: GeneratedQuestion[]
 }
 
+export interface MemoryCard {
+  word: string
+  meaning_tr: string
+  memory_trick: string
+  mini_story: string
+  example_sentence: string
+  trap_words: string[]
+}
+
 export interface QuestionStat {
   seen: number
   correct: number
