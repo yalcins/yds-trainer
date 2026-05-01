@@ -121,6 +121,16 @@ export default function Home() {
         </div>
       )}
 
+      {/* Linker trainer CTA */}
+      <Link href="/linker" className="card p-4 flex items-center gap-4 active:scale-95 transition-transform border-b-4 border-[#A3D977] no-underline">
+        <span className="text-3xl">🔗</span>
+        <div className="flex-1">
+          <div className="font-black text-sm text-[#3C3C3C]">Cümle Tamamlama</div>
+          <div className="text-xs text-[#AFAFAF] font-semibold">Önce mantığı tahmin et, sonra cevapla</div>
+        </div>
+        <span className="text-xs font-black px-2 py-1 rounded-full bg-[#D7FFB8] text-[#46A302]">LINKER</span>
+      </Link>
+
       {/* Quick links */}
       <div className="grid grid-cols-2 gap-3">
         <Link href="/patterns" className="card p-4 flex items-center gap-3 active:scale-95 transition-transform border-b-4 border-[#E5E5E5]">
