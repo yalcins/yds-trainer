@@ -57,6 +57,7 @@ export default function QuizPage() {
   const [phase, setPhase]   = useState<Phase>('loading')
   const [selected, setSelected] = useState<string | null>(null)
   const [score, setScore]   = useState(0)
+  const [wrongQuestions, setWrongQuestions] = useState<Question[]>([])
   const [hearts, setHearts] = useState(3)
   const [xpEarned, setXpEarned] = useState(0)
   const [showXP, setShowXP] = useState(false)
@@ -89,6 +90,7 @@ export default function QuizPage() {
       setTimeout(() => setShowXP(false), 1100)
     } else {
       setHearts(h => Math.max(0, h - 1))
+      setWrongQuestions(wq => [...wq, q])
       setOptAnim({ [opt]: 'animate-shake' })
     }
   }, [phase, q])
@@ -107,6 +109,7 @@ export default function QuizPage() {
 
   const restart = () => {
     setIndex(0); setScore(0); setHearts(3); setXpEarned(0)
+    setWrongQuestions([])
     setSelected(null); setOptAnim({}); setPhase('loading')
     loadQuestions()
   }
@@ -148,6 +151,26 @@ export default function QuizPage() {
             Tekrar ⚡
           </button>
         </div>
+
+        {wrongQuestions.length > 0 && (
+          <section aria-label="Yanlış cevaplanan sorular" className="w-full max-w-sm space-y-3">
+            <h3 className="text-base font-black text-[#FF4B4B] text-center">Yanlış Cevaplar ({wrongQuestions.length})</h3>
+            <ul className="space-y-3">
+              {wrongQuestions.map((wq) => (
+                <li key={wq.id} className="card p-4 border-l-4 border-[#FF4B4B] space-y-1">
+                  <p className="text-xs font-bold text-[#FF4B4B]">{wq.category}</p>
+                  <p className="text-sm font-semibold text-[#3C3C3C] leading-snug">{wq.question_text}</p>
+                  <p className="text-xs font-bold text-[#46A302]">
+                    ✓ {wq.correct_answer}) {wq.options[wq.correct_answer as keyof typeof wq.options]}
+                  </p>
+                  {wq.short_explanation && (
+                    <p className="text-xs text-[#3C3C3C]/60 font-semibold">{wq.short_explanation}</p>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     )
   }
@@ -176,6 +199,10 @@ export default function QuizPage() {
             className="h-full bg-[#58CC02] rounded-full transition-all duration-500"
             style={{ width: `${progress}%` }}
           />
+        </div>
+        <div className="flex items-center gap-2 shrink-0">
+          <span className="text-sm font-black text-[#58CC02]">✓{score}</span>
+          <span className="text-sm font-black text-[#FF4B4B]">✗{wrongQuestions.length}</span>
         </div>
         <Hearts count={hearts} />
       </div>
