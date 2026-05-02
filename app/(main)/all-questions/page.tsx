@@ -24,6 +24,7 @@ export default function AllQuestionsPage() {
         setQuestions(data.questions)
         setLoading(false)
       })
+      .catch(() => setLoading(false))
   }, [])
 
   const q = questions[index]
@@ -35,7 +36,7 @@ export default function AllQuestionsPage() {
 
   function handleNext() {
     setSelected(null)
-    setIndex(i => (i + 1) % questions.length)
+    setIndex(prev => (prev + 1) % questions.length)
   }
 
   if (loading || !q) {
