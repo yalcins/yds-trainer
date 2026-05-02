@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import type { ExamData } from '@/lib/types'
 import {
@@ -103,15 +103,19 @@ export default function AnalysisPage() {
     )
   }
 
-  // Run analysis
-  const exams = [exam]
-  const { metas, sectionStats, patternStats, mistakeTypes } = analyzeExams(exams)
-  const weaknesses   = generateWeaknessProfile(sectionStats)
-  const topPatterns  = generateTopPatterns(patternStats, exams)
-  const dailyPlan    = generateDailyPlan(weaknesses, topPatterns)
-  const adaptiveSets = buildAdaptiveSets(sectionStats, exams)
-  const strategy     = generatePersonalStrategy(exams, sectionStats, patternStats)
+  // Run analysis — memoized so it doesn't re-run on every re-render (e.g. tab changes)
+  const analysis = useMemo(() => {
+    const exams = [exam!]
+    const { metas, sectionStats, patternStats, mistakeTypes } = analyzeExams(exams)
+    const weaknesses   = generateWeaknessProfile(sectionStats)
+    const topPatterns  = generateTopPatterns(patternStats, exams)
+    const dailyPlan    = generateDailyPlan(weaknesses, topPatterns)
+    const adaptiveSets = buildAdaptiveSets(sectionStats, exams)
+    const strategy     = generatePersonalStrategy(exams, sectionStats, patternStats)
+    return { metas, sectionStats, patternStats, mistakeTypes, weaknesses, topPatterns, dailyPlan, adaptiveSets, strategy }
+  }, [exam])
 
+  const { metas, sectionStats, patternStats, mistakeTypes, weaknesses, topPatterns, dailyPlan, adaptiveSets, strategy } = analysis
   const meta = metas[0]
 
   return (

@@ -380,7 +380,19 @@ function SolveQuestion({ q, onNext, onAnswer }: {
               🔤 Bu 5 Kelime Quiz
             </button>
             <button
-              onClick={() => setAddedReview(true)}
+              onClick={() => {
+                if (!addedReview) {
+                  try {
+                    const key = 'yds_solve_review'
+                    const existing: number[] = JSON.parse(localStorage.getItem(key) ?? '[]')
+                    if (!existing.includes(q.question_number)) {
+                      existing.push(q.question_number)
+                      localStorage.setItem(key, JSON.stringify(existing))
+                    }
+                  } catch {}
+                  setAddedReview(true)
+                }
+              }}
               className={`card p-3 text-center border-b-4 text-xs font-black transition-all active:translate-y-[2px] active:border-b-[1px] ${
                 addedReview ? 'border-[#FFD900] bg-[#FFF9DB] text-amber-700' : 'border-[#E5E5E5] text-[#3C3C3C]'
               }`}
