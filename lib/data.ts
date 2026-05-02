@@ -13,7 +13,10 @@ function normalizeSection(raw: string): QuestionSection | undefined {
   }
 }
 
-/** Derive a QuestionSection from a legacy category field */
+/** Derive a QuestionSection from a legacy category field.
+ *  VOCAB → vocabulary; everything else (GRAMMAR, PHRASAL, PREPOSITION, LINKER) → grammar,
+ *  as all non-vocabulary categories in YDS training data are grammar-related.
+ */
 function sectionFromCategory(cat: string): QuestionSection {
   return cat === 'VOCAB' ? 'vocabulary' : 'grammar'
 }
@@ -90,6 +93,8 @@ export function pickQuizQuestions(
     ? data.questions.filter(q => q.section === section)
     : data.questions
 
+  // Generated questions have no section metadata, so they are only included
+  // when no section filter is active (i.e. the "all" mode).
   const generated = section
     ? []
     : data.generated_questions.map(g => ({
