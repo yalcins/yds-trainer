@@ -1,4 +1,4 @@
-import { YDSData } from './types'
+import { YDSData, GeneratedQuestion, Question } from './types'
 
 let _cache: YDSData | null = null
 
@@ -20,30 +20,36 @@ export async function loadData(): Promise<YDSData> {
   return _cache
 }
 
-export function pickWrongQuestions(
-  data: YDSData,
-  wrongIds: string[],
-  count = 10,
-): ReturnType<typeof pickQuizQuestions> {
-  const idSet = new Set(wrongIds)
-  const all = [...data.questions, ...data.generated_questions.map(g => ({
+function generatedToQuestion(g: GeneratedQuestion): Question {
+  return {
     id: g.gen_id,
     exam: 'generated',
     question_text: g.question_text,
     options: g.options,
     correct_answer: g.correct_answer,
-    category: g.category as any,
+    category: g.category as Question['category'],
     pattern: g.source_pattern,
     meaning_tr: '',
     example_en: '',
     example_tr: '',
     trap: g.trap,
     short_explanation: '',
-    difficulty: g.difficulty as any,
+    difficulty: g.difficulty as Question['difficulty'],
     closest_distractors: g.closest_distractors,
-  }))]
+  }
+}
 
-  const wrong = all.filter(q => idSet.has(q.id))
+function getAllQuestions(data: YDSData): Question[] {
+  return [...data.questions, ...data.generated_questions.map(generatedToQuestion)]
+}
+
+export function pickWrongQuestions(
+  data: YDSData,
+  wrongIds: string[],
+  count = 10,
+): Question[] {
+  const idSet = new Set(wrongIds)
+  const wrong = getAllQuestions(data).filter(q => idSet.has(q.id))
   // Shuffle so the user doesn't always see the same order
   for (let i = wrong.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -57,22 +63,7 @@ export function pickQuizQuestions(
   count = 5,
   stats: Record<string, { seen: number; correct: number }> = {}
 ) {
-  const all = [...data.questions, ...data.generated_questions.map(g => ({
-    id: g.gen_id,
-    exam: 'generated',
-    question_text: g.question_text,
-    options: g.options,
-    correct_answer: g.correct_answer,
-    category: g.category as any,
-    pattern: g.source_pattern,
-    meaning_tr: '',
-    example_en: '',
-    example_tr: '',
-    trap: g.trap,
-    short_explanation: '',
-    difficulty: g.difficulty as any,
-    closest_distractors: g.closest_distractors,
-  }))]
+  const all = getAllQuestions(data)
 
   const scored = all.map(q => {
     const s = stats[q.id]

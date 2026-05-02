@@ -2,7 +2,7 @@
 import { useEffect, useState, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { loadData, pickWrongQuestions } from '@/lib/data'
-import { getWrongQuestionIds, recordAnswer, getProgress } from '@/lib/store'
+import { getWrongQuestionIds, recordAnswer } from '@/lib/store'
 import type { Question } from '@/lib/types'
 
 type Phase = 'loading' | 'empty' | 'question' | 'feedback' | 'results'
@@ -74,7 +74,7 @@ export default function WrongQuizPage() {
         setPhase('empty')
         return
       }
-      const qs = pickWrongQuestions(data, wrongIds, 10) as Question[]
+      const qs = pickWrongQuestions(data, wrongIds, 10)
       setQuestions(qs)
       setPhase('question')
     })
