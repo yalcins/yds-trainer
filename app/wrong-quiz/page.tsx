@@ -1,11 +1,11 @@
 'use client'
 import { useEffect, useState, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
-import { loadData, pickQuizQuestions } from '@/lib/data'
-import { getProgress, recordAnswer, finishRound, getWrongQuestionIds } from '@/lib/store'
+import { loadData, pickWrongQuestions } from '@/lib/data'
+import { getWrongQuestionIds, recordAnswer, getProgress } from '@/lib/store'
 import type { Question } from '@/lib/types'
 
-type Phase = 'loading' | 'question' | 'feedback' | 'results'
+type Phase = 'loading' | 'empty' | 'question' | 'feedback' | 'results'
 
 const CAT_BADGE: Record<string, string> = {
   VOCAB:       'bg-violet-100 text-violet-700',
@@ -50,7 +50,7 @@ function Confetti() {
   )
 }
 
-export default function QuizPage() {
+export default function WrongQuizPage() {
   const router = useRouter()
   const [questions, setQuestions] = useState<Question[]>([])
   const [index, setIndex]   = useState(0)
@@ -61,19 +61,26 @@ export default function QuizPage() {
   const [xpEarned, setXpEarned] = useState(0)
   const [showXP, setShowXP] = useState(false)
   const [optAnim, setOptAnim] = useState<Record<string, string>>({})
+  const [totalWrong, setTotalWrong] = useState(0)
 
   const q = questions[index]
 
-  const loadQuestions = () => {
+  const loadQuestions = useCallback(() => {
+    setPhase('loading')
     loadData().then(data => {
-      const p = getProgress()
-      const qs = pickQuizQuestions(data, 5, p.questionStats) as Question[]
+      const wrongIds = getWrongQuestionIds()
+      setTotalWrong(wrongIds.length)
+      if (wrongIds.length === 0) {
+        setPhase('empty')
+        return
+      }
+      const qs = pickWrongQuestions(data, wrongIds, 10) as Question[]
       setQuestions(qs)
       setPhase('question')
     })
-  }
+  }, [])
 
-  useEffect(() => { loadQuestions() }, [])
+  useEffect(() => { loadQuestions() }, [loadQuestions])
 
   const handleSelect = useCallback((opt: string) => {
     if (phase !== 'question') return
@@ -95,7 +102,6 @@ export default function QuizPage() {
 
   const handleNext = () => {
     if (index + 1 >= questions.length) {
-      finishRound()
       setPhase('results')
     } else {
       setSelected(null)
@@ -107,14 +113,29 @@ export default function QuizPage() {
 
   const restart = () => {
     setIndex(0); setScore(0); setHearts(3); setXpEarned(0)
-    setSelected(null); setOptAnim({}); setPhase('loading')
+    setSelected(null); setOptAnim({})
     loadQuestions()
   }
 
   if (phase === 'loading') {
     return (
       <div className="min-h-screen flex items-center justify-center bg-[#F0F4F8]">
-        <div className="text-6xl animate-bounce">⚡</div>
+        <div className="text-6xl animate-bounce">❌</div>
+      </div>
+    )
+  }
+
+  if (phase === 'empty') {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center px-6 gap-5 bg-[#F0F4F8]">
+        <div className="text-8xl">🎉</div>
+        <div className="text-center space-y-2">
+          <h2 className="text-2xl font-black text-[#3C3C3C]">Hiç yanlış soru yok!</h2>
+          <p className="text-[#AFAFAF] font-semibold">Önce normal quiz modunda birkaç soru çöz.</p>
+        </div>
+        <button onClick={() => router.push('/')} className="btn-duo max-w-xs w-full">
+          Ana Sayfa
+        </button>
       </div>
     )
   }
@@ -122,7 +143,7 @@ export default function QuizPage() {
   if (phase === 'results') {
     const perfect = score === questions.length
     const good    = score >= Math.ceil(questions.length / 2)
-    const wrongCount = getWrongQuestionIds().length
+    const remaining = getWrongQuestionIds().length
     return (
       <div className="min-h-screen flex flex-col items-center justify-center px-6 gap-5 bg-[#F0F4F8] relative overflow-hidden">
         {perfect && <Confetti />}
@@ -134,6 +155,9 @@ export default function QuizPage() {
           <p className="text-[#AFAFAF] font-semibold">
             {perfect ? 'Mükemmel! Tüm soruları bitirdin!' : good ? 'İyi iş! Devam et!' : 'Endişelenme, tekrar dene!'}
           </p>
+          {remaining > 0 && (
+            <p className="text-xs font-bold text-[#FF4B4B]">{remaining} yanlış soru kaldı</p>
+          )}
         </div>
 
         <div className="card px-8 py-5 text-center border-b-4 border-[#CE9B00]" style={{ background: '#FFD900' }}>
@@ -145,19 +169,12 @@ export default function QuizPage() {
           <button onClick={() => router.push('/')} className="btn-duo btn-duo-ghost flex-1">
             Ana Sayfa
           </button>
-          <button onClick={restart} className="btn-duo flex-1">
-            Tekrar ⚡
-          </button>
+          {remaining > 0 && (
+            <button onClick={restart} className="btn-duo flex-1">
+              Tekrar ❌
+            </button>
+          )}
         </div>
-
-        {wrongCount > 0 && (
-          <button
-            onClick={() => router.push('/wrong-quiz')}
-            className="text-sm font-black text-[#FF4B4B] underline underline-offset-2"
-          >
-            🔁 {wrongCount} yanlış soruyu çalış
-          </button>
-        )}
       </div>
     )
   }
@@ -183,11 +200,18 @@ export default function QuizPage() {
         <button onClick={() => router.push('/')} className="text-[#AFAFAF] text-xl font-black p-1 leading-none">✕</button>
         <div className="flex-1 h-4 bg-[#E5E5E5] rounded-full overflow-hidden">
           <div
-            className="h-full bg-[#58CC02] rounded-full transition-all duration-500"
+            className="h-full bg-[#FF4B4B] rounded-full transition-all duration-500"
             style={{ width: `${progress}%` }}
           />
         </div>
         <Hearts count={hearts} />
+      </div>
+
+      {/* Mode badge */}
+      <div className="px-4 max-w-lg mx-auto w-full mb-1">
+        <span className="inline-block text-xs font-black px-3 py-1 rounded-full bg-red-100 text-[#FF4B4B]">
+          ❌ Yanlış Sorular · {totalWrong} soru
+        </span>
       </div>
 
       {/* Question area */}
@@ -235,7 +259,7 @@ export default function QuizPage() {
           <div className="max-w-lg mx-auto space-y-2">
             <p className={`text-xl font-black ${isCorrect ? 'text-[#46A302]' : 'text-[#FF4B4B]'}`}>
               {isCorrect
-                ? '✓ Harika!'
+                ? '✓ Harika! Öğrendin!'
                 : `✗ Doğru: ${q.correct_answer}) ${q.options[q.correct_answer as keyof typeof q.options]}`}
             </p>
             {q.short_explanation && (

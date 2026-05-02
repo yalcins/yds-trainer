@@ -4,6 +4,7 @@ import Link from 'next/link'
 import type { ExamData } from '@/lib/types'
 import { getAdaptiveStore, getUserLevel, getLevelProgress, getTodaySession } from '@/lib/adaptive-store'
 import type { AdaptiveStore } from '@/lib/adaptive-store'
+import { getWrongQuestionIds } from '@/lib/store'
 
 const SECTION_ICON: Record<string, string> = {
   fill_blank_vocab: '📝', cloze: '🔗', sentence_completion: '🧩',
@@ -19,10 +20,12 @@ const PRIORITY_BADGE: Record<string, string> = {
 export default function Dashboard() {
   const [exam, setExam]   = useState<ExamData | null>(null)
   const [store, setStore] = useState<AdaptiveStore | null>(null)
+  const [wrongCount, setWrongCount] = useState(0)
 
   useEffect(() => {
     fetch('/yds26_exam1.json').then(r => r.json()).then(setExam)
     setStore(getAdaptiveStore())
+    setWrongCount(getWrongQuestionIds().length)
   }, [])
 
   if (!exam || !store) {
@@ -185,10 +188,11 @@ export default function Dashboard() {
       {/* Quick links grid */}
       <div className="grid grid-cols-2 gap-3">
         {[
-          { href: '/mistakes', icon: '❌', label: 'Hata Bankası',  sub: `${store.attempts.filter(a => !a.isCorrect).length} hata` },
-          { href: '/progress', icon: '📈', label: 'İlerleme',      sub: totalAttempts ? `${overallAcc}% doğruluk` : 'Başlamadı' },
-          { href: '/patterns', icon: '📚', label: 'Kalıplar',      sub: 'İpuçları + örnekler' },
-          { href: '/chat',     icon: '🤖', label: 'AI Asistan',    sub: 'Soru sor' },
+          { href: '/mistakes',    icon: '❌', label: 'Hata Bankası',      sub: `${store.attempts.filter(a => !a.isCorrect).length} hata` },
+          { href: '/progress',    icon: '📈', label: 'İlerleme',          sub: totalAttempts ? `${overallAcc}% doğruluk` : 'Başlamadı' },
+          { href: '/patterns',    icon: '📚', label: 'Kalıplar',          sub: 'İpuçları + örnekler' },
+          { href: '/chat',        icon: '🤖', label: 'AI Asistan',        sub: 'Soru sor' },
+          { href: '/wrong-quiz',  icon: '🔁', label: 'Yanlış Sorular',    sub: wrongCount > 0 ? `${wrongCount} soru` : 'Henüz yok' },
         ].map(l => (
           <Link
             key={l.href}

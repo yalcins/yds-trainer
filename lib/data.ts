@@ -20,6 +20,38 @@ export async function loadData(): Promise<YDSData> {
   return _cache
 }
 
+export function pickWrongQuestions(
+  data: YDSData,
+  wrongIds: string[],
+  count = 10,
+): ReturnType<typeof pickQuizQuestions> {
+  const idSet = new Set(wrongIds)
+  const all = [...data.questions, ...data.generated_questions.map(g => ({
+    id: g.gen_id,
+    exam: 'generated',
+    question_text: g.question_text,
+    options: g.options,
+    correct_answer: g.correct_answer,
+    category: g.category as any,
+    pattern: g.source_pattern,
+    meaning_tr: '',
+    example_en: '',
+    example_tr: '',
+    trap: g.trap,
+    short_explanation: '',
+    difficulty: g.difficulty as any,
+    closest_distractors: g.closest_distractors,
+  }))]
+
+  const wrong = all.filter(q => idSet.has(q.id))
+  // Shuffle so the user doesn't always see the same order
+  for (let i = wrong.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [wrong[i], wrong[j]] = [wrong[j], wrong[i]]
+  }
+  return wrong.slice(0, count)
+}
+
 export function pickQuizQuestions(
   data: YDSData,
   count = 5,

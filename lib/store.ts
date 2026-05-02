@@ -58,6 +58,13 @@ export function getWeakCategories(p: UserProgress): Record<string, { correct: nu
   return {} // populated with question data in component
 }
 
+export function getWrongQuestionIds(): string[] {
+  const p = getProgress()
+  return Object.entries(p.questionStats)
+    .filter(([, s]) => s.correct < s.seen)
+    .map(([id]) => id)
+}
+
 export function resetProgress() {
   localStorage.removeItem(KEY)
 }
