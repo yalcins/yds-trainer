@@ -7,6 +7,39 @@ import type { Question } from '@/lib/types'
 
 type Phase = 'loading' | 'question' | 'feedback' | 'results'
 
+async function fetchExplanation(
+  question: string,
+  correctAnswer: string,
+  onChunk: (text: string) => void
+) {
+  const res = await fetch('/api/explain', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ question, correctAnswer }),
+  })
+  if (!res.ok) throw new Error(`API error: ${res.status}`)
+  if (!res.body) return
+  const reader = res.body.getReader()
+  const decoder = new TextDecoder()
+  while (true) {
+    const { done, value } = await reader.read()
+    if (done) break
+    const chunk = decoder.decode(value, { stream: true })
+    for (const line of chunk.split('\n')) {
+      if (!line.startsWith('data: ')) continue
+      const data = line.slice(6).trim()
+      if (data === '[DONE]') return
+      try {
+        const json = JSON.parse(data)
+        const text: string = json.choices?.[0]?.delta?.content ?? ''
+        if (text) onChunk(text)
+      } catch {
+        // ignore malformed lines
+      }
+    }
+  }
+}
+
 const CAT_BADGE: Record<string, string> = {
   VOCAB:       'bg-violet-100 text-violet-700',
   GRAMMAR:     'bg-blue-100 text-blue-700',
@@ -61,6 +94,8 @@ export default function QuizPage() {
   const [xpEarned, setXpEarned] = useState(0)
   const [showXP, setShowXP] = useState(false)
   const [optAnim, setOptAnim] = useState<Record<string, string>>({})
+  const [explanation, setExplanation] = useState<string | null>(null)
+  const [loadingExplanation, setLoadingExplanation] = useState(false)
 
   const q = questions[index]
 
@@ -94,6 +129,8 @@ export default function QuizPage() {
   }, [phase, q])
 
   const handleNext = () => {
+    setExplanation(null)
+    setLoadingExplanation(false)
     if (index + 1 >= questions.length) {
       finishRound()
       setPhase('results')
@@ -108,6 +145,7 @@ export default function QuizPage() {
   const restart = () => {
     setIndex(0); setScore(0); setHearts(3); setXpEarned(0)
     setSelected(null); setOptAnim({}); setPhase('loading')
+    setExplanation(null); setLoadingExplanation(false)
     loadQuestions()
   }
 
@@ -234,12 +272,40 @@ export default function QuizPage() {
             {q.trap && (
               <p className="text-xs text-[#3C3C3C]/55 font-semibold">💡 {q.trap}</p>
             )}
-            <button
-              onClick={handleNext}
-              className={`btn-duo mt-3 ${isCorrect ? '' : 'btn-duo-red'}`}
-            >
-              {index + 1 >= questions.length ? 'SONUÇLARI GÖR 🏁' : 'DEVAM ET →'}
-            </button>
+            {explanation !== null && (
+              <div className="mt-2 p-3 rounded-xl bg-white/70 text-xs font-semibold text-[#3C3C3C]/80 leading-relaxed whitespace-pre-wrap">
+                {explanation || <span className="animate-pulse">…</span>}
+              </div>
+            )}
+            <div className="flex gap-2 mt-3">
+              <button
+                onClick={async () => {
+                  if (loadingExplanation || explanation !== null) return
+                  setLoadingExplanation(true)
+                  setExplanation('')
+                  const correctText = `${q.correct_answer}) ${q.options[q.correct_answer as keyof typeof q.options]}`
+                  try {
+                    await fetchExplanation(q.question_text, correctText, (chunk) =>
+                      setExplanation(prev => (prev ?? '') + chunk)
+                    )
+                  } catch {
+                    setExplanation('Açıklama yüklenirken bir hata oluştu.')
+                  } finally {
+                    setLoadingExplanation(false)
+                  }
+                }}
+                disabled={loadingExplanation || explanation !== null}
+                className={`btn-duo btn-duo-ghost flex-none text-sm ${isCorrect ? '' : 'border-[#FF4B4B] text-[#FF4B4B]'} disabled:opacity-50`}
+              >
+                {loadingExplanation ? '⏳ Açıklanıyor…' : '🔍 Cevabı Açıkla'}
+              </button>
+              <button
+                onClick={handleNext}
+                className={`btn-duo flex-1 ${isCorrect ? '' : 'btn-duo-red'}`}
+              >
+                {index + 1 >= questions.length ? 'SONUÇLARI GÖR 🏁' : 'DEVAM ET →'}
+              </button>
+            </div>
           </div>
         </div>
       )}
