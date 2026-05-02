@@ -293,6 +293,15 @@ export default function BootcampPage() {
     setActiveClue(null)
   }
 
+  const restartBootcamp = () => {
+    setQIdx(0)
+    setPhase('sentence')
+    setLogicGuess(null); setLogicLocked(false)
+    setDirGuess(null);   setDirLocked(false)
+    setUserAnswer(null); setActiveClue(null)
+    setScore({ correct:0, wrong:0, total:0, logicCorrect:0, logicTotal:0, directionCorrect:0, directionTotal:0 })
+  }
+
   const toggleReview = () => {
     const next = new Set(reviewIds)
     if (next.has(q.id)) next.delete(q.id)
@@ -335,13 +344,7 @@ export default function BootcampPage() {
             </div>
           </div>
           <button
-            onClick={() => {
-                setQIdx(0); setPhase('sentence')
-                setLogicGuess(null); setLogicLocked(false)
-                setDirGuess(null); setDirLocked(false)
-                setUserAnswer(null); setActiveClue(null)
-                setScore({ correct:0, wrong:0, total:0, logicCorrect:0, logicTotal:0, directionCorrect:0, directionTotal:0 })
-              }}
+            onClick={restartBootcamp}
             className="btn-duo w-full py-3 font-black"
           >
             🔄 Baştan Başla
