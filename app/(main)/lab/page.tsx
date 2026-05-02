@@ -72,6 +72,25 @@ export default function LabPage() {
       sub: 'Tüm YDS kalıpları · flip kartlar · kategori filtresi',
     },
     {
+      href: '/solve',        icon: '🧠', title: 'Benimle Çöz',
+      sub: 'Strateji + adım + seçenek analizi + hafıza kartı + benzer sorular',
+      badge: 'YENİ', badgeColor: 'bg-[#D7FFB8] text-[#46A302]', priority: true,
+    },
+    {
+      href: '/guided',       icon: '🔬', title: 'Rehberli Çözüm',
+      sub: 'Adım adım düşün · ipucu + analiz · nasıl çözülür öğren',
+    },
+    {
+      href: '/bootcamp',     icon: '🎯', title: 'SC Bootcamp',
+      sub: '25 soru · kilitli çözüm akışı · mantık → yön → şıklar → analiz',
+      badge: 'YENİ', badgeColor: 'bg-[#D7FFB8] text-[#46A302]', priority: true,
+    },
+    {
+      href: '/analysis',     icon: '📊', title: 'Sınav Analizi',
+      sub: 'Bölüm bazlı zayıflık · kalıp analizi · 7 günlük plan · pratik setler',
+      badge: 'YENİ', badgeColor: 'bg-[#D7FFB8] text-[#46A302]', priority: true,
+    },
+    {
       href: '/chat',         icon: '🤖', title: 'AI Asistan',
       sub: 'YDS soruları sor · açıklama iste',
     },

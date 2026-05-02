@@ -1,0 +1,652 @@
+[
+  {
+    "question_number": 1,
+    "question_text": "_____ that treatment policies suitable for one age group may not be justified in another.",
+    "options": {
+      "A": "A controversy immediately arose",
+      "B": "The article has considerable originality",
+      "C": "A recent study into cholesterol levels suggests",
+      "D": "They had already convinced",
+      "E": "The implications were not at first realized"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 2,
+    "question_text": "_____ how immediately and lastingly blacks had affected American life throughout history.",
+    "options": {
+      "A": "Thomas Jefferson, one of the leaders of the American Revolution, had opposed",
+      "B": "In his paper on slavery in America he demonstrated with impeccable scholarship",
+      "C": "Whites in America have always objected",
+      "D": "In colonial America, Virginia was the largest and most populous colony where",
+      "E": "The American slaves, sometimes subject to arbitrary punishment, learned to be hypersensitive"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 3,
+    "question_text": "_____, but most of them don’t see a doctor because they think it’s something they just have to live with.",
+    "options": {
+      "D": "Urologists and other doctors have always been concerned with impotence",
+      "E": "Impotence affects over 10 million men nationwide",
+      "A": "It was reported earlier in this decade that about one fourth of all patients had received treatment for impotence",
+      "B": "Over 200 thousand men have received proper medical treatment",
+      "C": "Impotence is something we have learned to deal with"
+    },
+    "correct_answer": "E",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 4,
+    "question_text": "Although free politics and free-market economics go most happily together, _____.",
+    "options": {
+      "A": "no new aid would be approved for six months",
+      "B": "they could no longer blame the colonialists, who had withdrawn from Africa two or three decades before",
+      "C": "five years ago, dictatorships proclaiming socialist policies prevailed in Africa",
+      "D": "one does not necessarily lead to the other, nor guarantees its success",
+      "E": "Africans have shown that they want multiparty democracy and are beginning to achieve it"
+    },
+    "correct_answer": "D",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 5,
+    "question_text": "The Nazi occupation of the Netherlands is best known to most of us through Anne Frank’s diary, ____.",
+    "options": {
+      "A": "even though another significant record of the era was made by Dutch photographers, both professional and amateur",
+      "B": "while the Dutch government had banned the publication of all newspapers",
+      "C": "as most of the Jewish population in the country were prepared to emigrate to the United States",
+      "D": "that her description of the atrocities committed by the enemy has provided historians with valuable details",
+      "E": "when her parents had hidden her in the attic of their house"
+    },
+    "correct_answer": "A",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 6,
+    "question_text": "_____, the U. S. population, now 266 million, will increase to 400 million by 2050.",
+    "options": {
+      "A": "Though the governments have encouraged large families through tax reductions and welfare subsidies",
+      "B": "Even though the growth rate has been among the highest of the developed world",
+      "C": "If current trends continue, and they seem likely to do so",
+      "D": "Since the birth rate has now outgrown the country’s agricultural capacity",
+      "E": "Because stringent measures need to be introduced to reverse population growth"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 7,
+    "question_text": "The elderly gentleman sitting over there is an artist _____.",
+    "options": {
+      "A": "whose many articles about their commitment to the cause of human welfare and happiness in Africa would be controversial",
+      "B": "that he shares the vision of young people for a peaceful and prosperous world in the next century",
+      "C": "whose work has been exhibited widely in many countries in Europe",
+      "D": "as his awards include gold and silver medals presented by various organizations",
+      "E": "whereby he had unanimously been elected an honorary member of the Society of Modern Arts"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 8,
+    "question_text": "He stated that the issue was simply ____.",
+    "options": {
+      "A": "in case the surgery recommended was approved by the medical board",
+      "B": "whether surgical intervention was right for this particular patient",
+      "C": "when the patient has been admitted for an emergency operation",
+      "D": "to what extent the treatment recommended for this particular patient has been successful",
+      "E": "why the medical board is expected to refuse his appointment"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 9,
+    "question_text": "Because the new printers weigh less than 900 grams, ____.",
+    "options": {
+      "A": "they really deserve to be called portable",
+      "B": "their performance is invariably admirable",
+      "C": "most people have been misled by their price",
+      "D": "they were readily available at all the best retailers",
+      "E": "the research team has already moved on to a new project"
+    },
+    "correct_answer": "A",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 10,
+    "question_text": "Unless the Central European countries can keep their labor costs at this level, ____.",
+    "options": {
+      "A": "exports are really starting to drop",
+      "B": "they haven’t been able to compete with Western Europe",
+      "C": "unrest in these countries would have been unavoidable",
+      "D": "the finished products will have to go up in price",
+      "E": "a firm control of distribution and sales has not proved adequate"
+    },
+    "correct_answer": "D",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 11,
+    "question_text": "____ that he has exaggerated the problems of the health-care system, using misleading arguments and deceptive statistics to support his case for reform.",
+    "options": {
+      "A": "He was being interviewed by a group of journalists",
+      "B": "Many experts and policy-makers believe",
+      "C": "This is an extremely radical proposal",
+      "D": "Under the present circumstances most people are encouraged",
+      "E": "The report ignored the leading question"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 12,
+    "question_text": "While business and banks have started to perform well and make profits, ____.",
+    "options": {
+      "A": "only a crack in the stock market has to be feared",
+      "B": "inflation and unemployment have been held in check",
+      "C": "the economy ought to be able to withstand a recession",
+      "D": "the Euro currency could stand up to so much criticism",
+      "E": "fiscal transfers across European nation states were of minimal importance"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 13,
+    "question_text": "____, there will be a notable decrease in the profits of most businesses.",
+    "options": {
+      "A": "If people start to spend less and save more",
+      "B": "However efficiently inflation was curbed",
+      "C": "Had these reasonable measures been introduced earlier",
+      "D": "Before the financial situation could be fully understood",
+      "E": "Although the leading economists had started to grow more hopeful"
+    },
+    "correct_answer": "A",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 14,
+    "question_text": "Many of Egypt’s ruins are unfortunately being destroyed by the very people ____.",
+    "options": {
+      "E": "who were hired to fix them",
+      "A": "whose living habits had been depicted in the monument",
+      "B": "that actually aren’t trained conservationists",
+      "C": "who would ask for international funding",
+      "D": "that is the result of faulty renovation"
+    },
+    "correct_answer": "E",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 15,
+    "question_text": "The changes in the legal system are finally being regarded with approval ____.",
+    "options": {
+      "A": "whenever there is a series of unsolved crimes",
+      "B": "till another wave of crime spread across the country",
+      "C": "because recently there has been a definite decline in the crime rate",
+      "D": "while the police force itself is dubious about it",
+      "E": "as if there could have been some other feasible alternative"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 16,
+    "question_text": "A new generation of business leaders is coming to the fore, ____.",
+    "options": {
+      "A": "whether the State continues to meddle in corporate affairs",
+      "B": "whose methods are more vital, more international and more aggressive",
+      "C": "who aimed to impress international investors",
+      "D": "which was realistic about the importance of economic growth",
+      "E": "in order that they work to gratify not politicians but their own shareholders"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 17,
+    "question_text": "Unless they promise to use some of the money to improve career prospects for young scientists, _____.",
+    "options": {
+      "A": "the issue under discussion has been dropped",
+      "B": "there were a number of things we had to take into account",
+      "C": "anyone else thought of opposing the scheme",
+      "D": "the money left over from donations could be included",
+      "E": "we feel we cannot give our support to the campaign"
+    },
+    "correct_answer": "E",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 18,
+    "question_text": "_____ that the first women’s college was founded in England as early as 1849.",
+    "options": {
+      "E": "He showed little interest",
+      "A": "To be fair, what I recommended was",
+      "B": "I wouldn’t have been at all impressed",
+      "C": "It was owing to the ceaseless efforts of Mrs. Reid",
+      "D": "Victoria has been queen for twelve years"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 19,
+    "question_text": "Since some food products lose popularity rather quickly, _____.",
+    "options": {
+      "A": "the best age-group to aim at would undoubtedly have been teenagers",
+      "B": "many such companies actually went bankrupt",
+      "C": "the industry has constantly to be ready with fresh ideas",
+      "D": "in the end it was the need for collective bargaining that was understood",
+      "E": "the job couldn’t offer him anything in the way of a challenge"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 20,
+    "question_text": "Though the construction of a bridge across the river would doubtless prove popular, _____.",
+    "options": {
+      "A": "the technology to be transferred is far suitable",
+      "B": "city councils would have been committed to encourage it",
+      "C": "similar designs are on view everywhere",
+      "D": "it will not be easy to raise enough money to do it",
+      "E": "it is a German-Japanese consortium that gets most of the orders"
+    },
+    "correct_answer": "D",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 21,
+    "question_text": "_____ their environmental consequences are very disturbing.",
+    "options": {
+      "A": "Whatever high-yielding variety of wheat is recommended",
+      "B": "As traditional Indian food is of high nutritive value",
+      "C": "Though artificial fertilizers ensure high crop-yields",
+      "D": "Since new agricultural policies have been introduced by the government",
+      "E": "However costly the construction of new irrigation systems may have been"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 22,
+    "question_text": "_____, Japanese firms moved the more intensive phases of their production process to cheap labour sites in East Asia.",
+    "options": {
+      "A": "As production costs in Japan had become excessive",
+      "B": "Unless the working day is kept 8 hours",
+      "C": "Once the trade unions in Japan have won a few more victories",
+      "D": "So long as a reduction in costs remain the primary goal",
+      "E": "Provided that interest rates in Japan had remained high"
+    },
+    "correct_answer": "A",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 23,
+    "question_text": "_____ we review our recruitment procedures.",
+    "options": {
+      "A": "As soon as the problem received adequate recognition",
+      "B": "Such a problem cannot be ignored",
+      "C": "Even though it was becoming increasingly obvious",
+      "D": "What I would recommend is that",
+      "E": "In case they were disappointed with the new manager’s performance"
+    },
+    "correct_answer": "D",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 24,
+    "question_text": "_____ a committee will be set up to determine just how to turn the museum into a private, non-profit corporation.",
+    "options": {
+      "D": "If such a crisis could have been avoided",
+      "E": "Whoever managed to deceive you",
+      "A": "As long as there weren’t any rival claims",
+      "B": "As soon as the board has approved the project",
+      "C": "However much disappointment it would have caused them"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 25,
+    "question_text": "_____, a great many alarming theories are sure to spring to the fore.",
+    "options": {
+      "A": "Before the truth had been verified",
+      "B": "Though his death had almost certainly been from natural causes",
+      "C": "If several perfectly natural explanations had been put forward",
+      "D": "Whenever there are anonymous terrorist attacks",
+      "E": "As soon as this admittedly unpleasant incident got forgotten"
+    },
+    "correct_answer": "D",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 26,
+    "question_text": "_____, I would never have felt the need to read them.",
+    "options": {
+      "A": "Whichever of these modern plays he may decide to direct",
+      "B": "Unless some books on the care of houseplants are given to me as a present",
+      "C": "However many cookery books my husband may care to give me",
+      "D": "Till I saw him intently reading those sermons",
+      "E": "If she had not written so enthusiastically about the diaries of Scott of the Antarctica"
+    },
+    "correct_answer": "E",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 27,
+    "question_text": "_____, she did not return seriously to writing until after her husband’s death in 1883.",
+    "options": {
+      "A": "Although Kate Chopin had previously contemplated a literary career",
+      "B": "Since Kate Chopin had been thinking about a literary career",
+      "C": "As far as Kate Chopin’s interest in literature was concerned",
+      "D": "When Kate Chopin had decided to live the rest of her life in New Orleans",
+      "E": "However much interest Kate Chopin’s short stories have aroused"
+    },
+    "correct_answer": "A",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 28,
+    "question_text": "In 1922 Hemingway settled in Paris _____.",
+    "options": {
+      "A": "whether he would be awarded the Nobel Prize in Literature in 1954",
+      "B": "if the life of a journalist hadn’t attracted him even more than the life of a novelist",
+      "C": "that he wrote stories and novels about the Americans living there just as Henry James had done",
+      "D": "as he soon gave up journalism for fiction",
+      "E": "where he moved in a circle of American expatriates that included Ezra Pound and Scott Fitzgerald"
+    },
+    "correct_answer": "E",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 29,
+    "question_text": "Since Samaranch assumed leadership of the International Olympic Committee, _____.",
+    "options": {
+      "A": "some disagreements at meetings had been leaked to the press",
+      "B": "he has done much to raise the prestige of the Games",
+      "C": "his policies conflicted with the principles of the ancient Olympics",
+      "D": "the present situation concerning the 2002 Games call for urgent attention",
+      "E": "this was the first time he talked about his resignation"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 30,
+    "question_text": "Since the cleaning up of the pollution of the seas is so expensive, _____.",
+    "options": {
+      "C": "the question of liability inevitably arises",
+      "D": "extensive care provided the answer",
+      "A": "the project had progressed as expected",
+      "B": "large corporations would offer contributions",
+      "E": "the final result has still to be analyzed"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 31,
+    "question_text": "_____ that his play “The Crucible” was a cry of protest against the anti-Communist zealotry of the McCarthy era.",
+    "options": {
+      "A": "Arthur Miller had been seriously misunderstood",
+      "B": "Among the modern American dramatists it had been Arthur Miller",
+      "C": "Arthur Miller himself always maintained",
+      "D": "Arthur Miller has been widely read",
+      "E": "As far as Arthur Miller is concerned"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 32,
+    "question_text": "Although the word “democracy” is often used, _____.",
+    "options": {
+      "A": "they are basically quite different from each other",
+      "B": "we had agreed on a definition",
+      "C": "majority rule and minority rights went back even further",
+      "D": "it means different things to different people",
+      "E": "it has been argued that democracy and an advanced level of civilisation go together"
+    },
+    "correct_answer": "D",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 33,
+    "question_text": "If aluminium is used in place of steel in bridge construction, ______.",
+    "options": {
+      "A": "this would be especially suitable in long-span bridges",
+      "B": "resistance to atmospheric corrosion had been better",
+      "C": "there would have been a reduction in maintenance costs",
+      "D": "erection and foundation costs will be lower",
+      "E": "there had been a considerable increase in the safe volume of traffic"
+    },
+    "correct_answer": "D",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 34,
+    "question_text": "_____, so the introduction of metalworking made trade with the outside world inevitable.",
+    "options": {
+      "A": "Compared with those of the Iron Age, Stone Age tools were very primitive.",
+      "B": "Many ores, like copper and tin are not found in all countries",
+      "C": "The “bronze age” is a term used in prehistoric archaeology",
+      "D": "The chemical processes involved in the smelting of ores were not as complicated",
+      "E": "Subsequently the knowledge of metalworking must have spread among the less advanced communities around"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 35,
+    "question_text": "Since a relatively high proportion of bread is included in the daily food intake of most peoples, _______.",
+    "options": {
+      "A": "the main ingredients have always been flour and yeast",
+      "B": "it would be subsidised in many countries",
+      "C": "there are several other methods of producing it",
+      "D": "different shapes were being evolved to provide some variety",
+      "E": "it is of considerable importance from the point of view of diet"
+    },
+    "correct_answer": "E",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 36,
+    "question_text": "The authorities intensified their investigations into the smuggling of nuclear material _____.",
+    "options": {
+      "A": "that the police had received a tip-off to this effect",
+      "B": "till they found evidence of radioactivity",
+      "C": "immediately after the radioactive plates were found",
+      "D": "if any other explanation could be found",
+      "E": "even if there have been several cases of attempted plutonium trading"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 37,
+    "question_text": "At concert halls, the centre of the stage is increasingly being taken over by percussionists _____.",
+    "options": {
+      "A": "who were trying out a wide range of new instruments",
+      "B": "that there is now a vast array of instruments",
+      "C": "whose performance showed amazing virtuosity",
+      "D": "who used to stand at the back of the orchestra tapping out the rhythm",
+      "E": "in order that a great range of new musical sound was being developed"
+    },
+    "correct_answer": "D",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 38,
+    "question_text": "Unless a country can establish the fact that its economy is sound, ______.",
+    "options": {
+      "A": "only the very rich had risked their money there",
+      "B": "the world’s public and private lenders alike refuse to extend loans",
+      "C": "trade-agreements were rarely made in its favour",
+      "D": "the industrial projects there did not receive adequate backing",
+      "E": "even an abundance of mineral resources could not have saved the situation"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 39,
+    "question_text": "Iron deficiency is one of the commonest causes of anemia _____.",
+    "options": {
+      "A": "since even in a good diet the supply of iron is only just adequate",
+      "B": "why adolescents outgrow their stores of iron",
+      "C": "which would result in brittle nails",
+      "D": "although new ways of treating pernicious anaemia were soon introduced",
+      "E": "as numerous iron preparations are available for treatment"
+    },
+    "correct_answer": "A",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 40,
+    "question_text": "Pharmaceutical companies are unlikely to develop a vaccine for an uncommon disease like leprosy ______.",
+    "options": {
+      "A": "how early diagnosis could help",
+      "B": "so that pressure would be put on them",
+      "C": "if the choice had been given to them",
+      "D": "till the various charities were informed",
+      "E": "that can be treated with drugs"
+    },
+    "correct_answer": "E",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 41,
+    "question_text": "As biologists continue to study interrelationships of the living systems that inhabit our planet, ____.",
+    "options": {
+      "D": "research in molecular biology and genetics has caused new insights into disease processes",
+      "E": "they enhance our awareness of our impact on the environment",
+      "A": "metabolic reactions occur continuously in every living organism",
+      "B": "an expanding human population and increased consumer demand for energy, homes and highways are causing the rapid destruction of vital ecosystems",
+      "C": "energy is required to maintain the precise order that characterises ecosystems"
+    },
+    "correct_answer": "E",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 42,
+    "question_text": "____, it should not be assumed that a theory is “proved” by testing.",
+    "options": {
+      "A": "Where as many people think of science as a mechanical process of collecting facts and devising theories",
+      "B": "Although the testing of theories is a distinguishing feature of science",
+      "C": "Because physics is one of the major branches of science",
+      "D": "When the history of science tells us that long-held theories are replaced by new ones",
+      "E": "In so far as the careful carrying out of experiments is a crucial part of scientific activity"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 43,
+    "question_text": "Whenever we pick up a newspaper or turn on the television, ____.",
+    "options": {
+      "A": "there are, of course numerous non-economic forces that determine and mould our decision making processes",
+      "B": "there are clear lines of demarcation between economics and politics",
+      "C": "it is natural that economics constitutes a significant percentage of our media coverage",
+      "D": "generally politics is described as the heart of government and, as such, is seriously concerned with economics",
+      "E": "we are likely to be bombarded with facts and figures on such subjects as pollution, unemployment and inflation"
+    },
+    "correct_answer": "E",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 44,
+    "question_text": "____ when some groups of the population become wealthier while others become poorer.",
+    "options": {
+      "A": "Consumption will depend partly on the reel wealth of individuals",
+      "B": "A higher standard of living is enjoyed by all",
+      "C": "Income distribution becomes more unequal",
+      "D": "Practically all the income transferred to the poor will be spent on necessities",
+      "E": "Inflation has affected all members of a society"
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 45,
+    "question_text": "____, the current flows steadily in one direction, and this is called direct current.",
+    "options": {
+      "A": "When a battery is connected to a circuit",
+      "B": "Though the electric plugs have still to be checked",
+      "C": "As electrical energy can easily be transformed into other forms of energy",
+      "D": "Whenever the supply of electricity to homes and factories is cut off",
+      "E": "Since the electric wiring has been specially designed to carry heavy loads"
+    },
+    "correct_answer": "A",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 46,
+    "question_text": "Unless he gives people a chance to get to know him better, ____.",
+    "options": {
+      "A": "he would have been misunderstood by everyone in the company",
+      "B": "he won’t collect enough support to win the election",
+      "C": "everybody got dissatisfied, and it showed in their work",
+      "D": "taking over the job of a much – loved and highly respected manager is not at all easy",
+      "E": "his proposal actually wasn’t either particularly original or even feasible"
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 47,
+    "question_text": "The doctor has prescribed some new pills ____.",
+    "options": {
+      "A": "which really do bring relief from pain",
+      "B": "if we could have afforded them",
+      "C": "although she requires them regularly",
+      "D": "why the others had ceased to be effective",
+      "E": "that had just come onto the market"
+    },
+    "correct_answer": "A",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 48,
+    "question_text": "People sometimes wonder ____.",
+    "options": {
+      "A": "since the richest sources of vitamin A are foods of animal origin such as liver, fish oil, milk and eggs",
+      "B": "in case a shortage of vitamin A was not the main problem",
+      "C": "that, in the typical Western diet, about half of the vitamin A intake is from vegetables and fruits",
+      "D": "if the eating of liver too frequently can cause vitamin A toxicity",
+      "E": "just as most foods with vitamin A activity or brightly coloured, often yellow or orange"
+    },
+    "correct_answer": "D",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 49,
+    "question_text": "Although a UN report said that a serious effort was at last being made to tackle AIDS, _______.",
+    "options": {
+      "A": "the global fight against the virus is gaining strength.",
+      "B": "it is still spreading rapidly in some parts of Asia and eastern Europe.",
+      "C": "the price of AIDS drugs has been dragged to a reasonable level.",
+      "D": "some funds, such as Global Fund to Fight AIDS, are still hopeful about eliminating the virus from the earth.",
+      "E": "the catastrophe will have been able to be prevented from spreading very rapidly."
+    },
+    "correct_answer": "B",
+    "section": "Sentence Completion"
+  },
+  {
+    "question_number": 50,
+    "question_text": "He asked a lot of questions, which were none of his business and _______________.",
+    "options": {
+      "C": "managed to annoy everybody.",
+      "D": "could not accept the job.",
+      "E": "was used to listening to the questions.",
+      "A": "can not get any answers",
+      "B": "everybody was interested in his business."
+    },
+    "correct_answer": "C",
+    "section": "Sentence Completion"
+  }
+]

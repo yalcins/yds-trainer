@@ -1,0 +1,73 @@
+[
+  {
+    "question_number": 1,
+    "blank_number": 1,
+    "passage": "Seven out of ten Chinese _____(1) in the countryside, and the vast majority are not wired. Chinese Netizens are _____(2) male, under 30, well educated and living in Metropolises. They share certain characteristics _____(3) their rural brethren-corruption _____(4), but they focus much more on foreign affairs and China's international image than on grass-roots headaches, _____(5) punishing local taxes.",
+    "question_text": "Seven out of ten Chinese _____(1) in the countryside",
+    "options": {
+      "A": "have lived",
+      "B": "lives",
+      "C": "lived",
+      "D": "live",
+      "E": "has lived"
+    },
+    "correct_answer": "D",
+    "section": "Cloze Test"
+  },
+  {
+    "question_number": 2,
+    "blank_number": 2,
+    "passage": "Seven out of ten Chinese _____(1) in the countryside, and the vast majority are not wired. Chinese Netizens are _____(2) male, under 30, well educated and living in Metropolises. They share certain characteristics _____(3) their rural brethren-corruption _____(4), but they focus much more on foreign affairs and China's international image than on grass-roots headaches, _____(5) punishing local taxes.",
+    "question_text": "Chinese Netizens are _____(2) male, under 30, well educated",
+    "options": {
+      "A": "predominantly",
+      "B": "ostensibly",
+      "C": "essentially",
+      "D": "accurately",
+      "E": "politically"
+    },
+    "correct_answer": "A",
+    "section": "Cloze Test"
+  },
+  {
+    "question_number": 3,
+    "blank_number": 3,
+    "passage": "Seven out of ten Chinese _____(1) in the countryside, and the vast majority are not wired. Chinese Netizens are _____(2) male, under 30, well educated and living in Metropolises. They share certain characteristics _____(3) their rural brethren-corruption _____(4), but they focus much more on foreign affairs and China's international image than on grass-roots headaches, _____(5) punishing local taxes.",
+    "question_text": "They share certain characteristics _____(3) their rural brethren",
+    "options": {
+      "A": "from",
+      "B": "into",
+      "C": "with",
+      "D": "upon",
+      "E": "by"
+    },
+    "correct_answer": "C",
+    "section": "Cloze Test"
+  },
+  {
+    "question_number": 4,
+    "blank_number": 4,
+    "passage": "Seven out of ten Chinese _____(1) in the countryside, and the vast majority are not wired. Chinese Netizens are _____(2) male, under 30, well educated and living in Metropolises. They share certain characteristics _____(3) their rural brethren-corruption _____(4), but they focus much more on foreign affairs and China's international image than on grass-roots headaches, _____(5) punishing local taxes.",
+    "question_text": "corruption _____(4)",
+    "options": {
+      "A": "exceptB) besidesC) as well asD) in particularE) regardless of"
+    },
+    "correct_answer": "D",
+    "section": "Cloze Test"
+  },
+  {
+    "question_number": 5,
+    "blank_number": 5,
+    "passage": "Seven out of ten Chinese _____(1) in the countryside, and the vast majority are not wired. Chinese Netizens are _____(2) male, under 30, well educated and living in Metropolises. They share certain characteristics _____(3) their rural brethren-corruption _____(4), but they focus much more on foreign affairs and China's international image than on grass-roots headaches, _____(5) punishing local taxes.",
+    "question_text": "on grass-roots headaches, _____(5) punishing local taxes",
+    "options": {
+      "A": "such as",
+      "B": "so that",
+      "C": "in that",
+      "D": "likewise",
+      "E": "so as"
+    },
+    "correct_answer": "A",
+    "section": "Cloze Test"
+  }
+]

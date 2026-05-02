@@ -1,0 +1,77 @@
+[
+  {
+    "question_number": 1,
+    "blank_number": 1,
+    "passage": "Floyd, a notorious storm, killed more than 50 people, destroyed thousands of homes, and left a massive public health and environmental disaster in its wake. The damages _____(1) the storm caused were less than anticipated, ____(2). As it approached the Southeastern coast in mid-September, the Texas-sized Floyd was a category 5 storm, the strongest and rarest kind, packing winds of more than 250 km/h (155 mph). ____(3) widespread deaths, officials in Florida, Georgia, South Carolina, and North Carolina ordered ____(4) to evacuate coastal areas. About 2.6 million people were affected by the evacuation orders and United States vice president Al Gore ___(5) it the largest peacetime evacuation in United States history.",
+    "question_text": "The damages _____(1) the storm caused were less than anticipated",
+    "options": {
+      "A": "in which",
+      "B": "why",
+      "C": "that",
+      "D": "whose",
+      "E": "of which"
+    },
+    "correct_answer": "C",
+    "section": "Cloze Test"
+  },
+  {
+    "question_number": 2,
+    "blank_number": 2,
+    "passage": "Floyd, a notorious storm, killed more than 50 people, destroyed thousands of homes, and left a massive public health and environmental disaster in its wake. The damages _____(1) the storm caused were less than anticipated, ____(2). As it approached the Southeastern coast in mid-September, the Texas-sized Floyd was a category 5 storm, the strongest and rarest kind, packing winds of more than 250 km/h (155 mph). ____(3) widespread deaths, officials in Florida, Georgia, South Carolina, and North Carolina ordered ____(4) to evacuate coastal areas. About 2.6 million people were affected by the evacuation orders and United States vice president Al Gore ___(5) it the largest peacetime evacuation in United States history.",
+    "question_text": "The damages...were less than anticipated, ____(2)",
+    "options": {
+      "A": "although",
+      "B": "either",
+      "C": "however",
+      "D": "even if",
+      "E": "still"
+    },
+    "correct_answer": "C",
+    "section": "Cloze Test"
+  },
+  {
+    "question_number": 3,
+    "blank_number": 3,
+    "passage": "Floyd, a notorious storm, killed more than 50 people, destroyed thousands of homes, and left a massive public health and environmental disaster in its wake. The damages _____(1) the storm caused were less than anticipated, ____(2). As it approached the Southeastern coast in mid-September, the Texas-sized Floyd was a category 5 storm, the strongest and rarest kind, packing winds of more than 250 km/h (155 mph). ____(3) widespread deaths, officials in Florida, Georgia, South Carolina, and North Carolina ordered ____(4) to evacuate coastal areas. About 2.6 million people were affected by the evacuation orders and United States vice president Al Gore ___(5) it the largest peacetime evacuation in United States history.",
+    "question_text": "____(3) widespread deaths, officials...ordered...",
+    "options": {
+      "A": "To be feared",
+      "B": "Fear",
+      "C": "Being feared",
+      "D": "To fear",
+      "E": "Fearing"
+    },
+    "correct_answer": "E",
+    "section": "Cloze Test"
+  },
+  {
+    "question_number": 4,
+    "blank_number": 4,
+    "passage": "Floyd, a notorious storm, killed more than 50 people, destroyed thousands of homes, and left a massive public health and environmental disaster in its wake. The damages _____(1) the storm caused were less than anticipated, ____(2). As it approached the Southeastern coast in mid-September, the Texas-sized Floyd was a category 5 storm, the strongest and rarest kind, packing winds of more than 250 km/h (155 mph). ____(3) widespread deaths, officials in Florida, Georgia, South Carolina, and North Carolina ordered ____(4) to evacuate coastal areas. About 2.6 million people were affected by the evacuation orders and United States vice president Al Gore ___(5) it the largest peacetime evacuation in United States history.",
+    "question_text": "officials...ordered ____(4) to evacuate coastal areas",
+    "options": {
+      "A": "dwellings",
+      "B": "citizens",
+      "C": "residents",
+      "D": "innovators",
+      "E": "founders"
+    },
+    "correct_answer": "C",
+    "section": "Cloze Test"
+  },
+  {
+    "question_number": 5,
+    "blank_number": 5,
+    "passage": "Floyd, a notorious storm, killed more than 50 people, destroyed thousands of homes, and left a massive public health and environmental disaster in its wake. The damages _____(1) the storm caused were less than anticipated, ____(2). As it approached the Southeastern coast in mid-September, the Texas-sized Floyd was a category 5 storm, the strongest and rarest kind, packing winds of more than 250 km/h (155 mph). ____(3) widespread deaths, officials in Florida, Georgia, South Carolina, and North Carolina ordered ____(4) to evacuate coastal areas. About 2.6 million people were affected by the evacuation orders and United States vice president Al Gore ___(5) it the largest peacetime evacuation in United States history.",
+    "question_text": "United States vice president Al Gore ___(5) it the largest peacetime evacuation",
+    "options": {
+      "A": "had called",
+      "B": "was called",
+      "C": "would call",
+      "D": "called",
+      "E": "was calling"
+    },
+    "correct_answer": "D",
+    "section": "Cloze Test"
+  }
+]

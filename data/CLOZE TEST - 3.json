@@ -1,0 +1,17 @@
+[
+  {
+    "question_number": 1,
+    "blank_number": 1,
+    "passage": "If the builders of the Legendary Tower of Babel _____(1) a work crew from Utah, the massive structure might actually have been completed _____(2) collapsing in the confusion of the workers' diverse languages. The linguistically savvy Utahans could have worked _____(3) bees in a hive. Or at least that is the boast among modern-day locals, who are using their language skills to build the economy of their home state. _____(4) populated, landlocked and laced with deserts, mountains and rugged wilderness regions typical of the American west, Utah is an unlikely place to find people _____(5) collectively speak 90 percent of the world's written languages.",
+    "question_text": "If the builders..._____(1) a work crew from Utah",
+    "options": {
+      "A": "whomB) whoseC) whoD) whichE) where",
+      "B": "Scarcely",
+      "C": "Extensively",
+      "D": "Extremely 5",
+      "E": "Intensively"
+    },
+    "correct_answer": "B",
+    "section": "Cloze Test"
+  }
+]

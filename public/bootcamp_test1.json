@@ -1,0 +1,2473 @@
+{
+  "metadata": {
+    "title": "Sentence Completion Test 1 - Guided Solve JSON",
+    "source_file": "SENTENCE COMPLETION TEST 1.pdf",
+    "total_questions": 25,
+    "purpose": "Claude Code için rehberli çözüm, renkli ipucu, logic map, memory trick ve option analysis verisi.",
+    "app_feature": "Sentence Completion Bootcamp / Guided Solve Mode",
+    "global_rules_tr": [
+      "Şıkları hemen gösterme.",
+      "Önce kullanıcıdan soru tipi ve mantık türünü seçmesini iste.",
+      "Sonra renkli ipuçlarını göster.",
+      "Sonra şıkları aç.",
+      "Her şık için neden olur/olmaz analizini göster.",
+      "Doğru cevaptan sonra memory trick ve mini lesson göster."
+    ],
+    "logic_types": {
+      "continuation": "aynı yönde devam",
+      "contrast": "zıtlık",
+      "cause_result": "sebep-sonuç",
+      "condition": "şart",
+      "relative_clause": "who/which/that ile tanımlama",
+      "time_sequence": "zaman sıralaması",
+      "indirect_question": "asked/wanted to know sonrası dolaylı soru"
+    }
+  },
+  "questions": [
+    {
+      "id": "sentence_completion_test1_q01",
+      "question_number": 1,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "____ that the major cancer killer, lung cancer, is strongly influenced by diet.",
+      "options": {
+        "A": "The latest statistical evidence",
+        "B": "However obvious it may seem",
+        "C": "There is much evidence to suggest",
+        "D": "As smokers love to point out",
+        "E": "The consumption of fruit and vegetables ensures"
+      },
+      "correct_answer": "C",
+      "question_type": "sentence_completion",
+      "logic_type": "noun_clause_completion",
+      "expected_direction": "complete statement with 'that' clause",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "that",
+            "color": "blue",
+            "why_tr": "'that' öncesinde 'There is evidence to suggest' gibi bir ana cümle gerekir."
+          },
+          {
+            "text": "is strongly influenced by diet",
+            "color": "green",
+            "why_tr": "Bir iddia/kanıt cümlesi kuruluyor."
+          }
+        ],
+        "decision_rule_tr": "Boşluktan sonra 'that + full clause' geliyorsa, öncesinde 'There is evidence to suggest' gibi bir yapı çok doğal olur.",
+        "short_explanation_tr": "Doğru cevap C. 'There is much evidence to suggest that...' yapısı akademik İngilizcede çok yaygındır.",
+        "memory_trick_tr": "that görünce kapı arala: öncesinde 'There is evidence to suggest' gibi ana cümle ararsın.",
+        "mini_lesson_tr": "Bu soru bağlaç değil; 'that-clause' tamamlayan ana cümle sorusu.",
+        "option_analysis": {
+          "A": "Eksik cümle olur: 'The latest statistical evidence that...' tamamlanmıyor.",
+          "B": "Although/However yapısı devamında ana cümle ister; burada yapı bozuk.",
+          "C": "Doğru. 'There is much evidence to suggest that...' tam cümle kurar.",
+          "D": "'As smokers love to point out that...' yapı bozuk.",
+          "E": "'ensures that' gramer olarak mümkün olsa da anlam ters ve cümle fazla iddialı olur."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q02",
+      "question_number": 2,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "Some comets have such long orbits ____.",
+      "options": {
+        "A": "while some asteroids may be burnt-up comets",
+        "B": "in case they come from a region outside the Solar System",
+        "C": "since they are often visible from the Earth",
+        "D": "that they pass near the Earth only once every million years",
+        "E": "just as their dust tails stretch up to 10 million kilometres across the sky"
+      },
+      "correct_answer": "D",
+      "question_type": "sentence_completion",
+      "logic_type": "result_structure",
+      "expected_direction": "such + adjective + noun + that result",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "such long orbits",
+            "color": "blue",
+            "why_tr": "such + adjective + noun yapısı genelde 'that' ile sonuç ister."
+          },
+          {
+            "text": "long orbits",
+            "color": "green",
+            "why_tr": "Uzun yörünge sonucu: Dünya yakınından çok seyrek geçer."
+          }
+        ],
+        "decision_rule_tr": "'such ... that' = öyle ... ki. Bu yapıda doğru devam genelde sonucu verir.",
+        "short_explanation_tr": "Doğru cevap D. 'such long orbits that...' yapısı hem grammar hem anlam olarak tamamlar.",
+        "memory_trick_tr": "such uzun bir yay gibi düşün: ok mutlaka 'that' sonucuna gider.",
+        "mini_lesson_tr": "Bu soru 'such ... that' result pattern sorusu.",
+        "option_analysis": {
+          "A": "while zıtlık/karşılaştırma getirir, 'such' yapısını tamamlamaz.",
+          "B": "in case ihtimal/önlem anlamı verir; yapı uymaz.",
+          "C": "since sebep verir; 'such long orbits' sonucu istiyor.",
+          "D": "Doğru. Uzun yörünge sonucu Dünya yakınından nadiren geçer.",
+          "E": "just as karşılaştırma/eşzamanlılık verir; sonuç yapısı değil."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q03",
+      "question_number": 3,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "Water softeners are particularly useful, ___.",
+      "options": {
+        "A": "if you live in a hard-water area",
+        "B": "that they remove chemicals and improve the taste",
+        "C": "why London water is so hard",
+        "D": "since the water contained a greater concentration of calcium",
+        "E": "though electrical appliances require soft water"
+      },
+      "correct_answer": "A",
+      "question_type": "sentence_completion",
+      "logic_type": "condition",
+      "expected_direction": "condition / when useful",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "particularly useful",
+            "color": "green",
+            "why_tr": "Ne zaman faydalı? Şart beklenir."
+          },
+          {
+            "text": "hard-water area",
+            "color": "green",
+            "why_tr": "Water softener'ın kullanıldığı bağlam."
+          }
+        ],
+        "decision_rule_tr": "'useful' kelimesi 'hangi durumda faydalı?' sorusunu açar. Bu yüzden if-clause doğal olur.",
+        "short_explanation_tr": "Doğru cevap A. Su yumuşatıcılar özellikle sert su bölgesinde yaşıyorsan faydalıdır.",
+        "memory_trick_tr": "useful gördün mü sor: 'Ne zaman faydalı?' Cevap çoğu kez if.",
+        "mini_lesson_tr": "Bu soru basit şart mantığıdır.",
+        "option_analysis": {
+          "A": "Doğru. 'if you live...' şart cümlesi, faydalı olma durumunu açıklar.",
+          "B": "that ile bağlanamaz; gramer bozuk.",
+          "C": "why ile soru/isim cümlesi olur, ana cümleye uymaz.",
+          "D": "since sebep olabilir ama tense ve bağlam zayıf.",
+          "E": "though zıtlık verir; burada zıtlık değil şart var."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q04",
+      "question_number": 4,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "The personnel officer is looking for someone _____.",
+      "options": {
+        "A": "that they are willing to do a great deal of travelling",
+        "B": "who has a real talent for organization",
+        "C": "until he finds someone who really is suitable",
+        "D": "since at present several positions are available",
+        "E": "whether they have the right qualifications"
+      },
+      "correct_answer": "B",
+      "question_type": "sentence_completion",
+      "logic_type": "relative_clause",
+      "expected_direction": "someone + who",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "someone",
+            "color": "blue",
+            "why_tr": "Kişi anlatılıyorsa 'who' relative clause beklenir."
+          },
+          {
+            "text": "is looking for",
+            "color": "green",
+            "why_tr": "Aranan kişinin niteliği gelecek."
+          }
+        ],
+        "decision_rule_tr": "'someone' sonrası kişiyi tanımlayan ifade geliyorsa 'who + verb' doğal seçimdir.",
+        "short_explanation_tr": "Doğru cevap B. Personel görevlisi organizasyon yeteneği olan birini arıyor.",
+        "memory_trick_tr": "someone görünce mini alarm: 'who?' Kimi arıyoruz?",
+        "mini_lesson_tr": "Relative clause tanıma sorusu.",
+        "option_analysis": {
+          "A": "that they... kişi uyumu bozuk; someone tekil ama they ve yapı sorunlu.",
+          "B": "Doğru. 'someone who has...' kişiyi tanımlar.",
+          "C": "until zaman cümlesi verir ama 'looking for someone' nesnesini tamamlamaz.",
+          "D": "since sebep verir, aranan kişiyi tanımlamaz.",
+          "E": "whether dolaylı soru yapısı; 'someone whether...' olmaz."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q05",
+      "question_number": 5,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "This is actually a camera _____.",
+      "options": {
+        "A": "though it is roughly the same size as a credit card",
+        "B": "if only I could afford to buy it",
+        "C": "that unfortunately it doesn’t have a zoom",
+        "D": "since the shape was hardly recognizable",
+        "E": "as we have been wondering about which one to buy"
+      },
+      "correct_answer": "A",
+      "question_type": "sentence_completion",
+      "logic_type": "contrast_surprise",
+      "expected_direction": "contrast / surprising fact",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "actually a camera",
+            "color": "green",
+            "why_tr": "Beklenmeyen bilgi: kamera ama küçük olabilir."
+          },
+          {
+            "text": "same size as a credit card",
+            "color": "green",
+            "why_tr": "Kameranın şaşırtıcı özelliği."
+          },
+          {
+            "text": "though",
+            "color": "orange",
+            "why_tr": "Hafif zıtlık/şaşırtma bağlar."
+          }
+        ],
+        "decision_rule_tr": "'actually' genelde şaşırtıcı bilgi verir. Sonrasında 'though' ile beklenmeyen özellik bağlanabilir.",
+        "short_explanation_tr": "Doğru cevap A. Kredi kartı kadar olsa da aslında kamera.",
+        "memory_trick_tr": "actually = 'şaşırmaya hazır ol'. Though ile küçük sürprizi bağla.",
+        "mini_lesson_tr": "Contrast-surprise yapısı.",
+        "option_analysis": {
+          "A": "Doğru. Küçük boyut ile kamera olma bilgisi arasında şaşırtıcı zıtlık var.",
+          "B": "if only dilek yapısı; cümleyi mantıklı tamamlamaz.",
+          "C": "that ile bağlanabilir gibi görünür ama 'This is a camera that it...' gramer bozuk.",
+          "D": "since sebep verir; tense ve anlam uymaz.",
+          "E": "as we have been wondering... konu dışı."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q06",
+      "question_number": 6,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "By the time Turner was thirteen, ______.",
+      "options": {
+        "A": "his father, to whom he was deeply attached, was a barber in London",
+        "B": "his mother was a woman of violent temper who eventually went mad",
+        "C": "it was already agreed that he should become an artist",
+        "D": "he was never an artist who relied on his genius",
+        "E": "he has been called “the father of impressionism”"
+      },
+      "correct_answer": "C",
+      "question_type": "sentence_completion",
+      "logic_type": "time_sequence",
+      "expected_direction": "by the time + past completed situation",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "By the time Turner was thirteen",
+            "color": "blue",
+            "why_tr": "Bu ifade 'o zamana kadar gerçekleşmiş durum' ister."
+          },
+          {
+            "text": "already",
+            "color": "green",
+            "why_tr": "By the time ile çok uyumlu tamamlanmışlık ipucu."
+          }
+        ],
+        "decision_rule_tr": "'By the time + past' genellikle o zamana kadar oluşmuş/kararlaştırılmış bir durumu ister.",
+        "short_explanation_tr": "Doğru cevap C. Turner 13 yaşına geldiğinde sanatçı olması zaten kararlaştırılmıştı.",
+        "memory_trick_tr": "By the time = zaman kapısı kapanmadan önce olmuş şey. 'already' en iyi dostudur.",
+        "mini_lesson_tr": "Zaman ilişkisi ve completed state sorusu.",
+        "option_analysis": {
+          "A": "Baba hakkında bilgi verir ama 'by the time' ile güçlü zaman ilişkisi kurmaz.",
+          "B": "Anne hakkında bilgi, zaman sonucu değil.",
+          "C": "Doğru. 'already agreed' by the time ile çok doğal.",
+          "D": "Genel değerlendirme; yaş 13 zaman ipucuna uymaz.",
+          "E": "Present perfect ve hayat sonrası unvan; zaman uyumu zayıf."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q07",
+      "question_number": 7,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "When the four-thousand-year-old tomb was finally opened, _____.",
+      "options": {
+        "A": "the archaeologists had looked down into it in disbelief",
+        "B": "there seems to be nothing in it of any interest at all",
+        "C": "they have all looked at each other in amazement",
+        "D": "the most exciting find was a set of surgical instruments",
+        "E": "it would be a moment of unbearable suspense"
+      },
+      "correct_answer": "D",
+      "question_type": "sentence_completion",
+      "logic_type": "time_event_result",
+      "expected_direction": "when + past event → past result",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "When ... was finally opened",
+            "color": "blue",
+            "why_tr": "Geçmişte gerçekleşen olaydan sonra geçmiş sonuç beklenir."
+          },
+          {
+            "text": "tomb was opened",
+            "color": "green",
+            "why_tr": "Mezar açılınca içeride bulunan şey anlatılmalı."
+          }
+        ],
+        "decision_rule_tr": "'When + past simple' sonrası aynı zaman düzleminde past simple sonuç çok doğal olur.",
+        "short_explanation_tr": "Doğru cevap D. Mezar açıldığında en heyecan verici buluntu cerrahi aletlerdi.",
+        "memory_trick_tr": "When opened = sahne açıldı; kamera içerideki bulguya döner.",
+        "mini_lesson_tr": "Zaman uyumu + olay sonucu.",
+        "option_analysis": {
+          "A": "Past perfect 'had looked' olaydan önceye atar; sıralama bozulur.",
+          "B": "Present tense 'seems' geçmiş bağlama uymaz.",
+          "C": "Present perfect geçmiş hikaye bağlamına uymaz.",
+          "D": "Doğru. Past simple ile olay sonucu veriyor.",
+          "E": "would be varsayım gibi; gerçek bulgu anlatımına uymaz."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q08",
+      "question_number": 8,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "_____ which was characterized by supreme self-confidence and great achievement.",
+      "options": {
+        "A": "The bombing of Dresden was widely criticized",
+        "B": "Henry VIII was a typical Renaissance figure",
+        "C": "The Great Pyramids were built in an age",
+        "D": "The moon-landing gave rise to strange, new emotions",
+        "E": "This climbing expedition in the Taurus mountains was a complete failure"
+      },
+      "correct_answer": "C",
+      "question_type": "sentence_completion",
+      "logic_type": "relative_clause_completion",
+      "expected_direction": "noun antecedent + which",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "which was characterized by",
+            "color": "blue",
+            "why_tr": "'which' öncesinde tanımlanacak bir isim gerekir."
+          },
+          {
+            "text": "an age",
+            "color": "green",
+            "why_tr": "Bir çağ 'self-confidence and achievement' ile karakterize edilebilir."
+          }
+        ],
+        "decision_rule_tr": "'which' relative clause öncesinde uygun bir isim/antecedent ister. Burada en uygun isim 'an age'.",
+        "short_explanation_tr": "Doğru cevap C. Piramitler, özgüven ve başarıyla karakterize edilen bir çağda inşa edildi.",
+        "memory_trick_tr": "which arkasına isim ister: 'an age which...' rayı tamamlar.",
+        "mini_lesson_tr": "Relative clause antecedent bulma.",
+        "option_analysis": {
+          "A": "Dresden bombing 'which was characterized by...' ile anlamca uymaz.",
+          "B": "Henry VIII kişi; 'which' değil 'who' beklenirdi.",
+          "C": "Doğru. 'an age which was characterized...' yapısı tam.",
+          "D": "moon-landing olaydır; 'characterized by age' anlamı zayıf.",
+          "E": "failure ile supreme achievement çelişir."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q09",
+      "question_number": 9,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "______ because she has the ability to make her audience find wildlife as fascinating as she does herself.",
+      "options": {
+        "A": "Such a development for the conservation of wildlife had not been expected",
+        "B": "The television offers a wide variety of career opportunities for people interested in wildlife",
+        "C": "The children didn’t know what to expect",
+        "D": "No one else could have presented the programme",
+        "E": "A young television presenter of wildlife is rapidly becoming famous"
+      },
+      "correct_answer": "E",
+      "question_type": "sentence_completion",
+      "logic_type": "cause_explanation",
+      "expected_direction": "result + because reason",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "because",
+            "color": "orange",
+            "why_tr": "Boşlukta bir sonuç/iddia olmalı; because sonrası sebep veriyor."
+          },
+          {
+            "text": "she has the ability",
+            "color": "green",
+            "why_tr": "Kadın sunucunun başarısını açıklayan sebep."
+          },
+          {
+            "text": "audience",
+            "color": "green",
+            "why_tr": "Televizyon/sunucu bağlamı."
+          }
+        ],
+        "decision_rule_tr": "'because' sonrası sebep veriyorsa, boşlukta bu sebebin açıkladığı ana sonuç olmalı.",
+        "short_explanation_tr": "Doğru cevap E. Genç vahşi yaşam sunucusu ünlü oluyor çünkü izleyiciyi etkileyebiliyor.",
+        "memory_trick_tr": "because gördün mü: solda sonuç, sağda neden vardır.",
+        "mini_lesson_tr": "Sebep-sonuç tamamlama.",
+        "option_analysis": {
+          "A": "Such a development belirsiz; 'she' ile bağlantı zayıf.",
+          "B": "Genel TV kariyerlerinden bahseder, 'she' referansı kopar.",
+          "C": "Children konuya uymuyor.",
+          "D": "Programı başka kimse sunamazdı iddiası aşırı ve bağlam dışı.",
+          "E": "Doğru. 'she' = young presenter, because sebebi açıklıyor."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q10",
+      "question_number": 10,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "As the salaries are related to achievements, ______.",
+      "options": {
+        "A": "few people were interested in working here",
+        "B": "research at this institute is highly competitive",
+        "C": "all the applicants would have been confident and ambitious",
+        "D": "no one will have foreseen such a problem",
+        "E": "standards continued to be impressively high"
+      },
+      "correct_answer": "B",
+      "question_type": "sentence_completion",
+      "logic_type": "cause_result",
+      "expected_direction": "as = because → result",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "As",
+            "color": "orange",
+            "why_tr": "Burada 'because/since' anlamında sebep verir."
+          },
+          {
+            "text": "salaries are related to achievements",
+            "color": "green",
+            "why_tr": "Başarıya bağlı maaş rekabet yaratır."
+          }
+        ],
+        "decision_rule_tr": "'As + sebep' sonrası doğal sonuç beklenir. Başarıya bağlı maaş → rekabet.",
+        "short_explanation_tr": "Doğru cevap B. Maaşlar başarıya bağlı olduğu için enstitüde araştırma rekabetçidir.",
+        "memory_trick_tr": "Achievement-based salary = yarış pisti. Sonuç: competitive.",
+        "mini_lesson_tr": "Cause-result sorusu.",
+        "option_analysis": {
+          "A": "İlgi azlığı maaş-başarı ilişkisiyle zıt ve desteksiz.",
+          "B": "Doğru. Başarıya göre maaş rekabet oluşturur.",
+          "C": "Adayların geçmiş özgüveni konu dışı.",
+          "D": "Future perfect uyumsuz ve bağlam dışı.",
+          "E": "Standards high olabilir ama 'continued' geçmiş zaman uyumsuz."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q11",
+      "question_number": 11,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "The fire was already spreading to the next building ____.",
+      "options": {
+        "A": "since the wind may blow even more strongly",
+        "B": "that no one knew why it had started",
+        "C": "unless the firemen can come at once",
+        "D": "as the first fire engine arrived",
+        "E": "though everyone had managed to get out safely"
+      },
+      "correct_answer": "D",
+      "question_type": "sentence_completion",
+      "logic_type": "time_simultaneity",
+      "expected_direction": "as = while/when",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "was already spreading",
+            "color": "blue",
+            "why_tr": "Past continuous olayın sürmekte olduğunu gösterir."
+          },
+          {
+            "text": "as",
+            "color": "orange",
+            "why_tr": "Burada 'tam ... olduğunda / sırasında' anlamı verebilir."
+          },
+          {
+            "text": "first fire engine arrived",
+            "color": "green",
+            "why_tr": "Yangın yayılırken itfaiye geliyor."
+          }
+        ],
+        "decision_rule_tr": "Past continuous + as + past simple yapısı eşzamanlı olay anlatır.",
+        "short_explanation_tr": "Doğru cevap D. İlk itfaiye aracı geldiğinde yangın yan binaya yayılıyordu.",
+        "memory_trick_tr": "was spreading = film devam ediyor; as arrived = o sırada kapı açıldı.",
+        "mini_lesson_tr": "Zaman eşzamanlılığı.",
+        "option_analysis": {
+          "A": "may blow future/modal, past olayla uyumsuz.",
+          "B": "that bağlanamaz; yapı bozuk.",
+          "C": "unless + can tense uyumsuz ve anlam zayıf.",
+          "D": "Doğru. 'as the first fire engine arrived' zaman ilişkisi kurar.",
+          "E": "though zıtlık verebilir ama yangının yayılma anını tamamlamaz."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q12",
+      "question_number": 12,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "All opposition to the project vanished ____.",
+      "options": {
+        "A": "as soon as everyone realized how much money they could earn through it",
+        "B": "after financial support has finally been promised",
+        "C": "which has attracted so much attention",
+        "D": "if it seemed likely that it wouldn’t take up too much time",
+        "E": "as more and more people are starting to work on it in their free time"
+      },
+      "correct_answer": "A",
+      "question_type": "sentence_completion",
+      "logic_type": "time_cause_trigger",
+      "expected_direction": "as soon as = trigger",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "vanished",
+            "color": "green",
+            "why_tr": "Muhalefetin ortadan kalkması bir tetikleyici olay ister."
+          },
+          {
+            "text": "as soon as",
+            "color": "orange",
+            "why_tr": "Bir şey olur olmaz diğer şey oldu."
+          },
+          {
+            "text": "realized how much money",
+            "color": "green",
+            "why_tr": "Para kazanma fark edilince muhalefet kaybolur."
+          }
+        ],
+        "decision_rule_tr": "'vanished' gibi ani değişimlerde 'as soon as' çok doğal tetikleyici bağlaçtır.",
+        "short_explanation_tr": "Doğru cevap A. Herkes para kazanacağını fark eder etmez muhalefet kayboldu.",
+        "memory_trick_tr": "vanished = puff! Kaybolma anı: as soon as.",
+        "mini_lesson_tr": "Ani değişim + zaman tetikleyici.",
+        "option_analysis": {
+          "A": "Doğru. Ani değişimin sebep/tetikleyici anını verir.",
+          "B": "after + has promised tense uyumsuz.",
+          "C": "which relative clause, cümleyi mantıksal tamamlamaz.",
+          "D": "if şart verir ama geçmişte gerçekleşmiş 'vanished' ile zayıf.",
+          "E": "as + present progressive tense uyumsuz."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q13",
+      "question_number": 13,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "You can only write a good summary of a passage _____.",
+      "options": {
+        "A": "if you ever need to go back to review it",
+        "B": "why you have read it carefully",
+        "C": "when you have fully understood it",
+        "D": "that it uses words from the essay",
+        "E": "whether the summary is objective"
+      },
+      "correct_answer": "C",
+      "question_type": "sentence_completion",
+      "logic_type": "condition_requirement",
+      "expected_direction": "only when condition",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "only",
+            "color": "blue",
+            "why_tr": "'only' sınırlı koşul arar."
+          },
+          {
+            "text": "write a good summary",
+            "color": "green",
+            "why_tr": "İyi özet yazmak için önce tam anlamak gerekir."
+          },
+          {
+            "text": "when you have fully understood it",
+            "color": "green",
+            "why_tr": "Gereken koşulu verir."
+          }
+        ],
+        "decision_rule_tr": "'You can only...' yapısı çoğu zaman 'when/if' ile gerekli koşul ister.",
+        "short_explanation_tr": "Doğru cevap C. Bir pasajı iyi özetlemek ancak onu tamamen anladığında mümkündür.",
+        "memory_trick_tr": "only = kapıda bekçi. İçeri girmek için koşul ister.",
+        "mini_lesson_tr": "Gerekli koşul sorusu.",
+        "option_analysis": {
+          "A": "Review ihtiyacı özet yazmanın temel koşulu değil.",
+          "B": "why ile yapı bozuk.",
+          "C": "Doğru. 'only ... when' gerekli koşul verir.",
+          "D": "that ile bağlanamaz.",
+          "E": "whether nesne cümlesi gibi; ana yapıya uymaz."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q14",
+      "question_number": 14,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "____ when we saw five masked men running out of the bank.",
+      "options": {
+        "A": "We didn’t recognize them at all",
+        "B": "We immediately informed the police",
+        "C": "We’re not sure if it is them",
+        "D": "The situation is certainly unusual",
+        "E": "The alarm system needs to be repaired"
+      },
+      "correct_answer": "B",
+      "question_type": "sentence_completion",
+      "logic_type": "time_event_reaction",
+      "expected_direction": "when event → reaction",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "when we saw",
+            "color": "orange",
+            "why_tr": "Bir olay anını veriyor; öncesinde tepki/ana olay beklenir."
+          },
+          {
+            "text": "five masked men running out of the bank",
+            "color": "green",
+            "why_tr": "Banka ve maskeli adamlar → polisi arama tepkisi."
+          }
+        ],
+        "decision_rule_tr": "'when we saw X' genelde X'i görünce ne yaptığımızı anlatır. En doğal tepki polisi aramaktır.",
+        "short_explanation_tr": "Doğru cevap B. Maskeli adamları bankadan çıkarken görünce hemen polisi bilgilendirdik.",
+        "memory_trick_tr": "Bankadan maskeli adam çıktıysa beynin kırmızı telefonu: polisi ara.",
+        "mini_lesson_tr": "Olay → tepki yapısı.",
+        "option_analysis": {
+          "A": "Onları tanımadık mantıklı olabilir ama bankadan koşan maskeli adam bağlamında ana tepki değil.",
+          "B": "Doğru. Olayın doğal sonucu/tepkisi.",
+          "C": "Tense ve referans uyumsuz.",
+          "D": "Genel yorum; when-clause ile canlı olay ilişkisi zayıf.",
+          "E": "Alarm sistemi konu dışı."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q15",
+      "question_number": 15,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "____ that experiment and reason became the basis of scientific knowledge.",
+      "options": {
+        "A": "It was referred to Galileo",
+        "B": "Galileo attacked the much admired teachings of Aristotle",
+        "C": "In Galileo’s time a great many people were involved",
+        "D": "It is largely due to Galileo and his discoveries",
+        "E": "A number of theories concerning the universe were proved wrong by Galileo"
+      },
+      "correct_answer": "D",
+      "question_type": "sentence_completion",
+      "logic_type": "it_is_due_to_that",
+      "expected_direction": "cause attribution + that",
+      "difficulty": 3,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "that",
+            "color": "blue",
+            "why_tr": "Boşlukta 'It is due to...' gibi that-clause bağlayan ana yapı gerekir."
+          },
+          {
+            "text": "experiment and reason became the basis",
+            "color": "green",
+            "why_tr": "Bir tarihsel dönüşümün kime/neye borçlu olduğu anlatılıyor."
+          }
+        ],
+        "decision_rule_tr": "'It is due to X that Y happened' yapısı bir sonucu X'e bağlar.",
+        "short_explanation_tr": "Doğru cevap D. Deney ve aklın bilimsel bilginin temeli olması büyük ölçüde Galileo ve keşifleri sayesindedir.",
+        "memory_trick_tr": "It is due to... that = başarı plaketini birine verme yapısı.",
+        "mini_lesson_tr": "Cleft/attribution yapısı.",
+        "option_analysis": {
+          "A": "It was referred to Galileo that... gramer/anlam bozuk.",
+          "B": "Galileo attacked... that ile bağlanamaz.",
+          "C": "In Galileo's time... that ile yapı bozuk.",
+          "D": "Doğru. 'It is largely due to...' yapısı that-clause ile tamamlanır.",
+          "E": "Tam cümle; ardından that-clause bağlanamaz."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q16",
+      "question_number": 16,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "If we had run to catch the bus, ____.",
+      "options": {
+        "A": "the others have warned us about the heavy traffic",
+        "B": "we could get to the library before it closed",
+        "C": "I dropped my glasses on the pavement",
+        "D": "we may have attended the lecture",
+        "E": "it wouldn’t have been necessary to take a taxi"
+      },
+      "correct_answer": "E",
+      "question_type": "sentence_completion",
+      "logic_type": "third_conditional",
+      "expected_direction": "if + had V3 → would/could/might have V3",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "If we had run",
+            "color": "blue",
+            "why_tr": "Past perfect ile unreal past condition."
+          },
+          {
+            "text": "wouldn't have been necessary",
+            "color": "blue",
+            "why_tr": "Geçmişte farklı sonuç: third conditional."
+          }
+        ],
+        "decision_rule_tr": "'If + had V3' varsa sonuç kısmında 'would/could/might have V3' beklenir.",
+        "short_explanation_tr": "Doğru cevap E. Koşsaydık taksiye binmek gerekmezdi.",
+        "memory_trick_tr": "If had run = geçmişte kaçan otobüs. Sonuç da 'would have' vagonuna biner.",
+        "mini_lesson_tr": "Third conditional sorusu.",
+        "option_analysis": {
+          "A": "have warned present perfect; conditional yapıya uymaz.",
+          "B": "could get present/future; third conditional değil.",
+          "C": "Simple past; koşul sonucu değil.",
+          "D": "may have attended mümkün gibi ama bağlam zayıf ve 'may' yerine koşullu sonuç beklenir.",
+          "E": "Doğru. would have V3 yapısı."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q17",
+      "question_number": 17,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "As there is a complete standardization of every product in this fast-food restaurant chain, ______.",
+      "options": {
+        "A": "the first restaurant to be opened in Britain was in 1974",
+        "B": "they were already doing business in 52 countries in the world",
+        "C": "the company was by then opening a new restaurant at the rate of one per day",
+        "D": "every French fry and every burger tastes exactly the same as every other",
+        "E": "yet another one was opened in Moscow in 1990"
+      },
+      "correct_answer": "D",
+      "question_type": "sentence_completion",
+      "logic_type": "cause_result",
+      "expected_direction": "as = because → logical result",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "As",
+            "color": "orange",
+            "why_tr": "Sebep veriyor."
+          },
+          {
+            "text": "complete standardization",
+            "color": "green",
+            "why_tr": "Tam standartlaşma sonucu ürünler aynı olur."
+          }
+        ],
+        "decision_rule_tr": "Sebep 'tam standardizasyon' ise sonuç ürünlerin aynı tatta olmasıdır.",
+        "short_explanation_tr": "Doğru cevap D. Tam standartlaşma olduğu için her patates ve burger aynı tada sahiptir.",
+        "memory_trick_tr": "standardization = kopya makinesi. Her ürün aynı çıkar.",
+        "mini_lesson_tr": "Sebep-sonuç ve konu tutarlılığı.",
+        "option_analysis": {
+          "A": "Tarih bilgisi; standardizasyon sonucunu vermez.",
+          "B": "Ülke sayısı bağlam dışı.",
+          "C": "Büyüme hızı; standardizasyonun direkt sonucu değil.",
+          "D": "Doğru. Standardizasyon → aynı tat.",
+          "E": "Moskova restoranı ayrıntısı konu dışı."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q18",
+      "question_number": 18,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "_______, who really established and developed the thriller style in films.",
+      "options": {
+        "A": "The cartoon is another popular type of film, especially among children",
+        "B": "Strong film industries began to emerge in other countries",
+        "C": "Contemporary issues such as violence and poverty will attract the attention of many film directors",
+        "D": "Star Wars is perhaps his best film",
+        "E": "It was the film director Alfred Hitchcock"
+      },
+      "correct_answer": "E",
+      "question_type": "sentence_completion",
+      "logic_type": "cleft_relative",
+      "expected_direction": "It was + person + who",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "who",
+            "color": "blue",
+            "why_tr": "'who' öncesinde kişi gerekir."
+          },
+          {
+            "text": "established and developed the thriller style",
+            "color": "green",
+            "why_tr": "Thriller tarzı denince Hitchcock kişi referansı."
+          }
+        ],
+        "decision_rule_tr": "'who' relative clause kişiyi tanımlar. En uygun kişi Alfred Hitchcock.",
+        "short_explanation_tr": "Doğru cevap E. Thriller tarzını kurup geliştiren film yönetmeni Alfred Hitchcock'tur.",
+        "memory_trick_tr": "who = insan dedektörü. Şıklarda kişi ara.",
+        "mini_lesson_tr": "Relative clause kişi antecedent sorusu.",
+        "option_analysis": {
+          "A": "Cartoon kişi değil; who ile uymaz.",
+          "B": "Film industries kişi değil.",
+          "C": "Issues kişi değil.",
+          "D": "Star Wars film; 'his' var ama Hitchcock değil ve who ile kişi yok.",
+          "E": "Doğru. Kişi + who yapısı."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q19",
+      "question_number": 19,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "As the daily temperature change on the planet Mercury is extreme, _______.",
+      "options": {
+        "A": "its rocky surface cracks, producing cliffs and canyons",
+        "B": "there hasn’t been sufficient atmosphere to hold the heat",
+        "C": "the explorations carried out so far would have been very costly",
+        "D": "the craters in its surface were formed by rocks from outer space",
+        "E": "there was no evidence to suggest that this was due to volcanic activity"
+      },
+      "correct_answer": "A",
+      "question_type": "sentence_completion",
+      "logic_type": "cause_result",
+      "expected_direction": "as = because → physical result",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "As",
+            "color": "orange",
+            "why_tr": "Sebep verir."
+          },
+          {
+            "text": "temperature change is extreme",
+            "color": "green",
+            "why_tr": "Aşırı sıcaklık değişimi fiziksel çatlama yaratır."
+          },
+          {
+            "text": "surface cracks",
+            "color": "green",
+            "why_tr": "Sebebin doğal sonucu."
+          }
+        ],
+        "decision_rule_tr": "Aşırı sıcaklık değişimi → yüzeyin çatlaması. Sebep-sonuç fiziksel bağ kur.",
+        "short_explanation_tr": "Doğru cevap A. Merkür'deki aşırı sıcaklık değişimi kayalık yüzeyin çatlamasına neden olur.",
+        "memory_trick_tr": "Extreme temperature = gezegenin yüzeyini kıran termal çekiç.",
+        "mini_lesson_tr": "Bilimsel sebep-sonuç sorusu.",
+        "option_analysis": {
+          "A": "Doğru. Aşırı sıcaklık değişimi yüzeyi çatlatır.",
+          "B": "Atmosfer eksikliği sebebin açıklaması olabilir ama ana sonuç değil.",
+          "C": "Keşif maliyeti konu dışı.",
+          "D": "Kraterlerin nedeni farklı konu.",
+          "E": "Volkanik aktivite kanıtı konu dışı."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q20",
+      "question_number": 20,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "The manager promised to promote her ______.",
+      "options": {
+        "A": "if she has proved far more efficient than any of the other employees",
+        "B": "that she has really deserved it",
+        "C": "as she had been working for the company for so many years",
+        "D": "unless there was a good reason for doing so",
+        "E": "until the company’s annual budget is approved"
+      },
+      "correct_answer": "C",
+      "question_type": "sentence_completion",
+      "logic_type": "reason",
+      "expected_direction": "reason for promise",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "promised to promote her",
+            "color": "green",
+            "why_tr": "Terfi vaadinin nedeni açıklanmalı."
+          },
+          {
+            "text": "as she had been working",
+            "color": "orange",
+            "why_tr": "'as' burada çünkü anlamında sebep verir."
+          }
+        ],
+        "decision_rule_tr": "Birine terfi sözü verildiyse, ardından bunu açıklayan sebep gelebilir.",
+        "short_explanation_tr": "Doğru cevap C. Uzun zamandır şirkette çalıştığı için terfi sözü verdi.",
+        "memory_trick_tr": "promised to promote = neden terfi? 'as' sebep kapısını açar.",
+        "mini_lesson_tr": "Sebep bağlama sorusu.",
+        "option_analysis": {
+          "A": "if + has proved tense uyumsuz; past promise ile doğal değil.",
+          "B": "promised to promote her that... yapı bozuk.",
+          "C": "Doğru. Sebep verir ve tense uyumlu.",
+          "D": "unless good reason for doing so anlamı ters/garip.",
+          "E": "until bütçe onaylanana kadar terfi ettirme sözü verdi anlamı doğal değil."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q21",
+      "question_number": 21,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "I asked my little three-year-old niece ______.",
+      "options": {
+        "A": "whether her mother has gone out",
+        "B": "who she was going to invite to her party",
+        "C": "that she liked going to the zoo",
+        "D": "why she has made her little brother cry",
+        "E": "what her mother is making for dinner"
+      },
+      "correct_answer": "B",
+      "question_type": "sentence_completion",
+      "logic_type": "indirect_question",
+      "expected_direction": "asked + wh-clause with backshift",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "I asked",
+            "color": "blue",
+            "why_tr": "Dolaylı soru yapısı ister."
+          },
+          {
+            "text": "was going to",
+            "color": "blue",
+            "why_tr": "Past reporting sonrası backshift uyumlu."
+          },
+          {
+            "text": "who",
+            "color": "green",
+            "why_tr": "Sorulan şey kişi olabilir."
+          }
+        ],
+        "decision_rule_tr": "'asked + wh/whether clause' kullanılır. Past reporting sonrası tense genelde geriye kayar.",
+        "short_explanation_tr": "Doğru cevap B. Küçük yeğenime partisine kimi davet edeceğini sordum.",
+        "memory_trick_tr": "asked = soru paketi. İçinde who/what/whether olur, ama tense geriye yürür.",
+        "mini_lesson_tr": "Dolaylı soru yapısı.",
+        "option_analysis": {
+          "A": "whether mümkün ama 'has gone' backshift yapmamış; zayıf.",
+          "B": "Doğru. asked + who + subject + was going to.",
+          "C": "asked that she liked... dolaylı soru değil.",
+          "D": "has made backshift yok ve üç yaş bağlamı sert.",
+          "E": "is making backshift yok; B daha doğru ve doğal."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q22",
+      "question_number": 22,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "It’s a good idea to walk everywhere _______.",
+      "options": {
+        "A": "however far it must have seemed",
+        "B": "even though you were so tired",
+        "C": "whenever they went to the museum",
+        "D": "if you want to learn your way around the town",
+        "E": "since their house was on the outskirts of the town"
+      },
+      "correct_answer": "D",
+      "question_type": "sentence_completion",
+      "logic_type": "condition_purpose",
+      "expected_direction": "good idea if goal",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "It’s a good idea",
+            "color": "green",
+            "why_tr": "Ne amaçla iyi fikir? Şart/amaç beklenir."
+          },
+          {
+            "text": "walk everywhere",
+            "color": "green",
+            "why_tr": "Şehri öğrenmek için yürümek mantıklı."
+          },
+          {
+            "text": "if you want",
+            "color": "orange",
+            "why_tr": "Amaç/şart bağlar."
+          }
+        ],
+        "decision_rule_tr": "'It is a good idea to...' sonrası 'if you want to...' amacı/şartı çok doğal açıklar.",
+        "short_explanation_tr": "Doğru cevap D. Kasabayı öğrenmek istiyorsan her yere yürümek iyi fikirdir.",
+        "memory_trick_tr": "good idea = niçin iyi? if you want hedefi söyler.",
+        "mini_lesson_tr": "Şart/amaç sorusu.",
+        "option_analysis": {
+          "A": "however far... yapı ve anlam uyumsuz.",
+          "B": "even though geçmiş yorgunluk zıtlığı verir; genel tavsiye değil.",
+          "C": "whenever they went... özne değişir, bağlam kopar.",
+          "D": "Doğru. Amaç/şart verir.",
+          "E": "since their house... özne ve bağlam uyumsuz."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q23",
+      "question_number": 23,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "Surely that’s the boy ______.",
+      "options": {
+        "A": "that his sister won the painting competition",
+        "B": "who sang so beautifully at the concert last night",
+        "C": "unless he sent us the heavy box",
+        "D": "whether his bicycle has been repaired",
+        "E": "which everyone is talking about"
+      },
+      "correct_answer": "B",
+      "question_type": "sentence_completion",
+      "logic_type": "relative_clause_person",
+      "expected_direction": "boy + who",
+      "difficulty": 1,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "the boy",
+            "color": "blue",
+            "why_tr": "Kişiyi tanımlayan relative clause gerekir."
+          },
+          {
+            "text": "who",
+            "color": "blue",
+            "why_tr": "Kişi için doğru relative pronoun."
+          }
+        ],
+        "decision_rule_tr": "'the boy' sonrası onu tanımlayan 'who + verb' yapısı beklenir.",
+        "short_explanation_tr": "Doğru cevap B. Bu, dün gece konserde çok güzel şarkı söyleyen çocuk.",
+        "memory_trick_tr": "boy görünce who avına çık.",
+        "mini_lesson_tr": "Kişi relative clause sorusu.",
+        "option_analysis": {
+          "A": "that his sister... çocuğu tanımlamaz; başka kişinin eylemi.",
+          "B": "Doğru. boy + who sang...",
+          "C": "unless şart; tanımlama değil.",
+          "D": "whether dolaylı soru; tanımlama değil.",
+          "E": "which kişi için uygun değil; boy için who/that gerekir."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q24",
+      "question_number": 24,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "He simply wanted to know ______.",
+      "options": {
+        "A": "whether I had been to see Jane",
+        "B": "how far away we are moving",
+        "C": "which team has won",
+        "D": "as if all the buses went past the town hall",
+        "E": "though everyone else had already eaten"
+      },
+      "correct_answer": "A",
+      "question_type": "sentence_completion",
+      "logic_type": "indirect_question",
+      "expected_direction": "wanted to know + whether/wh-clause",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "wanted to know",
+            "color": "blue",
+            "why_tr": "Dolaylı soru yapısı ister."
+          },
+          {
+            "text": "whether I had been",
+            "color": "blue",
+            "why_tr": "Past reporting ile uyumlu indirect question."
+          }
+        ],
+        "decision_rule_tr": "'wanted to know' sonrası whether/wh-clause gelir. Past tense uyumu önemlidir.",
+        "short_explanation_tr": "Doğru cevap A. Sadece Jane’i görmeye gidip gitmediğimi bilmek istedi.",
+        "memory_trick_tr": "wanted to know = bilgi kutusu ister: whether/what/who/how.",
+        "mini_lesson_tr": "Dolaylı soru ve tense uyumu.",
+        "option_analysis": {
+          "A": "Doğru. whether + subject + had V3 dolaylı soru.",
+          "B": "are moving present tense; past reporting ile zayıf.",
+          "C": "has won present perfect; backshift yok.",
+          "D": "as if dolaylı soru değil.",
+          "E": "though zıtlık bağlacı; know nesnesi değil."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    },
+    {
+      "id": "sentence_completion_test1_q25",
+      "question_number": 25,
+      "section": "sentence_completion",
+      "source": "SENTENCE COMPLETION TEST 1.pdf",
+      "question_text": "_______, there is enough food and water for everyone.",
+      "options": {
+        "A": "If they had used their resources properly",
+        "B": "Though nature would have been spoiled",
+        "C": "Unless we take care of our green fields",
+        "D": "If we learned to respect the environment",
+        "E": "Provided that they are used well"
+      },
+      "correct_answer": "E",
+      "question_type": "sentence_completion",
+      "logic_type": "condition",
+      "expected_direction": "provided that = on condition that",
+      "difficulty": 2,
+      "guided_solve": {
+        "locked_flow": true,
+        "hide_options_until_logic_selected": true,
+        "steps": [
+          {
+            "step": 1,
+            "title": "Soru tipini bul",
+            "prompt_tr": "Boşluk cümlenin neresinde? Başta mı, sonda mı, relative clause mı, şart mı?",
+            "expected_user_action": "question_type_guess"
+          },
+          {
+            "step": 2,
+            "title": "İpucu kelimeleri yakala",
+            "prompt_tr": "Cümlede yön veren kelimeleri bul: because, as, when, if, such, that, who, which vb.",
+            "expected_user_action": "clue_detection"
+          },
+          {
+            "step": 3,
+            "title": "Mantık türünü seç",
+            "prompt_tr": "Bu soru devam mı, zıtlık mı, sebep mi, sonuç mu, şart mı, relative clause mı istiyor?",
+            "expected_user_action": "logic_selection"
+          },
+          {
+            "step": 4,
+            "title": "Şıkları aç ve ele",
+            "prompt_tr": "Şıkları ancak mantığı seçtikten sonra gör. Her şık cümlenin yapısına ve anlamına uyuyor mu?",
+            "expected_user_action": "option_elimination"
+          },
+          {
+            "step": 5,
+            "title": "Karar ver",
+            "prompt_tr": "Doğru şık hem grammar hem anlam hem de cümle yönü açısından uymalı.",
+            "expected_user_action": "answer_selection"
+          }
+        ],
+        "clue_highlights": [
+          {
+            "text": "there is enough food and water",
+            "color": "green",
+            "why_tr": "Yeterlilik bir koşula bağlı."
+          },
+          {
+            "text": "Provided that",
+            "color": "orange",
+            "why_tr": "Koşul bildirir: şartıyla."
+          },
+          {
+            "text": "they are used well",
+            "color": "green",
+            "why_tr": "Kaynaklar iyi kullanılırsa herkese yeter."
+          }
+        ],
+        "decision_rule_tr": "'Provided that' = şartıyla. Mevcut genel gerçek 'there is' ile present passive koşul uyumlu.",
+        "short_explanation_tr": "Doğru cevap E. İyi kullanıldıkları sürece herkes için yeterli yiyecek ve su vardır.",
+        "memory_trick_tr": "provided that = şart mührü. Kaynaklar iyi kullanılırsa kapı açılır.",
+        "mini_lesson_tr": "Koşul ve tense uyumu.",
+        "option_analysis": {
+          "A": "If they had used... third conditional geçmiş; 'there is' present ile uyumsuz.",
+          "B": "Though + would have been bozuk/zayıf ve zıtlık anlamsız.",
+          "C": "Unless we take care... 'unless' olumsuz şart verir ama sonuçla anlamı ters: bakmazsak yeterli olur gibi.",
+          "D": "If we learned... unreal/second conditional, 'there is' ile uyumsuz.",
+          "E": "Doğru. Present condition + present result."
+        }
+      },
+      "ui_instruction": {
+        "show_colored_clues": true,
+        "color_legend": {
+          "blue": "grammar / structural clue",
+          "green": "meaning clue",
+          "orange": "logic connector",
+          "red": "trap / mismatch"
+        },
+        "preferred_layout": [
+          "question_stem",
+          "pre_decision_questions",
+          "colored_clues",
+          "logic_map",
+          "options_after_unlock",
+          "option_analysis_table",
+          "memory_card"
+        ]
+      }
+    }
+  ]
+}
