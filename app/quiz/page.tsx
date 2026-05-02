@@ -1,11 +1,11 @@
 'use client'
-import { useEffect, useState, useCallback } from 'react'
+import { useState, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { loadData, pickQuizQuestions } from '@/lib/data'
 import { getProgress, recordAnswer, finishRound } from '@/lib/store'
-import type { Question } from '@/lib/types'
+import type { Question, QuestionSection } from '@/lib/types'
 
-type Phase = 'loading' | 'question' | 'feedback' | 'results'
+type Phase = 'pick-section' | 'loading' | 'question' | 'feedback' | 'results'
 
 const CAT_BADGE: Record<string, string> = {
   VOCAB:       'bg-violet-100 text-violet-700',
@@ -13,7 +13,17 @@ const CAT_BADGE: Record<string, string> = {
   PREPOSITION: 'bg-amber-100 text-amber-700',
   LINKER:      'bg-[#D7FFB8] text-[#46A302]',
   PHRASAL:     'bg-rose-100 text-rose-600',
+  CLOZE:       'bg-sky-100 text-sky-700',
+  SENTENCE:    'bg-orange-100 text-orange-700',
 }
+
+const SECTIONS: { key: QuestionSection | null; label: string; emoji: string; desc: string }[] = [
+  { key: null,                  label: 'Tümü',               emoji: '⚡', desc: 'Tüm bölümlerden sorular' },
+  { key: 'vocabulary',          label: 'Kelime Bilgisi',      emoji: '📖', desc: 'Vocabulary soruları' },
+  { key: 'grammar',             label: 'Dilbilgisi',          emoji: '✏️', desc: 'Grammar soruları' },
+  { key: 'cloze',               label: 'Cloze Test',          emoji: '🔤', desc: 'Boşluk doldurma' },
+  { key: 'sentence_completion', label: 'Cümle Tamamlama',     emoji: '💬', desc: 'Sentence completion soruları' },
+]
 
 function Hearts({ count }: { count: number }) {
   return (
@@ -54,26 +64,26 @@ export default function QuizPage() {
   const router = useRouter()
   const [questions, setQuestions] = useState<Question[]>([])
   const [index, setIndex]   = useState(0)
-  const [phase, setPhase]   = useState<Phase>('loading')
+  const [phase, setPhase]   = useState<Phase>('pick-section')
   const [selected, setSelected] = useState<string | null>(null)
   const [score, setScore]   = useState(0)
   const [hearts, setHearts] = useState(3)
   const [xpEarned, setXpEarned] = useState(0)
   const [showXP, setShowXP] = useState(false)
   const [optAnim, setOptAnim] = useState<Record<string, string>>({})
+  const [activeSection, setActiveSection] = useState<QuestionSection | null>(null)
 
   const q = questions[index]
 
-  const loadQuestions = () => {
+  const loadQuestions = useCallback((section: QuestionSection | null) => {
+    setPhase('loading')
     loadData().then(data => {
       const p = getProgress()
-      const qs = pickQuizQuestions(data, 5, p.questionStats) as Question[]
+      const qs = pickQuizQuestions(data, 5, p.questionStats, section ?? undefined) as Question[]
       setQuestions(qs)
       setPhase('question')
     })
-  }
-
-  useEffect(() => { loadQuestions() }, [])
+  }, [])
 
   const handleSelect = useCallback((opt: string) => {
     if (phase !== 'question') return
@@ -107,8 +117,31 @@ export default function QuizPage() {
 
   const restart = () => {
     setIndex(0); setScore(0); setHearts(3); setXpEarned(0)
-    setSelected(null); setOptAnim({}); setPhase('loading')
-    loadQuestions()
+    setSelected(null); setOptAnim({}); setPhase('pick-section')
+  }
+
+  if (phase === 'pick-section') {
+    return (
+      <div className="min-h-screen flex flex-col bg-[#F0F4F8]">
+        <div className="px-4 pt-10 pb-4 flex items-center gap-3 max-w-lg mx-auto w-full">
+          <button onClick={() => router.push('/')} className="text-[#AFAFAF] text-xl font-black p-1 leading-none">✕</button>
+          <h1 className="text-lg font-black text-[#3C3C3C]">Bölüm Seç</h1>
+        </div>
+        <div className="flex-1 px-4 max-w-lg mx-auto w-full space-y-3 pt-2">
+          {SECTIONS.map(sec => (
+            <button
+              key={sec.key ?? 'all'}
+              onClick={() => { setActiveSection(sec.key); loadQuestions(sec.key) }}
+              className="w-full text-left px-5 py-4 rounded-2xl font-bold border-2 border-b-4 border-[#E5E5E5] border-b-[#CCCCCC] bg-white text-[#3C3C3C] active:border-b-[#E5E5E5] active:translate-y-[2px] transition-all"
+            >
+              <span className="text-2xl mr-3">{sec.emoji}</span>
+              <span className="text-base">{sec.label}</span>
+              <p className="text-xs text-[#AFAFAF] font-semibold mt-1 ml-9">{sec.desc}</p>
+            </button>
+          ))}
+        </div>
+      </div>
+    )
   }
 
   if (phase === 'loading') {
