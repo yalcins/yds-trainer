@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: 'YDS Trainer',
   description: 'YDS sınav hazırlık uygulaması — kelime, dilbilgisi, bağlaç',
   manifest: '/manifest.json',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'YDS Trainer',
+  },
 }
 
 export const viewport: Viewport = {
@@ -22,6 +27,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link
           href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
           rel="stylesheet"
+        />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js') }`,
+          }}
         />
       </head>
       <body className="min-h-full flex flex-col antialiased">{children}</body>

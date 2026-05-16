@@ -29,6 +29,9 @@ jobs:
       - run: npm run build
         env:
           NODE_ENV: production
+          GITHUB_ACTIONS: true
+
+      - run: cp public/.nojekyll out/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
         with:
