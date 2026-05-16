@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useEffect, useState } from 'react'
 import type { ExamData, ExamQuestion } from '@/lib/types'
 import { recordTrainingAnswer } from '@/lib/store'
@@ -205,7 +206,7 @@ export default function SentenceTrainerPage() {
   const [logicConfirmed, setLogicConfirmed] = useState(false)
 
   useEffect(() => {
-    fetch('/yds26_exam1.json').then(r => r.json()).then(setExam)
+    fetch(assetUrl('/yds26_exam1.json')).then(r => r.json()).then(setExam)
   }, [])
 
   if (!exam) return (

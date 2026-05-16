@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useEffect, useState } from 'react'
 import type { ExamData, ExamQuestion } from '@/lib/types'
 import { getAdaptiveStore, getErrorTypeLabel, type Attempt, type AdaptiveStore } from '@/lib/adaptive-store'
@@ -20,7 +21,7 @@ export default function MistakesPage() {
   const [expanded, setExpanded] = useState<Set<number>>(new Set())
 
   useEffect(() => {
-    fetch('/yds26_exam1.json').then(r => r.json()).then(setExam)
+    fetch(assetUrl('/yds26_exam1.json')).then(r => r.json()).then(setExam)
     setStore(getAdaptiveStore())
   }, [])
 

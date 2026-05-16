@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useEffect, useState, useRef } from 'react'
 import type { ExamData, ExamQuestion, SectionKey, SectionAnalysis } from '@/lib/types'
 import {
@@ -44,7 +45,7 @@ export default function TrainPage() {
   const [refresh, setRefresh]       = useState(0)
 
   useEffect(() => {
-    fetch('/yds26_exam1.json').then(r => r.json()).then(setExamData)
+    fetch(assetUrl('/yds26_exam1.json')).then(r => r.json()).then(setExamData)
   }, [])
 
   if (!examData) {

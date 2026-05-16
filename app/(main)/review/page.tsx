@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useEffect, useState } from 'react'
 import type { ExamData, ExamQuestion } from '@/lib/types'
 import { getAdaptiveStore, recordAnswer, type Confidence } from '@/lib/adaptive-store'
@@ -11,8 +12,8 @@ export default function ReviewQueuePage() {
   const [tab, setTab]       = useState<'questions' | 'words'>('questions')
 
   useEffect(() => {
-    fetch('/yds26_exam1.json').then(r => r.json()).then(setExam)
-    fetch('/yds_patterns_db.json').then(r => r.json()).then(setPatterns)
+    fetch(assetUrl('/yds26_exam1.json')).then(r => r.json()).then(setExam)
+    fetch(assetUrl('/yds_patterns_db.json')).then(r => r.json()).then(setPatterns)
   }, [])
 
   if (!exam || !patterns.length) {

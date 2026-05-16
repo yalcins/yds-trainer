@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useEffect, useState, useRef } from 'react'
 import type { ExamData, ExamQuestion } from '@/lib/types'
 import {
@@ -22,7 +23,7 @@ export default function PracticePage() {
   const [answers, setAnswers] = useState<Record<number, { answer: string; correct: boolean; confidence: Confidence }>>({})
 
   useEffect(() => {
-    fetch('/yds26_exam1.json').then(r => r.json()).then((d: ExamData) => {
+    fetch(assetUrl('/yds26_exam1.json')).then(r => r.json()).then((d: ExamData) => {
       setExam(d)
       const s = getAdaptiveStore()
       setStore(s)

@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
 import { parseRawQuestions, buildFullClaudePrompt, type RawQuestion } from '@/lib/bootcamp-prompt'
@@ -45,7 +46,7 @@ export default function BootcampGeneratorPage() {
 
   // Load gold standard JSON for the Claude prompt
   useEffect(() => {
-    fetch('/bootcamp_test1.json').then(r => r.text()).then(setGoldJson)
+    fetch(assetUrl('/bootcamp_test1.json')).then(r => r.text()).then(setGoldJson)
   }, [])
 
   // Auto-parse as user types

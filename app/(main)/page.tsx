@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import type { ExamData } from '@/lib/types'
@@ -21,7 +22,7 @@ export default function Dashboard() {
   const [store, setStore] = useState<AdaptiveStore | null>(null)
 
   useEffect(() => {
-    fetch('/yds26_exam1.json').then(r => r.json()).then(setExam)
+    fetch(assetUrl('/yds26_exam1.json')).then(r => r.json()).then(setExam)
     setStore(getAdaptiveStore())
   }, [])
 

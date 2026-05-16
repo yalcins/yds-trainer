@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import type { ExamData } from '@/lib/types'
@@ -79,7 +80,7 @@ export default function AnalysisPage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('/yds26_exam1.json')
+    fetch(assetUrl('/yds26_exam1.json'))
       .then(r => r.json())
       .then((data: ExamData) => { setExam(data); setLoading(false) })
       .catch(() => setLoading(false))

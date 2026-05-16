@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 
@@ -215,7 +216,7 @@ export default function BootcampPage() {
         }
       }
     } catch {}
-    fetch('/bootcamp_test1.json').then(r => r.json()).then(setData)
+    fetch(assetUrl('/bootcamp_test1.json')).then(r => r.json()).then(setData)
     try {
       const saved = localStorage.getItem('yds_bootcamp_review')
       if (saved) setReviewIds(new Set(JSON.parse(saved)))

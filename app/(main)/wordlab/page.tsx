@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useEffect, useState } from 'react'
 import type { PatternItem } from '@/lib/patterns-engine'
 import {
@@ -36,7 +37,7 @@ export default function WordLabPage() {
   const [storeVersion, setStoreVer] = useState(0)
 
   useEffect(() => {
-    fetch('/yds_patterns_db.json').then(r => r.json()).then(setPatterns)
+    fetch(assetUrl('/yds_patterns_db.json')).then(r => r.json()).then(setPatterns)
   }, [])
 
   const store  = getWordLabStore()

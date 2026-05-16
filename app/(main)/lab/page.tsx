@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { getAdaptiveStore, getReviewQueue } from '@/lib/adaptive-store'
@@ -20,7 +21,7 @@ export default function LabPage() {
   const [mounted, setMounted]   = useState(false)
 
   useEffect(() => {
-    fetch('/yds_patterns_db.json').then(r => r.json()).then(setPatterns)
+    fetch(assetUrl('/yds_patterns_db.json')).then(r => r.json()).then(setPatterns)
     setMounted(true)
   }, [])
 

@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useEffect, useState } from 'react'
 import type { ExamData } from '@/lib/types'
 import {
@@ -18,7 +19,7 @@ export default function ProgressPage() {
   const [store, setStore] = useState<AdaptiveStore | null>(null)
 
   useEffect(() => {
-    fetch('/yds26_exam1.json').then(r => r.json()).then(setExam)
+    fetch(assetUrl('/yds26_exam1.json')).then(r => r.json()).then(setExam)
     setStore(getAdaptiveStore())
   }, [])
 

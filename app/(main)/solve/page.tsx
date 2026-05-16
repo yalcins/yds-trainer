@@ -1,4 +1,5 @@
 'use client'
+import { assetUrl } from '@/lib/asset-url'
 import { useEffect, useRef, useState } from 'react'
 import type { ExamData, ExamQuestion } from '@/lib/types'
 import {
@@ -29,7 +30,7 @@ export default function SolveWithMePage() {
   const topRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    fetch('/yds26_exam1.json').then(r => r.json()).then(setExam)
+    fetch(assetUrl('/yds26_exam1.json')).then(r => r.json()).then(setExam)
   }, [])
 
   if (!exam) {
